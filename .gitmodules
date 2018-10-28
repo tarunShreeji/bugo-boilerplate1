@@ -1,0 +1,3 @@
+[submodule "static/admin"]
+	path = static/admin
+	url = https://github.com/matt-antone/bugocms.git

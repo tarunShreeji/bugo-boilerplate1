@@ -6,8 +6,6 @@
 ehthumbs.db
 Thumbs.db
 *disableFastRender/*
-content/*
-!content/.gitkeep
 data/*
 !data/template-config.yaml
 !data/template-information.yaml
