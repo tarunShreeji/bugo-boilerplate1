@@ -8,9 +8,13 @@ Thumbs.db
 *disableFastRender/*
 content/*
 !content/.gitkeep
-data/config.yaml
-data/information.yaml
+data/*
+!data/template-config.yaml
+!data/template-information.yaml
 !data/.gitkeep
 yarn-erro.log
-node_modules
 themes/*
+!themes/.gitkeep
+node_modules/*
+resources/*
+public/*
