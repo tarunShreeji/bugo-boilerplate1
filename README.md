@@ -2,9 +2,9 @@
 
 ## Dependencies
 
-  ** Node.js
-  ** Hugo CLI
-  ** Gulp
+  * Node.js
+  * Hugo CLI
+  * Gulp
 
 
 ```bash
