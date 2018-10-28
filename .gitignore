@@ -10,3 +10,5 @@ content/*
 data/config.yaml
 data/information.yaml
 yarn-erro.log
+node_modules
+themes/*
