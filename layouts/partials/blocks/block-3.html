@@ -1,0 +1,18 @@
+<div class="block color-block-3" style="
+  {{ safeHTMLAttr (printf "background-color: %s" .color_options.bg_color) }};
+  {{ safeHTMLAttr (printf "color: %s" .color_options.text_color) }};
+">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-4">
+        {{ .column_1 | markdownify }}
+      </div>
+      <div class="col-12 col-sm-4">
+        {{ .column_2 | markdownify }}
+      </div>
+      <div class="col-12 col-sm-4">
+        {{ .column_3 | markdownify }}
+      </div>
+    </div>
+  </div>
+</div>

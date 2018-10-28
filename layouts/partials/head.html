@@ -1,0 +1,95 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ .Title }}</title>
+  <meta name="description" content="blabla">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Twitter Card -->
+  {{- with .Site.Data.information.site_seo.twitter -}}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="{{ . }}" />
+  <meta name="twitter:creator" content="{{ . }}" />
+  {{- end -}}
+  <!-- Open graph meta data -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="{{ .Title }}" />
+  <meta property="og:url" content="{{ .Permalink | absURL }}" />
+  {{- $page := . -}}
+  {{- with .Params.featured_image -}}
+  <meta property="og:image" content="{{ partial "image_url" (dict "page" $page "url" . "transform" "c_fill,h_720,w_1280") }}" />
+  {{- end -}}
+  <meta property="og:description" content="In the early days, Twitter grew so quickly that it was almost impossible to add new features because engineers spent their time trying to keep the rocket ship from stalling." />
+  {{- $info := .Site.Data.information -}}
+  <!-- JSON-LD markup for Google Structured Data -->
+  {{- range .Site.Data.information.locations -}}
+  <script type="application/ld+json">
+    {
+    "@context" : "http://schema.org",
+    "@type" : "LocalBusiness",
+    {{- with $info.company_name -}}
+      "name" : "{{ . }}",
+    {{- end -}}
+    {{- with $.Params.featured_image -}}
+      "image" : "{{ partial "image_url" (dict "page" $page "url" . "transform" "c_fill,h_720,w_1280") }}",
+    {{- end -}}
+    {{- with .location_phone -}}
+    "telephone" : "{{ . }}",
+    {{- end -}}
+    {{- with .info.company_email -}}
+    "email" : "{{ . }}",
+    {{- end -}}
+    "address" : {
+      "@type" : "PostalAddress",
+      {{- with .address_1 -}}
+      "streetAddress" : "{{ . }} {{ .address_2 }}",
+      {{- end -}}
+      {{- with .city -}}
+      "addressLocality" : "{{ . }}",
+      {{- end -}}
+      {{- with .state -}}
+      "addressRegion" : "{{ . }}",
+      {{- end -}}
+      {{- with .country -}}
+      "addressCountry" : "{{ . }}",
+      {{- end -}}
+      {{- with .zip_code -}}
+      "postalCode" : "{{ . }}"
+      {{- end -}}
+    },
+    "url" : "{{ $.Permalink }}"
+    }
+  </script>
+  {{- end -}}
+  <script type="application/ld+json">
+  {
+    "@context" : "http://schema.org",
+    "@type" : "Article",
+    "name" : "{{ .Title }}",
+    {{- with .Params.featured_image -}}
+      "image" : "{{ partial "image_url" (dict "page" $page "url" . "transform" "c_fill,h_720,w_1280") }}",
+    {{- end -}}
+    "articleBody" : "{{ .Content | plainify }}",
+    "url" : "{{ .Permalink }}"
+  }
+  </script>
+  <link rel="icon" type="image/png" href="{{ "/img/favicon.png" }}"/>
+  {{ $style := resources.Get "css/priority.css"}}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+</head>

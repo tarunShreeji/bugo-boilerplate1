@@ -1,0 +1,39 @@
+{
+  "name": "hugo-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for hugo and bootsrap",
+  "main": "index.js",
+  "author": "Matthew Antone",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp",
+    "styles": "gulp compile-sass",
+    "js": "gulp compile-js",
+    "images": "gulp process-images"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "bootstrap": "^4.1.3",
+    "highlight.js": "^9.13.1",
+    "jquery": "^3.3.1",
+    "netlify-cms": "^2.1.3",
+    "popper.js": "^1.14.4",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "ajv": "^6.5.4",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-shell": "^0.6.5",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-watch": "^5.0.1",
+    "webpack-stream": "^5.1.1"
+  }
+}

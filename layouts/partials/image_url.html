@@ -1,0 +1,9 @@
+{{- if and (isset .page.Site.Data.config "cloudinary") (not (strings.Contains .url "cloudinary.com")) -}}
+  {{- if .transform -}}
+    {{ (printf "https://res.cloudinary.com/%s/image/upload/%s%s" .page.Site.Data.config.cloudinary .transform .url)}}
+  {{- else -}}
+    {{- (printf "https://res.cloudinary.com/%s/image/upload%s" .page.Site.Data.config.cloudinary .url) -}}
+  {{- end -}}
+{{- else -}}
+  {{- .url | absURL -}}
+{{- end -}}

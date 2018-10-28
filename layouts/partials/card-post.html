@@ -1,0 +1,19 @@
+<div class="card">
+  {{ $page := . }}
+  {{ with .Params.featured_image }}
+    <img class="card-img-top w-100" src="{{ partial "image_url" (dict "page" $page "url" . "transform" "c_fill,h_225,w_400") }}" alt="Card image cap">
+  {{ end }}
+  <div class="card-body">
+    <article>
+      <header>
+        <time>{{.Date.Format "01-02-2006"}}</time>
+        <h4><a href="{{.Permalink}}">{{.Title}}</a></h4>
+      </header>
+      <!-- <div class="summary">
+        {{ .Summary }}
+      </div>
+      <a href="{{ .Permalink }}" class="btn btn-primary">More</a>
+       -->
+    </article>
+  </div>
+</div>

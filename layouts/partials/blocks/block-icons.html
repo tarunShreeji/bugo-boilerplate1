@@ -1,0 +1,20 @@
+<div class="block block-icons" style="
+  {{ safeHTMLAttr (printf "background-color: %s" .color_options.bg_color) }};
+  {{ safeHTMLAttr (printf "color: %s" .color_options.text_color) }};
+">
+  <div class="container">
+    <div class="row">
+      {{ $page := .page }}
+      {{ range .block.icon_blocks }}
+        <div class="col-6 col-sm-3 text-center mb-4 pb-4 mb-md-0 pb-md-0">
+          {{ with .icon }}
+            <img src="{{ partial "image_url" (dict "page" $page "url" .) }}" class="marketing-point-image"/>
+          {{ end }}
+          {{ with .text }}
+            {{ . | markdownify }}
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+.block {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding: 2rem 0;
+  overflow: hidden;
+
+  img {
+    &.marketing-point-image {
+      display: block;
+      height: 40px;
+      max-width: 90%;
+      margin: 0 auto 1rem;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.carousel {
+  .carousel-caption {
+    top: 0;
+    bottom: 0;
+    display: flex;
+    padding: 2rem 0;
+
+    &.top {
+      align-items: flex-start;
+    }
+
+    &.middle {
+      align-items: center;
+    }
+
+    &.bottom {
+      align-items: flex-end;
+    }
+
+    &.center {
+      justify-content: center;
+    }
+
+    &.left {
+      justify-content: flex-start;
+    }
+
+    &.right {
+      justify-content: flex-end;
+    }
+  }
+}

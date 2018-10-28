@@ -1,0 +1,14 @@
+<aside class="pl-5 font--1">
+  {{ $page := . }}
+  {{ with  first 3 (where .Site.Pages "Section" "blog").ByDate.Reverse }}
+    <h3>Latest Posts</h3>
+    <div class="card-group">
+      {{ range . }}
+          {{ partial "card-post" . }}
+      {{ end }}
+    </div>
+    <ul>
+    <!-- Ranges through content/post/*.md -->
+    </ul>
+  {{ end }}
+</aside>
