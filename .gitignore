@@ -7,8 +7,10 @@ ehthumbs.db
 Thumbs.db
 *disableFastRender/*
 content/*
+!content/.gitkeep
 data/config.yaml
 data/information.yaml
+!data/.gitkeep
 yarn-erro.log
 node_modules
 themes/*
