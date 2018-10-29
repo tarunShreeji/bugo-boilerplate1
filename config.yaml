@@ -22,9 +22,6 @@ frontmatter:
     - "publishDate"
     - "date"
   - expiryDate: "expiryDate"
-theme: bugo-base
-permalinks:
-  posts: "/blog/:title"
 taxonomies:
   tag: tags
 assetDir: "static/assets"

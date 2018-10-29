@@ -13,6 +13,13 @@ const webpack = require('webpack-stream');
 const exec = require('child_process').exec;
 const del = require('del');
 
+/**
+ * Directories
+ *
+ * Groups have src and dest paths
+ *
+ **/
+
 const dirs = {
   src: 'src',
   dest: 'static/assets'
@@ -33,83 +40,216 @@ const imagePaths = {
   dest: `${dirs.dest}/images/`
 };
 
+/**
+ * Default Task
+ **/
+
+gulp.task('default', defaultTask);
+
+/**
+ * Install Bugo
+ **/
+
+gulp.task('install-bugo', installBugo );
+
+/**
+ * Compile SASS
+ *
+ * 1. Delete dest directory
+ * 2. Recompiles all .scss files
+ * 3. Write compiled .css files to dest directory
+ *
+ **/
 
 gulp.task('compile-sass', (done) => {
-  del([sassPaths.dest]);
-  // gulp.src('*.*', {read: false})
-  //       .pipe(gulp.dest(sassPaths.dest));
+  compileSass();
+  done();
+});
+
+/**
+ * Compile SASS
+ *
+ * 1. Delete dest directory
+ * 2. Recompiles all .scss files
+ * 3. Write compiled .css files to dest directory
+ *
+ **/
+
+ gulp.task('compile-js', (done) => {
+   compileJs();
+   done();
+});
+
+/**
+ * Process Images
+ * Copy Images to the dest directory
+ * todo: need to add image optimization
+ **/
+
+gulp.task('process-images', (done) => {
+  processImages();
+  done();
+});
+
+/**
+ * Default Task Function
+ * Spawns an instance of globally installed Hugo server that watches the site for
+ * changes. When it detects a changes Hugo runs a build on the site and refreshes
+ * current browsers.
+ *
+ **/
+
+function defaultTask(){
+  processImages();
+  startBugo();
+  watchSass();
+  watchJs();
+  watchImages();
+}
+
+/**
+ * Spawn Bugo server that watches the site for changes
+ **/
+
+ function startBugo(){
+    const hugo = spawn("hugo", ['-w','server','--disableFastRender']);
+    // Log message from Bugo
+    hugo.stdout.on('data', (data) => {
+      console.log(`Bugo: ${data}`);
+    });
+
+    // Log Errors
+    hugo.stderr.on('data', (data) => {
+      console.log(`Bugo Error: ${data}`);
+    });
+
+    // Log Exit
+    hugo.on('close', (code) => {
+      console.log(`Bugo exited with code ${code}`);
+    });
+ }
+
+
+/**
+ * Watch the SCSS source folder for changes and recompile
+ **/
+
+function watchSass(){
+  const sasswatcher = gulp.watch(sassPaths.src, gulp.parallel('compile-sass'));
+
+  // log changes
+  sasswatcher.on('change', function(path, stats) {
+   console.log('File ' + path + ' was changed');
+  });
+
+  // log deletion
+  sasswatcher.on('unlink', function(path) {
+   console.log('File ' + path + ' was removed');
+  });
+}
+
+/*
+ * Watch the JS source folder for changes and recompile
+ */
+
+function watchJs(){
+  const jswatcher = gulp.watch(jsPaths.src, gulp.parallel('compile-js'));
+
+  // log changes
+  jswatcher.on('change', function(path, stats) {
+    console.log('File ' + path + ' was changed');
+  });
+
+  // log deletion
+  jswatcher.on('unlink', function(path) {
+    console.log('File ' + path + ' was removed');
+  });
+}
+
+/*
+ * Watch the images source folder for changes and reprocess images
+ * NOTE: you shouldn't store the sites media here. this is mean for
+ * theme images.
+ */
+
+function watchImages(){
+  const imagewatcher = gulp.watch(imagePaths.src, gulp.parallel('process-images'));
+
+  // log changes
+  imagewatcher.on('change', function(path, stats) {
+    console.log('File ' + path + ' was changed');
+  });
+
+  // log deletion
+  imagewatcher.on('unlink', function(path) {
+    console.log('File ' + path.path + ' was removed');
+  });
+}
+
+/**
+ * Run Interactive Installer
+ * 1. Gather necessary information up front
+ * 2. Install dummy content
+ * 3. Install theme
+ * 4. Install extra archetypes
+ *
+ **/
+
+function installBugo(done){
+  processAssets();
+  // console.clear();
+  console.log('Installation complete! Thanks for installing Bugo! 🤘');
+  done();
+}
+
+function processAssets(){
+  compileSass();
+  compileJs();
+  processImages();
+}
+
+/**
+ * Compile Sass
+ **/
+
+function compileSass(){
+  del([sassPaths.dest+'/*']);
+  console.log('Bugo: Compiling .scss into destination folder: '+sassPaths.dest);
   gulp.src(sassPaths.src)
     // .pipe(sourcemaps.init())
     .pipe(sass.sync().on('error', sass.logError))
     .pipe(autoprefixer())
     // .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(sassPaths.dest));
-    done();
-});
+  console.log('Bugo: Done compiling .scss files');
+}
 
-gulp.task('compile-js', (done) => {
-  del([jsPaths.dest]);
-  // gulp.src('*.*', {read: false})
-  //       .pipe(gulp.dest(jsPaths.dest));
+/**
+ * Compile JS
+ **/
+
+function compileJs(){
+  del([jsPaths.dest+'/*']);
+  console.log('Bugo: Compiling .js files into '+jsPaths.dest);
   gulp.src([
       jsPaths.src
     ])
 		.pipe(webpack(require('./.webpack.config.js')))
     .pipe(concat('app.js'))
-		.pipe(gulp.dest(jsPaths.dest))
-    done();
-});
+		.pipe(gulp.dest(jsPaths.dest));
+  console.log('Bugo: Done compiling .js files');
+}
 
-gulp.task('process-images', (done) => {
-  del([imagePaths.dest]);
-  gulp.src('*.*', {read: false})
-        .pipe(gulp.dest(imagePaths.dest));
+/**
+ * Process Images
+ **/
+
+function processImages(){
+  del([imagePaths.dest+'/*']);
+  console.log('Bugo: Processing images into '+jsPaths.dest);
   gulp.src([
       imagePaths.src
     ])
-		// .pipe(webpack(require('./.webpack.config.js')))
-		.pipe(gulp.dest(imagePaths.dest))
-    done();
-});
-
-gulp.task('default', defaultTask);
-
-function defaultTask(){
-
-  const hugo = spawn("hugo", ['-w','server','--disableFastRender']);
-  hugo.stdout.on('data', (data) => {
-    console.log(`Hugo: ${data}`);
-  });
-
-  hugo.stderr.on('data', (data) => {
-    console.log(`Hugo Error: ${data}`);
-  });
-
-  hugo.on('close', (code) => {
-    console.log(`Hugo exited with code ${code}`);
-  });
-
-  const jswatcher = gulp.watch(jsPaths.src, gulp.parallel('compile-js'));
-  jswatcher.on('change', function(path, stats) {
-    console.log('File ' + path + ' was changed');
-  });
-
-  jswatcher.on('unlink', function(path) {
-    console.log('File ' + path + ' was removed');
-  });
-
-  const sasswatcher = gulp.watch(sassPaths.src, gulp.parallel('compile-sass'));
-  sasswatcher.on('change', function(path, stats) {
-    console.log('File ' + path + ' was changed');
-  });
-
-  const imagewatcher = gulp.watch(imagePaths.src, gulp.parallel('process-images'));
-  imagewatcher.on('change', function(path, stats) {
-
-    console.log('File ' + path + ' was changed');
-  });
-
-  imagewatcher.on('unlink', function(path) {
-    console.log('File ' + path.path + ' was removed');
-  });
+		.pipe(gulp.dest(imagePaths.dest));
+  console.log('Bugo: Done processing images');
 }
