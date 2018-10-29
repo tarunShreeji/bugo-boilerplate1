@@ -62,8 +62,7 @@ gulp.task('install-bugo', installBugo );
  **/
 
 gulp.task('compile-sass', (done) => {
-  compileSass();
-  done();
+  compileSass(done);
 });
 
 /**
@@ -76,8 +75,7 @@ gulp.task('compile-sass', (done) => {
  **/
 
  gulp.task('compile-js', (done) => {
-   compileJs();
-   done();
+   compileJs(done);
 });
 
 /**
@@ -87,8 +85,7 @@ gulp.task('compile-sass', (done) => {
  **/
 
 gulp.task('process-images', (done) => {
-  processImages();
-  done();
+  processImages(done);
 });
 
 /**
@@ -195,9 +192,8 @@ function watchImages(){
  *
  **/
 
-function installBugo(done){
+function installBugo(done = () => {}){
   processAssets();
-  // console.clear();
   console.log('Installation complete! Thanks for installing Bugo! 🤘');
   done();
 }
@@ -212,7 +208,7 @@ function processAssets(){
  * Compile Sass
  **/
 
-function compileSass(){
+function compileSass(done = () => {}){
   del([sassPaths.dest+'/*']);
   console.log('Bugo: Compiling .scss into destination folder: '+sassPaths.dest);
   gulp.src(sassPaths.src)
@@ -222,13 +218,14 @@ function compileSass(){
     // .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(sassPaths.dest));
   console.log('Bugo: Done compiling .scss files');
+  done();
 }
 
 /**
  * Compile JS
  **/
 
-function compileJs(){
+function compileJs(done = () => {}){
   del([jsPaths.dest+'/*']);
   console.log('Bugo: Compiling .js files into '+jsPaths.dest);
   gulp.src([
@@ -238,18 +235,20 @@ function compileJs(){
     .pipe(concat('app.js'))
 		.pipe(gulp.dest(jsPaths.dest));
   console.log('Bugo: Done compiling .js files');
+  done();
 }
 
 /**
  * Process Images
  **/
 
-function processImages(){
+function processImages(done = () => {}){
   del([imagePaths.dest+'/*']);
-  console.log('Bugo: Processing images into '+jsPaths.dest);
+  console.log('Bugo: Processing images into '+imagePaths.dest);
   gulp.src([
       imagePaths.src
     ])
 		.pipe(gulp.dest(imagePaths.dest));
   console.log('Bugo: Done processing images');
+  done();
 }
