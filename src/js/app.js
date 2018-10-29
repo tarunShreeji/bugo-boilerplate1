@@ -56,5 +56,3 @@ Promise.all(bugoStylesheets.map(url => fetch(url))).
     }).then(() => {
         // Do whatever now
     });
-
-//ho
