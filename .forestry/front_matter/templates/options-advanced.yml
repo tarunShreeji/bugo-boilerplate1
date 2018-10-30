@@ -1,0 +1,17 @@
+---
+label: Advanced Options
+hide_body: false
+is_partial: true
+fields:
+- type: field_group
+  name: advanced_options
+  label: Advanced Options
+  description: Add custom classes and id.
+  fields:
+  - type: text
+    name: html_id
+    label: HTML id attribute
+  - type: text
+    name: custom_classes
+    label: Custom Classes
+    description: Add space separated classes to include

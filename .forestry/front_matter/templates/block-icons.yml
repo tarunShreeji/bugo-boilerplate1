@@ -1,0 +1,24 @@
+---
+label: Icon Block
+hide_body: false
+is_partial: true
+display_field: icon_blocks
+fields:
+- type: field_group_list
+  name: icon_blocks
+  label: Icon Blocks
+  config:
+    max: '6'
+  fields:
+  - type: file
+    name: icon
+    label: Icon
+    description: Add an icon
+  - type: textarea
+    name: text
+    label: Text
+    description: Add text
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown

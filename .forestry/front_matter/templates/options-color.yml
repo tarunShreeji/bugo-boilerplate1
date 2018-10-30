@@ -1,0 +1,22 @@
+---
+label: Color Options
+hide_body: false
+is_partial: true
+fields:
+- type: field_group
+  fields:
+  - type: color
+    name: bg_color
+    config:
+      color_format: Hex
+    label: Background Color
+    description: Select a background color.
+  - type: color
+    name: text_color
+    config:
+      color_format: Hex
+    label: Text Color
+    description: Select a text color.
+  label: Color Options
+  name: color_options
+  description: Change the background & text color

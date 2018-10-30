@@ -1,0 +1,17 @@
+---
+label: Post
+hide_body: false
+is_partial: false
+fields:
+- type: include
+  name: page_attributes
+  label: Page Attributes
+  template: attributes-page
+- type: include
+  name: advanced_options
+  label: Advanced Options
+  template: options-advanced
+pages:
+- site/content/blog/introducing-bugo.md
+- site/content/blog/forestry-io-and-netlify-com.md
+- site/content/blog/converting-wordpress-to-bugo.md

@@ -1,0 +1,21 @@
+---
+label: Color Block
+hide_body: false
+is_partial: true
+display_field: block_text
+fields:
+- type: include
+  name: ''
+  label: ''
+  template: options-color
+- type: textarea
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Block Text
+  name: block_text
+- type: include
+  name: ''
+  label: ''
+  template: options-advanced

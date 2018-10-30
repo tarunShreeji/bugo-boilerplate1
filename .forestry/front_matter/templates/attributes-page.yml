@@ -1,0 +1,18 @@
+---
+label: Page Attributes
+hide_body: false
+is_partial: true
+display_field: titles
+fields:
+- type: text
+  name: title
+  label: Title
+- type: tag_list
+  name: tags
+  label: Tags
+- type: datetime
+  name: date
+  label: Date
+- type: file
+  name: featured_image
+  label: Featured Image

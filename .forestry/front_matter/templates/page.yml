@@ -1,0 +1,19 @@
+---
+label: Page
+hide_body: false
+is_partial: false
+fields:
+- type: include
+  name: hero
+  label: Hero
+  template: hero
+- type: include
+  name: page_attributes
+  label: Page Attributes
+  template: attributes-page
+- type: include
+  template: options-advanced
+  label: Advanced Options
+  name: advanced_options
+pages:
+- site/content/get-started.md
