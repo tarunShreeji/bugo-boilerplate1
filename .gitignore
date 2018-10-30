@@ -13,6 +13,7 @@ data/*
 yarn-erro.log
 themes/*
 !themes/.gitkeep
+!themes/bugo-bt/*
 node_modules/*
 resources/*
 public/*
