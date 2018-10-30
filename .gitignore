@@ -21,3 +21,4 @@ content/*
 !content/.gitkeep
 static/assets/*
 !static/assets/.gitkeep
+layoutsBAK/*
