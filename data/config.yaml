@@ -36,7 +36,7 @@ logos:
   header_logo: ''
   footer_logo: ''
   seo_logo: ''
-organization_name: ''
+organization_name: Test Organization
 show_breadcrumbs: true
 contact_info:
   email_address: ''
@@ -52,4 +52,7 @@ social_accounts:
   youtube: ''
   github: ''
 locations: []
-organization_description: ''
+organization_description: Here at test organization, we do a lot of test. The best
+  test on on the internet.
+show_email_labels: false
+show_phone_labels: false
