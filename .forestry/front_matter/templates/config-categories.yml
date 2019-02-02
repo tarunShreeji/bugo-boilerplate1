@@ -45,3 +45,5 @@ fields:
   - type: list
     name: options
     label: Categories
+pages:
+- data/categories.yaml

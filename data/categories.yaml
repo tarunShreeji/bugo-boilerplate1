@@ -1,0 +1,11 @@
+---
+type: select
+name: category
+label: Category
+description: Select a category for this page.
+config:
+  source:
+    type: custom
+  options:
+  - Events
+  - News
