@@ -9,6 +9,5 @@ fields:
 - type: blocks
   name: content_blocks
   label: Content Blocks
-  description: Landing pages use stacked blocks to create content. Add a block to
-    get started.
-  template_types: []
+  template_types:
+  - block-column-1
