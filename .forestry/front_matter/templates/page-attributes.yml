@@ -9,8 +9,8 @@ fields:
   fields:
   - type: include
     template: page-attributes-5f2fb172-7bf8-46ff-bfc0-1b7f9cd4818e
-    label: Page Attributes
-    name: page_attributes
+    label: Page Options
+    name: page_options
   description: Add a featured image.
 pages:
 - content/index.md
