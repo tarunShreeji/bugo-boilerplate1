@@ -12,6 +12,10 @@ sections:
 - type: document
   path: data/config.yaml
   label: Theme Options
+- type: document
+  path: data/categories.yaml
+  label: Categories
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
