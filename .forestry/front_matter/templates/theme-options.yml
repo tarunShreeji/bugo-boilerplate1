@@ -2,4 +2,8 @@
 label: Theme Options
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: include
+  template: site-contact-information
+  label: Contact Information
+  name: contact_information
