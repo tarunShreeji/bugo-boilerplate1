@@ -10,3 +10,6 @@ fields:
       format: markdown
   label: Block Content
   name: block_content
+- type: file
+  name: background_image
+  label: Background Image (optional)
