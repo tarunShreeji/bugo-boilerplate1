@@ -6,9 +6,6 @@
 ehthumbs.db
 Thumbs.db
 *disableFastRender/*
-!data/template-config.yaml
-!data/template-information.yaml
-!data/.gitkeep
 yarn-erro.log
 node_modules/*
 resources/*
