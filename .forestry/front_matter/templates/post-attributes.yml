@@ -17,5 +17,3 @@ fields:
     template: data-image
     description: Some themes display a large image at the top of the page. It's also
       good practice for interaction with social media.
-pages:
-- content/index.md

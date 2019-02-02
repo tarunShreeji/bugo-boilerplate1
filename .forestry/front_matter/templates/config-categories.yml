@@ -1,0 +1,47 @@
+---
+label: Categories
+hide_body: true
+is_partial: true
+fields:
+- type: text
+  name: type
+  label: Type
+  hidden: true
+  default: select
+  config:
+    required: true
+- type: text
+  name: name
+  label: Name
+  hidden: true
+  config:
+    required: true
+  default: category
+- type: text
+  name: label
+  label: label
+  hidden: true
+  default: Category
+- type: text
+  name: description
+  label: Description
+  hidden: true
+  default: Select a category for this page.
+- type: field_group
+  name: config
+  label: Config
+  fields:
+  - type: field_group
+    name: source
+    label: Source
+    hidden: true
+    fields:
+    - type: text
+      name: type
+      label: Type
+      config:
+        required: true
+      default: custom
+  - type: list
+    name: options
+    label: Categories
