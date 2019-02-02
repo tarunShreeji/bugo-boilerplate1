@@ -3,12 +3,14 @@ label: Data - Contact Info
 hide_body: false
 is_partial: true
 fields:
-- type: text
-  name: email_address
-  label: Email Address
-- type: text
-  name: telephone
-  label: Telephone
-- type: text
-  name: mobile
-  label: Mobile
+- type: field_group_list
+  name: email_addresses
+  label: Email Addresses
+  fields:
+  - type: text
+    name: email_address
+    label: Email Address
+    description: user@example.com
+  - type: text
+    name: label
+    label: Label (optional)
