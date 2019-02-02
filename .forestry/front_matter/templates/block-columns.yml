@@ -2,4 +2,23 @@
 label: Block - Columns
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: field_group_list
+  name: columns
+  label: Columns
+  description: Add up to 4 columns in this block
+  fields:
+  - type: textarea
+    label: Column Content
+    name: content
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: file
+    name: optional_image
+    label: Optional Image
+  - type: boolean
+    label: Show image above content
+    name: show_image_above_content
+    default: true
