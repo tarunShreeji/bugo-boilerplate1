@@ -79,6 +79,7 @@ fields:
     - '3'
     - '4'
   label: Padding Top
+  default: Default
 - type: select
   name: padding_bottom
   config:
@@ -91,3 +92,4 @@ fields:
     - '3'
     - '4'
   label: Padding Bottom
+  default: Default
