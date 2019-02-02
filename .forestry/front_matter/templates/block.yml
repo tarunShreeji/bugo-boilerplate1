@@ -4,3 +4,9 @@ hide_body: false
 is_partial: false
 fields:
 - type: textarea
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Block Content
+  name: block_content
