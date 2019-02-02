@@ -7,3 +7,5 @@ fields:
   fields:
   - type: include
     template: site-contact-information
+  label: Contact Information
+  name: contact_information
