@@ -2,4 +2,13 @@
 label: Field - Colors
 hide_body: false
 is_partial: true
-fields: []
+fields:
+- type: select
+  name: colors
+  config:
+    source:
+      type: simple
+    options:
+    - start
+    - end
+  label: Colors
