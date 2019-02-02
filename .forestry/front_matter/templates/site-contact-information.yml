@@ -22,3 +22,8 @@ fields:
 - type: field_group
   name: social_accounts
   label: Social Accounts
+  fields:
+  - type: include
+    name: social_accounts
+    label: Social Accounts
+    template: data-social-accounts
