@@ -9,8 +9,6 @@ sections:
   label: Pages
   create: all
   match: "*"
-  templates:
-  - page-attributes
 - type: document
   path: data/config.yaml
   label: Theme Options
