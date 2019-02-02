@@ -1,7 +1,7 @@
 ---
-label: Config - Categories
-hide_body: false
-is_partial: true
+label: Categories
+hide_body: true
+is_partial: false
 fields:
 - type: text
   name: type
