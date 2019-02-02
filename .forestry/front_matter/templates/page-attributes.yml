@@ -7,10 +7,14 @@ fields:
   name: page_attributes
   label: Page Options
   fields:
-  - type: include
-    template: page-attributes-5f2fb172-7bf8-46ff-bfc0-1b7f9cd4818e
-    label: Page Options
-    name: page_options
+  - type: field_group
+    name: featured_image
+    label: Featured Image
+    fields:
+    - type: include
+      template: data-image
+      label: Featured Image
+      name: featured_image
   description: Add a featured image.
 pages:
 - content/index.md
