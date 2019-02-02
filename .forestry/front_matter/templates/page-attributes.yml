@@ -4,6 +4,11 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: page
+- type: text
   name: title
   label: Title
 - type: datetime
