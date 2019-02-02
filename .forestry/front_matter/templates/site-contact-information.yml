@@ -7,14 +7,19 @@ fields:
   name: contact_info
   label: Contact Info
   fields:
+  - type: boolean
+    name: show_email_labels
+    label: Show Email Labels
+    default: false
+    description: Display labels when displaying these email addresses.
+  - type: boolean
+    name: show_phone_labels
+    label: Show Phone Labels
+    description: Display labels when displaying these phone numbers.
   - type: include
     template: data-contact-info
     label: Contact Info
     name: contact_info
-  - type: boolean
-    name: show_email_labels
-    label: Show Email Labels
-    default: true
   description: Email & Phones
 - type: field_group
   name: social_accounts
