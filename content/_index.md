@@ -11,6 +11,8 @@ content:
   columns:
   - show_image_above_content: true
     content: This is the first content column
+- template: block-slideshow
+  title: First slideshow
 draft: true
 
 ---
