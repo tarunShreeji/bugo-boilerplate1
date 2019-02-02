@@ -34,3 +34,8 @@ home:
 - RSS
 page:
 - HTML
+menu:
+  primary:
+  - url: "/posts/"
+    name: Posts
+    weight: 3
