@@ -29,5 +29,3 @@ fields:
   template_types:
   - block-columns
   - block-slideshow
-pages:
-- content/_index.md
