@@ -7,6 +7,8 @@ featured_image:
 date: 2019-02-02 07:18:54 +0000
 category: News
 tags: []
+related_pages:
+- related_page: _index.md
 draft: true
 
 ---
