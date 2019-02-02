@@ -22,3 +22,14 @@ fields:
     label: Show image above content
     name: show_image_above_content
     default: true
+- type: include
+  template: field-colors
+  label: Text Color
+  name: text_color
+- type: include
+  template: field-colors
+  label: Background Color
+  name: background_colors
+- type: file
+  name: background_image
+  label: Background Image
