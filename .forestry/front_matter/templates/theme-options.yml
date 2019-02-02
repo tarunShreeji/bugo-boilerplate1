@@ -6,10 +6,8 @@ fields:
 - type: field_group
   name: logos
   label: Logos
-- type: field_group
-  fields:
-  - type: include
-    template: site-contact-information
+- type: include
+  template: site-contact-information
   label: Contact Information
   name: contact_information
 pages:
