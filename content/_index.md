@@ -17,7 +17,7 @@ weight: ''
 tags: []
 layout: page
 menu:
-  primary:
+  main:
     weight: 1
 
 ---
