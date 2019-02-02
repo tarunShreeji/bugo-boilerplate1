@@ -10,4 +10,4 @@ fields:
   name: content
   label: Content Blocks
   template_types:
-  - block-column-1
+  - block-columns
