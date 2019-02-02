@@ -17,5 +17,16 @@ fields:
     template: data-image
     description: Some themes display a large image at the top of the page. It's also
       good practice for interaction with social media.
+- type: select
+  name: category
+  config:
+    source:
+      type: simple
+    options:
+    - News
+    - Events
+    required: true
+  label: Category
+  default: News
 pages:
 - posts/hello-world.md
