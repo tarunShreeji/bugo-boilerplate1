@@ -3,6 +3,12 @@ label: Block - Columns
 hide_body: false
 is_partial: false
 fields:
+- type: text
+  name: title
+  label: Title
+  description: Giving this block title will help organization.
+  config:
+    required: true
 - type: field_group_list
   name: columns
   label: Columns
