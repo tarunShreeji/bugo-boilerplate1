@@ -10,6 +10,9 @@ fields:
   config:
     required: true
   default: post
+- type: datetime
+  name: date
+  label: Date
 - type: text
   name: title
   label: Title
