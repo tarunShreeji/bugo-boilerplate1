@@ -4,17 +4,15 @@ hide_body: false
 is_partial: false
 fields:
 - type: field_group
-  name: page_attributes
-  label: Page Options
+  name: featured_image
+  label: Featured Image
+  description: ''
   fields:
-  - type: field_group
+  - type: include
     name: featured_image
     label: Featured Image
-    fields:
-    - type: include
-      template: data-image
-      label: Featured Image
-      name: featured_image
-  description: Add a featured image.
+    template: data-image
+    description: Some themes display a large image at the top of the page. It's also
+      good practice for interaction with social media.
 pages:
 - content/index.md
