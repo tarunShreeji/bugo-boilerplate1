@@ -39,3 +39,5 @@ fields:
     label: Featured Image
     template: data-image
     description: ''
+pages:
+- content/markdown-cheatsheet.md
