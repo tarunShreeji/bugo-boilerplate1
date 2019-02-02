@@ -18,8 +18,8 @@ fields:
     template: data-image
     description: ''
 - type: datetime
-  name: publishDate
-  label: Publish Date
+  name: date
+  label: Date
   config:
     required: true
 - type: tag_list
