@@ -13,6 +13,9 @@ content:
     content: This is the first content column
 - template: block-slideshow
   title: First slideshow
+weight: ''
+tags: []
+layout: page
 draft: true
 
 ---
