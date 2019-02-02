@@ -1,7 +1,7 @@
 ---
 layout: post
 category: News
-title: Hello World
+title: Hi Bugo!
 tags: []
 featured_image:
   title: ''
