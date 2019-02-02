@@ -14,3 +14,15 @@ fields:
   - type: text
     name: label
     label: Label (optional)
+  config:
+    labelField: email_address
+- type: field_group_list
+  name: phones
+  label: Phones
+  fields:
+  - type: text
+    name: phone
+    label: Phone
+  - type: text
+    name: label
+    label: Label (optional)
