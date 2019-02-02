@@ -5,6 +5,12 @@ featured_image:
   title: ''
   image: ''
   caption: ''
+content:
+- template: block-columns
+  title: Logo Column
+  columns:
+  - show_image_above_content: true
+    content: This is the first content column
 draft: true
 
 ---

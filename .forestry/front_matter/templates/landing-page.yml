@@ -11,3 +11,5 @@ fields:
   label: Content Blocks
   template_types:
   - block-columns
+pages:
+- content/_index.md
