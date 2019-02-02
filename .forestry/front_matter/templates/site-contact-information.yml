@@ -11,11 +11,11 @@ fields:
     name: show_email_labels
     label: Show Email Labels
     default: false
-    description: Display labels when displaying these email addresses.
+    description: Display labels when displaying these email addresses globally.
   - type: boolean
     name: show_phone_labels
     label: Show Phone Labels
-    description: Display labels when displaying these phone numbers.
+    description: Display labels when displaying phone numbers globally.
   - type: include
     template: data-contact-info
     label: Contact Info
