@@ -45,5 +45,7 @@ fields:
     label: Related Page
     name: related_page
     description: Choose a page to relate to this post.
+  config:
+    labelField: related_page
 pages:
 - posts/hello-world.md
