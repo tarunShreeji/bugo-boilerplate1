@@ -2,4 +2,11 @@
 label: Config - Categories
 hide_body: false
 is_partial: true
-fields: []
+fields:
+- type: text
+  name: type
+  label: Type
+  hidden: true
+  default: select
+  config:
+    required: true
