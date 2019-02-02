@@ -17,5 +17,9 @@ fields:
   template: site-contact-information
   label: Contact Information
   name: contact_information
+- type: boolean
+  name: show_breadcrumbs
+  label: Show Breadcrumbs
+  default: true
 pages:
 - data/config.yaml
