@@ -10,3 +10,20 @@ fields:
   default: select
   config:
     required: true
+- type: text
+  name: name
+  label: Name
+  hidden: true
+  config:
+    required: true
+  default: category
+- type: text
+  name: label
+  label: label
+  hidden: true
+  default: Category
+- type: text
+  name: description
+  label: Description
+  hidden: true
+  default: Select a category for this page.
