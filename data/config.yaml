@@ -36,7 +36,7 @@ logos:
   header_logo: ''
   footer_logo: ''
 organization_name: Bugo
-show_breadcrumbs: false
+show_breadcrumbs: true
 contact_info:
   email_address: ''
   telephone: ''
