@@ -54,5 +54,3 @@ fields:
     description: Choose a page to relate to this post.
   config:
     labelField: related_page
-pages:
-- posts/from-forestry.md
