@@ -12,15 +12,6 @@ fields:
     label: Contact Info
     name: contact_info
   description: Email & Phones
-- type: field_group_list
-  name: locations
-  label: Locations
-  description: For display on the website.
-  fields:
-  - type: include
-    name: address
-    label: Address
-    template: data-address
 - type: field_group
   name: social_accounts
   label: Social Accounts
@@ -30,3 +21,12 @@ fields:
     label: Social Accounts
     template: data-social-accounts
   description: For display on the website.
+- type: field_group_list
+  name: locations
+  label: Locations
+  description: For display on the website.
+  fields:
+  - type: include
+    name: address
+    label: Address
+    template: data-address
