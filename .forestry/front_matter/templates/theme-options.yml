@@ -3,7 +3,8 @@ label: Theme Options
 hide_body: false
 is_partial: false
 fields:
-- type: include
-  template: site-contact-information
-  label: Contact Information
+- type: blocks
   name: contact_information
+  label: Contact Information
+  template_types:
+  - site-contact-information
