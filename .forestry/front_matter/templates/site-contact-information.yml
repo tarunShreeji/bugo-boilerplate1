@@ -24,9 +24,16 @@ fields:
 - type: field_group_list
   name: locations
   label: Locations
-  description: For display on the website.
+  description: For display on the website. These will display in the order below.
+    You can rearrange them as needed.
   fields:
   - type: include
     name: address
     label: Address
     template: data-address
+  - type: text
+    name: location_name
+    label: Location Name
+    description: Some themes display this with the address
+  config:
+    labelField: location_name
