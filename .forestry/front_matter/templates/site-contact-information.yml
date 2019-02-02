@@ -3,19 +3,20 @@ label: Config - Site Contact Information
 hide_body: false
 is_partial: true
 fields:
+- type: boolean
+  name: show_email_labels
+  label: Show Email Labels
+  description: Display labels when displaying emails globally. This only works if
+    a label is entered.
+- type: boolean
+  name: show_phone_labels
+  label: Show Phone Labels
+  description: Display labels when displaying phone numbers globally. This only works
+    if a label is entered.
 - type: field_group
   name: contact_info
   label: Contact Info
   fields:
-  - type: boolean
-    name: show_email_labels
-    label: Show Email Labels
-    default: false
-    description: Display labels when displaying these email addresses globally.
-  - type: boolean
-    name: show_phone_labels
-    label: Show Phone Labels
-    description: Display labels when displaying phone numbers globally.
   - type: include
     template: data-contact-info
     label: Contact Info
