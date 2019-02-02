@@ -1,4 +1,5 @@
 +++
+category = "News"
 date = "2018-12-20T08:00:00+00:00"
 tags = []
 title = "Proin ullamcorper orci nec lacinia hendrerit."
