@@ -35,5 +35,7 @@ fields:
     name: address
     label: Address
     template: data-address
+  - type: include
+    template: data-contact-info
   config:
     labelField: location_name
