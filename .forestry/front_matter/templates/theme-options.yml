@@ -6,6 +6,7 @@ fields:
 - type: text
   name: organization_name
   label: Organization Name
+  description: Enter the name of your organization for SEO purposes.
 - type: textarea
   name: organization_description
   label: Organization Description
