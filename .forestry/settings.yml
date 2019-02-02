@@ -11,7 +11,7 @@ sections:
   match: "*"
 - type: document
   path: data/config.yaml
-  label: Config
+  label: Theme Options
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
