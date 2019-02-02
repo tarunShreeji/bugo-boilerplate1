@@ -67,3 +67,27 @@ fields:
     - '4'
   label: Margin Bottom
   default: Default
+- type: select
+  name: padding_top
+  config:
+    source:
+      type: simple
+    options:
+    - Default
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+  label: Padding Top
+- type: select
+  name: padding_bottom
+  config:
+    source:
+      type: simple
+    options:
+    - Default
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+  label: Padding Bottom
