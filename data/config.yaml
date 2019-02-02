@@ -35,7 +35,8 @@ contact_information:
 logos:
   header_logo: ''
   footer_logo: ''
-organization_name: Bugo
+  seo_logo: ''
+organization_name: ''
 show_breadcrumbs: true
 contact_info:
   email_address: ''
@@ -52,3 +53,4 @@ social_accounts:
   github: ''
 locations:
 - {}
+organization_description: ''
