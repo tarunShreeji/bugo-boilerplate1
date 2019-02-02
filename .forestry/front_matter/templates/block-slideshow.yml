@@ -16,3 +16,30 @@ fields:
   description: Add at least 1 slide.
   template_types:
   - data-image
+- type: select
+  name: margin_top
+  config:
+    source:
+      type: simple
+    options:
+    - Default
+    - '0'
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+  label: Margin Top
+  default: Default
+- type: select
+  name: margin_bottom
+  config:
+    source:
+      type: simple
+    options:
+    - Default
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+  label: Margin Bottom
+  default: Default
