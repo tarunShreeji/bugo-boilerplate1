@@ -8,7 +8,7 @@ fields:
   name: title
   label: Title
   config:
-    required: true
+    required: false
 - type: file
   name: image
   label: Image
