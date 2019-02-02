@@ -10,13 +10,5 @@ fields:
   fields:
   - type: include
     template: site-contact-information
-  - type: blocks
-    name: locations
-    label: Locations
-    description: Add at least one location. These get displayed in the footer
-    config:
-      min: '1'
-    template_types:
-    - data-address
   label: Contact Information
   name: contact_information
