@@ -41,6 +41,8 @@ contact_info:
   email_address: ''
   telephone: ''
   mobile: ''
+  email_addresses: []
+  phones: []
 social_accounts:
   linked_in: ''
   facebook: ''
@@ -48,4 +50,5 @@ social_accounts:
   twitter: ''
   youtube: ''
   github: ''
-locations: []
+locations:
+- {}
