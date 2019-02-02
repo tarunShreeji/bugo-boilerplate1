@@ -9,14 +9,14 @@ fields:
 - type: field_group
   name: featured_image
   label: Featured Image
-  description: ''
+  description: Some themes display a large image at the top of the page. It's also
+    good practice for interaction with social media.
   fields:
   - type: include
     name: featured_image
     label: Featured Image
     template: data-image
-    description: Some themes display a large image at the top of the page. It's also
-      good practice for interaction with social media.
+    description: ''
 - type: datetime
   name: publishDate
   label: Publish Date
