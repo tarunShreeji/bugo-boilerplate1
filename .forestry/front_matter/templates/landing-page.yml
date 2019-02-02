@@ -7,7 +7,7 @@ fields:
   name: title
   label: Title
 - type: blocks
-  name: content_blocks
+  name: content
   label: Content Blocks
   template_types:
   - block-column-1
