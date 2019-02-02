@@ -14,6 +14,11 @@ fields:
 - type: field_group
   name: address
   label: Address
+  fields:
+  - type: include
+    name: address
+    label: Address
+    template: data-address
 - type: field_group
   name: social_accounts
   label: Social Accounts
