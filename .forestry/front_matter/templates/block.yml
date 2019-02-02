@@ -10,6 +10,14 @@ fields:
       format: markdown
   label: Block Content
   name: block_content
+- type: include
+  name: text_color
+  label: Text Color (optional)
+  template: field-colors
+- type: include
+  name: background_color
+  label: Background Color (optional)
+  template: field-colors
 - type: file
   name: background_image
   label: Background Image (optional)
