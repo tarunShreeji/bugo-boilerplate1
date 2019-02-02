@@ -3,15 +3,17 @@ label: Config - Site Contact Information
 hide_body: false
 is_partial: true
 fields:
-- type: include
-  name: address
-  label: Address
-  template: data-address
-- type: include
+- type: field_group
   name: contact_info
   label: Contact Info
-  template: data-contact-info
-- type: include
-  template: data-social-accounts
-  label: Social Accounts
+  fields:
+  - type: include
+    template: data-contact-info
+    label: Contact Info
+    name: contact_info
+- type: field_group
+  name: address
+  label: Address
+- type: field_group
   name: social_accounts
+  label: Social Accounts
