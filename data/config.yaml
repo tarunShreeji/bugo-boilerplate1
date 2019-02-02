@@ -32,4 +32,20 @@ contact_information:
     youtube: ''
     github: ''
   locations: []
-logos: {}
+logos:
+  header_logo: ''
+  footer_logo: ''
+organization_name: Bugo
+show_breadcrumbs: false
+contact_info:
+  email_address: ''
+  telephone: ''
+  mobile: ''
+social_accounts:
+  linked_in: ''
+  facebook: ''
+  instagram: ''
+  twitter: ''
+  youtube: ''
+  github: ''
+locations: []
