@@ -6,17 +6,6 @@ fields:
 - type: text
   name: title
   label: Title
-- type: field_group
-  name: featured_image
-  label: Featured Image
-  description: Some themes display a large image at the top of the page. It's also
-    good practice for interaction with social media.
-  fields:
-  - type: include
-    name: featured_image
-    label: Featured Image
-    template: data-image
-    description: ''
 - type: datetime
   name: date
   label: Date
@@ -34,3 +23,14 @@ fields:
   label: Tags
   description: Tags are used to related content and for SEO keywords. Don't overdo
     it. Too many will count against your SEO scores.
+- type: field_group
+  name: featured_image
+  label: Featured Image
+  description: Some themes display a large image at the top of the page. It's also
+    good practice for interaction with social media.
+  fields:
+  - type: include
+    name: featured_image
+    label: Featured Image
+    template: data-image
+    description: ''
