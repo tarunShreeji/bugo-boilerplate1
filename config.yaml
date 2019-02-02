@@ -1,24 +1,16 @@
----
-<<<<<<< HEAD
 title: Bugo Boilerplate
 description: Boilerplate Boostrap Website for Forestry.io.
 baseURL: "https://bugo.io"
-=======
 title: Bugo.io
 description: Boilerplate Boostrap Website for Forestry.io
 baseURL: https://bugo.io
->>>>>>> 6b902a1f75b88216277c09bb4f27248e458b70ee
 languageCode: en-us
 summaryLength: 20
 canonifyURLs: true
 enableRobotsTXT: true
-<<<<<<< HEAD
 googleAnalytics: ""
-theme: bugo-base
-=======
+theme: bugo-base-theme
 googleAnalytics: ''
-theme: bugo-bt
->>>>>>> 6b902a1f75b88216277c09bb4f27248e458b70ee
 metaDataFormat: yaml
 frontmatter:
 - date:
@@ -38,7 +30,7 @@ taxonomies:
   tag: tags
 assetDir: static/assets
 publishDir: public
-outputs: 
+outputs:
 home:
 - HTML
 - JSON
