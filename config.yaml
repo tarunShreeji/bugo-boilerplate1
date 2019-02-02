@@ -1,13 +1,13 @@
 ---
-title: Bugo.io
-description: Boilerplate Boostrap Website for Forestry.io
+title: Bugo Boilerplate
+description: Boilerplate Boostrap Website for Forestry.io.
 baseURL: "https://bugo.io"
 languageCode: en-us
 summaryLength: 20
 canonifyURLs: true
 enableRobotsTXT: true
 googleAnalytics: ""
-theme: bugo-bt
+theme: bugo-base
 metaDataFormat: yaml
 frontmatter:
   - date:

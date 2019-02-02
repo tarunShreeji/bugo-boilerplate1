@@ -10,3 +10,4 @@ yarn-erro.log
 node_modules/*
 resources/*
 public/*
+themes/*
