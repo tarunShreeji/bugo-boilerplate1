@@ -36,5 +36,7 @@ fields:
 - type: blocks
   name: related_pages
   label: Related Pages
+  template_types:
+  - field-related-page-select
 pages:
 - posts/hello-world.md
