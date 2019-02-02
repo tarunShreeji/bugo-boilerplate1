@@ -33,10 +33,17 @@ fields:
     template: data-image
     description: Some themes display a large image at the top of the page. It's also
       good practice for interaction with social media.
-- type: blocks
+- type: field_group_list
   name: related_pages
   label: Related Pages
-  template_types:
-  - field-related-page-select
+  fields:
+  - type: select
+    config:
+      source:
+        type: pages
+        section: pages
+    label: Related Page
+    name: related_page
+    description: Choose a page to relate to this post.
 pages:
 - posts/hello-world.md
