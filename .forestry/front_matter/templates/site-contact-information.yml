@@ -3,15 +3,37 @@ label: Config - Site Contact Information
 hide_body: false
 is_partial: true
 fields:
-- type: include
-  name: address
-  label: Address
-  template: data-address
-- type: include
+- type: field_group
   name: contact_info
   label: Contact Info
-  template: data-contact-info
-- type: include
-  template: data-social-accounts
-  label: Social Accounts
+  fields:
+  - type: include
+    template: data-contact-info
+    label: Contact Info
+    name: contact_info
+  description: Email & Phones
+- type: field_group
   name: social_accounts
+  label: Social Accounts
+  fields:
+  - type: include
+    name: social_accounts
+    label: Social Accounts
+    template: data-social-accounts
+  description: For display on the website.
+- type: field_group_list
+  name: locations
+  label: Locations
+  description: For display on the website. These will display in the order below.
+    You can rearrange them as needed.
+  fields:
+  - type: include
+    name: address
+    label: Address
+    template: data-address
+  - type: text
+    name: location_name
+    label: Location Name
+    description: Some themes display this with the address
+  config:
+    labelField: location_name
