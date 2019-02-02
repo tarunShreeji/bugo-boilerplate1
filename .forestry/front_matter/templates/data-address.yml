@@ -1,0 +1,30 @@
+---
+label: Data - Address
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: address_1
+  label: Address 1
+  config:
+    required: true
+- type: text
+  name: address_2
+  label: Address 2
+- type: text
+  name: city
+  label: City
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - Start
+    - End
+  label: State
+  name: state
+- type: text
+  label: Zip Code
+  name: zip_code
+  config:
+    required: true
