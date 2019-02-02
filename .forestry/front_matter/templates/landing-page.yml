@@ -11,5 +11,6 @@ fields:
   label: Content Blocks
   template_types:
   - block-columns
+  - block-slideshow
 pages:
 - content/_index.md
