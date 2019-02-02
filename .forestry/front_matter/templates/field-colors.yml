@@ -9,25 +9,25 @@ fields:
     source:
       type: simple
     options:
-      - primary
-      - secondary
-      - white
-      - gray
-      - gray-dark
-      - light
-      - dark
-      - blue
-      - indigo
-      - purple
-      - pink
-      - red
-      - orange
-      - yellow
-      - green
-      - teal
-      - cyan
-      - success
-      - info
-      - warning
-      - danger
+    - primary
+    - secondary
+    - white
+    - gray
+    - gray-dark
+    - light
+    - dark
+    - blue
+    - indigo
+    - purple
+    - pink
+    - red
+    - orange
+    - yellow
+    - green
+    - teal
+    - cyan
+    - success
+    - info
+    - warning
+    - danger
   label: Colors
