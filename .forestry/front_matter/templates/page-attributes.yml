@@ -25,6 +25,8 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
+  description: Tags are used to related content and for SEO keywords. Don't overdo
+    it. Too many will count against your SEO scores.
 - type: number
   name: weight
   label: Weight
