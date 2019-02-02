@@ -6,5 +6,10 @@ fields:
 - type: field_group
   name: page_attributes
   label: Page Attributes
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
 pages:
 - content/index.md
