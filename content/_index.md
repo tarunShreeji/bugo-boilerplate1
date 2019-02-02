@@ -16,6 +16,5 @@ content:
 weight: ''
 tags: []
 layout: page
-draft: true
 
 ---
