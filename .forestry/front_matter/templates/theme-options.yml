@@ -13,13 +13,13 @@ fields:
   - type: file
     name: footer_logo
     label: Footer Logo
-- type: include
-  template: site-contact-information
-  label: Contact Information
-  name: contact_information
 - type: boolean
   name: show_breadcrumbs
   label: Show Breadcrumbs
   default: true
+- type: include
+  template: site-contact-information
+  label: Contact Information
+  name: contact_information
 pages:
 - data/config.yaml
