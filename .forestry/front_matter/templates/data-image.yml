@@ -1,0 +1,22 @@
+---
+label: Data - Image
+hide_body: false
+is_partial: true
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: file
+  name: image
+  label: Image
+- type: textarea
+  name: caption
+  label: Caption
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+    required: false
