@@ -11,6 +11,10 @@ fields:
     template: data-contact-info
     label: Contact Info
     name: contact_info
+  - type: boolean
+    name: show_email_labels
+    label: Show Email Labels
+    default: true
   description: Email & Phones
 - type: field_group
   name: social_accounts
