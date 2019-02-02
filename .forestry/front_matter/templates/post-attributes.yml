@@ -6,17 +6,6 @@ fields:
 - type: text
   name: title
   label: Title
-- type: field_group
-  name: featured_image
-  label: Featured Image
-  description: ''
-  fields:
-  - type: include
-    name: featured_image
-    label: Featured Image
-    template: data-image
-    description: Some themes display a large image at the top of the page. It's also
-      good practice for interaction with social media.
 - type: select
   name: category
   config:
@@ -28,5 +17,20 @@ fields:
     required: true
   label: Category
   default: News
+- type: tag_list
+  name: tags
+  label: Tags
+  description: We'll use these for relating other content and SEO Keywords
+- type: field_group
+  name: featured_image
+  label: Featured Image
+  description: ''
+  fields:
+  - type: include
+    name: featured_image
+    label: Featured Image
+    template: data-image
+    description: Some themes display a large image at the top of the page. It's also
+      good practice for interaction with social media.
 pages:
 - posts/hello-world.md
