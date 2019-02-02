@@ -18,9 +18,15 @@ fields:
   - type: file
     name: header_logo
     label: Header Logo
+    description: Add a .jpg, .png or .svg
   - type: file
     name: footer_logo
     label: Footer Logo
+    description: Add a .jpg, .png or .svg
+  - type: file
+    name: seo_logo
+    label: SEO Logo
+    description: This image needs to be a .png file.
 - type: boolean
   name: show_breadcrumbs
   label: Show Breadcrumbs
