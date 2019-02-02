@@ -12,3 +12,5 @@ fields:
     template: site-contact-information
   label: Contact Information
   name: contact_information
+pages:
+- data/config.yaml

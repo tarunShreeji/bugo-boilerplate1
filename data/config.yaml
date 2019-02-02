@@ -1,1 +1,35 @@
 ---
+contact_information:
+  address_1: ''
+  address_2: ''
+  city: ''
+  state: ''
+  zip_code: ''
+  email_address: ''
+  telephone: ''
+  mobile: ''
+  linked_in: ''
+  facebook: ''
+  instagram: ''
+  twitter: ''
+  youtube: ''
+  github: ''
+  contact_info:
+    email_address: ''
+    telephone: ''
+    mobile: ''
+  address:
+    address_1: ''
+    address_2: ''
+    city: ''
+    state: ''
+    zip_code: ''
+  social_accounts:
+    linked_in: ''
+    facebook: ''
+    instagram: ''
+    twitter: ''
+    youtube: ''
+    github: ''
+  locations: []
+logos: {}
