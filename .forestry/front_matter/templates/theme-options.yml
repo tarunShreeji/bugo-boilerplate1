@@ -6,6 +6,11 @@ fields:
 - type: text
   name: organization_name
   label: Organization Name
+- type: textarea
+  name: organization_description
+  label: Organization Description
+  description: Enter a short description of your organization. This will help google
+    identify your website.
 - type: field_group
   name: logos
   label: Logos
