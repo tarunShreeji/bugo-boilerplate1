@@ -53,6 +53,7 @@ social_accounts:
   github: ''
 locations:
 - address_1: 1528 4th Ave W
+  address_2: Suite A
   city: Portland
   state: Start
   zip_code: '98756'
