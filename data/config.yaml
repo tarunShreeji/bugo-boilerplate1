@@ -34,7 +34,7 @@ contact_information:
   locations: []
 logos:
   header_logo: "/uploads/icon-Trusts.svg"
-  footer_logo: ''
+  footer_logo: "/uploads/icon-Family.svg"
   seo_logo: ''
 organization_name: Test Organization
 show_breadcrumbs: true
