@@ -51,7 +51,15 @@ social_accounts:
   twitter: ''
   youtube: ''
   github: ''
-locations: []
+locations:
+- address_1: 1528 4th Ave W
+  city: Portland
+  state: Start
+  zip_code: '98756'
+  location_name: Web & Dev
+  email_addresses:
+  - label: Info
+    email_address: portland@example.com
 organization_description: Here at test organization, we do a lot of test. The best
   test on on the internet.
 show_email_labels: false
