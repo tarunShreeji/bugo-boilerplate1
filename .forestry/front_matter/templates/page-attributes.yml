@@ -45,4 +45,3 @@ fields:
   description: Used for SEO purposes.
 pages:
 - content/markdown-cheatsheet.md
-- content/_index.md
