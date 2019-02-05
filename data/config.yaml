@@ -45,12 +45,12 @@ contact_info:
   email_addresses: []
   phones: []
 social_accounts:
-  linked_in: ''
-  facebook: ''
-  instagram: ''
-  twitter: ''
-  youtube: ''
-  github: ''
+  linked_in: asdf
+  facebook: asdf
+  instagram: asdf
+  twitter: asdf
+  youtube: asdf
+  github: asdf
 locations:
 - address_1: 1528 4th Ave W
   address_2: Suite A
