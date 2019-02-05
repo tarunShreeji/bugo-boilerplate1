@@ -11,6 +11,7 @@ content:
   columns:
   - content: This is the fourth column
     show_image_above_content: true
+    optional_image: "/uploads/dogbowl.svg"
   - content: This is the third column.
     optional_image: "/uploads/dogbowl.svg"
     show_image_above_content: true
