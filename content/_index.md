@@ -7,10 +7,11 @@ featured_image:
   caption: ''
 content:
 - template: block-columns
-  title: Logo Column
+  title: Lucy Columns
   columns:
   - show_image_above_content: true
     content: This is the first content column
+    optional_image: "/uploads/lucy1.jpg"
 - template: block-slideshow
   title: First slideshow
 weight: ''
