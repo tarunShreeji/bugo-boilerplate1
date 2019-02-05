@@ -33,8 +33,8 @@ contact_information:
     github: ''
   locations: []
 logos:
-  header_logo: "/uploads/icon-Trusts.svg"
-  footer_logo: "/uploads/icon-Family.svg"
+  header_logo: "/uploads/lucyco.svg"
+  footer_logo: "/uploads/lucyco.svg"
   seo_logo: ''
 organization_name: Test Organization
 show_breadcrumbs: true
