@@ -39,6 +39,10 @@ fields:
     label: Featured Image
     template: data-image
     description: ''
+- type: textarea
+  name: description
+  label: Description
+  description: Used for SEO purposes.
 pages:
 - content/markdown-cheatsheet.md
 - content/_index.md
