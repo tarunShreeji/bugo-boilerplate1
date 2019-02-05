@@ -15,7 +15,7 @@ content:
   title: First slideshow
 weight: ''
 tags: []
-layout: page
+layout: landing-page
 description: ''
 menu:
   primary:
