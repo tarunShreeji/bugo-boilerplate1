@@ -33,7 +33,7 @@ contact_information:
     github: ''
   locations: []
 logos:
-  header_logo: ''
+  header_logo: "/uploads/icon-Trusts.svg"
   footer_logo: ''
   seo_logo: ''
 organization_name: Test Organization
