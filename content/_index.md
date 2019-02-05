@@ -11,7 +11,7 @@ content:
   columns:
   - show_image_above_content: true
     content: This is the first content column
-    optional_image: "/uploads/lucy1.jpg"
+    optional_image: "/uploads/doghouse.svg"
 - template: block-slideshow
   title: First slideshow
 weight: ''
