@@ -36,8 +36,8 @@ content:
       caption: This is a dog award. You can't win it.
       image: "/uploads/award.svg"
   background_image: "/uploads/lucy1.jpg"
-  margin_top: '6'
-  margin_bottom: '6'
+  margin_top: '3'
+  margin_bottom: '3'
   padding_top: '3'
   padding_bottom: '3'
   text_color: white
