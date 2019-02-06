@@ -10,19 +10,19 @@ content:
   title: First slideshow
   slides:
   - template: data-image
-    image: "/uploads/IMG_3397.jpg"
+    image: "/v1549426004/IMG_3397.jpg"
     title: Lucy Brown blanket
   - template: data-image
-    image: "/uploads/IMG_3523.jpg"
+    image: "/v1549426005/IMG_3523.jpg"
     title: Lucy scores weed
   - template: data-image
-    image: "/uploads/IMG_3656.jpg"
+    image: "/v1549426003/IMG_3656.jpg"
     title: Lucy loves beer
   - template: data-image
-    image: "/uploads/IMG_3809.jpeg"
+    image: "/v1549426004/IMG_3809.jpg"
     title: Lucy riding in Snohomish
   - template: data-image
-    image: "/uploads/IMG_4050.jpg"
+    image: "/v1549426005/IMG_4050.jpg"
     title: Lucy don't give a F#@K
 - template: block-columns
   title: Lucy Columns
