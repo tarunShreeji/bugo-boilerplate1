@@ -6,6 +6,8 @@ featured_image:
   image: ''
   caption: ''
 content:
+- template: block-slideshow
+  title: First slideshow
 - template: block-columns
   title: Lucy Columns
   columns:
@@ -116,8 +118,6 @@ content:
   margin_bottom: '1'
   padding_top: '1'
   padding_bottom: '1'
-- template: block-slideshow
-  title: First slideshow
 weight: ''
 tags: []
 layout: landing-page
