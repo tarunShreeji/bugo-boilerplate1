@@ -8,6 +8,10 @@ featured_image:
 content:
 - template: block-slideshow
   title: First slideshow
+  slides:
+  - template: data-image
+    image: "/uploads/IMG_3397.jpg"
+    title: Lucy Brown blanket
 - template: block-columns
   title: Lucy Columns
   columns:
