@@ -118,6 +118,8 @@ content:
   margin_bottom: '1'
   padding_top: '1'
   padding_bottom: '1'
+  text-color: white
+  background-color: primary
 weight: ''
 tags: []
 layout: landing-page
