@@ -109,7 +109,7 @@ function defaultTask(){
  **/
 
  function startBugo(){
-    const hugo = spawn("hugo", ['-w','server','--disableFastRender']);
+    const hugo = spawn("hugo", ['-w','server','--disableFastRender','--destination=public']);
     // Log message from Bugo
     hugo.stdout.on('data', (data) => {
       console.log(`Bugo: ${data}`);
