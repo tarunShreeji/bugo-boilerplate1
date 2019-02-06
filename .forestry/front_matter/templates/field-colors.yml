@@ -4,7 +4,7 @@ hide_body: false
 is_partial: true
 fields:
 - type: select
-  name: colors
+  name: text-color
   config:
     source:
       type: simple
@@ -30,4 +30,32 @@ fields:
     - info
     - warning
     - danger
-  label: Colors
+  label: Text Color
+- type: select
+  name: background-color
+  config:
+    source:
+      type: simple
+    options:
+    - primary
+    - secondary
+    - white
+    - gray
+    - gray-dark
+    - light
+    - dark
+    - blue
+    - indigo
+    - purple
+    - pink
+    - red
+    - orange
+    - yellow
+    - green
+    - teal
+    - cyan
+    - success
+    - info
+    - warning
+    - danger
+  label: Background Color
