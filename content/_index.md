@@ -32,10 +32,10 @@ content:
     optional_image:
       title: Dog Paw
       caption: This is a dog paw icon. that is so cool.
-      image: "/uploads/paw.svg"
+      image: "/v1549426002/paw.svg"
   - content: this is the second column
     optional_image:
-      image: "/uploads/doghouse.svg"
+      image: "/v1549426002/doghouse.svg"
       title: Dog House
       caption: 'This is a dog house icon. '
     show_image_above_content: true
