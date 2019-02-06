@@ -50,7 +50,7 @@ content:
     optional_image:
       title: Dog Award
       caption: This is a dog award. You can't win it.
-      image: "/uploads/award.svg"
+      image: "/v1549426002/award.svg"
   background_image: "/uploads/lucy1.jpg"
   margin_top: '3'
   margin_bottom: '3'
