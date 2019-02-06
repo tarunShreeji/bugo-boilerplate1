@@ -17,10 +17,13 @@ content:
     title: Lucy scores weed
   - template: data-image
     image: "/uploads/IMG_3656.jpg"
+    title: Lucy loves beer
   - template: data-image
     image: "/uploads/IMG_3809.jpeg"
+    title: Lucy riding in Snohomish
   - template: data-image
     image: "/uploads/IMG_4050.jpg"
+    title: Lucy don't give a F#@K
 - template: block-columns
   title: Lucy Columns
   columns:
