@@ -111,6 +111,11 @@ content:
       caption: This is a dog award. You can't win it.
       image: "/uploads/award.svg"
   colors: light
+  background_image: "/uploads/lucy1.jpg"
+  margin_top: '1'
+  margin_bottom: '1'
+  padding_top: '1'
+  padding_bottom: '1'
 - template: block-slideshow
   title: First slideshow
 weight: ''
