@@ -37,12 +37,8 @@ fields:
       template: data-image
 - type: include
   template: field-colors
-  label: Text Color
-  name: text_color
-- type: include
-  template: field-colors
-  label: Background Color
-  name: background_colors
+  label: Color Options
+  name: color_options
 - type: file
   name: background_image
   label: Background Image
