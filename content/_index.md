@@ -12,6 +12,14 @@ content:
   - template: data-image
     image: "/uploads/IMG_3397.jpg"
     title: Lucy Brown blanket
+  - template: data-image
+    image: "/uploads/IMG_3523.jpg"
+  - template: data-image
+    image: "/uploads/IMG_3656.jpg"
+  - template: data-image
+    image: "/uploads/IMG_3809.jpeg"
+  - template: data-image
+    image: "/uploads/IMG_4050.jpg"
 - template: block-columns
   title: Lucy Columns
   columns:
