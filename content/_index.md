@@ -24,6 +24,8 @@ content:
   - template: data-image
     image: "/v1549426005/IMG_4050.jpg"
     title: Lucy don't give a F#@K
+  margin_top: '3'
+  margin_bottom: '3'
 - template: block-columns
   title: Lucy Columns
   columns:
