@@ -14,6 +14,7 @@ content:
     title: Lucy Brown blanket
   - template: data-image
     image: "/uploads/IMG_3523.jpg"
+    title: Lucy scores weed
   - template: data-image
     image: "/uploads/IMG_3656.jpg"
   - template: data-image
