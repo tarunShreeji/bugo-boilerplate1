@@ -41,8 +41,8 @@ content:
     show_image_above_content: true
   - content: This is the third column.
     optional_image:
-      image: "/uploads/dogbowl.svg"
-      title: Dog Foot
+      image: "/v1549426002/dogbowl.svg"
+      title: Dog Food
       caption: Dog food is not made out of dogs.
     show_image_above_content: true
   - content: This is the fourth column
