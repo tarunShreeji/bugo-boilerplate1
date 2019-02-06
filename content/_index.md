@@ -110,6 +110,7 @@ content:
       title: Dog Award
       caption: This is a dog award. You can't win it.
       image: "/uploads/award.svg"
+  colors: light
 - template: block-slideshow
   title: First slideshow
 weight: ''
