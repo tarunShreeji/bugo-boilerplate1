@@ -51,13 +51,15 @@ content:
       title: Dog Award
       caption: This is a dog award. You can't win it.
       image: "/v1549426002/award.svg"
-  background_image: "/uploads/lucy1.jpg"
+  background_image: "/v1539699652/pavan-trikutam-7740-unsplash.jpg"
   margin_top: '3'
   margin_bottom: '3'
   padding_top: '3'
   padding_bottom: '3'
   text_color: white
   background_color: primary
+  text-color: white
+  background-color: primary
 weight: ''
 tags: []
 layout: landing-page
