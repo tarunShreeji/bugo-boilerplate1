@@ -34,17 +34,17 @@ content:
     optional_image:
       title: Dog Paw
       caption: This is a dog paw icon. that is so cool.
-      image: "/v1549426002/paw.svg"
+      image: "/v1549521921/paw-solid.svg"
   - content: this is the second column
     optional_image:
-      image: "/v1549426002/doghouse.svg"
+      image: "/v1549521947/bone-solid.svg"
       title: Dog House
       caption: 'This is a dog house icon. '
     show_image_above_content: true
   - content: This is the third column.
     optional_image:
-      image: "/v1549426002/dogbowl.svg"
-      title: Dog Food
+      image: "/v1549521969/dog-solid.svg"
+      title: Dog
       caption: Dog food is not made out of dogs.
     show_image_above_content: true
   - content: This is the fourth column
@@ -52,7 +52,7 @@ content:
     optional_image:
       title: Dog Award
       caption: This is a dog award. You can't win it.
-      image: "/v1549426002/award.svg"
+      image: "/v1549522003/poo-storm-solid.svg"
   background_image: "/v1539699652/pavan-trikutam-7740-unsplash.jpg"
   margin_top: '3'
   margin_bottom: '3'
