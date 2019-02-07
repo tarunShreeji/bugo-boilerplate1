@@ -36,11 +36,11 @@ logos:
   header_logo:
     title: Lucyco Logo
     image: "/v1549426002/lucyco.svg"
-    caption: Brining you more Lucy.
+    caption: Bringing you more Lucy.
   footer_logo:
     title: Lucyco Logo
     image: ''
-    caption: Brining you more Lucy.
+    caption: Bringing you more Lucy.
   seo_logo: ''
 organization_name: Test Organization
 show_breadcrumbs: true
