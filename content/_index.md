@@ -60,8 +60,8 @@ content:
   padding_bottom: '3'
   text_color: white
   background_color: primary
-  text-color: white
-  background-color: primary
+  text-color: dark
+  background-color: white
 weight: ''
 tags: []
 layout: landing-page
