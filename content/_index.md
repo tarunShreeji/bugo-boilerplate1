@@ -12,18 +12,29 @@ content:
   - template: data-image
     image: "/v1549426004/IMG_3397.jpg"
     title: Lucy Brown blanket
+    caption: Sed interdum elit et nisl interdum finibus. Sed id urna non augue mattis
+      aliquet.
   - template: data-image
     image: "/v1549426005/IMG_3523.jpg"
     title: Lucy scores weed
+    caption: Duis molestie orci arcu, eget egestas nisl rutrum id. Phasellus ut massa
+      ac elit cursus cursus eget et ante.
   - template: data-image
     image: "/v1549426003/IMG_3656.jpg"
     title: Lucy loves beer
+    caption: Nunc id ex ac nibh rutrum gravida. Morbi convallis arcu urna, id finibus
+      eros semper rutrum.
   - template: data-image
     image: "/v1549426004/IMG_3809.jpg"
     title: Lucy riding in Snohomish
+    caption: Fusce metus enim, congue vitae malesuada eget, bibendum nec sapien. Quisque
+      pulvinar, mauris eget condimentum bibendum, nisi elit hendrerit sem, vel varius
+      nunc velit sed nunc.
   - template: data-image
     image: "/v1549426005/IMG_4050.jpg"
     title: Lucy don't give a F#@K
+    caption: Morbi laoreet quam nec tempor commodo. Vestibulum eu purus vel ante tincidunt
+      mollis.
   margin_top: '3'
   margin_bottom: '3'
 - template: block-columns
