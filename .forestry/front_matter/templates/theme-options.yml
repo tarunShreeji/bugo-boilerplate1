@@ -29,6 +29,11 @@ fields:
     name: footer_logo
     label: Footer Logo
     description: Add a footer logo to this website.
+    fields:
+    - type: include
+      template: data-image
+      label: Footer Logo
+      name: footer_logo
   - type: file
     name: seo_logo
     label: SEO Logo
