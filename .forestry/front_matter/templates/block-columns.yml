@@ -39,9 +39,10 @@ fields:
   template: field-colors
   label: Color Options
   name: color_options
-- type: file
-  name: background_image
-  label: Background Image
+- type: include
+  name: image
+  label: Image
+  template: data-image
 - type: select
   name: margin_top
   config:
