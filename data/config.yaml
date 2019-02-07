@@ -33,8 +33,14 @@ contact_information:
     github: ''
   locations: []
 logos:
-  header_logo: "/v1549426002/lucyco.svg"
-  footer_logo: "/v1549426002/lucyco.svg"
+  header_logo:
+    title: Lucyco Logo
+    image: "/v1549426002/lucyco.svg"
+    caption: Brining you more Lucy.
+  footer_logo:
+    title: Lucyco Logo
+    image: ''
+    caption: Brining you more Lucy.
   seo_logo: ''
 organization_name: Test Organization
 show_breadcrumbs: true
