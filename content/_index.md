@@ -58,8 +58,6 @@ content:
   margin_bottom: '3'
   padding_top: '3'
   padding_bottom: '3'
-  text_color: white
-  background_color: primary
   text-color: dark
   background-color: white
 weight: ''
