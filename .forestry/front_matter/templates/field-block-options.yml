@@ -1,0 +1,32 @@
+---
+label: Field - Block Options
+hide_body: false
+is_partial: true
+fields:
+- type: include
+  name: text_color
+  label: Text Color
+  template: field-colors
+  description: Select a color for the text in this block.
+- type: include
+  template: field-colors
+  label: Background Color
+  name: bg_color
+  description: Select a background color for this block.
+- type: select
+  name: margin_top
+  config:
+    source:
+      type: simple
+    options:
+    - '0'
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - Default
+  label: Margin Top
+  description: Adjust margin to the top of this block.
+  default: '0'
