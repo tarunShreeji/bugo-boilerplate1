@@ -58,4 +58,4 @@ fields:
   config:
     labelField: related_page
 pages:
-- content/posts/index.md
+- content/posts/alerts-buttons-badges.md
