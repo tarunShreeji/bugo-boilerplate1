@@ -27,11 +27,7 @@ related_pages: []
 
 ## Buttons
 
-{{% button-primary url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}}
-
-_{{% button-secondary url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}}_
-
-{{% button-success url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}}
+{{% button-primary url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}}{{% button-secondary url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}}{{% button-success url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}}
 
 {{% button-danger url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}} 
 
