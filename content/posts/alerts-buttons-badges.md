@@ -41,9 +41,4 @@ _{{% button-secondary url="http://google.com" class="additional class" content="
 
 ## Badges
 
-{{% badge-primary class="additional classes" content="Badge Content" %}} 
-{{% badge-secondary class="additional classes" content="Badge Content" %}} 
-{{% badge-success class="additional classes" content="Badge Content" %}} 
-{{% button-danger url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}}
-{{% badge-warning class="additional classes" content="Badge Content" %}} 
-{{% badge-info class="additional classes" content="Badge Content" %}} 
+{{% badge-primary class="additional classes" content="Badge Content" %}}  {{% badge-secondary class="additional classes" content="Badge Content" %}}  {{% badge-success class="additional classes" content="Badge Content" %}}  {{% button-danger url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}}{{% badge-warning class="additional classes" content="Badge Content" %}}  {{% badge-info class="additional classes" content="Badge Content" %}}  
