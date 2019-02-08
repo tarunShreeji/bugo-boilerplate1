@@ -11,14 +11,39 @@ featured_image:
 related_pages: []
 
 ---
+## Alerts
+
 {{% alert-primary class="additional classes" content="Hello! This is an alert!" %}}
 
 {{% alert-secondary class="additional classes" content="Hello! This is an alert!" %}}
 
-{{% alert-success class="additional classes" content="Hello! This is an alert!" %}} 
+{{% alert-success class="additional classes" content="Hello! This is an alert!" %}}
 
-{{% alert-danger class="additional classes" content="Hello! This is an alert!" %}} 
+{{% alert-danger class="additional classes" content="Hello! This is an alert!" %}}
 
-{{% alert-warning class="additional classes" content="Hello! This is an alert!" %}} 
+{{% alert-warning class="additional classes" content="Hello! This is an alert!" %}}
 
-{{% alert-info class="additional classes" content="Hello! This is an alert!" %}}   
+{{% alert-info class="additional classes" content="Hello! This is an alert!" %}}
+
+## Buttons
+
+{{% button-primary url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}}
+
+_{{% button-secondary url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}}_
+
+{{% button-success url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}}
+
+{{% button-danger url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}} 
+
+{{% button-warning url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}} 
+
+{{% button-info url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}}
+
+## Badges
+
+{{% badge-primary class="additional classes" content="Badge Content" %}} 
+{{% badge-secondary class="additional classes" content="Badge Content" %}} 
+{{% badge-success class="additional classes" content="Badge Content" %}} 
+{{% button-danger url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}}
+{{% badge-warning class="additional classes" content="Badge Content" %}} 
+{{% badge-info class="additional classes" content="Badge Content" %}} 
