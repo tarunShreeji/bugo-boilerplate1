@@ -27,16 +27,8 @@ related_pages: []
 
 ## Buttons
 
-{{% button-primary url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}} _{{% button-secondary url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}}_
-
-{{% button-success url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}}
-
-{{% button-danger url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}} 
-
-{{% button-warning url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}} 
-
-{{% button-info url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}}
+{{% button-primary url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}} {{% button-secondary url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}}_ {{% button-success url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}}{{% button-danger url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}}{{% button-warning url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}}{{% button-info url="http://google.com" class="additional class" content="Sart Now!" target="_blank" %}}
 
 ## Badges
 
-{{% badge-primary class="additional classes" content="Badge Content" %}}  {{% badge-secondary class="additional classes" content="Badge Content" %}}  {{% badge-success class="additional classes" content="Badge Content" %}}  {{% badge-danger class="additional classes" content="Badge Content" %}} {{% badge-warning class="additional classes" content="Badge Content" %}}  {{% badge-info class="additional classes" content="Badge Content" %}}  
+{{% badge-primary class="additional classes" content="Badge Content" %}}  {{% badge-secondary class="additional classes" content="Badge Content" %}}  {{% badge-success class="additional classes" content="Badge Content" %}}  {{% badge-danger class="additional classes" content="Badge Content" %}} {{% badge-warning class="additional classes" content="Badge Content" %}}  {{% badge-info class="additional classes" content="Badge Content" %}}
