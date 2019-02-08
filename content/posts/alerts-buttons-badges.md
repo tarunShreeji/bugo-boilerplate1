@@ -9,7 +9,6 @@ featured_image:
   image: ''
   caption: ''
 related_pages: []
-draft: true
 
 ---
 {{% alert-primary class="additional classes" content="Hello! This is an alert!" %}}
