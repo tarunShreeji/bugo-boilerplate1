@@ -34,3 +34,5 @@ related_pages: []
 {{% badge-primary class="additional classes" content="Badge Content" %}}  {{% badge-secondary class="additional classes" content="Badge Content" %}}  {{% badge-success class="additional classes" content="Badge Content" %}}  {{% badge-danger class="additional classes" content="Badge Content" %}} {{% badge-warning class="additional classes" content="Badge Content" %}}  {{% badge-info class="additional classes" content="Badge Content" %}}
 
 {{% alert-danger class="additional classes" content="Everything is fucked!" %}} 
+
+# This is a header {{% badge-primary class="additional classes" content="Badge Content" %}} 
