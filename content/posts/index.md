@@ -9,5 +9,8 @@ featured_image:
   image: ''
   caption: ''
 related_pages: []
+menu:
+  main:
+    weight: 3
 
 ---

@@ -38,4 +38,4 @@ menu:
   primary:
   - url: "/posts/"
     name: Posts
-    weight: 3
+    weight: 1
