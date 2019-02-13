@@ -38,6 +38,8 @@ build:
   publish_env:
   - HUGO_ENV=production
   - HUGO_VERSION=0.53
+  - BUGO_STAGING_BASEURL="http://staging.example.com"
+  - BUGO_PRODUCTION_BASEURL="http://example.com"
   preview_output_directory: public
   output_directory: public
 version: '0.53'
