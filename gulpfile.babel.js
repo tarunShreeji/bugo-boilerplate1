@@ -17,7 +17,7 @@ const del = require('del');
  * Server Base URLs
  **/
 
-const devBaseUrl = BUGO_DEV_BASEURL;
+const devBaseUrl = "/";
 const stagingBaseUrl = BUGO_STAGING_BASEURL;
 const productionBaseUrl = BUGO_PRODUCTION_BASEURL;
 
