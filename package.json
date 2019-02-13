@@ -10,7 +10,8 @@
     "start": "gulp",
     "styles": "gulp compile-sass",
     "js": "gulp compile-js",
-    "images": "gulp process-images"
+    "images": "gulp process-images",
+    "build-staging": "gulp build-staging"
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",

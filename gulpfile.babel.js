@@ -14,6 +14,15 @@ const exec = require('child_process').exec;
 const del = require('del');
 
 /**
+ * Server Base URLs
+ **/
+
+const devBaseUrl = BUGO_DEV_BASEURL;
+const stagingBaseUrl = BUGO_STAGING_BASEURL;
+const productionBaseUrl = BUGO_PRODUCTION_BASEURL;
+
+
+/**
  * Directories
  *
  * Groups have src and dest paths
@@ -89,6 +98,14 @@ gulp.task('process-images', (done) => {
 });
 
 /**
+ * Build Staging
+ **/
+
+gulp.task('build-staging', (done) => {
+  buildStaging(done);
+} );
+
+/**
  * Default Task Function
  * Spawns an instance of globally installed Hugo server that watches the site for
  * changes. When it detects a changes Hugo runs a build on the site and refreshes
@@ -105,11 +122,11 @@ function defaultTask(){
 }
 
 /**
- * Spawn Bugo server that watches the site for changes
+ * Build Staging
  **/
 
- function startBugo(){
-    const hugo = spawn("hugo", ['-w','server','--disableFastRender','--destination=public','--config=config-dev.yaml']);
+ function buildStaging(done = () => {}){
+    const hugo = spawn("hugo", ['--destination=public','--baseURL='+stagingBaseUrl]);
     // Log message from Bugo
     hugo.stdout.on('data', (data) => {
       console.log(`Bugo: ${data}`);
@@ -124,7 +141,32 @@ function defaultTask(){
     hugo.on('close', (code) => {
       console.log(`Bugo exited with code ${code}`);
     });
+
+    done();
  }
+
+ /**
+  * Spawn Bugo server that watches the site for changes
+  **/
+
+  function startBugo(done){
+     const hugo = spawn("hugo", ['-w','server','--disableFastRender','--destination=public']);
+     // Log message from Bugo
+     hugo.stdout.on('data', (data) => {
+       console.log(`Bugo: ${data}`);
+     });
+
+     // Log Errors
+     hugo.stderr.on('data', (data) => {
+       console.log(`Bugo Error: ${data}`);
+     });
+
+     // Log Exit
+     hugo.on('close', (code) => {
+       console.log(`Bugo exited with code ${code}`);
+     });
+     done();
+  }
 
 
 /**
