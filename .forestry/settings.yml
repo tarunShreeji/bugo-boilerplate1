@@ -31,7 +31,7 @@ use_front_matter_path:
 file_template: ":filename:"
 build:
   preview_command: hugo -E -F -D -b $DEPLOY_URL -d public
-  publish_command: hugo -d public
+  publish_command: gulp build-staging
   preview_env:
   - HUGO_ENV=staging
   - HUGO_VERSION=0.53
