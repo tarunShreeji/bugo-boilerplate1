@@ -1,3 +1,4 @@
+!.gitignore
 .DS_Store
 .DS_Store?
 ._*
@@ -10,4 +11,3 @@ yarn-erro.log
 node_modules/*
 resources/*
 public/*
-themes/*
