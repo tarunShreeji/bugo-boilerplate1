@@ -3,3 +3,8 @@
 
 # ... except for this one.
 !.gitignore
+!*.jpg
+!*.png
+!*.svg
+!*.gif
+!*.bmp
