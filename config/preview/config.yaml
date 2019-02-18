@@ -1,0 +1,41 @@
+---
+title: Bugo.io
+description: Boilerplate Boostrap Website for Forestry.io
+baseURL: /
+languageCode: en-us
+summaryLength: 20
+canonifyURLs: true
+enableRobotsTXT: true
+googleAnalytics: ''
+theme: bugo-base-theme
+metaDataFormat: yaml
+frontmatter:
+- date:
+  - date
+  - publishDate
+  - lastmod
+- lastmod:
+  - ":git"
+  - lastmod
+  - date
+  - publishDate
+- publishDate:
+  - publishDate
+  - date
+- expiryDate: expiryDate
+taxonomies:
+  tag: tags
+assetDir: static/assets
+publishDir: public
+outputs:
+home:
+- HTML
+- JSON
+- RSS
+page:
+- HTML
+menu:
+  primary:
+  - url: "/posts/"
+    name: Posts
+    weight: 1
