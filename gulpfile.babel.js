@@ -18,9 +18,6 @@ const del = require('del');
  **/
 
 const devBaseUrl = "/";
-const stagingBaseUrl = BUGO_STAGING_BASEURL;
-const productionBaseUrl = BUGO_PRODUCTION_BASEURL;
-
 
 /**
  * Directories
@@ -116,9 +113,9 @@ gulp.task('build-staging', (done) => {
 function defaultTask(){
   processImages();
   startBugo();
-  watchSass();
-  watchJs();
-  watchImages();
+  // watchSass();
+  // watchJs();
+  // watchImages();
 }
 
 /**
@@ -126,7 +123,7 @@ function defaultTask(){
  **/
 
  function buildStaging(done = () => {}){
-    const hugo = spawn("hugo", ['--destination=public','--baseURL='+stagingBaseUrl]);
+    const hugo = spawn("hugo", ['--destination=public']);
     // Log message from Bugo
     hugo.stdout.on('data', (data) => {
       console.log(`Bugo: ${data}`);
@@ -149,8 +146,8 @@ function defaultTask(){
   * Spawn Bugo server that watches the site for changes
   **/
 
-  function startBugo(done){
-     const hugo = spawn("hugo", ['-w','server','--disableFastRender','--destination=public']);
+  function startBugo(done = () => {}){
+     const hugo = spawn("hugo", ['-w','server', '--disableFastRender=true', '--destination=public']);
      // Log message from Bugo
      hugo.stdout.on('data', (data) => {
        console.log(`Bugo: ${data}`);
@@ -274,7 +271,7 @@ function compileJs(done = () => {}){
       jsPaths.src
     ])
 		.pipe(webpack(require('./.webpack.config.js')))
-    .pipe(concat('app.js'))
+    .pipe(concat('custom.js'))
 		.pipe(gulp.dest(jsPaths.dest));
   console.log('Bugo: Done compiling .js files');
   done();
