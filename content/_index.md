@@ -122,6 +122,8 @@ content:
   padding_bottom: '3'
   text-color: dark
   background-color: white
+  block_options:
+    full_width: true
 weight: ''
 tags: []
 layout: landing-page
