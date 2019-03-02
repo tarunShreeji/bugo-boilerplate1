@@ -69,7 +69,53 @@ content:
       caption: This is a dog award. You can't win it.
       image: "/v1549522003/poo-storm-solid.svg"
     title: Shit Storm
-  background_image: "/v1539699652/pavan-trikutam-7740-unsplash.jpg"
+  background_image:
+    '0': "/"
+    '1': v
+    '2': '1'
+    '3': '5'
+    '4': '3'
+    '5': '9'
+    '6': '6'
+    '7': '9'
+    '8': '9'
+    '9': '6'
+    '10': '5'
+    '11': '2'
+    '12': "/"
+    '13': p
+    '14': a
+    '15': v
+    '16': a
+    '17': n
+    '18': "-"
+    '19': t
+    '20': r
+    '21': i
+    '22': k
+    '23': u
+    '24': t
+    '25': a
+    '26': m
+    '27': "-"
+    '28': '7'
+    '29': '7'
+    '30': '4'
+    '31': '0'
+    '32': "-"
+    '33': u
+    '34': n
+    '35': s
+    '36': p
+    '37': l
+    '38': a
+    '39': s
+    '40': h
+    '41': "."
+    '42': j
+    '43': p
+    '44': g
+    image: "/v1549426005/IMG_2167.jpg"
   margin_top: '3'
   margin_bottom: '3'
   padding_top: '3'
