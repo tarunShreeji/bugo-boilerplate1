@@ -37,6 +37,7 @@ content:
       mollis.
   margin_top: '3'
   margin_bottom: '3'
+  full_width: true
 - template: block-columns
   title: Lucy Columns
   columns:
