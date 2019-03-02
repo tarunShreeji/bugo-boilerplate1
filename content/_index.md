@@ -116,6 +116,8 @@ content:
     '43': p
     '44': g
     image: "/v1549426005/IMG_2167.jpg"
+    title: Lucy on the couch
+    caption: she loves the couch
   margin_top: '3'
   margin_bottom: '3'
   padding_top: '3'
