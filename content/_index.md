@@ -126,6 +126,8 @@ content:
   background-color: white
   block_options:
     full_width: true
+    text_color: plum
+    background_color: white
 weight: ''
 tags: []
 layout: landing-page
