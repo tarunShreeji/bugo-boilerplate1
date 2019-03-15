@@ -4,7 +4,7 @@ backend:
 media_library:
   name: cloudinary
   config:
-    cloud_name: 419848476481638
+    cloud_name: matthew-antone
     api_key: 419848476481638
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
