@@ -1,0 +1,22 @@
+---
+label: " Block - Sidebar Content Block"
+hide_body: false
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Title
+  description: Helps with organization
+  config:
+    required: true
+- type: textarea
+  name: content
+  label: Content
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: include
+  name: block_options
+  label: Block Options
+  template: field-block-options
