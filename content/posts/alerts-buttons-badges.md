@@ -9,7 +9,6 @@ featured_image:
   image: ''
   caption: ''
 related_pages: []
-
 ---
 ## Alerts
 
