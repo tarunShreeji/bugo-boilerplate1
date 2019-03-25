@@ -13,6 +13,7 @@ featured_image:
   image: ''
   caption: ''
 content: []
+show_sidebar: true
 draft: true
 
 ---
