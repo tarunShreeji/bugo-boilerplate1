@@ -2,6 +2,7 @@
 categories = []
 category = "News"
 date = "2018-12-20T08:00:00+00:00"
+layout = "post"
 tags = []
 title = "Curabitur porta, dui et rhoncus vehicula"
 
