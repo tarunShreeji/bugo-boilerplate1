@@ -1,5 +1,5 @@
 ---
-label: Template Post
+label: Template Post 2
 hide_body: false
 fields:
 - type: text
@@ -10,7 +10,7 @@ fields:
     required: true
   default: post
 - type: include
-  template: field-page-attributes
+  template: feild-page-attributes
   label: Page Attributes
   name: page_attributes
 - type: tag_list
