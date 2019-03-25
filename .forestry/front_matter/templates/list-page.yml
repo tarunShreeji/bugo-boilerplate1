@@ -2,17 +2,17 @@
 label: List Page
 hide_body: false
 fields:
-- type: datetime
-  name: date
-  label: Date
+- type: include
+  name: page_attributes
+  label: Page Attributes
+  template: field-page
 - type: text
-  name: title
-  label: Title
-- type: field_group
-  name: featured_image
-  label: Featured Image
-  fields:
-  - type: include
-    label: Featured Image
-    name: featured_image
-    template: data-image
+  name: layout
+  label: Layout
+  hidden: true
+  default: list
+pages:
+- content/for-borrowers/types-of-loans/_index.md
+- content/borrower-stories/yulia.md
+- content/borrower-stories/rosa.md
+- content/for-borrowers/_index.md

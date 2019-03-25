@@ -20,3 +20,6 @@ fields:
 - type: text
   name: github
   label: GitHub
+- type: text
+  label: Pinterest
+  name: pinterest
