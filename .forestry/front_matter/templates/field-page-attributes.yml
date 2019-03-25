@@ -17,11 +17,6 @@ fields:
     step: '1'
   description: Used for ordering your content in lists. Lower weight gets higher precedence.
     So content with lower weight will come first.
-- type: tag_list
-  name: tags
-  label: Tags
-  description: Tags are used to related content and for SEO keywords. Don't overdo
-    it. Too many will count against your SEO scores.
 - type: field_group
   name: featured_image
   label: Featured Image
