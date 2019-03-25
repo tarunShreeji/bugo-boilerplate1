@@ -10,7 +10,7 @@ fields:
 - type: include
   name: page_attributes
   label: Page Attributes
-  template: template-page
+  template: field-page-attributes
 - type: blocks
   name: content
   label: Content Blocks
