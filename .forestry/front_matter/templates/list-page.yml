@@ -1,0 +1,23 @@
+---
+label: Template List Page
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: Date
+- type: text
+  name: title
+  label: Title
+- type: field_group
+  name: featured_image
+  label: Featured Image
+  fields:
+  - type: include
+    label: Featured Image
+    name: featured_image
+    template: data-image
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: list
