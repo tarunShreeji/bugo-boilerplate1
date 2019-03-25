@@ -31,7 +31,10 @@ fields:
   name: background_color
   config:
     source:
-      type: simple
+      type: documents
+      section: site-options
+      file: data/config.yaml
+      path: theme_colors
     options:
     - blue
     - lime
