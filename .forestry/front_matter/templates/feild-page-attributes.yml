@@ -1,5 +1,5 @@
 ---
-label: Field - Page Attributes
+label: Field - Page Attributes 2
 hide_body: false
 fields:
 - type: text
@@ -11,7 +11,7 @@ fields:
 - type: include
   label: Permalinks
   name: permalinks
-  template: field-page-urls
+  template: field-permalinks
 - type: field_group
   name: page_meta
   label: Page Meta
