@@ -69,3 +69,5 @@ fields:
     - white
     - black
   label: Font Awesome Icon Color
+pages:
+- content/posts/_index.md

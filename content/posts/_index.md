@@ -1,6 +1,6 @@
 ---
-layout: list
-category: News
+layout: page
+category: []
 date: 2019-02-08 06:18:51 +0000
 title: Blog
 tags: []
