@@ -17,6 +17,5 @@ show_sidebar: true
 menu:
   main:
     weight: 3
-draft: true
 
 ---
