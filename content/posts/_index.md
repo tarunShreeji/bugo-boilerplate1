@@ -13,6 +13,6 @@ weight: ''
 description: ''
 menu:
   main:
-    weight: 3
+    weight: 2
 
 ---
