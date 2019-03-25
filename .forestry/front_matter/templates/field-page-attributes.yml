@@ -1,0 +1,13 @@
+---
+label: Template Page
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: page
+- type: include
+  name: page_attributes
+  label: Page Attributes
+  template: template-page
