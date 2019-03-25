@@ -138,7 +138,7 @@ page_meta:
   meta_description: ''
 slug: ''
 aliases: []
-show_sidebar: true
+show_sidebar: false
 menu:
   main:
     weight: 1
