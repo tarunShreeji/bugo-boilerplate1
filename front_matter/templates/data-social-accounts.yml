@@ -1,0 +1,25 @@
+---
+label: Data - Social Accounts
+hide_body: false
+fields:
+- type: text
+  name: linked_in
+  label: Linked In
+- type: text
+  name: facebook
+  label: Facebook
+- type: text
+  name: instagram
+  label: Instagram
+- type: text
+  name: twitter
+  label: Twitter
+- type: text
+  name: youtube
+  label: YouTube
+- type: text
+  name: github
+  label: GitHub
+- type: text
+  label: Pinterest
+  name: pinterest

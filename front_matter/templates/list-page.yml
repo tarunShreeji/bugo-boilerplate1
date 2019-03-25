@@ -1,0 +1,18 @@
+---
+label: List Page
+hide_body: false
+fields:
+- type: include
+  name: page_attributes
+  label: Page Attributes
+  template: field-page
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: list
+pages:
+- content/for-borrowers/_index.md
+- content/borrower-stories/rosa.md
+- content/borrower-stories/yulia.md
+- content/for-borrowers/types-of-loans/_index.md

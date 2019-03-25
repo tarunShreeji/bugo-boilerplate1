@@ -1,0 +1,153 @@
+---
+label: Config - Site Options
+hide_body: false
+fields:
+- type: text
+  name: organization_name
+  label: Organization Name
+  description: Enter the name of your organization for SEO purposes.
+- type: textarea
+  name: organization_description
+  label: Organization Description
+  description: Enter a short description of your organization. This will help google
+    identify your website.
+- type: field_group
+  name: logos
+  label: Logos
+  fields:
+  - type: field_group
+    name: header_logo
+    label: Header Logo
+    fields:
+    - type: include
+      template: data-image
+      label: Header Logo
+      name: header_logo
+    description: Add a header logo to this website
+  - type: field_group
+    name: footer_logo
+    label: Footer Logo
+    description: Add a footer logo to this website.
+    fields:
+    - type: include
+      template: data-image
+      label: Footer Logo
+      name: footer_logo
+  - type: file
+    name: seo_logo
+    label: SEO Logo
+    description: This image needs to be a .png file.
+- type: boolean
+  name: show_breadcrumbs
+  label: Show Breadcrumbs
+  default: true
+- type: include
+  template: site-contact-information
+  label: Contact Information
+  name: contact_information
+- type: field_group
+  name: layout_options
+  label: Layout Options
+  description: You can modify some theme specific options.
+  fields:
+  - type: field_group
+    name: menu_content
+    label: Menu Content
+    description: Modify the content used in the dropdown menus
+    fields:
+    - type: textarea
+      name: for_borrowers
+      label: For Borrowers
+      config:
+        wysiwyg: true
+        schema:
+          format: markdown
+      description: Enter the content you want to display.
+      default: |
+        ### Every loan begins with a pre-loan application:
+
+        {{% button %}} Button Text {{% /button %}}
+    - type: textarea
+      name: for_donors
+      label: For Donors
+      description: Enter the content you want to display.
+      config:
+        wysiwyg: true
+        schema:
+          format: markdown
+    - type: textarea
+      name: about_jfla
+      label: About JFLA
+      description: Enter the content you want to display.
+      config:
+        wysiwyg: true
+        schema:
+          format: markdown
+  - type: field_group
+    name: sidebar_content
+    label: Sidebar Content
+    description: Add content to the sidebars by section of the site.
+    fields:
+    - type: field_group
+      name: for_borrowers
+      label: For Borrowers
+      fields:
+      - type: blocks
+        name: content_blocks
+        label: Content Blocks
+        template_types:
+        - block-sidebar-content-block
+    - type: field_group
+      name: for_supporters
+      label: For Donors
+      fields:
+      - type: blocks
+        name: content_blocks
+        label: Content Blocks
+        template_types:
+        - block-sidebar-content-block
+    - type: field_group
+      name: about_jfla
+      label: About JFLA
+      fields:
+      - type: blocks
+        name: content_blocks
+        label: Content Blocks
+        template_types:
+        - block-sidebar-content-block
+  - type: field_group
+    label: Footer Content
+    name: footer_content
+    description: Add blocks to the bottom of every page.
+    fields:
+    - type: blocks
+      name: blocks
+      label: Blocks
+      description: Add as many blocks as you like.
+      template_types:
+      - block-columns
+      - block-slideshow
+- type: text
+  name: cloudinary
+  label: Cloudinary Name
+- type: field_group
+  name: default_featured_image
+  label: Default Featured Image
+  description: Use this image in the header when one hasn't been specified on a post
+    or page.
+  fields:
+  - type: include
+    template: data-image
+    label: Default Featured Image
+    name: default_featured_image
+- type: field_group
+  name: custom_css
+  label: Custom CSS
+  description: CSS Entered here will be inserted into all pages.
+  fields:
+  - type: textarea
+    name: custom_css
+    label: Custom CSS
+    default: body {}
+pages:
+- data/config.yaml
