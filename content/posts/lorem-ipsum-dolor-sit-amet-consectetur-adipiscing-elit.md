@@ -1,6 +1,7 @@
 +++
 category = "News"
 date = "2018-12-20T08:00:00+00:00"
+layout = "post"
 tags = []
 title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
