@@ -20,4 +20,5 @@ fields:
   - block-latest-stories
   - block-latest-profiles
 pages:
+- content/contact-us.md
 - content/_index.md
