@@ -132,6 +132,13 @@ weight: ''
 tags: []
 layout: landing-page
 description: ''
+page_meta:
+  meta_title: ''
+  meta_keywords: ''
+  meta_description: ''
+slug: ''
+aliases: []
+show_sidebar: true
 menu:
   main:
     weight: 1
