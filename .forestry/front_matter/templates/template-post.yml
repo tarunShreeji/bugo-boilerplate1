@@ -11,7 +11,7 @@ fields:
     required: true
   default: post
 - type: include
-  template: page-attributes
+  template: field-page-attributes
   label: Page Attributes
   name: page_attributes
 - type: tag_list
