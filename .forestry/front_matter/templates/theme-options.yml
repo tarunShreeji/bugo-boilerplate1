@@ -68,8 +68,8 @@ fields:
 
         {{% button %}} Button Text {{% /button %}}
     - type: textarea
-      name: for_supporters
-      label: For Supporters
+      name: for_donors
+      label: For Donors
       description: Enter the content you want to display.
       config:
         wysiwyg: true
@@ -99,7 +99,7 @@ fields:
         - block-sidebar-content-block
     - type: field_group
       name: for_supporters
-      label: For Supporters
+      label: For Donors
       fields:
       - type: blocks
         name: content_blocks
@@ -130,3 +130,24 @@ fields:
 - type: text
   name: cloudinary
   label: Cloudinary Name
+- type: field_group
+  name: default_featured_image
+  label: Default Featured Image
+  description: Use this image in the header when one hasn't been specified on a post
+    or page.
+  fields:
+  - type: include
+    template: data-image
+    label: Default Featured Image
+    name: default_featured_image
+- type: field_group
+  name: custom_css
+  label: Custom CSS
+  description: CSS Entered here will be inserted into all pages.
+  fields:
+  - type: textarea
+    name: custom_css
+    label: Custom CSS
+    default: body {}
+pages:
+- data/config.yaml
