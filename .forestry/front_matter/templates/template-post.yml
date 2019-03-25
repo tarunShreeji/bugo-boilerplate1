@@ -1,6 +1,7 @@
 ---
 label: Template Post
 hide_body: false
+display_field: page_attributes
 fields:
 - type: text
   label: Layout
