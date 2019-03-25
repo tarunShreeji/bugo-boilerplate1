@@ -1,0 +1,39 @@
+---
+label: Landing Page
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: Title
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: true
+- type: number
+  name: weight
+  label: Weight
+  config:
+    step: '1'
+  description: Used for ordering your content in lists. Lower weight gets higher precedence.
+    So content with lower weight will come first.
+- type: tag_list
+  name: tags
+  label: Tags
+  description: Tags are used to related content and for SEO keywords. Don't overdo
+    it. Too many will count against your SEO scores.
+- type: blocks
+  name: content
+  label: Content Blocks
+  template_types:
+  - block-columns
+  - block-slideshow
+  - block-latest-stories
+  - block-latest-profiles
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: landing-page
+pages:
+- content/_index.md
