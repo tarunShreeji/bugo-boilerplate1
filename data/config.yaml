@@ -57,6 +57,8 @@ social_accounts:
   twitter: asdf
   youtube: asdf
   github: asdf
+  vimeo: ''
+  pinterest: ''
 locations:
 - address_1: 1528 4th Ave W
   address_2: Suite A
@@ -71,4 +73,15 @@ organization_description: Here at test organization, we do a lot of test. The be
   test on on the internet.
 show_email_labels: false
 show_phone_labels: false
-cloudinary: "matthew-antone"
+cloudinary: matthew-antone
+default_featured_image:
+  title: ''
+  image: ''
+  caption: ''
+custom_css:
+  custom_css: ''
+theme_colors:
+- Primary
+- Secondary
+- White
+- Black
