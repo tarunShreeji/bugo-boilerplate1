@@ -20,7 +20,7 @@ sections:
   exclude: "{posts/*,profiles/*}"
   templates:
   - template-landing-page
-  - field-page-attributes
+  - template-page
 - type: document
   path: data/config.yaml
   label: Site Options
