@@ -3,69 +3,42 @@ label: Page
 hide_body: false
 fields:
 - type: text
-  name: title
-  label: Title
-- type: datetime
-  name: date
-  label: Date
-  config:
-    required: true
-- type: number
-  name: weight
-  label: Weight
-  config:
-    step: '1'
-  description: Used for ordering your content in lists. Lower weight gets higher precedence.
-    So content with lower weight will come first.
-- type: tag_list
-  name: tags
-  label: Tags
-  description: Tags are used to related content and for SEO keywords. Don't overdo
-    it. Too many will count against your SEO scores.
-- type: field_group
-  name: featured_image
-  label: Featured Image
-  description: Some themes display a large image at the top of the page. It's also
-    good practice for interaction with social media.
-  fields:
-  - type: include
-    name: featured_image
-    label: Featured Image
-    template: data-image
-    description: ''
-- type: textarea
-  name: description
-  label: Description
-  description: Used for SEO purposes.
-- type: text
-  name: font_awesome_icon
-  label: Font Awesome Icon
-  description: 'Copy the code from font awesome that looks like this: <i class="faX
-    XXXX text"></i>'
-- type: text
   name: layout
   label: Layout
   hidden: true
   default: page
-- type: select
-  name: icon_color
-  config:
-    source:
-      type: simple
-    options:
-    - blue
-    - lime
-    - plum
-    - lemon
-    - red-grapefruit
-    - orange
-    - blue-raspberry
-    - eggplant
-    - mint
-    - lavender
-    - salmon
-    - green
-    - gold
-    - white
-    - black
-  label: Font Awesome Icon Color
+- type: include
+  name: page_attributes
+  label: Page Attributes
+  template: field-page
+pages:
+- content/about-jfla/our-impact.md
+- content/for-borrowers/types-of-loans/victims-of-domestic-violence-loans.md
+- content/for-borrowers/types-of-loans/veteran-loans.md
+- content/for-borrowers/types-of-loans/children-with-special-needs-loans.md
+- content/for-borrowers/types-of-loans/home-healthcare-loans.md
+- content/for-borrowers/types-of-loans/jewish-life-cycle-event-loans.md
+- content/for-borrowers/types-of-loans/summer-camp-loans.md
+- content/for-borrowers/types-of-loans/adoption-assistance-loans.md
+- content/for-borrowers/types-of-loans/small-business-loans.md
+- content/for-borrowers/types-of-loans/israel-experience-loan-fund.md
+- content/for-borrowers/faqs.md
+- content/for-borrowers/eligibility.md
+- content/for-borrowers/the-loan-process.md
+- content/for-borrowers/types-of-loans/student-loans.md
+- content/for-borrowers/types-of-loans/medical-and-dental-loans.md
+- content/privacy-policy.md
+- content/for-donors/named-loans.md
+- content/about-jfla/history.md
+- content/test-posts/matt-s-test-page.md
+- content/about-jfla/team.md
+- content/for-borrowers/types-of-loans/in-vitro-fertilization-loans.md
+- content/for-borrowers/types-of-loans/general-loans.md
+- content/for-borrowers/types-of-loans/green-loans.md
+- content/for-borrowers/types-of-loans/jewish-non-profit-agency-support-keep.md
+- content/for-borrowers/types-of-loans/jewish-secondary-education.md
+- content/for-borrowers/types-of-loans/resettlement-loans.md
+- content/for-borrowers/types-of-loans/loan-table.md
+- content/about-jfla/leadership.md
+- content/for-donors/ways-to-give.md
+- content/about-jfla/mission.md
