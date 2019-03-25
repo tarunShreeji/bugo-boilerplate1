@@ -11,7 +11,7 @@ fields:
 - type: include
   label: Permalinks
   name: permalinks
-  template: field-page-urls
+  template: field-permalinks
 - type: field_group
   name: page_meta
   label: Page Meta
