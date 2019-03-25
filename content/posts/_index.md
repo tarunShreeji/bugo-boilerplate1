@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: list
 category: []
 date: 2019-02-08 06:18:51 +0000
 title: Blog
@@ -9,6 +9,8 @@ featured_image:
   image: ''
   caption: ''
 related_pages: []
+weight: ''
+description: ''
 menu:
   main:
     weight: 3

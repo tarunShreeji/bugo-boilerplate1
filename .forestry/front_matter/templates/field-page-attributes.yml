@@ -42,5 +42,3 @@ fields:
   label: Layout
   hidden: true
   default: page
-pages:
-- content/posts/_index.md

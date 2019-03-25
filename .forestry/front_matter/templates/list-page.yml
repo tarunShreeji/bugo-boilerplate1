@@ -21,3 +21,5 @@ fields:
   label: Layout
   hidden: true
   default: list
+pages:
+- content/posts/_index.md
