@@ -1,7 +1,6 @@
 ---
-label: 'Post '
+label: Post Template
 hide_body: false
-display_field: page_attributes
 fields:
 - type: include
   template: field-page
