@@ -1,5 +1,5 @@
 ---
-label: Post Template
+label: Template Post
 hide_body: false
 fields:
 - type: include
