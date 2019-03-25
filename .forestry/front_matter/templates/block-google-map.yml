@@ -1,0 +1,56 @@
+---
+label: Block - Google Map Embed
+hide_body: false
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Title
+  description: Giving this block title will help organization.
+  config:
+    required: true
+- type: text
+  name: api_key
+  label: Google Maps Embed API key
+  config:
+    required: true
+- type: text
+  name: address_1
+  label: Address 1
+  description: Street address.
+  config:
+    required: true
+- type: text
+  name: address_2
+  label: Address 2
+  description: Suite or Apartment number.
+  config:
+    required: false
+- type: text
+  name: city
+  label: City
+  config:
+    required: true
+- type: text
+  name: state
+  label: State
+  config:
+    required: true
+- type: text
+  name: state
+  label: State
+  config:
+    required: true
+- type: text
+  name: zip_code
+  label: Zip Code
+  config:
+    required: true
+- type: textarea
+  label: Map Content
+  name: map_content
+  description: Displays under the map.
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
