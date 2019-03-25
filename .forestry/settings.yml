@@ -10,7 +10,7 @@ sections:
   create: all
   match: "**/*"
   templates:
-  - template-page
+  - template-post
   - template-list-page
 - type: directory
   path: content
