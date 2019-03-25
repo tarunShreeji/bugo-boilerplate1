@@ -67,5 +67,12 @@ fields:
     name: custom_css
     label: Custom CSS
     default: body {}
+- type: list
+  name: theme_colors
+  label: Theme Colors
+  config:
+    use_select: false
+    source:
+      type: documents
 pages:
 - data/config.yaml
