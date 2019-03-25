@@ -14,7 +14,7 @@ sections:
   label: Pages
   create: all
   match: "**/*"
-  exclude: "{borrower-stories/*,donor-profiles/*,posts/*,profiles/*}"
+  exclude: "{posts/*,profiles/*}"
 - type: document
   path: data/config.yaml
   label: Site Options
