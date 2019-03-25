@@ -1,5 +1,5 @@
 ---
-label: Page
+label: Page Template
 hide_body: false
 fields:
 - type: text
@@ -38,36 +38,9 @@ fields:
   label: Description
   description: Used for SEO purposes.
 - type: text
-  name: font_awesome_icon
-  label: Font Awesome Icon
-  description: 'Copy the code from font awesome that looks like this: <i class="faX
-    XXXX text"></i>'
-- type: text
   name: layout
   label: Layout
   hidden: true
   default: page
-- type: select
-  name: icon_color
-  config:
-    source:
-      type: simple
-    options:
-    - blue
-    - lime
-    - plum
-    - lemon
-    - red-grapefruit
-    - orange
-    - blue-raspberry
-    - eggplant
-    - mint
-    - lavender
-    - salmon
-    - green
-    - gold
-    - white
-    - black
-  label: Font Awesome Icon Color
 pages:
 - content/posts/_index.md
