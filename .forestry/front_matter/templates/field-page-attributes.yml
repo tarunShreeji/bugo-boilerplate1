@@ -2,44 +2,12 @@
 label: Page Template
 hide_body: false
 fields:
-- type: datetime
-  name: date
-  label: Date
-  config:
-    required: true
-- type: text
-  name: title
-  label: Title
-- type: number
-  name: weight
-  label: Weight
-  config:
-    step: '1'
-  description: Used for ordering your content in lists. Lower weight gets higher precedence.
-    So content with lower weight will come first.
-- type: field_group
-  name: featured_image
-  label: Featured Image
-  description: Some themes display a large image at the top of the page. It's also
-    good practice for interaction with social media.
-  fields:
-  - type: include
-    name: featured_image
-    label: Featured Image
-    template: data-image
-    description: ''
-- type: textarea
-  name: description
-  label: Description
-  description: Used for SEO purposes.
 - type: text
   name: layout
   label: Layout
   hidden: true
   default: page
-- type: field_group
-  name: meta_data
-  label: Meta Data
-  fields:
-  - type: include
-    template: field-page-urls
+- type: include
+  name: page_attributes
+  label: Page Attributes
+  template: template-page
