@@ -10,20 +10,6 @@ sections:
   create: all
   match: "**/*"
   exclude: "{borrower-stories/*,donor-profiles/*,posts/*,profiles/*}"
-- type: directory
-  path: content/borrower-stories
-  label: Borrower Stories
-  create: documents
-  match: "**/*"
-  templates:
-  - page-attributes
-- type: directory
-  path: content/donor-profiles
-  label: Donor Profiles
-  create: documents
-  match: "**/*"
-  templates:
-  - page-attributes
 - type: document
   path: data/config.yaml
   label: Site Options
