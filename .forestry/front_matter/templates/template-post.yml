@@ -22,3 +22,8 @@ fields:
   label: Tags
   description: Tags are used to related content and for SEO keywords. Don't overdo
     it. Too many will count against your SEO scores.
+pages:
+- content/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit.md
+- content/posts/alerts-buttons-badges.md
+- content/posts/curabitur-porta-dui-et-rhoncus-vehicula.md
+- content/posts/duis-tincidunt-enim-in-nunc-bibendum.md
