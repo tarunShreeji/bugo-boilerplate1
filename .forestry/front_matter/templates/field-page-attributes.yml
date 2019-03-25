@@ -17,10 +17,6 @@ fields:
     step: '1'
   description: Used for ordering your content in lists. Lower weight gets higher precedence.
     So content with lower weight will come first.
-- type: include
-  label: Page Meta
-  template: field-page-urls
-  name: page_meta
 - type: field_group
   name: featured_image
   label: Featured Image
@@ -41,3 +37,9 @@ fields:
   label: Layout
   hidden: true
   default: page
+- type: field_group
+  name: meta_data
+  label: Meta Data
+  fields:
+  - type: include
+    template: field-page-urls
