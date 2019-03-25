@@ -2,8 +2,15 @@
 label: Template Post
 hide_body: false
 fields:
+- type: text
+  label: Layout
+  name: layout
+  hidden: true
+  config:
+    required: true
+  default: post
 - type: include
-  template: field-page
+  template: template-page
   label: Page Attributes
   name: page_attributes
 - type: tag_list
@@ -14,10 +21,3 @@ fields:
   label: Tags
   description: Tags are used to related content and for SEO keywords. Don't overdo
     it. Too many will count against your SEO scores.
-- type: text
-  label: Layout
-  name: layout
-  hidden: true
-  config:
-    required: true
-  default: post
