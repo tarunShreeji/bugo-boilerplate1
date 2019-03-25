@@ -24,12 +24,6 @@ sections:
 - type: document
   path: data/config.yaml
   label: Site Options
-- type: heading
-  label: Documentation
-- type: document
-  path: content/documentation/markdown-cheatsheet.md
-  label: Markdown Cheatsheet
-  read_only: true
 upload_dir: ''
 public_path: https://res.cloudinary.com/dw7ezzuop/image/upload
 front_matter_path: ''
