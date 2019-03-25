@@ -35,4 +35,4 @@ related_pages: []
 
 {{% alert-danger class="additional classes" content="Everything is fucked!" %}} 
 
-# This is a header {{% badge-primary class="additional classes" content="Badge Content" %}} 
+# This is a header {{% badge-primary class="additional classes" content="Badge Content" %}}
