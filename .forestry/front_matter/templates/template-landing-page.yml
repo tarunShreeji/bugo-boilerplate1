@@ -11,6 +11,11 @@ fields:
   name: page_attributes
   label: Page Attributes
   template: field-page-attributes
+- type: boolean
+  name: show_sidebar
+  label: Show Sidebar
+  description: Show the sidebar on this page. Blocks will not be rendered full viewport
+    width.
 - type: blocks
   name: content
   label: Content Blocks
