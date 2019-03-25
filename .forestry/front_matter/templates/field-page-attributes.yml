@@ -2,14 +2,14 @@
 label: Page Template
 hide_body: false
 fields:
-- type: text
-  name: title
-  label: Title
 - type: datetime
   name: date
   label: Date
   config:
     required: true
+- type: text
+  name: title
+  label: Title
 - type: number
   name: weight
   label: Weight
@@ -17,6 +17,10 @@ fields:
     step: '1'
   description: Used for ordering your content in lists. Lower weight gets higher precedence.
     So content with lower weight will come first.
+- type: include
+  label: Page Meta
+  template: field-page-urls
+  name: page_meta
 - type: field_group
   name: featured_image
   label: Featured Image
