@@ -18,6 +18,9 @@ const del = require('del');
  **/
 
 const devBaseUrl = "/";
+const stagingConfig = 'config/staging/config.yaml';
+const productionConfig = 'config/production/config.yaml';
+
 
 /**
  * Directories
@@ -37,7 +40,8 @@ const sassPaths = {
 };
 
 const jsPaths = {
-  src: `${dirs.src}/js/**/*.js`,
+  src: [`${dirs.src}/js/**/*.js`,`!${dirs.src}/js/**/cms.js`],
+  cms: [`!${dirs.src}/js/**/*.js`,`${dirs.src}/js/**/cms.js`],
   dest: `${dirs.dest}/js/`
 };
 
@@ -113,9 +117,9 @@ gulp.task('build-staging', (done) => {
 function defaultTask(){
   processImages();
   startBugo();
-  // watchSass();
-  // watchJs();
-  // watchImages();
+  watchSass();
+  watchJs();
+  watchImages();
 }
 
 /**
@@ -267,11 +271,16 @@ function compileSass(done = () => {}){
 function compileJs(done = () => {}){
   del([jsPaths.dest+'/*']);
   console.log('Bugo: Compiling .js files into '+jsPaths.dest);
-  gulp.src([
-      jsPaths.src
-    ])
-		.pipe(webpack(require('./.webpack.config.js')))
+  let jsWebPack = webpack(require('./.webpack.config.js'));
+
+  gulp.src(jsPaths.src)
+		.pipe(jsWebPack)
     .pipe(concat('custom.js'))
+		.pipe(gulp.dest(jsPaths.dest));
+
+  gulp.src(jsPaths.cms)
+    .pipe(jsWebPack)
+    .pipe(concat('cms.js'))
 		.pipe(gulp.dest(jsPaths.dest));
   console.log('Bugo: Done compiling .js files');
   done();

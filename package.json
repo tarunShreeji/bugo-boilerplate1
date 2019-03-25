@@ -18,6 +18,7 @@
     "bootstrap": "^4.2.1",
     "highlight.js": "^9.13.1",
     "jquery": "^3.3.1",
+    "netlify-cms": "^2.6.1",
     "popper.js": "^1.14.4"
   },
   "devDependencies": {
