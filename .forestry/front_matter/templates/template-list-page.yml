@@ -2,6 +2,11 @@
 label: Template List Page
 hide_body: false
 fields:
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: list
 - type: datetime
   name: date
   label: Date
@@ -16,10 +21,5 @@ fields:
     label: Featured Image
     name: featured_image
     template: data-image
-- type: text
-  name: layout
-  label: Layout
-  hidden: true
-  default: list
 pages:
 - content/posts/_index.md
