@@ -110,15 +110,11 @@ fields:
   - type: text
     name: location_name
     label: location_name
-  - type: field_group_list
-    name: email_addresses
-    label: email_addresses
-    fields:
-    - type: text
-      name: label
-      label: label
-    - type: text
-      name: email_address
-      label: email_address
+  - type: text
+    name: email_address
+    label: Email Address
+  - type: text
+    name: phone
+    label: Phone
 pages:
 - data/organization.yaml
