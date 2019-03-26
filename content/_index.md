@@ -132,6 +132,8 @@ content:
     text_color: Primary
     background_color: Primary
     show_title: false
+    margin_top: '4'
+    margin_bottom: '4'
 - template: block-latest-posts
   show_quantity: '3'
   block_options:
