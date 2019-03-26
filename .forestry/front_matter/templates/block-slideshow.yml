@@ -1,14 +1,7 @@
 ---
 label: Block - Slideshow
 hide_body: false
-display_field: title
 fields:
-- type: text
-  name: title
-  label: Title
-  description: Giving this block title will help organization.
-  config:
-    required: true
 - type: text
   name: title
   label: Title
