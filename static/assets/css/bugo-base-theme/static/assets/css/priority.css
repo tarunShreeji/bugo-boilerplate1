@@ -7427,7 +7427,7 @@ readers do not read off random characters that represent icons */
 .fa-zhihu:before {
   content: "\f63f"; }
 
-.sr-only, .block-columns .container .item figure figcaption {
+.sr-only, .block-columns .container .item figure figcaption, .block-latest-posts .container .item figure figcaption {
   border: 0;
   clip: rect(0, 0, 0, 0);
   height: 1px;
@@ -7567,12 +7567,49 @@ main {
   color: #fff;
   padding: 2rem; }
 
+.block-latest-posts .container {
+  display: flex;
+  flex-wrap: wrap; }
+
+@media (min-width: 768px) {
+  .block-latest-posts .container {
+    flex-wrap: nowrap; } }
+
+.block-latest-posts .container .item {
+  flex-grow: 1;
+  text-align: center;
+  width: 50%;
+  padding: 0 2rem;
+  text-align: left; }
+
+.block-latest-posts .container .item:first-child {
+  padding-left: 0; }
+
+.block-latest-posts .container .item:last-child {
+  padding-right: 0; }
+
+.block-latest-posts .container .item figure {
+  color: #3BD23D; }
+
+.block-latest-posts .container .item figure img {
+  display: block;
+  max-width: 100%;
+  max-height: 8rem;
+  margin: 0 auto 1rem;
+  fill: currentColor; }
+
 .block.full-width {
   width: 100vw;
   position: relative;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%); }
+
+.block h2 {
+  flex-grow: 1;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem; }
 
 .sidebar .block.full-width {
   width: 100%;
