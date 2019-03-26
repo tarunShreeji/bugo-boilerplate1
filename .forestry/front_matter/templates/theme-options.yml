@@ -67,6 +67,15 @@ fields:
     name: custom_css
     label: Custom CSS
     default: body {}
+- type: field_group
+  name: media
+  label: Media Options
+  fields:
+  - type: text
+    name: cloudinary_name
+    label: Cloudinary Name
+    description: 'If you are using Cloudinary.com for media, enter the cloud name
+      for your account. You can find it here: https://cloudinary.com/console'
 - type: list
   name: theme_colors
   label: Theme Colors
