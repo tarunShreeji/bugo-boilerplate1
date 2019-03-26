@@ -1,0 +1,8 @@
+---
+label: Config - Site Styles
+hide_body: true
+fields:
+- type: field_group
+  name: theme_colors
+  label: Theme Colors
+  description: Add the color names from your theme.
