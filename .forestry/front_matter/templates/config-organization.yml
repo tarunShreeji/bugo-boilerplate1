@@ -14,7 +14,7 @@ fields:
   fields:
   - type: field_group
     name: header_logo
-    label: header_logo
+    label: Header Logo
     fields:
     - type: text
       name: title
@@ -27,7 +27,7 @@ fields:
       label: caption
   - type: field_group
     name: footer_logo
-    label: footer_logo
+    label: Footer Logo
     fields:
     - type: text
       name: title
