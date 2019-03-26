@@ -133,7 +133,7 @@ content:
     background_color: Primary
     show_title: false
     margin_top: '4'
-    margin_bottom: '4'
+    margin_bottom: '0'
 - template: block-latest-posts
   show_quantity: '3'
   block_options:
