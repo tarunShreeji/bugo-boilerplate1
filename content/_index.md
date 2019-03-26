@@ -131,7 +131,7 @@ content:
     full_width: true
     text_color: Primary
     background_color: Primary
-    show_title: true
+    show_title: false
 - template: block-latest-posts
   show_quantity: '3'
   block_options:
