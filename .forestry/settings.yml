@@ -31,6 +31,10 @@ sections:
 - type: document
   path: data/styles.yaml
   label: Site Styles
+- type: document
+  path: data/organization.yaml
+  label: Organization Information
+  match: "**/*"
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
