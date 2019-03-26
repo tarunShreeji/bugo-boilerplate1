@@ -6,9 +6,10 @@ title: Alerts, Buttons & Badges
 tags: []
 featured_image:
   title: ''
-  image: ''
+  image: "/v1539699654/scott-johnson-739718-unsplash.jpg"
   caption: ''
 related_pages: []
+
 ---
 ## Alerts
 
