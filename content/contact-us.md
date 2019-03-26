@@ -15,7 +15,7 @@ featured_image:
 content:
 - template: block-google-map
   title: Kerry Park
-  api_key: AIzaSyDErYJ9tqAVkA4kOKZ77xOJXOFJr4nbnYM
+  api_key: AIzaSyDtT6UYlHaa5ypP7XuWR4Y0HataDz-qhPE
   address_1: 211 W Highland Dr
   city: Seattle
   state: WA
