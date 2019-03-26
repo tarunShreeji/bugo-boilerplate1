@@ -57,12 +57,6 @@ fields:
   - type: text
     name: mobile
     label: mobile
-  - type: list
-    name: email_addresses
-    label: email_addresses
-  - type: list
-    name: phones
-    label: phones
 - type: field_group
   name: social_accounts
   label: Social Accounts
