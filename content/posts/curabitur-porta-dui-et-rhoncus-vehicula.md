@@ -5,6 +5,8 @@ date = "2018-12-20T08:00:00+00:00"
 layout = "post"
 tags = []
 title = "Curabitur porta, dui et rhoncus vehicula"
+[featured_image]
+image = "/v1549426005/IMG_2167.jpg"
 
 +++
 {{ < alert class="alert-primary" content="Hello! This is an alert!" > }} 
