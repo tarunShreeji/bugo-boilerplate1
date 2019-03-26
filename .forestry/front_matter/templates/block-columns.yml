@@ -1,7 +1,6 @@
 ---
 label: Block - Columns
 hide_body: false
-display_field: title
 fields:
 - type: text
   name: title
@@ -42,10 +41,14 @@ fields:
       template: data-image
   - type: include
     template: field-colors
-- type: include
-  name: image
-  label: Image
-  template: data-image
+- type: field_group
+  name: background_image
+  label: Background Image
+  fields:
+  - type: include
+    name: background_image
+    label: Background Image
+    template: data-image
 - type: field_group
   name: block_options
   label: Block Options
