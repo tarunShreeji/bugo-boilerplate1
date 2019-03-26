@@ -6,7 +6,7 @@ title: Blog
 tags: []
 featured_image:
   title: ''
-  image: https://res.cloudinary.com/matthew-antone/image/upload/v1549426003/lucy1.jpg
+  image: "/v1549426003/lucy1.jpg"
   caption: ''
 related_pages: []
 weight: ''
