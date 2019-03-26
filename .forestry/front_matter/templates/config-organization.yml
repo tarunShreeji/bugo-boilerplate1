@@ -62,7 +62,7 @@ fields:
     label: phones
 - type: field_group
   name: social_accounts
-  label: social_accounts
+  label: Social Accounts
   fields:
   - type: text
     name: linked_in
@@ -90,7 +90,7 @@ fields:
     label: pinterest
 - type: field_group_list
   name: locations
-  label: locations
+  label: Locations
   fields:
   - type: text
     name: address_1
