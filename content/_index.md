@@ -129,8 +129,9 @@ content:
   background-color: white
   block_options:
     full_width: true
-    text_color: plum
-    background_color: white
+    text_color: Primary
+    background_color: Primary
+    show_title: true
 - template: block-latest-posts
   show_quantity: '3'
   block_options:
