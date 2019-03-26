@@ -42,9 +42,17 @@ fields:
   label: Show Breadcrumbs
   default: true
 - type: include
-  template: site-contact-information
+  template: ''
   label: Contact Information
+  name: contact_informationOLD
+- type: field_group
   name: contact_information
+  label: Contact Information
+  fields:
+  - type: include
+    name: contact_information
+    label: Contact Information
+    template: site-contact-information
 - type: text
   name: cloudinary
   label: Cloudinary Name
