@@ -2,7 +2,12 @@
 label: Config - Site Styles
 hide_body: true
 fields:
-- type: field_group
+- type: list
   name: theme_colors
   label: Theme Colors
-  description: Add the color names from your theme.
+  description: Add your bootstrap colors here. We've added the basics.
+  default:
+  - Primary
+  - Secondary
+  - Gray
+  - Gray Dark
