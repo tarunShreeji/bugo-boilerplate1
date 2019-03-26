@@ -40,6 +40,7 @@ content:
   full_width: true
   block_options:
     full_width: true
+    show_title: true
 - template: block-columns
   title: Lucy Columns
   columns:
