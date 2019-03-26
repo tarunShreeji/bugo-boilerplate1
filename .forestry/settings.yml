@@ -21,6 +21,8 @@ sections:
   templates:
   - template-page
   - template-landing-page
+- type: heading
+  label: Configure Site
 - type: document
   path: data/config.yaml
   label: Site Options
