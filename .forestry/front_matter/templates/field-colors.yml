@@ -8,8 +8,8 @@ fields:
     source:
       type: documents
       section: site-style
-      file: 
-      path: ''
+      file: data/styles.yaml
+      path: theme_colors
     options:
     - blue
     - lime
