@@ -1,4 +1,12 @@
 ---
 label: Widget - Menu
 hide_body: true
-fields: []
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: boolean
+  name: display_title
+  label: Display Title
