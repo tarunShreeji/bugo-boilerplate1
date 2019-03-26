@@ -138,8 +138,8 @@ content:
   show_quantity: '3'
   block_options:
     full_width: true
-    margin_top: '4'
-    margin_bottom: '4'
+    margin_top: '6'
+    margin_bottom: '6'
     padding_top: '0'
     padding_bottom: '0'
     show_title: true
