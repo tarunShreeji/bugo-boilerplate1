@@ -85,3 +85,7 @@ theme_colors:
 - Secondary
 - White
 - Black
+media:
+  default_featured_image:
+    excluded_pages:
+    - _index.md
