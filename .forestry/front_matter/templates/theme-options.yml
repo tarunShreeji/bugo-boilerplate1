@@ -41,10 +41,6 @@ fields:
   name: show_breadcrumbs
   label: Show Breadcrumbs
   default: true
-- type: include
-  template: ''
-  label: Contact Information
-  name: contact_informationOLD
 - type: field_group
   name: contact_information
   label: Contact Information
@@ -53,19 +49,6 @@ fields:
     name: contact_information
     label: Contact Information
     template: site-contact-information
-- type: text
-  name: cloudinary
-  label: Cloudinary Name
-- type: field_group
-  name: default_featured_image
-  label: Default Featured Image
-  description: Use this image in the header when one hasn't been specified on a post
-    or page.
-  fields:
-  - type: include
-    template: ''
-    label: Default Featured Image
-    name: default_featured_image
 - type: field_group
   name: custom_css
   label: Custom CSS
@@ -109,5 +92,18 @@ fields:
     use_select: false
     source:
       type: documents
+- type: field_group
+  name: default_featured_image
+  label: Default Featured Image
+  description: Use this image in the header when one hasn't been specified on a post
+    or page.
+  fields:
+  - type: include
+    template: ''
+    label: Default Featured Image
+    name: default_featured_image
+- type: text
+  name: cloudinary
+  label: Cloudinary Name
 pages:
 - data/config.yaml
