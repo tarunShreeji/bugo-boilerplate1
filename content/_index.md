@@ -138,6 +138,7 @@ content:
     margin_bottom: '0'
     padding_top: '0'
     padding_bottom: '0'
+    show_title: true
   title: Latest Posts
 weight: ''
 tags: []
