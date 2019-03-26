@@ -43,7 +43,7 @@ fields:
     label: seo_logo
 - type: field_group
   name: contact_info
-  label: contact_info
+  label: Main Contact Info
   fields:
   - type: text
     name: email_address
