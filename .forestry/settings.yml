@@ -31,7 +31,6 @@ sections:
 - type: document
   path: data/styles.yaml
   label: Site Styles
-  match: "**/*"
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
