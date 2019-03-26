@@ -89,3 +89,7 @@ media:
   default_featured_image:
     excluded_pages:
     - _index.md
+    title: ''
+    image: "/v1540160482/markus-spiske-666904-unsplash.jpg"
+    caption: ''
+  cloudinary_name: ''
