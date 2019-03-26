@@ -33,7 +33,7 @@ sections:
   label: Site Styles
 - type: document
   path: data/organization.yaml
-  label: Organization Information
+  label: Company Info
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
