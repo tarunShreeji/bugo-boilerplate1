@@ -14,7 +14,7 @@ featured_image:
   caption: ''
 content:
 - template: block-google-map
-  title: Main Office
+  title: Kerry Park
   api_key: AIzaSyDErYJ9tqAVkA4kOKZ77xOJXOFJr4nbnYM
   address_1: 211 W Highland Dr
   city: Seattle
