@@ -54,9 +54,6 @@ fields:
   - type: text
     name: telephone
     label: telephone
-  - type: text
-    name: mobile
-    label: mobile
 - type: field_group
   name: social_accounts
   label: Social Accounts
