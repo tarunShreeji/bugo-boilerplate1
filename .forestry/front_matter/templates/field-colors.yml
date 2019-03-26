@@ -7,9 +7,9 @@ fields:
   config:
     source:
       type: documents
-      section: site-options
-      file: data/config.yaml
-      path: styles
+      section: site-style
+      file: 
+      path: ''
     options:
     - blue
     - lime
