@@ -131,7 +131,7 @@ content:
     text_color: plum
     background_color: white
 - template: block-latest-stories
-  show_quantity: '1'
+  show_quantity: '3'
   block_options:
     full_width: true
     margin_top: '0'
