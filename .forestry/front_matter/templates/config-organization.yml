@@ -10,7 +10,7 @@ fields:
   label: organization_description
 - type: field_group
   name: logos
-  label: logos
+  label: Logos
   fields:
   - type: field_group
     name: header_logo
