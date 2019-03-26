@@ -9,10 +9,6 @@ fields:
   description: Giving this block title will help organization.
   config:
     required: true
-- type: boolean
-  name: full_width
-  label: Full Width
-  description: Make the width of the slideshow the full browser width
 - type: text
   name: title
   label: Title
