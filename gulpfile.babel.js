@@ -35,7 +35,7 @@ const dirs = {
 };
 
 const sassPaths = {
-  src: `${dirs.src}/scss/**/*.scss`,
+  src: [`${dirs.src}/scss/**/*.scss`,`themes/**/*.css`],
   dest: `${dirs.dest}/css/`
 };
 

@@ -22,7 +22,7 @@ fields:
   template_types:
   - block-columns
   - block-slideshow
-  - block-latest-stories
+  - block-latest-posts
   - block-latest-profiles
 pages:
 - content/_index.md

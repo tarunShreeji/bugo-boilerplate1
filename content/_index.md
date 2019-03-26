@@ -130,7 +130,7 @@ content:
     full_width: true
     text_color: plum
     background_color: white
-- template: block-latest-stories
+- template: block-latest-posts
   show_quantity: '1'
   block_options:
     full_width: true
