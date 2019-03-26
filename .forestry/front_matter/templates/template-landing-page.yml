@@ -23,7 +23,7 @@ fields:
   - block-columns
   - block-slideshow
   - block-latest-posts
-  - block-latest-profiles
+  - block-google-map
 pages:
 - content/_index.md
 - content/contact-us.md
