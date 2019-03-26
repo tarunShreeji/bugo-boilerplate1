@@ -9,7 +9,7 @@ fields:
       type: documents
       section: site-options
       file: data/config.yaml
-      path: theme_colors
+      path: styles
     options:
     - blue
     - lime
