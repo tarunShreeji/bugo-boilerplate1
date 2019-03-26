@@ -76,6 +76,14 @@ fields:
     label: Cloudinary Name
     description: 'If you are using Cloudinary.com for media, enter the cloud name
       for your account. You can find it here: https://cloudinary.com/console'
+  - type: field_group
+    name: default_featured_image
+    label: Default Featured Image
+    fields:
+    - type: include
+      name: default_feature_image
+      label: Default Feature Image
+      template: data-image
 - type: list
   name: theme_colors
   label: Theme Colors
