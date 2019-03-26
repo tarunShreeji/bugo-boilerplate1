@@ -24,6 +24,8 @@ content:
     of Queen Anne Hill in Seattle, Washington, United States. It overlooks Downtown
     Seattle and is located along West Highland Drive between 2nd Avenue West and 3rd
     Avenue West. [Wikipedia](https://en.wikipedia.org/wiki/Kerry_Park_(Seattle))
+  block_options:
+    show_title: true
 show_sidebar: true
 menu:
   main:
