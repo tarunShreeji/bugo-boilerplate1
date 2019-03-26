@@ -45,16 +45,6 @@ fields:
     label: seo_logo
     description: This image needs to be a .png file.
 - type: field_group
-  name: contact_info
-  label: Main Contact Info
-  fields:
-  - type: text
-    name: email_address
-    label: email_address
-  - type: text
-    name: telephone
-    label: telephone
-- type: field_group
   name: social_accounts
   label: Social Accounts
   fields:
