@@ -11,5 +11,9 @@ fields:
   - Secondary
   - Gray
   - Gray Dark
+- type: textarea
+  name: custom_css
+  label: Custom CSS
+  description: Enter your custom CSS here.
 pages:
 - data/styles.yaml
