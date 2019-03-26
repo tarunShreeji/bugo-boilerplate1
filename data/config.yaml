@@ -18,6 +18,8 @@ contact_information:
     email_address: ''
     telephone: ''
     mobile: ''
+    email_addresses: []
+    phones: []
   address:
     address_1: ''
     address_2: ''
@@ -31,7 +33,11 @@ contact_information:
     twitter: ''
     youtube: ''
     github: ''
+    vimeo: ''
+    pinterest: ''
   locations: []
+  show_email_labels: false
+  show_phone_labels: false
 logos:
   header_logo:
     title: Lucyco Logo
@@ -93,3 +99,9 @@ media:
     image: "/v1540160482/markus-spiske-666904-unsplash.jpg"
     caption: ''
   cloudinary_name: ''
+styles:
+  colors:
+  - Primary
+  - Secondary
+  - Black
+  - White
