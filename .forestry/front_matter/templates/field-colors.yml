@@ -32,8 +32,8 @@ fields:
   config:
     source:
       type: documents
-      section: site-options
-      file: data/config.yaml
+      section: site-style
+      file: data/styles.yaml
       path: theme_colors
     options:
     - blue
