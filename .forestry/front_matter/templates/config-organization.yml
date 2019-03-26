@@ -120,3 +120,5 @@ fields:
     - type: text
       name: email_address
       label: email_address
+pages:
+- data/organization.yaml
