@@ -105,5 +105,13 @@ fields:
 - type: text
   name: cloudinary
   label: Cloudinary Name
+- type: field_group
+  name: styles
+  label: Styles
+  description: Add Custom Colors & CSS
+  fields:
+  - type: list
+    name: colors
+    label: Colors
 pages:
 - data/config.yaml
