@@ -11,3 +11,5 @@ fields:
   - Secondary
   - Gray
   - Gray Dark
+pages:
+- data/styles.yaml
