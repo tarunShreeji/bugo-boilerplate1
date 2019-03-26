@@ -25,6 +25,7 @@ fields:
     - type: text
       name: caption
       label: caption
+    description: Add a header logo to this website.
   - type: field_group
     name: footer_logo
     label: Footer Logo
@@ -38,9 +39,11 @@ fields:
     - type: text
       name: caption
       label: caption
+    description: Add a footer logo to this website.
   - type: text
     name: seo_logo
     label: seo_logo
+    description: This image needs to be a .png file.
 - type: field_group
   name: contact_info
   label: Main Contact Info
@@ -93,6 +96,9 @@ fields:
   label: Locations
   fields:
   - type: text
+    name: title
+    label: Title
+  - type: text
     name: address_1
     label: address_1
   - type: text
@@ -116,5 +122,7 @@ fields:
   - type: text
     name: phone
     label: Phone
+  config:
+    labelField: title
 pages:
 - data/organization.yaml
