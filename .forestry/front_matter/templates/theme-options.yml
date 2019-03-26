@@ -55,7 +55,7 @@ fields:
     or page.
   fields:
   - type: include
-    template: data-image
+    template: ''
     label: Default Featured Image
     name: default_featured_image
 - type: field_group
@@ -84,6 +84,16 @@ fields:
       name: default_feature_image
       label: Default Feature Image
       template: data-image
+    - type: list
+      name: excluded_pages
+      label: Excluded Pages
+      description: These pages will not display the featured image block.
+      config:
+        use_select: true
+        source:
+          type: pages
+    description: Use this image in the header when one hasn't been specified on a
+      post or page.
 - type: list
   name: theme_colors
   label: Theme Colors
