@@ -130,6 +130,15 @@ content:
     full_width: true
     text_color: plum
     background_color: white
+- template: block-latest-stories
+  show_quantity: '1'
+  block_options:
+    full_width: true
+    margin_top: '0'
+    margin_bottom: '0'
+    padding_top: '0'
+    padding_bottom: '0'
+  title: Latest Posts
 weight: ''
 tags: []
 layout: landing-page
