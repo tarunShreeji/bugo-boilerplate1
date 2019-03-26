@@ -4,10 +4,6 @@ auto_deploy: true
 admin_path: admin
 webhook_url: 
 sections:
-- type: document
-  path: data/styles.yaml
-  label: Site Style
-  match: "**/*"
 - type: heading
   label: Content
 - type: directory
@@ -32,6 +28,10 @@ sections:
 - type: document
   path: data/config.yaml
   label: Site Options
+- type: document
+  path: data/styles.yaml
+  label: Site Styles
+  match: "**/*"
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
