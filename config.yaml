@@ -7,7 +7,9 @@ summaryLength: 60
 canonifyURLs: true
 enableRobotsTXT: true
 googleAnalytics: ''
-theme: bugo-base-theme
+theme: 
+- bugo-base-theme
+- bugo-profiles
 metaDataFormat: yaml
 frontmatter:
 - date:
