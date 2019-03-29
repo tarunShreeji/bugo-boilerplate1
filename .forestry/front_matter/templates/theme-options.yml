@@ -48,7 +48,7 @@ fields:
   - type: include
     name: contact_information
     label: Contact Information
-    template: site-contact-information
+    template: group-contact-information
 - type: field_group
   name: custom_css
   label: Custom CSS
