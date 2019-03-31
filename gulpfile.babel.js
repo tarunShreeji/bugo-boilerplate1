@@ -35,13 +35,13 @@ const dirs = {
 };
 
 const sassPaths = {
-  src: [`${dirs.src}/scss/**/*.scss`,`themes/**/*.css`],
+  src: [`${dirs.src}/scss/**/*.scss`],
   dest: `${dirs.dest}/css/`
 };
 
 const jsPaths = {
-  src: [`${dirs.src}/js/**/*.js`,`!${dirs.src}/js/**/cms.js`],
-  cms: [`!${dirs.src}/js/**/*.js`,`${dirs.src}/js/**/cms.js`],
+  src: [`${dirs.src}/js/**/*.js`],
+  cms: [`!${dirs.src}/js/**/*.js`],
   dest: `${dirs.dest}/js/`
 };
 
@@ -255,10 +255,10 @@ function compileSass(done = () => {}){
   del([sassPaths.dest+'/*']);
   console.log('Bugo: Compiling .scss into destination folder: '+sassPaths.dest);
   gulp.src(sassPaths.src)
-    // .pipe(sourcemaps.init())
+    .pipe(sourcemaps.init())
     .pipe(sass.sync().on('error', sass.logError))
     .pipe(autoprefixer())
-    // .pipe(sourcemaps.write('.'))
+    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(sassPaths.dest));
   console.log('Bugo: Done compiling .scss files');
   done();

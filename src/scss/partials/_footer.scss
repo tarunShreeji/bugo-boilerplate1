@@ -1,0 +1,15 @@
+.site-footer {
+  background-color: $primary;
+  color: color-yiq(theme-color(primary));
+  padding: $global-padding;
+}
+
+.site-footer-logo {
+  img {
+    max-width: 50%;
+  }
+}
+
+.above-footer-content {
+  margin-top: $global-padding;
+}

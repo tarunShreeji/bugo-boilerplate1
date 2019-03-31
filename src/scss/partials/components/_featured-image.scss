@@ -1,0 +1,84 @@
+$text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+$fi-height: 20rem;
+$fi-md-height: 30rem;
+.featured-image {
+  position: relative;
+  margin-bottom: $global-margin;
+
+  h1 {
+    position: absolute;
+    top: 8rem;
+    text-align: center;
+    width: 100vw;
+    font-weight: bold;
+    color: $white;
+    text-shadow: $text-shadow;
+
+    @include media-breakpoint-up(md){
+      top: 20rem;
+    }
+  }
+
+  figure {
+    width: 100%;
+    min-height: $fi-height;
+
+    @include media-breakpoint-up(md){
+      min-height: $fi-md-height;
+    }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      /* IE10+ CSS styles go here */
+      overflow: hidden;
+    }
+
+    @include media-breakpoint-up(md){
+      max-height: $fi-md-height;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: $fi-height;
+      object-fit: cover;
+      object-position: center;
+
+      @include media-breakpoint-up(md){
+        height: $fi-md-height;
+      }
+
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        /* IE10+ CSS styles go here */
+        height: auto !important;
+        max-height: none;
+        transform: scale(1.2);
+      }
+    }
+
+    figcaption {
+      @extend .container;
+
+      font-size: $h4-font-size;
+      margin: 0;
+      position: absolute;
+      top: 12rem;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100vw;
+      text-align: center;
+      font-weight: bold;
+      color: $white;
+      text-shadow: $text-shadow;
+
+      @include media-breakpoint-up(md){
+        top: 25rem;
+        font-size: $h2-font-size
+      }
+    }
+  }
+}
+
+.search-md {
+  .featured-image {
+    min-height: 20rem;
+  }
+}

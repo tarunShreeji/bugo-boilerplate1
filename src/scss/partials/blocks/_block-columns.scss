@@ -1,0 +1,40 @@
+.block-columns {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    @include media-breakpoint-up(md){
+      flex-wrap: nowrap;
+    }
+
+    .item {
+      flex-grow: 1;
+      text-align: center;
+      // width: 50%;
+
+      &:first-child(){
+        padding-left: 0;
+      }
+
+      &:last-child(){
+        padding-right: 0;
+      }
+
+      figure {
+        color: theme-color(primary);
+
+        figcaption {
+          @extend .sr-only;
+        }
+
+        img {
+          display: block;
+          max-width: 100%;
+          max-height: 8rem;
+          margin: 0 auto $global-margin;
+          fill: currentColor;
+        }
+      }
+    }
+  }
+}

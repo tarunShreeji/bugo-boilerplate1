@@ -1,0 +1,33 @@
+.site-header {
+  padding: $global-padding;
+  background-color: theme-color(primary);
+  color: color-yiq(theme-color(primary));
+
+  .container {
+    position: relative;
+  }
+}
+
+.site-header-logo {
+  width: 20%;
+  figure {
+    margin: 0;
+  }
+
+  img {
+    max-width: 50%; //use this to resize the logo; 
+  }
+}
+
+.site-header .nav-bar {
+
+}
+
+.site-header .nav-link {
+  font-size: $main-nav-font-size;
+  color: color-yiq(theme-color(primary));
+}
+
+.site-header nav .list-inline {
+  margin-bottom: 0;
+}

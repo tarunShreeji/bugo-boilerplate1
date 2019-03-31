@@ -1,0 +1,43 @@
+$theme-colors: (
+  "primary": #095598,
+);
+
+$sizes: (
+  5: 5%,
+  10: 10%,
+  15: 15%,
+  20: 20%,
+  25: 25%,
+  30: 30%,
+  33: 33%,
+  35: 35%,
+  40: 40%,
+  45: 45%,
+  50: 50%,
+  55: 55%,
+  60: 60%,
+  65: 65%,
+  66: 66%,
+  70: 70%,
+  75: 75%,
+  80: 80%,
+  85: 85%,
+  90: 90%,
+  95: 95%,
+  100: 100%,
+  auto: auto
+);
+
+$global-padding: 2rem;
+$global-margin: 2rem;
+
+$main-nav-font-size: 1.5rem; 
+
+$border-width:                1px !default;
+// $border-color:                $gray-300 !default;
+
+$border-radius:               0 !default;
+$border-radius-lg:            0 !default;
+$border-radius-sm:            0 !default;
+
+$auto-contrast-text-to-background: false;

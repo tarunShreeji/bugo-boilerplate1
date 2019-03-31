@@ -1,0 +1,14 @@
+.share-buttons {
+  display: flex;
+  width: 20vw;
+
+  a {
+    display: block;
+    flex-grow: 1;
+    color: $primary;
+  }
+}
+
+.share-icon {
+  fill: $primary;
+}

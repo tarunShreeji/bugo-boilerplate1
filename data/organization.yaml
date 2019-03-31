@@ -1,1 +1,52 @@
 ---
+organization_name: Spertus, Landes & Umhofer
+organization_description: We are trial lawyers who know that thoroughly preparing
+  a case for trial is the best way to ensure the most favorable outcome possible.
+logos:
+  header_logo:
+    title: Spertus, Landes & Umhofer Logo
+    image: "/v1553826754/spertus-landes-umhofer-logo.svg"
+    caption: ''
+  footer_logo:
+    title: Spertus, Landes & Umhofer Logo
+    image: "/v1553826914/spertus-landes-umhofer-logo-footer.svg"
+    caption: ''
+  seo_logo: https://res.cloudinary.com/spertus-landes-umhofer/image/upload/v1553883127/spertus-landes-umhofer-logo-seo.png
+contact_information:
+  show_email_labels: false
+  show_phone_labels: false
+  contact_info:
+    email_addresses: []
+    phones: []
+  social_accounts:
+    facebook: ''
+    twitter: ''
+    linked_in: ''
+    youtube: ''
+    vimeo: ''
+    instagram: ''
+    pinterest: ''
+    github: ''
+  locations:
+  - location_name: Downtown
+    address_1: 617 West 7th Street
+    address_2: Suite 200
+    city: Los Angeles
+    state: California - CA
+    zip_code: '90017'
+    phones:
+    - phone: 213.205.6520
+      label: P
+    - phone: 213.205.6521
+      label: F
+  - location_name: Westside
+    address_1: 1990 S Bundy Drive
+    address_2: Suite 705
+    city: Los Angeles
+    state: California - CA
+    zip_code: '90025'
+    phones:
+    - phone: 310.826.4700
+      label: P
+    - phone: 310.826.4711
+      label: F

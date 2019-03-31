@@ -8,6 +8,5 @@
 
 
 ```bash
-git clone https://github.com/matt-antone/bugo-boilerplate example-com
-
+git clone https://github.com/matt-antone/bugo-boilerplate.git example-site-name --recursive
 ```

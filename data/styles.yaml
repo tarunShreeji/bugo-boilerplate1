@@ -2,5 +2,15 @@
 theme_colors:
 - Primary
 - Secondary
-- Gray
-- Gray Dark
+- '900'
+- '800'
+- '700'
+- '600'
+- '500'
+- '400'
+- '300'
+- '200'
+- '100'
+- White
+- Black
+custom_css: ''

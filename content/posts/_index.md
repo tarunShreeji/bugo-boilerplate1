@@ -6,7 +6,7 @@ title: Blog
 tags: []
 featured_image:
   title: ''
-  image: "/v1549426003/lucy1.jpg"
+  image: "/v1553731891/samples/animals/cat.jpg"
   caption: ''
 related_pages: []
 weight: ''

@@ -3,12 +3,21 @@ layout: post
 category: News
 date: 2019-02-07 08:00:00 +0000
 title: Alerts, Buttons & Badges
-tags: []
+tags:
+- Alerts
+- buttons
+- badges
 featured_image:
   title: ''
-  image: "/v1539699654/scott-johnson-739718-unsplash.jpg"
+  image: "/v1553731901/samples/landscapes/nature-mountains.jpg"
   caption: ''
-related_pages: []
+related_pages:
+- contact-us.md
+- posts/nam-urna-justo-sodales-non-ligula-nec-ultricies-feugiat-enim.md
+page_meta:
+  meta_title: How to use Bugo Shortcodes
+categories:
+- Category 1
 
 ---
 ## Alerts
