@@ -4,3 +4,6 @@
 [submodule "themes/bugo-profiles"]
 	path = themes/bugo-profiles
 	url = https://github.com/matt-antone/bugo-profiles
+[submodule "themes/bugo-search"]
+	path = themes/bugo-search
+	url = https://github.com/matt-antone/bugo-search.git

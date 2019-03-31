@@ -4,3 +4,5 @@
 # ... except for this one.
 !.gitignore
 !bugo-base-theme/*
+!bugo-profiles/*
+!bugo-search/*
