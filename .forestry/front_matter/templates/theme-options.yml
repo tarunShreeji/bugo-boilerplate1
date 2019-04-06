@@ -1,5 +1,5 @@
 ---
-label: Config - Site Options
+label: Config - Site Options BACKUP
 hide_body: false
 fields:
 - type: text
@@ -113,5 +113,3 @@ fields:
   - type: list
     name: colors
     label: Colors
-pages:
-- data/config.yaml

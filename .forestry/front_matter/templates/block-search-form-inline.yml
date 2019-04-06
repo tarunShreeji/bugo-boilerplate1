@@ -1,0 +1,17 @@
+---
+label: Block - Search Form Inline
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: field_group
+  name: block_options
+  label: Block Options
+  fields:
+  - type: include
+    label: Block Options
+    name: block_options
+    template: field-block-options

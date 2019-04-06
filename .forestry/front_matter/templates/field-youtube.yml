@@ -1,0 +1,43 @@
+---
+label: Field - YouTube
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: text
+  name: youtube_video_id
+  label: YouTube Video ID
+  description: Find the video on YouTube. Click "SHARE". The ID is the end of the
+    URL. https://youtu.be/XXXXXXXXXXX
+  config:
+    required: true
+- type: textarea
+  name: description
+  label: Description
+  config:
+    wysiwyg: false
+    schema:
+      format: markdown
+- type: file
+  name: video_thumbnail
+  label: Video Thumbnail
+pages:
+- content/videos/who-we-are.md
+- content/videos/meet-the-firm-james-w-spertus.md
+- content/videos/meet-the-firm-ezra-d-landes.md
+- content/videos/meet-the-firm-matthew-d-umhofer.md
+- content/videos/when-it-comes-to-referrals-go-big-or-small.md
+- content/videos/sometimes-a-civil-case-is-more-than-a-civil-case.md
+- content/videos/litigation-is-a-game-of-chess-not-checkers.md
+- content/videos/bet-the-business-cases-are-what-we-do.md
+- content/videos/every-case-has-an-angle.md
+- content/videos/in-litigation-expect-the-unexpected.md
+- content/videos/the-sec-means-business.md
+- content/videos/when-it-comes-to-internal-investigations-integrity-is-everything.md
+- content/videos/appeals-are-both-an-art-and-a-science.md
+- content/videos/student-discipline-cases-can-have-a-lasting-impact.md
+- content/videos/right-sizing-cases-come-in-different-sizes.md
+- content/videos/whistleblower-cases-require-a-particular-set-of-skills-on-either-side.md

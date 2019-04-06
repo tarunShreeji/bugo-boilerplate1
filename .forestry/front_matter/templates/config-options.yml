@@ -1,0 +1,102 @@
+---
+label: Config - Site Options
+hide_body: false
+fields:
+- type: boolean
+  name: show_breadcrumbs
+  label: Show Breadcrumbs
+  default: true
+- type: field_group
+  name: media
+  label: Media Options
+  fields:
+  - type: text
+    name: cloudinary_name
+    label: Cloudinary Name
+    description: 'If you are using Cloudinary.com for media, enter the cloud name
+      for your account. You can find it here: https://cloudinary.com/console'
+  - type: field_group
+    name: default_featured_image
+    label: Default Featured Image
+    fields:
+    - type: include
+      name: default_feature_image
+      label: Default Feature Image
+      template: data-image
+    - type: list
+      name: excluded_pages
+      label: Excluded Pages
+      description: These pages will not display the featured image block.
+      config:
+        use_select: true
+        source:
+          type: pages
+    description: Use this image in the header when one hasn't been specified on a
+      post or page.
+- type: field_group
+  name: styles
+  label: Styles
+  description: Add Custom Colors & CSS
+  fields:
+  - type: field_group
+    name: custom_css
+    label: Custom CSS
+    description: CSS Entered here will be inserted into all pages.
+    fields:
+    - type: textarea
+      name: custom_css
+      label: Custom CSS
+      default: body {}
+  - type: list
+    name: colors
+    label: Colors
+- type: field_group
+  name: layout_options
+  label: Layout Options
+  description: Add specialized content.
+  fields:
+  - type: field_group
+    name: header_content
+    label: Header Content
+    description: Add content above the header that appears on every page. You could
+      use this for special promotions.
+    fields:
+    - type: blocks
+      name: blocks
+      label: Header Content
+      description: Add blocks to add content above the header.
+      template_types:
+      - block-columns
+  - type: field_group
+    name: footer_content
+    label: Footer Content
+    description: Add content above the footer that appears on every page.
+    fields:
+    - type: blocks
+      name: blocks
+      label: Blocks
+      description: Add blocks to add content to the footer.
+      template_types:
+      - block-columns
+      - block-slideshow
+      - block-latest-stories
+      - block-google-map
+- type: field_group
+  name: sidebar_widgets
+  label: Sidebar Widgets
+  fields:
+  - type: blocks
+    name: widgets
+    label: Widgets
+    template_types:
+    - widget-search-form
+    - widget-markdown
+    - widget-categories
+    - widget-menu
+    - widget-related-pages
+- type: list
+  name: site_categories
+  label: Site Categories
+  description: Add the categories for use with this site.
+pages:
+- data/config.yaml

@@ -20,10 +20,20 @@ fields:
   name: content
   label: Content Blocks
   template_types:
+  - block-search-form-inline
   - block-columns
   - block-slideshow
   - block-latest-posts
   - block-google-map
+- type: field_group
+  name: video_gallery
+  label: Video Gallery
+  description: Add videos to this page.
+  fields:
+  - type: include
+    name: videos
+    label: Videos
+    template: field-youtube-gallery
 pages:
+- content/contact.md
 - content/_index.md
-- content/contact-us.md

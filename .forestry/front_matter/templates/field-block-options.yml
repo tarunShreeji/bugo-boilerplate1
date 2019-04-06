@@ -9,81 +9,11 @@ fields:
 - type: boolean
   name: show_title
   label: Show Title
-- type: include
-  name: text_color
-  label: Text Color
-  template: field-colors
-  description: Select a color for the text in this block.
+- type: boolean
+  name: remove_margin
+  label: Remove Margin
 - type: include
   template: field-colors
-  label: Background Color
-  name: bg_color
-  description: Select a background color for this block.
-- type: select
-  name: margin_top
-  config:
-    source:
-      type: simple
-    options:
-    - '0'
-    - '1'
-    - '2'
-    - '3'
-    - '4'
-    - '5'
-    - '6'
-    - Default
-  label: Top Margin
-  description: Adjust top margin of this block.
-  default: '0'
-- type: select
-  name: margin_bottom
-  config:
-    source:
-      type: simple
-    options:
-    - '0'
-    - '1'
-    - '2'
-    - '3'
-    - '4'
-    - '5'
-    - '6'
-    - Default
-  label: Bottom Margin
-  description: Adjust bottom margin of this block.
-  default: '0'
-- type: select
-  name: padding_top
-  config:
-    source:
-      type: simple
-    options:
-    - '0'
-    - '1'
-    - '2'
-    - '3'
-    - '4'
-    - '5'
-    - '6'
-    - Default
-  label: Top Padding
-  description: Adjust top padding of this block.
-  default: '0'
-- type: select
-  name: padding_bottom
-  config:
-    source:
-      type: simple
-    options:
-    - '0'
-    - '1'
-    - '2'
-    - '3'
-    - '4'
-    - '5'
-    - '6'
-    - Default
-  label: Bottom Padding
-  description: Adjust bottom padding of this block.
-  default: '0'
+  label: Color Options
+  name: color_options
+  description: ''

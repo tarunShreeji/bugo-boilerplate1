@@ -1,0 +1,12 @@
+---
+label: Field - YouTube Gallery
+hide_body: true
+fields:
+- type: list
+  name: videos
+  label: Videos
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: videos

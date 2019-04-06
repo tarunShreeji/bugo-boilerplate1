@@ -13,3 +13,18 @@ fields:
   template: field-page-attributes
   label: Page Attributes
   name: page_attributes
+- type: field_group
+  name: video_gallery
+  label: Video Gallery
+  description: Add videos to this page.
+  fields:
+  - type: include
+    name: vidoes
+    label: Videos
+    template: field-youtube-gallery
+- type: include
+  name: taxonomy
+  label: Taxonomy
+  template: field-taxonomy
+pages:
+- content/our-attorneys/_index.md

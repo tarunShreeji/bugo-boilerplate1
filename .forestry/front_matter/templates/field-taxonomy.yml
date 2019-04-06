@@ -1,0 +1,17 @@
+---
+label: Field - Taxonomy
+hide_body: true
+fields:
+- type: list
+  name: categories
+  label: Categories
+  config:
+    use_select: true
+    source:
+      type: documents
+      section: site-options
+      file: data/config.yaml
+      path: site_categories
+- type: tag_list
+  name: tags
+  label: Tags

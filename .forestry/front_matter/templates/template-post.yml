@@ -13,3 +13,7 @@ fields:
   template: field-page-attributes
   label: Page Attributes
   name: page_attributes
+- type: include
+  name: taxonomy
+  label: Taxonomy
+  template: field-taxonomy

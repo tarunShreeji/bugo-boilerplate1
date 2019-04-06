@@ -7,7 +7,7 @@ fields:
   config:
     source:
       type: documents
-      section: site-style
+      section: site-styles
       file: data/styles.yaml
       path: theme_colors
     options:
@@ -32,7 +32,7 @@ fields:
   config:
     source:
       type: documents
-      section: site-style
+      section: site-styles
       file: data/styles.yaml
       path: theme_colors
     options:
