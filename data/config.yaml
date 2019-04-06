@@ -92,7 +92,6 @@ styles:
   colors:
   - Primary
   - Secondary
-  - Brown 100
 layout_options:
   footer_content:
     blocks:
