@@ -1,5 +1,5 @@
 ---
-label: Widget - Latest Posts
+label: Widget - Categories
 hide_body: true
 fields:
 - type: text
@@ -12,6 +12,4 @@ fields:
   label: Widget Options
   fields:
   - type: include
-    name: widget_options
-    label: Widget Options
     template: field-block-options
