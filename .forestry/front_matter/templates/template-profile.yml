@@ -79,24 +79,3 @@ fields:
   name: taxonomy
   label: Taxonomy
   template: field-taxonomy
-pages:
-- content/our-attorneys/lorien-giles-associate.md
-- content/our-attorneys/matthew-donald-umhofer.md
-- content/our-attorneys/samuel-a-josephs-partner.md
-- content/our-attorneys/elizabeth-mitchell-counsel.md
-- content/our-attorneys/julia-l-tuverson-counsel.md
-- content/our-attorneys/john-hanusz-partner.md
-- content/our-attorneys/lindsay-enriquez-not-yet-admitted.md
-- content/our-attorneys/james-w-spertus.md
-- content/our-attorneys/ezra-d-landes-partner.md
-- content/our-attorneys/jennifer-e-lagrange-partner.md
-- content/our-attorneys/diane-bang-senior-associate.md
-- content/our-attorneys/christa-l-culver-wasserman-senior-associate.md
-- content/our-attorneys/anthony-king-counsel.md
-- content/our-attorneys/dolly-k-hansen-partner.md
-- content/our-attorneys/m-anthony-brown-partner.md
-- content/our-attorneys/payton-lyon-associate.md
-- content/our-attorneys/suzanne-s-obeda-associate.md
-- content/our-attorneys/lindsey-m-hay-associate.md
-- content/our-attorneys/elizabeth-j-lee-partner.md
-- content/our-attorneys/jordan-m-zim-not-yet-admitted.md
