@@ -9,8 +9,8 @@ fields:
   name: twitter
   label: Twitter
 - type: text
-  name: linked_in
-  label: Linked In
+  name: linkedin
+  label: LinkedIn
 - type: text
   name: youtube
   label: YouTube

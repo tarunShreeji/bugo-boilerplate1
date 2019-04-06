@@ -1,5 +1,5 @@
 ---
-label: Config - Site Contact Information
+label: Config -  Organization Contact Information
 hide_body: false
 fields:
 - type: field_group
@@ -7,10 +7,11 @@ fields:
   label: Contact Info
   fields:
   - type: include
-    template: data-contact-info
+    template: ''
     label: Contact Info
     name: contact_info
-  description: Email & Phones
+  description: 'Email & Phones for this website. Alternative: You can associate email
+    and phones with a location instead.'
 - type: field_group
   name: social_accounts
   label: Social Accounts

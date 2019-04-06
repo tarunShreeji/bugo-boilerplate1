@@ -40,70 +40,21 @@ fields:
       name: caption
       label: caption
     description: Add a footer logo to this website.
-  - type: text
+  - type: file
     name: seo_logo
-    label: seo_logo
-    description: This image needs to be a .png file.
+    label: SEO Logo
+    description: 'This image must be a .png file. '
 - type: field_group
-  name: social_accounts
-  label: Social Accounts
+  name: contact_information
+  label: Contact Information
   fields:
-  - type: text
-    name: linked_in
-    label: linked_in
-  - type: text
-    name: facebook
-    label: facebook
-  - type: text
-    name: instagram
-    label: instagram
-  - type: text
-    name: twitter
-    label: twitter
-  - type: text
-    name: youtube
-    label: youtube
-  - type: text
-    name: github
-    label: github
-  - type: text
-    name: vimeo
-    label: vimeo
-  - type: text
-    name: pinterest
-    label: pinterest
-- type: field_group_list
-  name: locations
-  label: Locations
-  fields:
-  - type: text
-    name: title
-    label: Title
-  - type: text
-    name: address_1
-    label: address_1
-  - type: text
-    name: address_2
-    label: address_2
-  - type: text
-    name: city
-    label: city
-  - type: text
-    name: state
-    label: state
-  - type: text
-    name: zip_code
-    label: zip_code
-  - type: text
-    name: location_name
-    label: location_name
-  - type: text
-    name: email_address
-    label: Email Address
-  - type: text
-    name: phone
-    label: Phone
-  config:
-    labelField: title
+  - type: include
+    name: contact_information
+    label: Contact Information
+    template: group-contact-information
+- type: text
+  name: google_api_key
+  label: Google API Key
+  description: Enter an api key if this site uses google products like maps.
 pages:
 - data/organization.yaml

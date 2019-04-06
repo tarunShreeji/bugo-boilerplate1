@@ -1,0 +1,17 @@
+---
+label: Field - University
+hide_body: true
+display_field: name
+fields:
+- type: text
+  name: name
+  label: Name
+- type: text
+  name: degree
+  label: Degree
+- type: text
+  name: graduation_year
+  label: Graduation Year
+- type: text
+  name: honors
+  label: Honors
