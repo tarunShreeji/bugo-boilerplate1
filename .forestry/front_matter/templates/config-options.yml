@@ -34,23 +34,6 @@ fields:
     description: Use this image in the header when one hasn't been specified on a
       post or page.
 - type: field_group
-  name: styles
-  label: Styles
-  description: Add Custom Colors & CSS
-  fields:
-  - type: field_group
-    name: custom_css
-    label: Custom CSS
-    description: CSS Entered here will be inserted into all pages.
-    fields:
-    - type: textarea
-      name: custom_css
-      label: Custom CSS
-      default: body {}
-  - type: list
-    name: colors
-    label: Colors
-- type: field_group
   name: layout_options
   label: Layout Options
   description: Add specialized content.
