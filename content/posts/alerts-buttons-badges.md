@@ -9,7 +9,7 @@ tags:
 - badges
 featured_image:
   title: ''
-  image: "/v1553731901/samples/landscapes/nature-mountains.jpg"
+  image: "/v1549426004/IMG_3397.jpg"
   caption: ''
 related_pages:
 - contact-us.md
