@@ -8,18 +8,18 @@ import sourcemaps from 'gulp-sourcemaps';
 import watch from 'gulp-watch';
 import {spawn} from "child_process";
 import shell from "gulp-shell";
+import LazyLoad from "vanilla-lazyload";
 
 const webpack = require('webpack-stream');
 const exec = require('child_process').exec;
 const del = require('del');
+const critical = require('critical').stream;
 
 /**
  * Server Base URLs
  **/
 
 const devBaseUrl = "/";
-const stagingConfig = 'config/staging/config.yaml';
-const productionConfig = 'config/production/config.yaml';
 
 
 /**
@@ -35,13 +35,12 @@ const dirs = {
 };
 
 const sassPaths = {
-  src: [`${dirs.src}/scss/**/*.scss`],
+  src: `${dirs.src}/scss/**/*.scss`,
   dest: `${dirs.dest}/css/`
 };
 
 const jsPaths = {
-  src: [`${dirs.src}/js/**/*.js`],
-  cms: [`!${dirs.src}/js/**/*.js`],
+  src: `${dirs.src}/js/**/*.js`,
   dest: `${dirs.dest}/js/`
 };
 
@@ -127,7 +126,7 @@ function defaultTask(){
  **/
 
  function buildStaging(done = () => {}){
-    const hugo = spawn("hugo", ['--destination=public']);
+    const hugo = spawn("hugo", ['--destination=public','--baseURL='+stagingBaseUrl]);
     // Log message from Bugo
     hugo.stdout.on('data', (data) => {
       console.log(`Bugo: ${data}`);
@@ -143,15 +142,15 @@ function defaultTask(){
       console.log(`Bugo exited with code ${code}`);
     });
 
-    done();
+    // done();
  }
 
  /**
   * Spawn Bugo server that watches the site for changes
   **/
 
-  function startBugo(done = () => {}){
-     const hugo = spawn("hugo", ['-w','server', '--disableFastRender=true', '--destination=public']);
+  function startBugo(done){
+     const hugo = spawn("hugo", ['-w','server','--disableFastRender','--destination=public']);
      // Log message from Bugo
      hugo.stdout.on('data', (data) => {
        console.log(`Bugo: ${data}`);
@@ -166,7 +165,9 @@ function defaultTask(){
      hugo.on('close', (code) => {
        console.log(`Bugo exited with code ${code}`);
      });
-     done();
+
+    
+    // done();
   }
 
 
@@ -255,11 +256,30 @@ function compileSass(done = () => {}){
   del([sassPaths.dest+'/*']);
   console.log('Bugo: Compiling .scss into destination folder: '+sassPaths.dest);
   gulp.src(sassPaths.src)
-    .pipe(sourcemaps.init())
+    // .pipe(sourcemaps.init())
     .pipe(sass.sync().on('error', sass.logError))
     .pipe(autoprefixer())
-    .pipe(sourcemaps.write('.'))
+    // .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(sassPaths.dest));
+  
+  gulp.src('public/index.html')
+    .pipe(critical({
+      base: 'public/',
+      inline: false,
+      minify: true,
+      css: ['public/assets/css/main.css'],
+      dimensions: [{
+        height: 200,
+        width: 500
+      }, {
+        height: 900,
+        width: 1200
+      }]
+    }))
+    .on('error', function (err) { log.error(err.message); })
+    .pipe(gulp.dest('static/assets/css'));
+
+
   console.log('Bugo: Done compiling .scss files');
   done();
 }
@@ -271,16 +291,11 @@ function compileSass(done = () => {}){
 function compileJs(done = () => {}){
   del([jsPaths.dest+'/*']);
   console.log('Bugo: Compiling .js files into '+jsPaths.dest);
-  let jsWebPack = webpack(require('./.webpack.config.js'));
-
-  gulp.src(jsPaths.src)
-		.pipe(jsWebPack)
-    .pipe(concat('custom.js'))
-		.pipe(gulp.dest(jsPaths.dest));
-
-  gulp.src(jsPaths.cms)
-    .pipe(jsWebPack)
-    .pipe(concat('cms.js'))
+  gulp.src([
+      jsPaths.src
+    ])
+		.pipe(webpack(require('./.webpack.config.js')))
+    .pipe(concat('app.js'))
 		.pipe(gulp.dest(jsPaths.dest));
   console.log('Bugo: Done compiling .js files');
   done();
