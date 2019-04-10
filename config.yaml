@@ -39,20 +39,6 @@ home:
 page:
 - HTML
 menu:
-  footer:
-  - url: "/"
-    name: Home
-    weight: 2
-  - url: "/posts/"
-    name: Posts
-    weight: 1
-  copyright:
-  - url: "/privacy/"
-    name: Privacy
-    weight: 1
-  - url: "/terms-of-use/"
-    name: Terms of Use
-    weight: 2
   secondary:
   - url: "#"
     name: Login
