@@ -35,9 +35,9 @@ sections:
   path: data/organization.yaml
   label: Company Info
 upload_dir: ''
-public_path: ''
+public_path: https://res.cloudinary.com/matthew-antone/image/upload
 front_matter_path: ''
-use_front_matter_path: 
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_command: hugo
@@ -49,4 +49,6 @@ build:
   - HUGO_VERSION=0.53
   preview_output_directory: public
   output_directory: public
+  instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
+    -d public
 version: '0.53'

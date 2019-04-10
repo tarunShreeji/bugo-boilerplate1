@@ -1,0 +1,24 @@
+/* 
+ * Boostrap .wrap styles
+ */
+
+.wrap{
+  &.container {
+    display: flex;
+  }
+}
+
+main {
+  width: 100%;
+}
+
+.sidebar {
+  main {
+    width: 70%;
+  }
+
+  aside{
+    width: 30%;
+    padding-left: $global-margin;
+  }
+}

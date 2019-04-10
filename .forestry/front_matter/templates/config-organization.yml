@@ -51,7 +51,7 @@ fields:
   - type: include
     name: contact_information
     label: Contact Information
-    template: group-contact-information
+    template: site-contact-information
 - type: text
   name: google_api_key
   label: Google API Key

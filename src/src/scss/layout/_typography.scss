@@ -1,0 +1,9 @@
+pre {
+  margin-top: $global-margin;
+  margin-bottom: $global-margin;
+
+  code,
+  code.hljs {
+    padding: $global-padding/2;
+  }
+}

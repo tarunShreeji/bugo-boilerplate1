@@ -1,6 +1,7 @@
 ---
 label: Block - Search Form Inline
 hide_body: true
+display_field: title
 fields:
 - type: text
   name: title

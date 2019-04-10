@@ -7,9 +7,9 @@ fields:
   label: Contact Info
   fields:
   - type: include
-    template: ''
-    label: Contact Info
-    name: contact_info
+    name: email
+    label: Email
+    template: site-contact-information
   description: 'Email & Phones for this website. Alternative: You can associate email
     and phones with a location instead.'
 - type: field_group
