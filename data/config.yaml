@@ -80,7 +80,7 @@ organization_description: Here at test organization, we do a lot of test. The be
 show_email_labels: false
 show_phone_labels: false
 media:
-  cloudinary_name: matthew-antone
+  cloudinary_name: ''
   default_featured_image:
     title: ''
     image: ''
