@@ -27,27 +27,5 @@ contact_information:
     pinterest: ''
     github: ''
     linkedin: ''
-  locations:
-  - location_name: Downtown
-    address_1: 617 West 7th Street
-    address_2: Suite 200
-    city: Los Angeles
-    state: California - CA
-    zip_code: '90017'
-    phones:
-    - phone: 213.205.6520
-      label: P
-    - phone: 213.205.6521
-      label: F
-  - location_name: Westside
-    address_1: 1990 S Bundy Drive
-    address_2: Suite 705
-    city: Los Angeles
-    state: California - CA
-    zip_code: '90025'
-    phones:
-    - phone: 310.826.4700
-      label: P
-    - phone: 310.826.4711
-      label: F
+  locations: []
 google_api_key: ''
