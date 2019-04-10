@@ -17,7 +17,3 @@ fields:
   name: taxonomy
   label: Taxonomy
   template: field-taxonomy
-pages:
-- content/posts/first-taste-of-automation-that-made-me-go-wow.md
-- content/posts/jfla-org.md
-- content/posts/critical-css.md
