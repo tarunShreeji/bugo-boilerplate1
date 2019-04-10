@@ -202,7 +202,4 @@ sidebar_widgets:
       text_color: Primary
       background_color: '100'
     title: Latest posts
-site_categories:
-- Category 1
-- Category 2
-- Category 3
+site_categories: []
