@@ -38,11 +38,3 @@ home:
 - RSS
 page:
 - HTML
-menu:
-  secondary:
-  - url: "#"
-    name: Login
-    weight: 1
-  - url: "#"
-    name: Support
-    weight: 2
