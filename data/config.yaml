@@ -94,21 +94,7 @@ styles:
   - Secondary
 layout_options:
   footer_content:
-    blocks:
-    - template: block-columns
-      block_options:
-        full_width: true
-        margin_top: '0'
-        margin_bottom: '0'
-        padding_top: '0'
-        padding_bottom: '0'
-        background_color: Secondary
-        text_color: White
-      title: Footer content
-      columns:
-      - content: "# hey!"
-        show_image_above_content: true
-        title: hey
+    blocks: []
     footer_content:
     - template: block-columns
       block_options:
@@ -125,22 +111,7 @@ layout_options:
         content: "# Hey! Look At Me!"
         show_image_above_content: true
   header_content:
-    blocks:
-    - template: block-columns
-      block_options:
-        full_width: true
-        margin_top: '0'
-        margin_bottom: '0'
-        padding_top: '3'
-        padding_bottom: '3'
-        background_color: Secondary
-        text_color: White
-      title: Special Promotion
-      columns:
-      - content: "# Special Promotion!"
-        show_image_above_content: true
-        title: Special Promotion
-        background_color: ''
+    blocks: []
 sidebar_widgets:
   widgets:
   - template: widget-search-form
