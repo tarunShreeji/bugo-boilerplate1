@@ -6,7 +6,7 @@ import concat from 'gulp-concat';
 import autoprefixer from 'gulp-autoprefixer';
 import sourcemaps from 'gulp-sourcemaps';
 import watch from 'gulp-watch';
-import {spawn} from "child_process";
+import { spawn } from "child_process";
 import shell from "gulp-shell";
 import LazyLoad from "vanilla-lazyload";
 
@@ -59,7 +59,7 @@ gulp.task('default', defaultTask);
  * Install Bugo
  **/
 
-gulp.task('install-bugo', installBugo );
+gulp.task('install-bugo', installBugo);
 
 /**
  * Compile SASS
@@ -83,8 +83,8 @@ gulp.task('compile-sass', (done) => {
  *
  **/
 
- gulp.task('compile-js', (done) => {
-   compileJs(done);
+gulp.task('compile-js', (done) => {
+  compileJs(done);
 });
 
 /**
@@ -103,7 +103,7 @@ gulp.task('process-images', (done) => {
 
 gulp.task('build-staging', (done) => {
   buildStaging(done);
-} );
+});
 
 /**
  * Default Task Function
@@ -113,7 +113,7 @@ gulp.task('build-staging', (done) => {
  *
  **/
 
-function defaultTask(){
+function defaultTask() {
   processImages();
   startBugo();
   watchSass();
@@ -125,67 +125,67 @@ function defaultTask(){
  * Build Staging
  **/
 
- function buildStaging(done = () => {}){
-    const hugo = spawn("hugo", ['--destination=public','--baseURL='+stagingBaseUrl]);
-    // Log message from Bugo
-    hugo.stdout.on('data', (data) => {
-      console.log(`Bugo: ${data}`);
-    });
+function buildStaging(done = () => { }) {
+  const hugo = spawn("hugo", ['--destination=public', '--baseURL=' + stagingBaseUrl]);
+  // Log message from Bugo
+  hugo.stdout.on('data', (data) => {
+    console.log(`Bugo: ${data}`);
+  });
 
-    // Log Errors
-    hugo.stderr.on('data', (data) => {
-      console.log(`Bugo Error: ${data}`);
-    });
+  // Log Errors
+  hugo.stderr.on('data', (data) => {
+    console.log(`Bugo Error: ${data}`);
+  });
 
-    // Log Exit
-    hugo.on('close', (code) => {
-      console.log(`Bugo exited with code ${code}`);
-    });
+  // Log Exit
+  hugo.on('close', (code) => {
+    console.log(`Bugo exited with code ${code}`);
+  });
 
-    // done();
- }
+  // done();
+}
 
- /**
-  * Spawn Bugo server that watches the site for changes
-  **/
+/**
+ * Spawn Bugo server that watches the site for changes
+ **/
 
-  function startBugo(done){
-     const hugo = spawn("hugo", ['-w','server','--disableFastRender','--destination=public']);
-     // Log message from Bugo
-     hugo.stdout.on('data', (data) => {
-       console.log(`Bugo: ${data}`);
-     });
+function startBugo(done) {
+  const hugo = spawn("hugo", ['-w', 'server', '--disableFastRender', '--destination=public']);
+  // Log message from Bugo
+  hugo.stdout.on('data', (data) => {
+    console.log(`Bugo: ${data}`);
+  });
 
-     // Log Errors
-     hugo.stderr.on('data', (data) => {
-       console.log(`Bugo Error: ${data}`);
-     });
+  // Log Errors
+  hugo.stderr.on('data', (data) => {
+    console.log(`Bugo Error: ${data}`);
+  });
 
-     // Log Exit
-     hugo.on('close', (code) => {
-       console.log(`Bugo exited with code ${code}`);
-     });
+  // Log Exit
+  hugo.on('close', (code) => {
+    console.log(`Bugo exited with code ${code}`);
+  });
 
-    
-    // done();
-  }
+
+  // done();
+}
 
 
 /**
  * Watch the SCSS source folder for changes and recompile
  **/
 
-function watchSass(){
+function watchSass() {
   const sasswatcher = gulp.watch(sassPaths.src, gulp.parallel('compile-sass'));
 
   // log changes
-  sasswatcher.on('change', function(path, stats) {
-   console.log('File ' + path + ' was changed');
+  sasswatcher.on('change', function (path, stats) {
+    console.log('File ' + path + ' was changed');
   });
 
   // log deletion
-  sasswatcher.on('unlink', function(path) {
-   console.log('File ' + path + ' was removed');
+  sasswatcher.on('unlink', function (path) {
+    console.log('File ' + path + ' was removed');
   });
 }
 
@@ -193,16 +193,16 @@ function watchSass(){
  * Watch the JS source folder for changes and recompile
  */
 
-function watchJs(){
+function watchJs() {
   const jswatcher = gulp.watch(jsPaths.src, gulp.parallel('compile-js'));
 
   // log changes
-  jswatcher.on('change', function(path, stats) {
+  jswatcher.on('change', function (path, stats) {
     console.log('File ' + path + ' was changed');
   });
 
   // log deletion
-  jswatcher.on('unlink', function(path) {
+  jswatcher.on('unlink', function (path) {
     console.log('File ' + path + ' was removed');
   });
 }
@@ -213,16 +213,16 @@ function watchJs(){
  * theme images.
  */
 
-function watchImages(){
+function watchImages() {
   const imagewatcher = gulp.watch(imagePaths.src, gulp.parallel('process-images'));
 
   // log changes
-  imagewatcher.on('change', function(path, stats) {
+  imagewatcher.on('change', function (path, stats) {
     console.log('File ' + path + ' was changed');
   });
 
   // log deletion
-  imagewatcher.on('unlink', function(path) {
+  imagewatcher.on('unlink', function (path) {
     console.log('File ' + path.path + ' was removed');
   });
 }
@@ -236,13 +236,13 @@ function watchImages(){
  *
  **/
 
-function installBugo(done = () => {}){
+function installBugo(done = () => { }) {
   processAssets();
   console.log('Installation complete! Thanks for installing Bugo! 🤘');
   done();
 }
 
-function processAssets(){
+function processAssets() {
   compileSass();
   compileJs();
   processImages();
@@ -252,16 +252,16 @@ function processAssets(){
  * Compile Sass
  **/
 
-function compileSass(done = () => {}){
-  del([sassPaths.dest+'/*']);
-  console.log('Bugo: Compiling .scss into destination folder: '+sassPaths.dest);
+function compileSass(done = () => { }) {
+  del([sassPaths.dest + '/*']);
+  console.log('Bugo: Compiling .scss into destination folder: ' + sassPaths.dest);
   gulp.src(sassPaths.src)
     // .pipe(sourcemaps.init())
     .pipe(sass.sync().on('error', sass.logError))
     .pipe(autoprefixer())
     // .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(sassPaths.dest));
-  
+
   gulp.src('public/index.html')
     .pipe(critical({
       base: 'public/',
@@ -288,15 +288,15 @@ function compileSass(done = () => {}){
  * Compile JS
  **/
 
-function compileJs(done = () => {}){
-  del([jsPaths.dest+'/*']);
-  console.log('Bugo: Compiling .js files into '+jsPaths.dest);
+function compileJs(done = () => { }) {
+  del([jsPaths.dest + '/*']);
+  console.log('Bugo: Compiling .js files into ' + jsPaths.dest);
   gulp.src([
-      jsPaths.src
-    ])
-		.pipe(webpack(require('./.webpack.config.js')))
+    jsPaths.src
+  ])
+    .pipe(webpack(require('./.webpack.config.js')))
     .pipe(concat('app.js'))
-		.pipe(gulp.dest(jsPaths.dest));
+    .pipe(gulp.dest(jsPaths.dest));
   console.log('Bugo: Done compiling .js files');
   done();
 }
@@ -305,13 +305,13 @@ function compileJs(done = () => {}){
  * Process Images
  **/
 
-function processImages(done = () => {}){
-  del([imagePaths.dest+'/*']);
-  console.log('Bugo: Processing images into '+imagePaths.dest);
+function processImages(done = () => { }) {
+  del([imagePaths.dest + '/*']);
+  console.log('Bugo: Processing images into ' + imagePaths.dest);
   gulp.src([
-      imagePaths.src
-    ])
-		.pipe(gulp.dest(imagePaths.dest));
+    imagePaths.src
+  ])
+    .pipe(gulp.dest(imagePaths.dest));
   console.log('Bugo: Done processing images');
   done();
 }
