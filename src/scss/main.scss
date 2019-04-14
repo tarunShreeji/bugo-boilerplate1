@@ -1,3 +1,9 @@
+/*
+ * Hilight.js
+ */
+
+@import "../../node_modules/highlight.js/styles/atom-one-dark";
+
 /*!
  * Bootstrap v4.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -53,27 +59,49 @@
  * Comment out the one's you don't need or are being loaded in priority.scss
  */
 
- @import "utilities";
+ @import "layout/baseof";
+ @import "layout/landing-page";
+ @import "layout/list";
+ @import "layout/page";
+ @import "layout/post";
+ @import "layout/single";
+ @import "layout/typography";
  @import "layout/wrap";
- @import "layout/background";
- 
- @import "partials/header";
- @import "partials/footer";
- @import "partials/nav-main";
- @import "partials/nav-secondary";
- @import "partials/nav-footer";
- @import "partials/nav-copyright";
- @import "partials/share_buttons";
- 
- @import "partials/blocks/block-columns";
- @import "partials/blocks/block-slideshow";
- @import "partials/blocks/block-latest-posts";
- @import "partials/blocks/blocks";
 
- @import "partials/widgets/widgets";
- @import "partials/widgets/widget-related-pages";
+ @import "mixins/background";
+ 
+ @import "partials/blocks/blocks";
+ @import "partials/blocks/block-columns";
+ @import "partials/blocks/block-google-map";
+ @import "partials/blocks/block-latest-posts";
+ @import "partials/blocks/block-related-posts";
+ @import "partials/blocks/block-slideshow-text";
+ @import "partials/blocks/block-slideshow";
+ @import "partials/blocks/block-taxonomy-navigation";
 
  @import "partials/components/breadcrumbs";
+ @import "partials/components/contact-form";
+ @import "partials/components/email-list";
  @import "partials/components/featured-image";
- @import "partials/components/hero";
- @import "partials/components/list-social-accounts";
+ @import "partials/components/figure";
+ @import "partials/components/modal";
+ @import "partials/components/phone-list";
+ @import "partials/components/social-account-list";
+
+ @import "partials/icons/icons";
+
+ @import "partials/widgets/widgets";
+ @import "partials/widgets/widget-categories";
+ @import "partials/widgets/widget-markdown";
+ @import "partials/widgets/widget-menu";
+ @import "partials/widgets/widget-related-posts";
+
+ @import "partials/footer";
+ @import "partials/header";
+ @import "partials/nav-copyright";
+ @import "partials/nav-footer";
+ @import "partials/nav-main";
+ @import "partials/nav-mobile";
+ @import "partials/nav-secondary";
+ @import "partials/share_buttons";
+ 

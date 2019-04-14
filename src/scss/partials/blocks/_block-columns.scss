@@ -1,16 +1,27 @@
+/* 
+ * Column Block styles
+ */
+
 .block-columns {
   .container {
     display: flex;
     flex-wrap: wrap;
+      align-items: stretch;
 
     @include media-breakpoint-up(md){
       flex-wrap: nowrap;
     }
 
+    .item-container {
+      width: 100%;
+    }
+
     .item {
       flex-grow: 1;
-      text-align: center;
-      // width: 50%;
+      display: flex;
+      align-items: center;
+      padding: $global-padding;
+      flex-wrap: wrap;
 
       &:first-child(){
         padding-left: 0;
@@ -20,8 +31,18 @@
         padding-right: 0;
       }
 
+      .item-container {
+        p:first-child {
+          strong {
+            color: theme-color(primary);
+          }
+        }
+      }
+
+
       figure {
         color: theme-color(primary);
+          max-width: 100%;
 
         figcaption {
           @extend .sr-only;
@@ -35,6 +56,116 @@
           fill: currentColor;
         }
       }
+
+      img {
+        display: block;
+        max-width: 70%;
+        // max-height: 8rem;
+        margin: 0 auto $global-margin;
+        fill: currentColor;
+      }
+    }
+  }
+}
+
+#accuracy-coaching,
+#laser-shooting-trainer {
+  .container {
+    flex-wrap: wrap;
+  }
+  .item {
+    flex: auto;
+    min-width: 100%;
+
+    &:first-child(){
+      padding-left: inherit;
+    }
+
+    &:last-child(){
+      padding-right: inherit;
+    }
+    @include media-breakpoint-up(md){
+      flex: auto;
+      min-width: 0;
+      flex-grow: 1;
+      max-width: 50%;
+    }
+
+    a {
+      @extend .btn;
+      @extend .btn-secondary;
+      @extend .text-white;
+    }
+  }
+  .item-container {
+    width: 100%;
+  }
+}
+
+#accuracy-coaching {
+  .item {
+    min-width: 100%;
+    &:first-child(){
+      order: 2;
+    }
+
+    &:last-child(){
+      order: 1;
+    }
+
+    @include media-breakpoint-up(md){
+      flex: auto;
+      min-width: 0;
+      flex-grow: 1;
+      max-width: 50%;
+
+      &:first-child(){
+        order: 1;
+      }
+
+      &:last-child(){
+        order: 2;
+      }
+    }
+  }
+}
+
+#how-it-works-heading,
+#how-close-can-a-good-or-great-shooter-come-to-machine-like-perfection {
+  margin-bottom: $global-margin*2;
+  padding: $global-padding*10 0;
+
+  h1,h2,h3,h4,h5,h6 {
+    color: inherit;
+    text-align: center;
+    padding: 0 10vw;
+    width: 100%;
+    font-weight: 900;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8)
+  }
+}
+
+#lst-heading {
+  width: 100%;
+  padding: 0;
+  margin: -$global-margin*2 0 0;
+
+  .container {
+    padding: 0;
+  }
+
+  .item {
+    img {
+      max-width: 100%;
+    }
+
+    h1,h2,h3,h4,h5,h6 {
+      color: inherit;
+      text-align: center;
+      padding: 0 10vw;
+      width: 100%;
+      font-weight: 900;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8)
     }
   }
 }

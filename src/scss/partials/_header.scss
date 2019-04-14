@@ -1,21 +1,40 @@
+/* 
+ * Header styles
+ */
+
 .site-header {
-  padding: $global-padding;
-  background-color: theme-color(primary);
-  color: color-yiq(theme-color(primary));
+    margin: $header-margin;
+    padding: $header-padding;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: 100;
+
 
   .container {
+    background-color: $white;
+    color: color-yiq(theme-color(primary));
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: $global-padding;
   }
 }
 
 .site-header-logo {
-  width: 20%;
+  font-size: $main-nav-font-size;
+  width: $header-logo-width;
+
+  a {
+    color: color-yiq(theme-color(primary));
+  }
+  
   figure {
     margin: 0;
   }
 
   img {
-    max-width: 50%; //use this to resize the logo; 
   }
 }
 
@@ -23,10 +42,26 @@
 
 }
 
-.site-header .nav-link {
-  font-size: $main-nav-font-size;
-  color: color-yiq(theme-color(primary));
-}
+.site-header 
+  li {
+    .nav-link {
+      font-size: $main-nav-font-size;
+      font-weight: 600;
+      color: theme-color(secondary);
+      text-transform: uppercase;
+
+      &:hover,
+      &:focus {
+        color: theme-color(primary);
+      }
+    }
+
+    &.current {
+      .nav-link {
+        color: theme-color(primary);
+      }
+    }
+  }
 
 .site-header nav .list-inline {
   margin-bottom: 0;

@@ -1,4 +1,22 @@
-.navbar-main {
-  padding-left: 0;
-  padding-right: 0;
+/* 
+ * Main Header Nav styles
+ * 
+ * Displays the Hugo menu named main
+ *
+ */
+.nav-main-container {
+  width: 60%;
+
+  .nav-main {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+
+    ul {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      text-align: center;
+    }
+  }
 }

@@ -1,5 +1,12 @@
+/* 
+ * Global Block styles
+ */
+
 .block{
-  margin-bottom: $global-margin;
+  margin: 0 0 $block-margin;
+  padding: 0 0 $block-padding;
+  background-size: cover;
+  background-position: center;
 
   &.full-width {
     width: 100vw;
@@ -23,10 +30,10 @@
 .sidebar{
   .block {
     &.full-width {
-      width: 100%;
+      width: 100vw;
       position: relative;
-      left: 0;
-      transform: none;
+      // left: 0;
+      // transform: none;
       .container {
         //max-width: 100vw;
       }

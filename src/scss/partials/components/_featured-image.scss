@@ -1,84 +1,152 @@
+/* 
+ * Featured Image styles
+ */
+
 $text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
-$fi-height: 20rem;
-$fi-md-height: 30rem;
+$fi-height: 22rem;
+$fi-md-height: 32.5rem;
 .featured-image {
   position: relative;
-  margin-bottom: $global-margin;
+  margin: $featured-image-margin;
+  padding: $featured-image-padding;
+  height: $fi-height;
+
+  @include media-breakpoint-up(md){
+   height: $fi-md-height;
+  }
+
 
   h1 {
-    position: absolute;
-    top: 8rem;
     text-align: center;
-    width: 100vw;
-    font-weight: bold;
+    width: 100%;
+    font-weight: 900;
     color: $white;
     text-shadow: $text-shadow;
+  }
 
-    @include media-breakpoint-up(md){
-      top: 20rem;
+  .container {
+    height: inherit;
+
+    > div {
+      height: inherit;
+      height: inherit;
+      display: flex;
+      align-items: center;
+
+      .row {
+        height: inherit;  
+      }
     }
   }
 
   figure {
     width: 100%;
-    min-height: $fi-height;
+    height: inherit;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    color: $white;
 
-    @include media-breakpoint-up(md){
-      min-height: $fi-md-height;
-    }
     @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
       /* IE10+ CSS styles go here */
       overflow: hidden;
     }
 
-    @include media-breakpoint-up(md){
-      max-height: $fi-md-height;
+    .img-container {
+      width: 100vw;
+      height: inherit;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: lighten($primary,25%);
     }
 
     img {
       display: block;
       width: 100%;
-      height: $fi-height;
+      height: inherit;
       object-fit: cover;
       object-position: center;
-
-      @include media-breakpoint-up(md){
-        height: $fi-md-height;
-      }
+      // mix-blend-mode: multiply;
 
       @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
         /* IE10+ CSS styles go here */
         height: auto !important;
-        max-height: none;
+        height: none;
         transform: scale(1.2);
       }
     }
 
     figcaption {
-      @extend .container;
-
-      font-size: $h4-font-size;
+      display: none;
       margin: 0;
-      position: absolute;
-      top: 12rem;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 100vw;
+      position: relative;
+      width: 100%;
       text-align: center;
-      font-weight: bold;
       color: $white;
-      text-shadow: $text-shadow;
 
       @include media-breakpoint-up(md){
-        top: 25rem;
-        font-size: $h2-font-size
+        font-size: 1.5rem;
       }
     }
   }
 }
 
-.search-md {
+.featured-image {
+  button {
+    background-color: transparent;
+    border: none;
+    color: $white;
+    margin: $global-margin auto 0;
+    display: inline-block;
+  }
+  .icon {
+    @extend .svg-shadow;
+
+    fill: $white;
+    width: 60px;
+    height: 60px;
+  }
+
+  .featured-image-text {
+    padding-top: 96px;
+    font-size: 1rem;
+    text-shadow: $text-shadow;
+    color: $white;
+
+    @include media-breakpoint-up(md){
+      width: 50%;
+    }
+  }
+}
+
+.index-md {
   .featured-image {
-    min-height: 20rem;
+    height: 30rem;
+
+    @include media-breakpoint-up(md){
+      height: 46.875rem;
+    }
+
+    .container {
+      height: inherit;
+
+        > * {
+        height: inherit;
+        display: flex;
+      }
+    }
+
+    figure {
+      height: inherit;
+
+      img {
+        height: inherit;
+      }
+    }
   }
 }

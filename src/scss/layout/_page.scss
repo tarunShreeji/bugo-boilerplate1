@@ -1,0 +1,21 @@
+/* 
+ * Page Layout styles
+ */
+
+ .page {
+   .featured-image {
+     margin-bottom: $global-margin;
+   }
+ }
+
+ .about-lance-shelton-md {
+   &.post {
+    main {
+      img {
+        display: block;
+        max-width: 80%;
+        margin: $global-margin auto;
+      }
+    }
+   }
+ }

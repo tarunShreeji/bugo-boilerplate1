@@ -1,15 +1,38 @@
+/* 
+ * Footer styles
+ */
+
 .site-footer {
-  background-color: $primary;
-  color: color-yiq(theme-color(primary));
+  background-color: transparent;
+  color: color-yiq($gray-500);
   padding: $global-padding;
+
+  .locations {
+    display: none;
+  }
+
+  .col-10 {
+    flex: 0 0 100%;
+    max-width: 100% !important;
+  }
+
+  .col-2 {
+    display: none;
+  }
 }
 
 .site-footer-logo {
+  // display: none
+  margin: 0 auto;
+
   img {
-    max-width: 50%;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
   }
 }
 
 .above-footer-content {
   margin-top: $global-padding;
 }
+

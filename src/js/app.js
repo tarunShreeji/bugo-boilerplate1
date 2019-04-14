@@ -1,44 +1,33 @@
 // jquery
-import $ from 'jquery';
-// bootstrap
-import bootstrap from 'bootstrap';
-import LazyLoad from "vanilla-lazyload";
+import $ from 'jquery';                       // jQuery - https://jquery.com
+import bootstrap from 'bootstrap';            // bootstrap - https://www.npmjs.com/package/bootstrap
+import LazyLoad from "vanilla-lazyload";      // lazy loader - https://www.npmjs.com/package/vanilla-lazyload
+import validator from 'validator';            // javascript form validator - https://www.npmjs.com/package/validator
+import YouTubePlayer from 'youtube-player';   // YouTube player - https://www.npmjs.com/package/youtube-player
+import WebFont from 'webfontloader';          // Web Font Loader - https://www.npmjs.com/package/webfontloader
 
-// svg4everybody - allows SVG external content to older browsers and IE
-// import 'svg4everybody';
-// svg4everybody();
 
-import YouTubePlayer from 'youtube-player';
-
+// Init LazyLoader
 var lazyLoadInstance = new LazyLoad({
   elements_selector: ".lazy"
   // ... more custom settings?
 });
 
-var WebFont = require('webfontloader');
-
-function isElementInViewport(el) {
-  var rect = el[0].getBoundingClientRect();
-  return (rect.top > -1 && rect.bottom <= $(window).height());
-}
-
-
+// Load fonts
 WebFont.load({
   google: {
-    families: ['Barlow+Semi+Condensed:400,500', 'Barlow:400,500']
+    families: ['Poppins:400,400i,600,900']
   }
 });
 
+// On Document Ready
 $(document).ready(function () {
 
-  $('.search-container button').on('click', function () {
-    console.log('clicked');
-    $('.search-container .drawer').toggleClass('show').find('input').focus();
-  });
+  // $('.search-container button').on('click', function () {
+  //   console.log('clicked');
+  //   $('.search-container .drawer').toggleClass('show').find('input').focus();
+  // });
 
-  $('.show-videos').on('click', function (e) {
-    $('.featured-image figcaption').toggleClass('show');
-  });
 
   const $video_player = $('#video-player');
   console.log($video_player);
