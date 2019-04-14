@@ -26,3 +26,5 @@ fields:
   name: taxonomy
   label: Taxonomy
   template: field-taxonomy
+pages:
+- content/login.md
