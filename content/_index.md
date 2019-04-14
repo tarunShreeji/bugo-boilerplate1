@@ -2,9 +2,9 @@
 date: 2019-02-04 08:00:00 +0000
 title: Home
 featured_image:
-  title: ''
-  image: ''
-  caption: ''
+  title: Computer screen
+  image: "/v1554869545/markus-spiske-207946-unsplash.jpg"
+  caption: This is the featured image caption
 content: []
 weight: ''
 tags: []
