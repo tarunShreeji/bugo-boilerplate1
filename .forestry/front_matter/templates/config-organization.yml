@@ -44,6 +44,11 @@ fields:
     - type: text
       name: caption
       label: caption
+    - type: textarea
+      name: svg_code
+      label: SVG Code
+      description: Add SVG logo code to display inline. This will override the image
+        above.
     description: Add a footer logo to this website.
   - type: file
     name: seo_logo
