@@ -10,7 +10,7 @@ page_meta:
   meta_description: ''
 featured_image:
   title: ''
-  image: "/v1553731895/samples/people/jazz.jpg"
+  image: ''
   caption: ''
 content:
 - template: block-google-map
@@ -27,6 +27,8 @@ content:
   block_options:
     show_title: true
 show_sidebar: true
+video_gallery:
+  videos: []
 menu:
   main:
     weight: 3
