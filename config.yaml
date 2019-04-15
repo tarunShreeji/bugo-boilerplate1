@@ -40,3 +40,8 @@ home:
 - RSS
 page:
 - HTML
+menu:
+  secondary:
+  - url: http://google.com
+    name: Client Portal
+    weight: 2
