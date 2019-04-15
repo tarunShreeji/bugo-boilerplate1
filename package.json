@@ -21,6 +21,7 @@
     "jquery": "^3.3.1",
     "netlify-cms": "^2.6.1",
     "popper.js": "^1.14.4",
+    "validator": "^10.11.0",
     "vanilla-lazyload": "^11.0.6",
     "webfontloader": "^1.6.28",
     "youtube-player": "^5.5.2"

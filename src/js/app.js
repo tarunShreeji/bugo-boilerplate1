@@ -16,7 +16,7 @@ var lazyLoadInstance = new LazyLoad({
 // Load fonts
 WebFont.load({
   google: {
-    families: ['Poppins:400,400i,600,900']
+    families: ['Fira+Sans:400,400i,700,700i']
   }
 });
 
@@ -28,6 +28,17 @@ $(document).ready(function () {
   //   $('.search-container .drawer').toggleClass('show').find('input').focus();
   // });
 
+  // Add scrolled class to body for fixed headers
+  // you can use the class to add backgrounds, hide, etc.
+  $(window).on('scroll', function () {
+    // we round here to reduce a little workload
+    stop = Math.round($(window).scrollTop());
+    if (stop > 0) {
+      $('.site-header').addClass('scrolled');
+    } else {
+      $('.site-header').removeClass('scrolled');
+    }
+  });
 
   const $video_player = $('#video-player');
   console.log($video_player);
