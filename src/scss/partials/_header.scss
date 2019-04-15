@@ -3,66 +3,82 @@
  */
 
 .site-header {
-    margin: $header-margin;
-    padding: $header-padding;
-    position: absolute;
-    top: 0;
-    width: 100vw;
-    z-index: 100;
+  margin: $header-margin;
+  padding: $header-padding;
+  top: 0;
+  width: 100vw;
+  z-index: 100;
+  background-color: $header-background-color;
+  position: relative;
 
+
+  &.scrolled {
+    background-color: $header-scrolled-background-color;
+    display: $header-scrolled-display;
+    transition: all 0.5s;
+
+    .nav-main-container .nav-main ul.list-inline .nav-link {
+      color: $header-scrolled-color;
+    }
+    .site-header-logo svg {
+      fill: $header-scrolled-color;
+    }
+  }
+
+  a {
+    @if $auto-contrast-text-to-background == true {
+      color: color-yiq(theme-color(primary));
+    }
+  }
+
+  @if $header-fixed == true{
+    position: fixed;
+  } @else {
+    position: relative;
+  }
 
   .container {
-    background-color: $white;
-    color: color-yiq(theme-color(primary));
-    position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    @if $main-nav-left == false {
+      justify-content: space-between;
+    }
     padding: $global-padding;
+
+    @if $secondary-nav-top == true {
+      padding-top: $global-padding*3;
+    }
+
+    // @if $header-search-top == true {
+    //   padding-top: $global-padding*3;
+    // }
+
+    @if $header-full-width == true {
+      max-width: 100vw;
+    }
+  }
+
+  .search-form {
+    font-size: 12px;
   }
 }
 
 .site-header-logo {
   font-size: $main-nav-font-size;
   width: $header-logo-width;
+  margin: $header-logo-margin;
 
-  a {
-    color: color-yiq(theme-color(primary));
-  }
-  
   figure {
     margin: 0;
+    color: $header-logo-fill;
   }
 
+  svg {
+    fill: $header-logo-fill;    
+  }
+  .img-container {
+    fill: $header-logo-fill;    
+  }
   img {
   }
-}
-
-.site-header .nav-bar {
-
-}
-
-.site-header 
-  li {
-    .nav-link {
-      font-size: $main-nav-font-size;
-      font-weight: 600;
-      color: theme-color(secondary);
-      text-transform: uppercase;
-
-      &:hover,
-      &:focus {
-        color: theme-color(primary);
-      }
-    }
-
-    &.current {
-      .nav-link {
-        color: theme-color(primary);
-      }
-    }
-  }
-
-.site-header nav .list-inline {
-  margin-bottom: 0;
 }

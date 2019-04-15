@@ -5,18 +5,33 @@
  *
  */
 .nav-main-container {
-  width: 60%;
+  align-items: center;
+  flex-grow: 1;
 
   .nav-main {
     padding-left: 0;
     padding-right: 0;
     width: 100%;
 
-    ul {
-      display: flex;
-      flex-wrap: nowrap;
-      align-items: center;
-      text-align: center;
+    ul.list-inline {
+      margin: 0;
+
+      @if $main-nav-left == false {
+        text-align: right;
+      }
+
+    .list-inline-item {
+      &:last-child {
+        .nav-link {
+          // padding-right: $global-padding/2;
+        }
+      }
+    }
+
+
+      .nav-link {
+        color: $main-nav-color;
+      }
     }
   }
 }

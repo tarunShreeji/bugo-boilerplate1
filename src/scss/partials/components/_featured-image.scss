@@ -3,16 +3,22 @@
  */
 
 $text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
-$fi-height: 22rem;
-$fi-md-height: 32.5rem;
 .featured-image {
   position: relative;
   margin: $featured-image-margin;
   padding: $featured-image-padding;
-  height: $fi-height;
+  height: $featured-image-height;
 
   @include media-breakpoint-up(md){
-   height: $fi-md-height;
+   height: $featured-image-md-height;
+  }
+
+  @include media-breakpoint-up(lg){
+   height: $featured-image-lg-height;
+  }
+
+  @include media-breakpoint-up(xl){
+   height: $featured-image-xl-height;
   }
 
 
@@ -37,6 +43,10 @@ $fi-md-height: 32.5rem;
         height: inherit;  
       }
     }
+  }
+
+  .figure-container {
+    height: inherit;
   }
 
   figure {
@@ -120,33 +130,6 @@ $fi-md-height: 32.5rem;
 
     @include media-breakpoint-up(md){
       width: 50%;
-    }
-  }
-}
-
-.index-md {
-  .featured-image {
-    height: 30rem;
-
-    @include media-breakpoint-up(md){
-      height: 46.875rem;
-    }
-
-    .container {
-      height: inherit;
-
-        > * {
-        height: inherit;
-        display: flex;
-      }
-    }
-
-    figure {
-      height: inherit;
-
-      img {
-        height: inherit;
-      }
     }
   }
 }

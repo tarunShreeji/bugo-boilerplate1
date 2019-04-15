@@ -25,6 +25,10 @@
   // display: none
   margin: 0 auto;
 
+  svg {
+    fill: $footer-logo-fill;
+  }
+
   img {
     max-width: 300px;
     display: block;

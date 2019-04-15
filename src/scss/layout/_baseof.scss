@@ -2,6 +2,10 @@
  * Global Layout styles & custom classes
  */
 
+body {
+  position: relative;
+}
+
 .fill-cover {
   object-fit: cover;
   object-position: center;

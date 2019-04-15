@@ -1,0 +1,31 @@
+.site-header .search-container {
+  // @if $header-search == false {
+  //   display: none;
+  // }
+
+  // @if $header-search-top {
+  //   position: absolute;
+  //   top: $global-padding;
+  //   right: $global-padding;
+  // }
+
+  // display: none;
+
+  // @include media-breakpoint-up(lg){
+  //   display: block;
+  // }
+}
+
+.nav-main-container .search-container {
+  @if $main-nav-search == false {
+    display: none;
+  }
+}
+
+.nav-secondary-container .search-container {
+  padding: 0 0.5rem;
+
+  @if $secondary-nav-search == false {
+    display: none;
+  }
+}
