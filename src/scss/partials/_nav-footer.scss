@@ -16,3 +16,11 @@
     color: color-yiq(theme-color(primary));
   }
 }
+
+.site-footer-logo {
+  svg {
+    max-width: $footer-logo-width;
+    display: block;
+    margin: 0 auto;
+  }
+}

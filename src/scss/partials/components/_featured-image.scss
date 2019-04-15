@@ -133,3 +133,21 @@ $text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
     }
   }
 }
+
+body.home {
+  .featured-image {
+    height: $home-featured-image-height;
+
+    @include media-breakpoint-up(md){
+    height: $home-featured-image-md-height;
+    }
+
+    @include media-breakpoint-up(lg){
+    height: $home-featured-image-lg-height;
+    }
+
+    @include media-breakpoint-up(xl){
+    height: $home-featured-image-xl-height;
+    }
+  }
+}
