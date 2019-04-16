@@ -20,7 +20,7 @@ content:
     show_image_above_content: true
   - title: Client Focused
     content: |-
-      ## CLIENT-FOCUSED & INDEPENDENT
+      ### CLIENT-FOCUSED & INDEPENDENT
 
       [Learn More](#)
     show_image_above_content: true
