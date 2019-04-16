@@ -16,10 +16,6 @@ video_gallery:
   videos: []
 categories: []
 tags: []
-menu:
-  main:
-    weight: 2
-    parent: Services
 
 ---
 At Oder Investment Management we choose to partner with the largest third-party custodian to independent advisers in the industry, Charles Schwab & Co.
