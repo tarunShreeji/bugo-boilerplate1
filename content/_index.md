@@ -78,9 +78,9 @@ content:
   columns:
   - title: Content
     content: |-
-      ## **CLIENT-FOCUSED INDEPENDENT TEAM**
+      ## CLIENT-FOCUSED INDEPENDENT TEAM
 
-      ## AS AN INDEPENDENT INVESTMENT ADVISORY FIRM, WE ARE NOT TIED TO ANY TYPE OF INVESTMENT PRODUCT AND HAVE THE FREEDOM TO CHOOSE FROM A WIDE RANGE OF INVESTMENT OPTIONS TO HELP SIMPLIFY OUR CLIENT’S FINANCIAL LIVES.
+      ### AS AN INDEPENDENT INVESTMENT ADVISORY FIRM, WE ARE NOT TIED TO ANY TYPE OF INVESTMENT PRODUCT AND HAVE THE FREEDOM TO CHOOSE FROM A WIDE RANGE OF INVESTMENT OPTIONS TO HELP SIMPLIFY OUR CLIENT’S FINANCIAL LIVES.
 
       Clients come first. Our goal is to forge deep personal relationships with our clients to best understand their financial needs. We offer a simple and transparent fee structure, create personalized investment plans and don’t use “model portfolios”. Every family has a unique financial situation, so they deserve a plan designed specifically for them.
     show_image_above_content: true
