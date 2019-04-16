@@ -12,12 +12,6 @@ content:
     text_color: White
   title: Home Header
   columns:
-  - title: Fiduciary Responsibility
-    content: "## FIDUCIARY  \nRESPONSIBILITY\n\n[Learn More](#)"
-    show_image_above_content: true
-  - title: Fee Only
-    content: "## FEE-ONLY,   \nNOT FEE BASED\n\n[Learn More](#)"
-    show_image_above_content: true
   - title: Logo Column
     show_image_above_content: true
     content: "![](https://res.cloudinary.com/oderllc/image/upload/v1555430525/oderllc_logo.svg)"
@@ -26,6 +20,12 @@ content:
     show_image_above_content: true
   - title: Client Focused
     content: "## CLIENT-FOCUSED   \n& INDEPENDENT\n\n[Learn More](#)"
+    show_image_above_content: true
+  - title: Fee Only
+    content: "## FEE-ONLY,   \nNOT FEE BASED\n\n[Learn More](#)"
+    show_image_above_content: true
+  - title: Fiduciary Responsibility
+    content: "## FIDUCIARY  \nRESPONSIBILITY\n\n[Learn More](#)"
     show_image_above_content: true
   background_image:
     image: "/v1555387947/Oder_HomeHeader_Build.jpg"
