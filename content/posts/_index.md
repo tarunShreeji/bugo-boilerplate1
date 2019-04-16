@@ -2,11 +2,11 @@
 layout: list
 category: []
 date: 2019-02-08 06:18:51 +0000
-title: Blog
+title: Insights
 tags: []
 featured_image:
   title: ''
-  image: ''
+  image: "/v1553731891/samples/animals/cat.jpg"
   caption: ''
 related_pages: []
 weight: ''
