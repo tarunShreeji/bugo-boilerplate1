@@ -11,7 +11,7 @@ page_meta:
   meta_description: ''
 featured_image:
   title: ''
-  image: ''
+  image: "/v1555439520/oder_biobackground.jpg"
   caption: ''
 profile:
   first_name: Steve
@@ -37,6 +37,7 @@ profile:
     universities: []
     clerkships: []
   highlights: ''
+  profile_image: "/v1555439521/Oder_Steve-Zorn_Isolated.png"
 video_gallery:
   videos: []
 categories: []
