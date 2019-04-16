@@ -9,6 +9,7 @@ content:
 - template: block-columns
   block_options:
     full_width: true
+    text_color: White
   title: Home Header
   columns:
   - title: Fiduciary Responsibility
