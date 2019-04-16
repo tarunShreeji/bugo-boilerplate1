@@ -71,6 +71,12 @@ content:
       2nd quarter are higher (as this year was) the 3rd quarter is up an average of
       4.4% and higher 13 out of the last 15 times. Courtesy of LPL (7/24/18)
     title: 3rd Quarter
+  - template: field-markdown
+    content: "Interesting Market Stat: The first move of more than 500 points for
+      \ the dow took place on october 19, 1987, with a 508 point drop representing
+      a 22.6% decline. last tuesday''s 500 point loss was a 1.94% decline, a percentage
+      move the dow has experienced more than 2000 times since 1896. courtesy of LPL
+      \n\n\\~ (12/13/18)"
 - template: block-columns
   block_options:
     full_width: true
