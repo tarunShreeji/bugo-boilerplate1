@@ -10,7 +10,7 @@ page_meta:
   meta_description: ''
 featured_image:
   title: ''
-  image: "/v1553731895/samples/people/jazz.jpg"
+  image: ''
   caption: ''
 content: []
 show_sidebar: true
