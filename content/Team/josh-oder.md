@@ -65,4 +65,3 @@ Five Star Los Angeles Wealth Manager Selection Award candidates will be evaluate
  8. Non-institutional discretionary and/or non-discretionary client assets administered
  9. Number of client households served
 10. Education and professional designations
-11. 
