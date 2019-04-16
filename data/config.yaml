@@ -113,6 +113,7 @@ layout_options:
         show_image_above_content: true
   header_content:
     blocks: []
+  footer_style: Default
 sidebar_widgets:
   widgets: []
 site_categories: []
