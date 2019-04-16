@@ -86,7 +86,6 @@ media:
     image: "/v1555439520/secondary_header.png"
     caption: ''
     excluded_pages:
-    - posts/_index.md
     - _index.md
 styles:
   custom_css:
