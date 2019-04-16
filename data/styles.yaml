@@ -2,6 +2,8 @@
 theme_colors:
 - Primary
 - Secondary
+- Light
+- Dark
 - White
 - Black
 custom_css: ''
