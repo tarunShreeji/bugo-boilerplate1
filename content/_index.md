@@ -26,13 +26,13 @@ content:
     show_image_above_content: true
   - title: Fee Only
     content: |-
-      ## FEE-ONLY, NOT FEE BASED
+      ### FEE-ONLY, NOT FEE BASED
 
       [Learn More](#)
     show_image_above_content: true
   - title: Fiduciary Responsibility
     content: |-
-      ## FIDUCIARY RESPONSIBILITY
+      ### FIDUCIARY RESPONSIBILITY
 
       [Learn More](#)
     show_image_above_content: true
