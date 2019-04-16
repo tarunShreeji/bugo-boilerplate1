@@ -19,7 +19,10 @@ content:
     content: "# PROVIDING EXPERTISE, INSIGHT AND PERSONAL ATTENTION."
     show_image_above_content: true
   - title: Client Focused
-    content: "## CLIENT-FOCUSED   \n& INDEPENDENT\n\n[Learn More](#)"
+    content: |-
+      ## CLIENT-FOCUSED & INDEPENDENT
+
+      [Learn More](#)
     show_image_above_content: true
   - title: Fee Only
     content: "## FEE-ONLY,   \nNOT FEE BASED\n\n[Learn More](#)"
