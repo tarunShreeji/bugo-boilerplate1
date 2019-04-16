@@ -32,5 +32,11 @@ contact_information:
     instagram: ''
     pinterest: ''
     github: ''
-  locations: []
+  locations:
+  - location_name: Main Office
+    address_1: 21300 Victory Blvd.
+    address_2: Suite 855
+    city: Woodland Hills
+    state: California - CA
+    zip_code: '91367'
 google_api_key: ''
