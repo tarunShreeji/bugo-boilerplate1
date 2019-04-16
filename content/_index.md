@@ -90,6 +90,12 @@ content:
       returns than October with an average gain of 2.1%. In addition October also
       has the most up or down 1% daily moves compared to any other month. October
       tends to have good returns, but it is a volatile month. (10/4/18)'
+  - template: field-markdown
+    content: |-
+      Interesting Market Stat: the S&P is up 5 months in a row. Going back to 1950 that has happened 25 times. A year later it has been higher 24 times. The one time it was down was 1972-1973 when it fell 0.7% one year later.
+
+      COURTESY OF LPL (9/07/18)
+    title: S&P
 - template: block-columns
   block_options:
     full_width: true
