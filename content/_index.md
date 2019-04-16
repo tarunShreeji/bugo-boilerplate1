@@ -84,6 +84,12 @@ content:
 
        (10/15/18)
     title: Midterms
+  - template: field-markdown
+    title: October Returns
+    content: 'Interesting Market Stat: Over the past 20 years no month has stronger
+      returns than October with an average gain of 2.1%. In addition October also
+      has the most up or down 1% daily moves compared to any other month. October
+      tends to have good returns, but it is a volatile month. (10/4/18)'
 - template: block-columns
   block_options:
     full_width: true
