@@ -19,7 +19,7 @@ content:
     show_image_above_content: true
   - title: Logo Column
     show_image_above_content: true
-    content: Logo
+    content: "![](https://res.cloudinary.com/oderllc/image/upload/v1555430525/oderllc_logo.svg)"
   - title: Headline
     content: "# PROVIDING EXPERTISE, INSIGHT AND PERSONAL ATTENTION."
     show_image_above_content: true
