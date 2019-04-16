@@ -124,7 +124,7 @@ content:
       We are held to a fiduciary standard by the Securities and Exchange Commission to always work in the best interest of our clients and to avoid conflicts of interests. One would think this would be the industry standard, but it is not. There is a “suitability standard” in place for some advisers where they only must have adequate reason to believe a recommendation fits for a client’s financial situation. An adviser held to this standard can steer you into products that pay him or her a commission if it’s considered suitable for you. At Oder Investment Management we provide independent investment advice to our clients and are compensated on a fee only basis and not on a commission basis.
     show_image_above_content: true
 - template: block-latest-posts
-  show_quantity: '1'
+  show_quantity: '3'
   block_options:
     full_width: true
   title: Latest Posts
