@@ -102,6 +102,10 @@ content:
       quarter are higher (as this year was) the 3rd quarter is up an average of 4.4%
       and higher 13 out of the last 15 times. Courtesy of LPL (7/24/18)
     title: 3rd Quarter
+  block_options:
+    text_color: White
+    background_color: Secondary
+    full_width: true
 - template: block-columns
   block_options:
     full_width: true
