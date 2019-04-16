@@ -87,6 +87,8 @@ content:
 - template: block-columns
   block_options:
     full_width: true
+    text_color: White
+    background_color: Primary
   title: Fee Only
   columns:
   - title: Content
