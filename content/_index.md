@@ -95,11 +95,11 @@ content:
     content: |-
       ## FEE-ONLY, NOT FEE BASED
 
-      ## OUR FEES ARE BASED ON WHAT WE HELP YOU EARN, NOT ON HOW MUCH OR WHAT PRODUCTS WE CAN SELL YOU.
+      ### OUR FEES ARE BASED ON WHAT WE HELP YOU EARN, NOT ON HOW MUCH OR WHAT PRODUCTS WE CAN SELL YOU.
 
       Oder Investment Management is a fee-only adviser, independent of Wall Street influences. We are not paid commissions and we don’t have to trade your account to generate income. Since our fees are based on a percentage of assets under management, we’re clearly aligned with your interests. We are compensated more when your portfolio grows and you achieve your financial objectives.
 
-      ## THE BENEFITS OF AN INDEPENDENT, FEE-ONLY INVESTMENT ADVISER ARE CLEAR:
+      ### THE BENEFITS OF AN INDEPENDENT, FEE-ONLY INVESTMENT ADVISER ARE CLEAR:
 
       * No hidden sales fees
       * No pressure to buy/sell investments for commission gains
