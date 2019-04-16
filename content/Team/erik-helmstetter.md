@@ -12,7 +12,7 @@ page_meta:
     LLC
 featured_image:
   title: ''
-  image: ''
+  image: "/v1555439520/oder_biobackground.jpg"
   caption: ''
 profile:
   first_name: Erik
@@ -38,6 +38,7 @@ profile:
     universities: []
     clerkships: []
   highlights: ''
+  profile_image: "/v1555439521/Oder_Erik-Helmstetter_Isolated.png"
 video_gallery:
   videos: []
 categories: []
