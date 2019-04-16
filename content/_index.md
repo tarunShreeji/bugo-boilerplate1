@@ -42,11 +42,11 @@ content:
   title: Quotes
   slides:
   - template: field-markdown
-    content: "Interesting Market Stat: The first move of more than 500 points for
+    content: "> Interesting Market Stat: The first move of more than 500 points for
       \ the dow took place on october 19, 1987, with a 508 point drop representing
       a 22.6% decline. last tuesday''s 500 point loss was a 1.94% decline, a percentage
       move the dow has experienced more than 2000 times since 1896. courtesy of LPL
-      \n\n\\~ (12/13/18)"
+      <cite>(12/13/18)</cite>"
     title: 500 points
   - template: field-markdown
     content: |-
