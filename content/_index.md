@@ -105,8 +105,6 @@ content:
       * No pressure to buy/sell investments for commission gains
       * Personal, ongoing relationship with the person managing your money
       * Sharing the same goal: the achievement of your financial objectives
-
-
       * Adjustments are made as market conditions or personal circumstances warrant
       * Development of a customized investment plan based on a thorough needs assessment and then tailored to your risk tolerance, current needs and long-term financial goals
     show_image_above_content: true
