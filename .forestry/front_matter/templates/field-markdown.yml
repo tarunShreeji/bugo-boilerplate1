@@ -6,3 +6,10 @@ fields:
   name: title
   label: Title
   description: Title for this slide.
+- type: textarea
+  name: content
+  label: Content
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
