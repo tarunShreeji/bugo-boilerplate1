@@ -60,10 +60,10 @@ content:
       has the most up or down 1% daily moves compared to any other month. October
       tends to have good returns, but it is a volatile month.<cite> (10/4/18)</cite>"
   - template: field-markdown
-    content: |-
-      Interesting Market Stat: the S&P is up 5 months in a row. Going back to 1950 that has happened 25 times. A year later it has been higher 24 times. The one time it was down was 1972-1973 when it fell 0.7% one year later.
-
-      COURTESY OF LPL (9/07/18)
+    content: "> Interesting Market Stat: the S&P is up 5 months in a row. Going back
+      to 1950 that has happened 25 times. A year later it has been higher 24 times.
+      The one time it was down was 1972-1973 when it fell 0.7% one year later.<cite>COURTESY
+      OF LPL (9/07/18)</cite>"
     title: S&P
   - template: field-markdown
     content: The third quarter is historically the worst performing quarter of the
