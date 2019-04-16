@@ -74,6 +74,7 @@ fields:
     label: Footer Style
     name: footer_style
     description: Select a footer style.
+    default: Default
 - type: field_group
   name: sidebar_widgets
   label: Sidebar Widgets
