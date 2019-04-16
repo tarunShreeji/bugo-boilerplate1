@@ -11,7 +11,7 @@ page_meta:
   meta_description: ''
 featured_image:
   title: ''
-  image: ''
+  image: "/v1554600369/samples/cloudinary-group.jpg"
   caption: ''
 categories: []
 tags: []
