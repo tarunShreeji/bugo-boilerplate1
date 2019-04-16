@@ -40,6 +40,7 @@ profile:
     universities: []
     clerkships: []
   highlights: ''
+  profile_image: "/v1555439521/Oder_Josh-Oder_Isolated.png"
 weight: 1
 categories: []
 tags: []
