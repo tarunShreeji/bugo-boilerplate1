@@ -25,7 +25,10 @@ content:
       [Learn More](#)
     show_image_above_content: true
   - title: Fee Only
-    content: "## FEE-ONLY,   \nNOT FEE BASED\n\n[Learn More](#)"
+    content: |-
+      ## FEE-ONLY, NOT FEE BASED
+
+      [Learn More](#)
     show_image_above_content: true
   - title: Fiduciary Responsibility
     content: "## FIDUCIARY  \nRESPONSIBILITY\n\n[Learn More](#)"
