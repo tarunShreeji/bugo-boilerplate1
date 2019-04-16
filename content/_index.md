@@ -77,6 +77,13 @@ content:
       a 22.6% decline. last tuesday''s 500 point loss was a 1.94% decline, a percentage
       move the dow has experienced more than 2000 times since 1896. courtesy of LPL
       \n\n\\~ (12/13/18)"
+    title: 500 points
+  - template: field-markdown
+    content: |-
+      Interesting market stat: Since 1946 the S&P 500 has been higher one year after every single midterm election. 18 out of 18 times. Courtesy of LPL
+
+       (10/15/18)
+    title: Midterms
 - template: block-columns
   block_options:
     full_width: true
