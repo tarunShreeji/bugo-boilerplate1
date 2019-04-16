@@ -118,6 +118,8 @@ content:
 - template: block-columns
   block_options:
     full_width: true
+    text_color: Dark
+    background_color: White
   title: Fiduciary Responsiblility
   columns:
   - title: Content
