@@ -79,6 +79,8 @@ content:
 - template: block-columns
   block_options:
     full_width: true
+    background_color: White
+    text_color: Dark
   title: Client Focused Independent Team
   columns:
   - title: Content
