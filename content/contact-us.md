@@ -18,6 +18,6 @@ video_gallery:
   videos: []
 menu:
   main:
-    weight: 4
+    weight: 5
 
 ---
