@@ -49,10 +49,9 @@ content:
       <cite>(12/13/18)</cite>"
     title: 500 points
   - template: field-markdown
-    content: |-
-      Interesting market stat: Since 1946 the S&P 500 has been higher one year after every single midterm election. 18 out of 18 times. Courtesy of LPL
-
-       (10/15/18)
+    content: "> Interesting market stat: Since 1946 the S&P 500 has been higher one
+      year after every single midterm election. 18 out of 18 times. Courtesy of LPL
+      <cite>(10/15/18)</cite>"
     title: Midterms
   - template: field-markdown
     title: October Returns
