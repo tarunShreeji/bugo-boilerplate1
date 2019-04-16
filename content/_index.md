@@ -26,18 +26,22 @@ content:
   - title: Client Focused
     content: "## CLIENT-FOCUSED   \n& INDEPENDENT\n\n[Learn More](#)"
     show_image_above_content: true
+  background_image:
+    image: "/v1555387947/Oder_HomeHeader_Build.jpg"
 - template: block-slideshow-text
   title: Quotes
   slides:
   - template: field-text-slide
-    content: 'Interesting Market Stat: The first move of more than 500 points
-      for the dow took place on october 19, 1987, with a 508 point drop representing
-      a 22.6% decline. last tuesday''s 500 point loss was a 1.94% decline, a percentage
-      move the dow has experienced more than 2000 times since 1896. courtesy of LPL (12/13/18)'
+    content: 'Interesting Market Stat: The first move of more than 500 points for
+      the dow took place on october 19, 1987, with a 508 point drop representing a
+      22.6% decline. last tuesday''s 500 point loss was a 1.94% decline, a percentage
+      move the dow has experienced more than 2000 times since 1896. courtesy of LPL
+      (12/13/18)'
     title: "-500 Points"
   - template: field-text-slide
-    content: 'Interesting market stat: Since 1946 the S&P 500 has been higher
-      one year after every single midterm election. 18 out of 18 times. Courtesy of LPL (10/15/18)'
+    content: 'Interesting market stat: Since 1946 the S&P 500 has been higher one
+      year after every single midterm election. 18 out of 18 times. Courtesy of LPL
+      (10/15/18)'
     title: Midterm Election
   - template: field-text-slide
     content: 'Interesting Market Stat: Over the past 20 years no month has stronger
@@ -48,7 +52,8 @@ content:
   - template: field-text-slide
     testimonial: 'Interesting Market Stat: the S&P is up 5 months in a row.  Going
       back to 1950 that has happened 25 times.  A year later it has been higher 24
-      times.  The one time it was down was 1972-1973 when it fell 0.7% one year later. COURTESY OF LPL (9/07/18)'
+      times.  The one time it was down was 1972-1973 when it fell 0.7% one year later.
+      COURTESY OF LPL (9/07/18)'
     title: S&P
   - template: field-text-slide
     testimonial: The third quarter is historically the worst performing quarter of
