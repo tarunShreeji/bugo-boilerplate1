@@ -17,8 +17,12 @@ contact_information:
   show_email_labels: false
   show_phone_labels: false
   contact_info:
-    email_addresses: []
-    phones: []
+    email_addresses:
+    - email_address: info@oderllc.com
+      label: main
+    phones:
+    - label: 818-676-0036
+      phone: Phone
   social_accounts:
     facebook: ''
     twitter: ''
