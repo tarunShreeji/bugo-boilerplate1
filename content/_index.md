@@ -96,6 +96,12 @@ content:
 
       COURTESY OF LPL (9/07/18)
     title: S&P
+  - template: field-markdown
+    content: The third quarter is historically the worst performing quarter of the
+      year for the S&P 500. Interesting fact though is when all 3 months in the 2nd
+      quarter are higher (as this year was) the 3rd quarter is up an average of 4.4%
+      and higher 13 out of the last 15 times. Courtesy of LPL (7/24/18)
+    title: 3rd Quarter
 - template: block-columns
   block_options:
     full_width: true
