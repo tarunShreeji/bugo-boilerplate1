@@ -1,0 +1,25 @@
+---
+label: Block - Slideshow
+hide_body: false
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Title
+  description: Giving this block a title will help organization.
+  config:
+    required: true
+- type: blocks
+  name: slides
+  label: Slides
+  description: Add at least 1 slide.
+  template_types:
+  - field-markdown
+- type: field_group
+  name: block_options
+  label: Block Options
+  fields:
+  - type: include
+    template: field-block-options
+    label: Block Options
+    name: block_options

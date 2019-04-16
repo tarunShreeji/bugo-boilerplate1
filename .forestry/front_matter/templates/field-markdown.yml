@@ -1,0 +1,8 @@
+---
+label: Field - Markdown
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: Title
+  description: Title for this slide.
