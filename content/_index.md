@@ -31,7 +31,10 @@ content:
       [Learn More](#)
     show_image_above_content: true
   - title: Fiduciary Responsibility
-    content: "## FIDUCIARY  \nRESPONSIBILITY\n\n[Learn More](#)"
+    content: |-
+      ## FIDUCIARY RESPONSIBILITY
+
+      [Learn More](#)
     show_image_above_content: true
   background_image:
     image: "/v1555387947/Oder_HomeHeader_Build.jpg"
