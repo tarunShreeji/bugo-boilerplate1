@@ -83,9 +83,10 @@ media:
   cloudinary_name: oderllc
   default_featured_image:
     title: ''
-    image: ''
+    image: "/v1555439520/secondary_header.png"
     caption: ''
-    excluded_pages: []
+    excluded_pages:
+    - _index.md
 styles:
   custom_css:
     custom_css: ''
