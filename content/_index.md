@@ -22,7 +22,7 @@ content:
     content: |-
       ### CLIENT-FOCUSED & INDEPENDENT
 
-      [Learn More](#)
+      [Learn More](#client-focused-independent-team)
     show_image_above_content: true
   - title: Fee Only
     content: |-
