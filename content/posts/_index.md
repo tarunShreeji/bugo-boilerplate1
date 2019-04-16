@@ -19,6 +19,6 @@ page_meta:
   meta_description: ''
 menu:
   main:
-    weight: 2
+    weight: 3
 
 ---
