@@ -10,7 +10,7 @@ page_meta:
   meta_description: ''
 featured_image:
   title: ''
-  image: ''
+  image: "/v1555439520/oder_biobackground.jpg"
   caption: ''
 show_sidebar: false
 content: []
