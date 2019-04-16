@@ -35,6 +35,7 @@ profile:
     universities: []
     clerkships: []
   highlights: ''
+  profile_image: "/v1555439521/Oder_Kelly-Murray_Isolated.png"
 video_gallery:
   videos: []
 categories: []
