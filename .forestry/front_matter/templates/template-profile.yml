@@ -54,13 +54,9 @@ fields:
     - type: list
       name: clerkships
       label: Clerkships
-  - type: textarea
-    name: highlights
-    label: Highlights
-    config:
-      wysiwyg: true
-      schema:
-        format: markdown
+  - type: file
+    name: profile_image
+    label: Profile Image
 - type: field_group
   name: video_gallery
   label: Video Gallery
