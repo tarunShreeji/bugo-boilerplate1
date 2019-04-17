@@ -13,7 +13,7 @@ featured_image:
   title: ''
   image: "/v1555439520/oder_biobackground.jpg"
   caption: ''
-  template: Profile w/ Profile Image
+  template: Profile
 profile:
   first_name: Kelly
   middle_name: ''
@@ -47,6 +47,7 @@ menu:
     parent: Team
   footer:
     weight: 4
+
 ---
 Ms. Murray joined Oder Investment Management in May of 2017. She supports every OIM partner with client services, compliance, and marketing efforts. In addition, she manages all office operational duties and is a commissioned, Los Angeles County, Notary Public.
 
