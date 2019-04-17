@@ -28,6 +28,18 @@ content:
   zip_code: '91367'
   map_content: "21300 Victory Blvd. Suite 855  \nWoodland Hills, CA 91367\n\nP: 818-676-0036
     F: 818-676-0017"
+- template: block-columns
+  block_options:
+    full_width: true
+  title: Contact Buttons
+  columns:
+  - title: Josh
+    show_image_above_content: true
+    content: "[Josh Oder]()"
+- template: block-search-form-inline
+  block_options:
+    full_width: true
+  title: Contact Us
 show_sidebar: false
 video_gallery:
   videos: []
