@@ -100,5 +100,9 @@ layout_options:
     blocks: []
   footer_style: Business
 sidebar_widgets:
-  widgets: []
+  widgets:
+  - template: widget-menu
+    widget_options:
+      full_width: true
+    title: Latest Posts
 site_categories: []
