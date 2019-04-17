@@ -1,0 +1,28 @@
+{{/**
+   * Horizontal Menu Template
+   *
+   * Displays a Hugo menu horizontally
+   *
+   * @version 1.0.0
+	 *
+   */}}
+
+{{ $currentPage := .page }}
+{{ $location := .location }}
+{{ $display := .display }}
+<nav class="nav-horizontal nav-{{ $location }}-dropdowns">
+    {{ range $index, $menuItem := .menu }}
+      {{ if $menuItem.HasChildren }}
+      <div id="{{ $menuItem.Name | urlize }}"class="collapse" aria-labelledby="navbarDropdown">
+        <div class="d-flex justify-content-center py-4">
+          {{ range $menuItem.Children }}
+          <a class="dropdown-item {{ $menuItem.Name | urlize }}{{ if $currentPage.IsMenuCurrent $location . }} current{{ end }}" href="{{ .URL }}" {{ if or ( in .URL "http://" ) (in .URL "https://" )}} target="_blank" {{ end }}  tabindex="0">
+            {{ .Name }}
+          </a>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    {{ end }}
+  </ul>
+</nav>

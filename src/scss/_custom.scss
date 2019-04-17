@@ -1,5 +1,21 @@
  //home page
 
+.off-canvas {
+  a.dropdown-item {
+    text-align: center;
+    color: $white;
+    text-transform: uppercase;
+    width: auto;
+    font-size: $font-size-lg;
+
+    &:hover,
+    &:focus {
+      background-color: transparent;
+      color: theme-color(secondary);
+    }
+  }
+}
+
  body.home {
    .site-header-logo {
      display: none;

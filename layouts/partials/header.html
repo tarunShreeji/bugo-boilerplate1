@@ -1,0 +1,48 @@
+{{/**
+   * Header Template
+	 *
+	 * The header for the site. It contains the main navigation.
+   * It is used on every page at the top.
+   *
+   * @version 1.0.0
+	 *
+   */}}
+
+{{ if .Site.Data.config.layout_options.header_content.blocks }}
+<div class="promotional-content">
+  {{ partial "blocks/blocks" (dict "page" .Page "site" .Site "content" .Site.Data.config.layout_options.header_content.blocks) }}
+</div>
+{{ end }}
+<header class="site-header">
+  <div class="container">
+    <div class="site-header-logo">
+      <a href="/" title="Go to the home page" tabindex="1">
+        {{ if .Site.Data.organization.logos.header_logo.svg_code }}
+          {{ .Site.Data.organization.logos.header_logo.svg_code | safeHTML }}
+        {{ else if .Site.Data.organization.logos.header_logo.image }}
+        {{ partial "components/figure" ( dict "page" .Page "media" .Site.Data.organization.logos.header_logo ) }}
+        {{ else }}
+        {{ .Site.Data.organization.organization_name }}
+        {{ end }}
+      </a>
+    </div>
+    <div class="nav-main-container d-none d-lg-block">
+      {{ partial "nav-horizontal-no-dropdowns" (dict "menu" .Site.Menus.main "location" "main" "page" .Page "site" .Site "datadisplay" "static") }}
+      <div class="search-container">
+        {{ partial "components/search-form" }}
+      </div>
+    </div>
+    <div class="nav-secondary-container">
+      {{ partial "nav-horizontal" (dict "menu" .Site.Menus.secondary "location" "secondary" "page" .Page "site" .Site) }}
+      <div class="search-container">
+        {{ partial "components/search-form" }}
+      </div>
+    </div>
+    <div id="mobile-nav-container" class="nav-mobile collapse">
+      {{ partial "nav-vertical" (dict "menu" .Site.Menus.mobile "location" "mobile" "page" .Page "site" .Site) }}
+    </div>
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#mobile-nav-container" aria-controls="nav-mobile" aria-expanded="false" aria-label="Toggle navigation">
+      {{ partial "icons/menu-toggle" }}
+    </button>
+  </div>
+</header>
