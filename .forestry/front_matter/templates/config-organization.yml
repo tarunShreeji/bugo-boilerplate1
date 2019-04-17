@@ -66,5 +66,12 @@ fields:
   name: google_api_key
   label: Google API Key
   description: Enter an api key if this site uses google products like maps.
+- type: textarea
+  name: footer_dislaimer
+  label: Footer Dislaimer
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 pages:
 - data/organization.yaml
