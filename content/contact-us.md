@@ -17,7 +17,7 @@ content:
 - template: block-google-map
   block_options:
     full_width: true
-    background_color: Primary
+    background_color: White
     text_color: Dark
   title: Main Map
   api_key: AIzaSyCAxTOZDzTWzE_iWPaBASMx8UE3ZDtVriY
