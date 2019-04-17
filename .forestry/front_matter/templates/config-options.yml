@@ -64,6 +64,17 @@ fields:
       - block-slideshow
       - block-latest-stories
       - block-google-map
+  - type: select
+    config:
+      source:
+        type: simple
+      options:
+      - Default
+      - Business
+    label: Footer Style
+    name: footer_style
+    description: Select a footer style.
+    default: Default
 - type: field_group
   name: sidebar_widgets
   label: Sidebar Widgets
@@ -77,6 +88,7 @@ fields:
     - widget-categories
     - widget-menu
     - widget-related-pages
+    - widget-latest-posts
 - type: list
   name: site_categories
   label: Site Categories

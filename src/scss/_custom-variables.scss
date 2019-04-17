@@ -25,27 +25,28 @@ $block-padding: $global-margin 0;
 
 $header-margin: 0; //
 $header-padding: 0; // 
-$header-logo-width: 100px;
+$header-logo-width: 175px;
 $header-logo-margin: 0 $global-margin 0 0; //
 $header-logo-fill: $primary; //if svg and set to fill currentColor
 $header-full-width: false; //
-$header-fixed: true;
-$header-background-color: $white;
-$header-scrolled-background-color: $white;
-$header-scrolled-color: theme-color(primary);
+$header-fixed: false;
+$header-background-color: transparent;
+$header-scrolled-background-color: transparent;
+$header-scrolled-color: $white;
 $header-scrolled-display: block;
+$header-float: true;
 
-$main-nav-font-size: 1rem;
-$main-nav-color: theme-color(primary);
+$main-nav-font-size: 1.2rem;
+$main-nav-color: $white;
 $main-nav-hover: darken($primary,20%);
-$main-nav-left: true;
+$main-nav-left: false;
 $main-nav-search: false;
 
 $secondary-nav-font-size: 0.8rem;
 $secondary-nav-color: $gray-800;
 $secondary-nav-hover: theme-color(secondary);
 $secondary-nav-top: false;
-$secondary-nav-search: true;
+$secondary-nav-search: false;
 
 $header-search: true;
 $header-search-top: true;
@@ -69,7 +70,7 @@ $nav-horizontal-full-width: true;
  *
  **/
 
-$featured-image-margin: 0;
+$featured-image-margin: 0 0 $global-margin;
 $featured-image-padding: 0;
 $featured-image-height: 20rem;
 $featured-image-md-height: 20rem;
@@ -77,9 +78,16 @@ $featured-image-lg-height: 30rem;
 $featured-image-xl-height: 30rem;
 
 $home-featured-image-height: 10rem;
-$home-featured-image-md-height: 20rem;
-$home-featured-image-lg-height: 30rem;
-$home-featured-image-xl-height: 40rem;
+$home-featured-image-md-height: $home-featured-image-height*2;
+$home-featured-image-lg-height: $home-featured-image-height*3;
+$home-featured-image-xl-height: $home-featured-image-height*4;
+
+$profile-featured-image-margin: 0 0 $global-margin;
+$profile-featured-image-padding: 0;
+$profile-featured-image-height: 10rem;
+$profile-featured-image-md-height: $profile-featured-image-height*2;
+$profile-featured-image-lg-height: $profile-featured-image-height*3;
+$profile-featured-image-xl-height: $profile-featured-image-height*4;
 
 
 /**
@@ -87,9 +95,12 @@ $home-featured-image-xl-height: 40rem;
  * Footer Variables
  *
  **/
-
+$footer-bg-color: theme-color(primary);
+$footer-text-color: $white;
+$footer-link-color: $white;
 $footer-logo-fill: theme-color(primary); //if svg and set to fill currentColor
 $footer-logo-width: 200px;
+$footer-nav-title: "Team";
 
 // Spacing
 //
@@ -132,7 +143,7 @@ $sizes: map-merge(
 // Font, line-height, and color for body text, headings, and more.
 
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:      "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-sans-serif:      "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:            $font-family-sans-serif !default;
 // stylelint-enable value-keyword-case
@@ -148,7 +159,7 @@ $font-weight-bold:            700 !default;
 $font-weight-bolder:          bolder !default;
 
 $font-weight-base:            $font-weight-normal !default;
-$line-height-base:            1.5 !default;
+$line-height-base:            1.65 !default;
 
 $h1-font-size:                $font-size-base * 2.5 !default;
 $h2-font-size:                $font-size-base * 2 !default;
@@ -161,7 +172,7 @@ $headings-margin-bottom:      $spacer / 2 !default;
 $headings-font-family:        null !default;
 $headings-font-weight:        500 !default;
 $headings-line-height:        1.2 !default;
-$headings-color:              theme-color(primary) !default;
+$headings-color:              inherit !default;
 
 $display1-size:               6rem !default;
 $display2-size:               5.5rem !default;
@@ -179,6 +190,6 @@ $lead-font-weight:            300 !default;
 
 $small-font-size:             80% !default;
 
-$btn-border-radius:           4px !default;
+$btn-border-radius:           0 !default;
 $btn-border-radius-lg:        $btn-border-radius !default;
 $btn-border-radius-sm:        $btn-border-radius !default;

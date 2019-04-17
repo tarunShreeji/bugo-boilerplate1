@@ -1,0 +1,66 @@
+/* 
+ * Featured Image styles
+ */
+
+.featured-image.profile-w-image {
+  position: relative;
+  margin: $profile-featured-image-margin;
+  padding: $profile-featured-image-padding;
+  height: $profile-featured-image-height;
+
+  @include media-breakpoint-up(md){
+   height: $profile-featured-image-md-height;
+  }
+
+  @include media-breakpoint-up(lg){
+   height: $profile-featured-image-lg-height;
+  }
+
+  @include media-breakpoint-up(xl){
+   height: $profile-featured-image-xl-height;
+  }
+
+  .profile-image {
+    width: 50%;
+    position: relative;
+    transform: none;
+    left: 0;
+    z-index: 1;
+
+    img {
+      object-fit: contain;
+      object-position: bottom;
+      mix-blend-mode: normal;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+
+    figcaption {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+      height: inherit;
+      transform: translateX(100%);
+      text-align: left;
+
+      .profile-meta {
+        flex-basis: 100%;
+
+        > * {
+          flex-grow: 0;     /* do not grow   - initial value: 0 */
+          flex-shrink: 0;   /* do not shrink - initial value: 1 */
+        }
+
+        h1 {
+          flex-basis: 100%; /* width/height  - initial value: auto */
+        }
+
+        div {
+          flex-basis: 33%;
+        }
+      }
+    }
+  }
+}

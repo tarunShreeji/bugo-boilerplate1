@@ -1,0 +1,13 @@
+---
+label: Block - Oderllc Contacts
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: include
+  name: block_options
+  label: Block Options
+  template: field-block-options

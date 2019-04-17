@@ -1,0 +1,40 @@
+{{/**
+   * Default List Template
+	 *
+	 * The default list for the site.
+   *
+   * @version 1.0.0
+	 *
+   */}}
+      
+{{/**
+   * Contact Form Block
+   *
+   * Uses Netlify's Form Fucnctionality
+   *
+   * @version 1.0.0
+   */}}
+
+<section id="{{ .block.title | urlize }}" class="block block-oderllc-contacts
+  {{if .block.block_options.full_width}} full-width {{end }}
+  bg-{{ .block.block_options.background_color | urlize }}
+  text-{{ .block.block_options.text_color | urlize }}
+  {{ if .block.block_options.remove_margin }}m-0{{ end }}
+  " {{ if .block.background_image.image }} style="background-image: url({{ partial "utilities/image-url" (dict "page" .page "url" .block.background_image.image "transform" "c_fill,w_1280,h_400") }});" {{ end }}>
+  <div class="container">
+    <h3>Contact Us Directly</h3>
+    <div class="d-flex">
+      {{ range ( sort (where .site.RegularPages "Section" "Team") .Params.weight "asc" ) }}
+          {{ $page := . }}
+          {{ range .Params.profile.email_addresses }}
+            <div class="email-button-container flex-fill">
+              <a class="btn btn-outline-primary" href="mailto:{{ .email_address }}">
+                  {{ partial "icons/email" }}
+                  {{ $page.Title }}
+              </a>
+            </div>
+          {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>

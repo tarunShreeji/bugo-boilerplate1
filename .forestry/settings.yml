@@ -19,10 +19,17 @@ sections:
   label: Pages
   create: all
   match: "**/*"
-  exclude: "{posts/*,profiles/*}"
+  exclude: "{posts/*,profiles/*,Team/*}"
   templates:
   - template-page
   - template-landing-page
+- type: directory
+  path: content/Team
+  label: Team
+  create: all
+  match: "**/*"
+  templates:
+  - template-profile
 - type: heading
   label: Configure Site
 - type: document
@@ -35,7 +42,7 @@ sections:
   path: data/organization.yaml
   label: Company Info
 upload_dir: ''
-public_path: https://res.cloudinary.com/matthew-antone/image/upload
+public_path: https://res.cloudinary.com/oderllc/image/upload
 front_matter_path: ''
 use_front_matter_path: true
 file_template: ":filename:"

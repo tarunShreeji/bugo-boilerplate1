@@ -2,7 +2,7 @@
 layout: list
 category: []
 date: 2019-02-08 06:18:51 +0000
-title: Blog
+title: Insights
 tags: []
 featured_image:
   title: ''
@@ -19,6 +19,6 @@ page_meta:
   meta_description: ''
 menu:
   main:
-    weight: 2
+    weight: 3
 
 ---

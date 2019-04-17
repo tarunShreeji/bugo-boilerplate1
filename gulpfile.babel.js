@@ -176,7 +176,7 @@ function startBugo(done) {
  **/
 
 function watchSass() {
-  const sasswatcher = gulp.watch(sassPaths.src, gulp.parallel('compile-sass'));
+  const sasswatcher = gulp.watch(sassPaths.src, gulp.series('compile-sass'));
 
   // log changes
   sasswatcher.on('change', function (path, stats) {
@@ -194,7 +194,7 @@ function watchSass() {
  */
 
 function watchJs() {
-  const jswatcher = gulp.watch(jsPaths.src, gulp.parallel('compile-js'));
+  const jswatcher = gulp.watch(jsPaths.src, gulp.series('compile-js'));
 
   // log changes
   jswatcher.on('change', function (path, stats) {
@@ -214,7 +214,7 @@ function watchJs() {
  */
 
 function watchImages() {
-  const imagewatcher = gulp.watch(imagePaths.src, gulp.parallel('process-images'));
+  const imagewatcher = gulp.watch(imagePaths.src, gulp.series('process-images'));
 
   // log changes
   imagewatcher.on('change', function (path, stats) {

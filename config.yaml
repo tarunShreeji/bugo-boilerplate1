@@ -1,5 +1,5 @@
 ---
-title: Bugo.io
+title: Oder Investment Management, LLC
 description: Boilerplate Boostrap Website for Forestry.io
 baseURL: "/"
 languageCode: en-us
@@ -33,24 +33,27 @@ frontmatter:
 - expiryDate: expiryDate
 assetDir: static/assets
 publishDir: public
-outputs: 
-home:
-- HTML
-- JSON
-- RSS
-page:
-- HTML
+mediaTypes:
+  text/vcard:
+    suffixes:
+    - vcf
+outputFormats:
+  vcf:
+    name: vcf
+    baseName: contact-info
+    mediaType: text/vcard
+    isPlainText: true
+outputs:
+  home:
+  - HTML
+  - RSS
+  page:
+  - HTML
+  - vcf
+  section:
+  - HTML
 menu:
   main:
-  - url: "#"
-    name: Test 2
-    parent: Contact Us
-    weight: 2
-  - url: https://google.com
-    name: Test 1
-    parent: Contact Us
-    weight: 1
-  secondary:
-  - url: http://google.com
-    name: Client Portal
-    weight: 2
+  - url: https://app.tolerisk.com/Investor.aspx?a=82c07446-9e87-45a5-a62b-afb9681c228e
+    name: Risk Tolerance
+    weight: 5

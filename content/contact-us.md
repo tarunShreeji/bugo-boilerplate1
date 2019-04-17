@@ -1,6 +1,6 @@
 ---
 layout: landing-page
-title: Contact Us
+title: Contact
 date: 2019-03-25 07:00:00 +0000
 slug: ''
 aliases: []
@@ -12,25 +12,33 @@ featured_image:
   title: ''
   image: ''
   caption: ''
+  template: ''
 content:
 - template: block-google-map
-  title: Kerry Park
-  api_key: AIzaSyDtT6UYlHaa5ypP7XuWR4Y0HataDz-qhPE
-  address_1: 211 W Highland Dr
-  city: Seattle
-  state: WA
-  zip_code: 98119-3017
-  map_content: Kerry Park is a small public park and viewpoint on the south slope
-    of Queen Anne Hill in Seattle, Washington, United States. It overlooks Downtown
-    Seattle and is located along West Highland Drive between 2nd Avenue West and 3rd
-    Avenue West. [Wikipedia](https://en.wikipedia.org/wiki/Kerry_Park_(Seattle))
   block_options:
-    show_title: true
-show_sidebar: true
+    full_width: true
+    background_color: White
+    text_color: Dark
+  title: Main Map
+  api_key: AIzaSyCAxTOZDzTWzE_iWPaBASMx8UE3ZDtVriY
+  address_1: 21300 Victory Blvd.
+  address_2: Suite 855
+  city: Woodland Hills
+  state: California
+  zip_code: '91367'
+  map_content: "21300 Victory Blvd. Suite 855  \nWoodland Hills, CA 91367\n\nP: 818-676-0036
+    F: 818-676-0017"
+- template: block-oderllc-contacts
+  full_width: true
+  title: Contact buttons
+- template: block-contact-form
+  full_width: true
+  title: Contact Form
+show_sidebar: false
 video_gallery:
   videos: []
 menu:
   main:
-    weight: 3
+    weight: 4
 
 ---

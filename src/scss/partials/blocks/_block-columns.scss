@@ -91,11 +91,11 @@
       max-width: 50%;
     }
 
-    a {
-      @extend .btn;
-      @extend .btn-secondary;
-      @extend .text-white;
-    }
+    // a {
+    //   @extend .btn;
+    //   @extend .btn-secondary;
+    //   @extend .text-white;
+    // }
   }
   .item-container {
     width: 100%;

@@ -28,3 +28,14 @@ fields:
     label: Featured Image
     name: featured_image
     template: data-image
+  - type: select
+    config:
+      source:
+        type: simple
+      options:
+      - Default
+      - Profile
+      - Profile w Image
+    label: Featured Image Template
+    name: template
+    default: Default
