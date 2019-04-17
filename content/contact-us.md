@@ -1,6 +1,6 @@
 ---
 layout: landing-page
-title: Contact Us
+title: Contact
 date: 2019-03-25 07:00:00 +0000
 slug: ''
 aliases: []
@@ -12,6 +12,7 @@ featured_image:
   title: ''
   image: ''
   caption: ''
+  template: ''
 content: []
 show_sidebar: true
 video_gallery:
