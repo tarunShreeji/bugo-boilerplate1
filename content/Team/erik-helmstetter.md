@@ -39,7 +39,7 @@ profile:
     universities: []
     clerkships: []
   highlights: ''
-  profile_image: "/v1555439521/Oder_Erik-Helmstetter_Isolated.png"
+  profile_image: "/v1555478100/Oder_Erik-Helmstetter_Isolated_cropped.png"
 video_gallery:
   videos: []
 categories: []
