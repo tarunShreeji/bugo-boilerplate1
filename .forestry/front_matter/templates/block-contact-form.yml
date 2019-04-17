@@ -9,4 +9,6 @@ fields:
   config:
     required: true
 - type: include
+  name: block_options
+  label: Block Options
   template: field-block-options
