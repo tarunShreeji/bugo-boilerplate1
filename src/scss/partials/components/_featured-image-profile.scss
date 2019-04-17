@@ -22,17 +22,45 @@
 
   .profile-image {
     width: 50%;
-    position: static;
+    position: relative;
     transform: none;
+    left: 0;
+    z-index: 1;
 
     img {
       object-fit: contain;
       object-position: bottom;
       mix-blend-mode: normal;
+      position: absolute;
+      left: 0;
+      bottom: 0;
     }
 
     figcaption {
-      display: block;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+      height: inherit;
+      transform: translateX(100%);
+      text-align: left;
+
+      .profile-meta {
+        flex-basis: 100%;
+
+        > * {
+          flex-grow: 0;     /* do not grow   - initial value: 0 */
+          flex-shrink: 0;   /* do not shrink - initial value: 1 */
+        }
+
+        h1 {
+          flex-basis: 100%; /* width/height  - initial value: auto */
+        }
+
+        div {
+          flex-basis: 33%;
+        }
+      }
     }
   }
 }

@@ -63,6 +63,7 @@ $(document).ready(function () {
 
   //automatically animate links to anchors 
   $('a[href*="#"][role!="button"]').on('click', function (e) {
+    console.log(this);
     e.preventDefault();
     let target = $(this).attr('href');
     console.log(target);

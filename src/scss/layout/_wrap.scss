@@ -14,11 +14,11 @@ main {
 
 .sidebar {
   main {
-    width: 100%;
+    width: 70%;
   }
 
   aside{
-    width: 0%;
+    width: 30%;
     padding-left: $global-margin;
   }
 }
