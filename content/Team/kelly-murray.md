@@ -40,6 +40,10 @@ video_gallery:
   videos: []
 categories: []
 tags: []
+menu:
+  main:
+    weight: 4
+    parent: Team
 
 ---
 Ms. Murray joined Oder Investment Management in May of 2017. She supports every OIM partner with client services, compliance, and marketing efforts. In addition, she manages all office operational duties and is a commissioned, Los Angeles County, Notary Public.

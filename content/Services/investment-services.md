@@ -16,6 +16,10 @@ video_gallery:
   videos: []
 categories: []
 tags: []
+menu:
+  main:
+    weight: 1
+    parent: Services
 
 ---
 * Holistic wealth management
