@@ -98,7 +98,7 @@ layout_options:
     blocks: []
   header_content:
     blocks: []
-  footer_style: Business
+  footer_style: Default
 sidebar_widgets:
   widgets: []
 site_categories: []
