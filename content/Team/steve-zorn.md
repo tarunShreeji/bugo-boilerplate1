@@ -46,7 +46,8 @@ menu:
   main:
     weight: 2
     parent: Team
-
+  footer:
+    weight: 2
 ---
 Mr. Zorn is a partner with Oder Investment Management, LLC. Steve’s responsibilities include portfolio management, risk analysis, investment plan construction and new client generation. He has been in the industry 18 years and has previously worked at Morgan Stanley and Merrill Lynch. His experience is enhanced by his Chartered Retirement Planning Counselor license that he obtained from the College of Financial Planning.
 

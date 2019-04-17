@@ -47,6 +47,8 @@ menu:
   main:
     weight: 3
     parent: Team
+  footer:
+    weight: 3
 
 ---
 Mr. Helmstetter is a partner with Oder Investment Management, LLC. Erik’s responsibilities include portfolio management, investment plan construction and new client generation. He has been in the industry 19 years and has previously worked at Merrill Lynch and Morgan Stanley. His experience is enhanced by his professional designations as a Certified Financial Planner, Chartered Retirement Plan Specialist and Chartered Retirement Planning Counselor.
