@@ -12,7 +12,7 @@ featured_image:
   title: ''
   image: "/v1555439520/oder_biobackground.jpg"
   caption: ''
-  template: Profile w/ Profile Image
+  template: Profile w/ Image
 show_sidebar: false
 content: []
 video_gallery:
@@ -51,6 +51,7 @@ menu:
     parent: Team
   footer:
     weight: 1
+
 ---
 Mr. Oder is a founding partner of Oder Investment Management, LLC. Josh has over 18 years of experience in the industry and is responsible for portfolio management, investment plan construction, new client generation and strategic planning. He currently holds his Series 65 license.
 
