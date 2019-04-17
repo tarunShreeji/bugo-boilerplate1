@@ -54,10 +54,9 @@ function carouselNormalization() {
 // On Document Ready
 $(document).ready(function () {
 
-  // $('.search-container button').on('click', function () {
-  //   console.log('clicked');
-  //   $('.search-container .drawer').toggleClass('show').find('input').focus();
-  // });
+  $('.off-canvas .collapse').on('show.bs.collapse', function () {
+    $('.off-canvas .show').not(this).collapse('hide');
+  })
 
   console.log($('a[href*="#"][role!="button"]'));
 
