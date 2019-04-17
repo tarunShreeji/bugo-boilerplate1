@@ -59,9 +59,11 @@ Josh is active with his family in a number of local charities and is a member of
 
 He currently resides in Calabasas with his wife and two daughters.
 
+<figure>
+
 ![](https://res.cloudinary.com/oderllc/image/upload/v1554777173/Five-Star-2019.jpg)
 
-Five Star Los Angeles Wealth Manager Selection Award candidates will be evaluated on 10 objective eligibility and evaluation criteria. Only those who meet the criteria will be selected as a Five Star Wealth Manager:
+<figcaption>Five Star Los Angeles Wealth Manager Selection Award candidates will be evaluated on 10 objective eligibility and evaluation criteria. Only those who meet the criteria will be selected as a Five Star Wealth Manager:
 
  1. Credentialed as an investment advisor representative or a registered investment advisor
  2. Actively employed as a credentialed professional in the financial services industry for a minimum of five years
@@ -74,4 +76,6 @@ Five Star Los Angeles Wealth Manager Selection Award candidates will be evaluate
  9. Number of client households served
 10. Education and professional designations
 
-{{< figure src="/media/spf13.jpg" title="Steve Francia" >}}
+</figcaption>
+
+</figure>
