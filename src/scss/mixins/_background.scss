@@ -46,3 +46,12 @@
 .bg-transparent {
   background-color: transparent !important;
 }
+
+
+@each $color, $value in $theme-colors {
+  @include bg-variant(".bg-#{$color}", $value);
+  .block.bg-#{$color}{
+    padding-top: $global-padding;
+    padding-bottom: $global-padding;
+  }
+}

@@ -1,11 +1,11 @@
 // jquery
-import $ from 'jquery';                       // jQuery - https://jquery.com
-import bootstrap from 'bootstrap';            // bootstrap - https://www.npmjs.com/package/bootstrap
-import LazyLoad from "vanilla-lazyload";      // lazy loader - https://www.npmjs.com/package/vanilla-lazyload
-import validator from 'validator';            // javascript form validator - https://www.npmjs.com/package/validator
-import YouTubePlayer from 'youtube-player';   // YouTube player - https://www.npmjs.com/package/youtube-player
-import WebFont from 'webfontloader';          // Web Font Loader - https://www.npmjs.com/package/webfontloader
-
+import $ from 'jquery';                           // jQuery - https://jquery.com
+import bootstrap from 'bootstrap';                // bootstrap - https://www.npmjs.com/package/bootstrap
+import LazyLoad from "vanilla-lazyload";          // lazy loader - https://www.npmjs.com/package/vanilla-lazyload
+import validator from 'validator';                // javascript form validator - https://www.npmjs.com/package/validator
+import YouTubePlayer from 'youtube-player';       // YouTube player - https://www.npmjs.com/package/youtube-player
+import WebFont from 'webfontloader';              // Web Font Loader - https://www.npmjs.com/package/webfontloader
+import animateScrollTo from 'animated-scroll-to'; // Animate scroll to 
 
 // Init LazyLoader
 var lazyLoadInstance = new LazyLoad({
@@ -16,9 +16,40 @@ var lazyLoadInstance = new LazyLoad({
 // Load fonts
 WebFont.load({
   google: {
-    families: ['Fira+Sans:400,400i,700,700i']
+    families: ['Karla:400,400i,700,700i']
   }
 });
+
+//Boostrap Carousel Slide Normalization
+
+function carouselNormalization() {
+  var items = $('.carousel .carousel-item'), //grab all slides
+      heights = [], //create empty array to store height values
+      tallest; //create variable to make note of the tallest slide
+
+  if (items.length) {
+      function normalizeHeights() {
+          items.each(function() { //add heights to array
+              heights.push($(this).height()); 
+          });
+          tallest = Math.max.apply(null, heights); //cache largest value
+          items.each(function() {
+              $(this).css('min-height',tallest + 'px');
+          });
+      };
+      normalizeHeights();
+
+      $(window).on('resize orientationchange', function () {
+          tallest = 0, heights.length = 0; //reset vars
+          items.each(function() {
+              $(this).css('min-height','0'); //reset min-height
+          }); 
+          normalizeHeights(); //run it again 
+      });
+  }
+}
+
+
 
 // On Document Ready
 $(document).ready(function () {
@@ -27,6 +58,19 @@ $(document).ready(function () {
   //   console.log('clicked');
   //   $('.search-container .drawer').toggleClass('show').find('input').focus();
   // });
+
+  console.log($('a[href*="#"][role!="button"]'));
+
+  //automatically animate links to anchors 
+  $('a[href*="#"][role!="button"]').on('click', function (e) {
+    e.preventDefault();
+    let target = $(this).attr('href');
+    console.log(target);
+    // animateScrollTo($(target));
+    animateScrollTo(document.querySelector(target));
+  });
+
+  carouselNormalization();
 
   // Add scrolled class to body for fixed headers
   // you can use the class to add backgrounds, hide, etc.
@@ -39,6 +83,7 @@ $(document).ready(function () {
       $('.site-header').removeClass('scrolled');
     }
   });
+
 
   const $video_player = $('#video-player');
   console.log($video_player);
