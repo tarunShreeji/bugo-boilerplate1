@@ -13,7 +13,7 @@ featured_image:
   title: ''
   image: "/v1555439520/oder_biobackground.jpg"
   caption: ''
-  template: Profile
+  template: Profile w Image
 profile:
   first_name: Kelly
   middle_name: ''
