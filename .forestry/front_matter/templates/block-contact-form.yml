@@ -1,4 +1,11 @@
 ---
 label: Block - Contact Form
 hide_body: true
-fields: []
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: include
+  template: field-block-options
