@@ -24,7 +24,7 @@ content:
 
       [Learn More](#client-focused-independent-team)
     show_image_above_content: true
-  - title: Fee Only
+  - title: Fee Only Header
     content: |-
       ### FEE-ONLY, NOT FEE BASED
 
