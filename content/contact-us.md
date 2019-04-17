@@ -13,7 +13,21 @@ featured_image:
   image: ''
   caption: ''
   template: ''
-content: []
+content:
+- template: block-google-map
+  block_options:
+    full_width: true
+    background_color: Primary
+    text_color: Dark
+  title: Main Map
+  api_key: AIzaSyCAxTOZDzTWzE_iWPaBASMx8UE3ZDtVriY
+  address_1: 21300 Victory Blvd.
+  address_2: Suite 855
+  city: Woodland Hills
+  state: California
+  zip_code: '91367'
+  map_content: "21300 Victory Blvd. Suite 855  \nWoodland Hills, CA 91367\n\nP: 818-676-0036
+    F: 818-676-0017"
 show_sidebar: true
 video_gallery:
   videos: []
