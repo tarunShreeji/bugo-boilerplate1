@@ -12,7 +12,7 @@ featured_image:
   title: ''
   image: "/v1555439520/oder_biobackground.jpg"
   caption: ''
-  template: Profile w Image
+  template: Default
 show_sidebar: false
 content: []
 video_gallery:
