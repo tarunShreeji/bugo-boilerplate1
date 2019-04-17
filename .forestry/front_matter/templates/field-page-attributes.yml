@@ -35,7 +35,7 @@ fields:
       options:
       - Default
       - Profile
-      - Profile w/ Profile Image
+      - Profile w/ Image
     label: Featured Image Template
     name: template
     default: Default
