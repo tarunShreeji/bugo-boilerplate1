@@ -28,7 +28,7 @@ content:
     content: |-
       ### FEE-ONLY, NOT FEE BASED
 
-      [Learn More](#fee-only-not-fee-based)
+      [Learn More](#fee-only)
     show_image_above_content: true
   - title: Fiduciary Responsibility
     content: |-
