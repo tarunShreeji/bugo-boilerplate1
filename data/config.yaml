@@ -105,5 +105,5 @@ sidebar_widgets:
     widget_options:
       full_width: true
     title: Latest Posts
-    show_quantity: '1'
+    show_quantity: '3'
 site_categories: []
