@@ -101,6 +101,10 @@ layout_options:
   footer_style: Business
 sidebar_widgets:
   widgets:
+  - template: widget-search-form
+    widget_options:
+      full_width: true
+    title: Site Search
   - template: widget-latest-posts
     widget_options:
       full_width: true
