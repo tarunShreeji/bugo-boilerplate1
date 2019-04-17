@@ -88,6 +88,7 @@ fields:
     - widget-categories
     - widget-menu
     - widget-related-pages
+    - widget-latest-posts
 - type: list
   name: site_categories
   label: Site Categories
