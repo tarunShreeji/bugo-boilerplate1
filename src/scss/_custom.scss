@@ -167,6 +167,11 @@
     padding-top: $global-padding*2.5;
     padding-bottom: $global-padding*2.5;
   }
+
+  .btn-outline-#{$color}{
+    color: $value !important;
+    border-color: $value !important;
+  }
 }
 
 // typography 
