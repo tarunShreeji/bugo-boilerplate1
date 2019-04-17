@@ -38,3 +38,4 @@ fields:
       - Profile w/ Profile Image
     label: Featured Image Template
     name: template
+    default: Default
