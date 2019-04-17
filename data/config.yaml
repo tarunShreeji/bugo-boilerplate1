@@ -49,7 +49,7 @@ logos:
     caption: Bringing you more Lucy.
   seo_logo: ''
 organization_name: Test Organization
-show_breadcrumbs: false
+show_breadcrumbs: true
 contact_info:
   email_address: ''
   telephone: ''
