@@ -39,6 +39,7 @@ content:
   block_options:
     background_color: Light
     text_color: Black
+    full_width: true
 show_sidebar: false
 video_gallery:
   videos: []
