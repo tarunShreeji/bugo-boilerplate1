@@ -80,4 +80,4 @@ Five Star Los Angeles Wealth Manager Selection Award candidates will be evaluate
 
 </figcaption>
 
-{{% figure %}}
+{{% /figure %}}
