@@ -267,12 +267,17 @@ function compileSass(done = () => { }) {
       base: 'public/',
       inline: false,
       minify: true,
+      extract: false,
       css: ['public/assets/css/main.css'],
+      ignore: {
+        atrule: [],
+        rule: ["*.btn*"],
+      },
       dimensions: [{
         height: 200,
-        width: 500
+        width: 300
       }, {
-        height: 900,
+        height: 500,
         width: 1200
       }]
     }))

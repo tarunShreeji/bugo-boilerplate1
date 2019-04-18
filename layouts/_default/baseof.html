@@ -10,7 +10,7 @@
 
 {{ $scratch := newScratch }}
 {{ $scratch.Set "sidebar" "" }}
-{{ if and ( eq .IsHome false ) ( or (eq .Params.show_sidebar true) ( eq .Page.Layout "list" ) ( eq .Page.Layout "profile" )  ( eq .Page.Layout "post" ) ) }}
+{{ if and ( eq .IsHome false ) ( or (eq .Params.show_sidebar true) ( eq .Page.Layout "page" ) ( eq .Page.Layout "list" ) ( eq .Page.Layout "profile" )  ( eq .Page.Section "posts" ) ) }}
 {{ $scratch.Set "sidebar" "sidebar" }}
 {{ end }}
 
@@ -21,7 +21,7 @@
   <body class="
     {{anchorize .Title }} 
     {{anchorize .Params.layout }} 
-    {{anchorize .File.Path }} 
+    {{anchorize .Page.Layout }}
     {{anchorize .Page.Type }}  
     {{ $scratch.Get "sidebar" }}">
     {{ partial "icons/icon_sprite" . }}
@@ -79,7 +79,7 @@
       giftofspeed.href = '/assets/css/main.css';
       giftofspeed.type = 'text/css';
       var godefer = document.getElementsByTagName('link')[0];
-      godefer.parentNode.insertBefore(giftofspeed, godefer);
+      godefer.parentNode.appendChild(giftofspeed, godefer);
     </script>
     {{ template "_internal/google_analytics_async.html" . }}
   </body>
