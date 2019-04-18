@@ -62,7 +62,7 @@ He currently resides in Calabasas with his wife and two daughters.
 {{% figure %}}
 ![](https://res.cloudinary.com/oderllc/image/upload/v1554780545/Podcast2.jpg) 
 
-{{% figcation %}}These guys did something {{% /figcaption %}} {{% /figure %}}
+{{% figcaption %}}These guys did something {{% /figcaption %}} {{% /figure %}}
 
 {{% figure %}}
 ![](https://res.cloudinary.com/oderllc/image/upload/v1554777173/Five-Star-2019.jpg) {{% figcaption %}} Five Star Los Angeles Wealth Manager Selection Award candidates will be evaluated on 10 objective eligibility and evaluation criteria. Only those who meet the criteria will be selected as a Five Star Wealth Manager:
