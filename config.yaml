@@ -54,6 +54,9 @@ outputs:
   - HTML
 menu:
   main:
+  - url: "#"
+    name: Client Portal
+    weight: 6
   - url: https://app.tolerisk.com/Investor.aspx?a=82c07446-9e87-45a5-a62b-afb9681c228e
     name: Risk Tolerance
     weight: 5
