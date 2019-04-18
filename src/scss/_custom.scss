@@ -29,7 +29,7 @@
 }
 
 .nav-main-container .nav-main ul.list-inline .list-inline-item {
-  margin: 0 $global-margin/4;
+  margin: 0 $global-margin/6;
   display: flex;
   align-items: center;
 }
@@ -38,6 +38,9 @@
   text-transform: uppercase;
 }
 
+.nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance {
+  margin-left: 1.5rem !important;
+}
 .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance,
 .nav-main-container .nav-main ul.list-inline .nav-link.client-portal {
     @include button-variant(transparent, $white, transparent, $secondary, transparent, $secondary);

@@ -9669,12 +9669,15 @@ body.home .site-header-logo {
   justify-content: center; }
 
 .nav-main-container .nav-main ul.list-inline .list-inline-item {
-  margin: 0 0.5rem;
+  margin: 0 0.33333rem;
   display: flex;
   align-items: center; }
 
 .nav-main-container .nav-main ul.list-inline .nav-link, .nav-main-container .nav-main ul.list-inline .nav-footer::before {
   text-transform: uppercase; }
+
+.nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance, .nav-main-container .nav-main ul.list-inline .risk-tolerance.nav-footer::before {
+  margin-left: 1.5rem !important; }
 
 .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance, .nav-main-container .nav-main ul.list-inline .risk-tolerance.nav-footer::before,
 .nav-main-container .nav-main ul.list-inline .nav-link.client-portal,
