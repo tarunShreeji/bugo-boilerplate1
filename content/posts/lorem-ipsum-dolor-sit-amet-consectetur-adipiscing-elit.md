@@ -1,7 +1,7 @@
 +++
 categories = ["Category 1"]
 category = "News"
-date = "2018-12-20T08:00:00+00:00"
+date = "2017-12-20T08:00:00+00:00"
 layout = "post"
 related_pages = ["posts/duis-tincidunt-enim-in-nunc-bibendum.md", "posts/donec-dolor-elit-fringilla-nec-massa-ac.md"]
 tags = ["Chef", "Kitchen"]

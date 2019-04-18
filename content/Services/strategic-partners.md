@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Strategic Partners
 date: 2019-04-08 07:00:00 +0000
 slug: strategic-partners
