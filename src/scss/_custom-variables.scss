@@ -70,12 +70,12 @@ $nav-horizontal-full-width: true;
  *
  **/
 
-$featured-image-margin: 0 0 $global-margin;
+$featured-image-margin: 0;
 $featured-image-padding: 0;
-$featured-image-height: 20rem;
-$featured-image-md-height: 20rem;
-$featured-image-lg-height: 30rem;
-$featured-image-xl-height: 30rem;
+$featured-image-height: 15rem;
+$featured-image-md-height: 15rem;
+$featured-image-lg-height: 15rem;
+$featured-image-xl-height: 15rem;
 
 $home-featured-image-height: 10rem;
 $home-featured-image-md-height: $home-featured-image-height*2;
@@ -85,10 +85,21 @@ $home-featured-image-xl-height: $home-featured-image-height*4;
 $profile-featured-image-margin: 0 0 $global-margin;
 $profile-featured-image-padding: 0;
 $profile-featured-image-height: 10rem;
-$profile-featured-image-md-height: $profile-featured-image-height*2;
-$profile-featured-image-lg-height: $profile-featured-image-height*3;
-$profile-featured-image-xl-height: $profile-featured-image-height*4;
+$profile-featured-image-md-height: $profile-featured-image-height*1.5;
+$profile-featured-image-lg-height: $profile-featured-image-height*1.75;
+$profile-featured-image-xl-height: $profile-featured-image-height*3.5;
 
+/**
+ *
+ * Breadcrumbs
+ *
+ **/
+
+$breadcrumbs-margin: 0;
+$breadcrumbs-padding: 0;
+$breadcrumbs-bg-color: transparent;
+$breadcrumbs-ol-padding: $global-padding 0;
+$breadcrumbs-separator: "\00BB";
 
 /**
  *

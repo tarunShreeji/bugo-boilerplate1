@@ -20,19 +20,19 @@
    .site-header-logo {
      display: none;
    }
-
-    .nav-main-container .nav-main ul.list-inline {
-      text-align: center;
-    }
-
-    .nav-main-container .nav-main ul.list-inline .list-inline-item {
-      margin: 0 $global-margin/2;
-    }
-
-    .nav-main-container .nav-main ul.list-inline .nav-link {
-      text-transform: uppercase;
-    }
  }
+
+.nav-main-container .nav-main ul.list-inline {
+  text-align: center;
+}
+
+.nav-main-container .nav-main ul.list-inline .list-inline-item {
+  margin: 0 $global-margin/2;
+}
+
+.nav-main-container .nav-main ul.list-inline .nav-link {
+  text-transform: uppercase;
+}
 
  #home-header {
    padding-top: $global-padding*6;
@@ -115,6 +115,10 @@
   }
 }
 
+// breadcrumbs
+.breadcrumbs {
+  padding: 0;
+}
 
 //blocks
 
@@ -202,3 +206,141 @@ h1,h2,h3,h4,h5,h6 {
     display: none;
   }
 }
+
+body.insights {
+  .posts-item {
+    display: flex;
+
+    .thumbnail {
+      flex-grow: 0;
+      flex-shrink: 0;
+      flex-basis: 33%;
+    }
+
+    article {
+      padding-left: $global-padding*2;
+      flex-grow: 0;
+      flex-shrink: 0;
+      flex-basis: 66%;
+
+      summary {
+        @extend .sr-only;
+      }
+    }
+  }
+
+  .widget-latest-posts {
+    display: none;
+  }
+}
+
+.widget-latest-posts {
+  summary {
+    display: none;
+  }
+
+  div.w-100 a {
+    display: none;
+  }
+}
+
+.shortcode-figure {
+  @extend .border;
+  @extend .border-primary;
+
+  padding: $global-padding;
+  max-width: 50%;
+  margin: $global-margin*2 0 !important;
+
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  figcaption {
+    margin-top: $global-margin;
+  }
+}
+
+// Profiles
+body.profile {
+  .featured-image {
+    .profile-image {
+      figcaption {
+        .profile-meta {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+
+          > * {
+            flex-grow: 0;
+            flex-shrink: 0;
+
+            .label,
+            .text {
+              display: none;
+            }
+          }
+
+          .icon {
+            width: 30px;
+            display: block;
+            margin: 0 auto;
+          }
+
+          a {
+            color: $white; 
+          }
+
+          h1 {
+            flex-basis: 100%;
+
+            small {
+              display: block;
+              font-size: 50%;
+            }
+          }
+
+          .social-list,
+          .vcard,
+          .email-list {
+            flex-basis: 60px;
+          }
+
+          .phone-list {
+            flex-basis: 100%;
+            .phone {
+              text-align: center;
+              .icon {
+                display: none;
+              }
+              .text {
+                display: inline;
+              }
+            }
+          }
+
+        }
+      }
+    }
+  }
+}
+
+.block-oderllc-contacts {
+  .btn {
+    padding: 0.5rem 2rem;
+
+    &:hover,
+    &:focus {
+      color: $white !important;
+
+      .icon {
+        fill: $white;
+      }
+    }
+  }
+  .icon {
+    width: 20px;
+    fill: theme-color(primary);
+  }
+} 
