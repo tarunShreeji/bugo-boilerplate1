@@ -36,6 +36,9 @@ content:
   title: Contact Form
   background_color: Light
   text_color: Black
+  block_options:
+    background_color: Light
+    text_color: Black
 show_sidebar: false
 video_gallery:
   videos: []
