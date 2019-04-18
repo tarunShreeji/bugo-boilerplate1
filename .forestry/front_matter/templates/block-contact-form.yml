@@ -8,7 +8,14 @@ fields:
   label: Title
   config:
     required: true
-- type: include
-  name: block_options
+- name: block_options
+  type: field_group
+  config: {}
+  fields:
+  - name: block_options
+    type: include
+    config:
+      template: field-block-options
+    template: ''
+    label: Block Options
   label: Block Options
-  template: field-block-options
