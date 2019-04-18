@@ -72,15 +72,6 @@
     {{ end }}
     <!-- Javascript -->
     <script defer src="/assets/js/app.js" type="text/javascript"></script>
-    <script type="text/javascript">
-      /* First CSS File */
-      var giftofspeed = document.createElement('link');
-      giftofspeed.rel = 'stylesheet';
-      giftofspeed.href = '/assets/css/main.css';
-      giftofspeed.type = 'text/css';
-      var godefer = document.getElementsByTagName('link')[0];
-      godefer.parentNode.appendChild(giftofspeed, godefer);
-    </script>
     {{ template "_internal/google_analytics_async.html" . }}
   </body>
 

@@ -7,8 +7,10 @@ import YouTubePlayer from 'youtube-player';       // YouTube player - https://ww
 import WebFont from 'webfontloader';              // Web Font Loader - https://www.npmjs.com/package/webfontloader
 import animateScrollTo from 'animated-scroll-to'; // Animate scroll to 
 
+require("../../static/assets/css/main.css");
+
 // Init LazyLoader
-var lazyLoadInstance = new LazyLoad({
+const lazyLoadInstance = new LazyLoad({
   elements_selector: ".lazy"
   // ... more custom settings?
 });
@@ -23,7 +25,7 @@ WebFont.load({
 //Boostrap Carousel Slide Normalization
 
 function carouselNormalization() {
-  var items = $('.carousel .carousel-item'), //grab all slides
+  let items = $('.carousel .carousel-item'), //grab all slides
       heights = [], //create empty array to store height values
       tallest; //create variable to make note of the tallest slide
 
@@ -70,7 +72,6 @@ $(document).ready(function () {
     animateScrollTo(document.querySelector(target));
   });
 
-  carouselNormalization();
 
   // Add scrolled class to body for fixed headers
   // you can use the class to add backgrounds, hide, etc.
@@ -107,5 +108,8 @@ $(document).ready(function () {
       player.pauseVideo();
     });
   }
+
+  carouselNormalization();
+
 });
 
