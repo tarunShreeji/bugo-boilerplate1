@@ -10,7 +10,7 @@ page_meta:
   meta_description: ''
 featured_image:
   title: ''
-  image: "/v1555611214/hunters-race-408744-unsplash.jpg"
+  image: "/v1555611211/nik-macmillan-280300-unsplash.jpg"
   caption: ''
 categories: []
 tags: []
