@@ -10222,3 +10222,8 @@ body.contact #contact-form {
   text-align: left; }
   body.contact #contact-form .btn {
     margin-bottom: 1rem; }
+
+body.contact #main-map {
+  text-align: center; }
+  body.contact #main-map p {
+    text-align: center; }

@@ -386,12 +386,21 @@ body.page {
 }
 
 body.contact {
+
   #contact-form {
     margin-top: $global-margin;
     text-align: left;
 
     .btn {
       margin-bottom: 1rem;
+    }
+  }
+
+  #main-map {
+    text-align: center;
+
+    p {
+      text-align: center;
     }
   }
 }
