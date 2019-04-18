@@ -9667,10 +9667,115 @@ body.home .site-header-logo {
   text-align: center; }
 
 .nav-main-container .nav-main ul.list-inline .list-inline-item {
-  margin: 0 1rem; }
+  margin: 0 0.66667rem; }
 
 .nav-main-container .nav-main ul.list-inline .nav-link, .nav-main-container .nav-main ul.list-inline .nav-footer::before {
   text-transform: uppercase; }
+
+.nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance, .nav-main-container .nav-main ul.list-inline .risk-tolerance.nav-footer::before,
+.nav-main-container .nav-main ul.list-inline .nav-link.client-portal,
+.nav-main-container .nav-main ul.list-inline .client-portal.nav-footer::before {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+  border-color: #fff;
+  padding: 0.09375rem 0.375rem;
+  font-size: 80%;
+  line-height: 1.65;
+  border-radius: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border-width: 1px;
+  border-style: solid;
+  margin: 0 0.66667rem; }
+  .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance:hover, .nav-main-container .nav-main ul.list-inline .risk-tolerance.nav-footer:hover::before,
+  .nav-main-container .nav-main ul.list-inline .nav-link.client-portal:hover,
+  .nav-main-container .nav-main ul.list-inline .client-portal.nav-footer:hover::before {
+    color: #fff;
+    background-color: transparent;
+    border-color: #629ed5; }
+  .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance:focus, .nav-main-container .nav-main ul.list-inline .risk-tolerance.nav-footer:focus::before, .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance.focus, .nav-main-container .nav-main ul.list-inline .risk-tolerance.focus.nav-footer::before,
+  .nav-main-container .nav-main ul.list-inline .nav-link.client-portal:focus,
+  .nav-main-container .nav-main ul.list-inline .client-portal.nav-footer:focus::before,
+  .nav-main-container .nav-main ul.list-inline .nav-link.client-portal.focus,
+  .nav-main-container .nav-main ul.list-inline .client-portal.focus.nav-footer::before {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5); }
+  .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance.disabled, .nav-main-container .nav-main ul.list-inline .risk-tolerance.disabled.nav-footer::before, .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance:disabled, .nav-main-container .nav-main ul.list-inline .risk-tolerance.nav-footer:disabled::before,
+  .nav-main-container .nav-main ul.list-inline .nav-link.client-portal.disabled,
+  .nav-main-container .nav-main ul.list-inline .client-portal.disabled.nav-footer::before,
+  .nav-main-container .nav-main ul.list-inline .nav-link.client-portal:disabled,
+  .nav-main-container .nav-main ul.list-inline .client-portal.nav-footer:disabled::before {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff; }
+  .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance:not(:disabled):not(.disabled):active, .nav-main-container .nav-main ul.list-inline .risk-tolerance.nav-footer:not(:disabled):not(.disabled):active::before, .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance:not(:disabled):not(.disabled).active, .nav-main-container .nav-main ul.list-inline .risk-tolerance.nav-footer:not(:disabled):not(.disabled).active::before,
+  .show > .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance.dropdown-toggle,
+  .show > .nav-main-container .nav-main ul.list-inline .risk-tolerance.dropdown-toggle.nav-footer::before,
+  .nav-main-container .nav-main ul.list-inline .nav-link.client-portal:not(:disabled):not(.disabled):active,
+  .nav-main-container .nav-main ul.list-inline .client-portal.nav-footer:not(:disabled):not(.disabled):active::before,
+  .nav-main-container .nav-main ul.list-inline .nav-link.client-portal:not(:disabled):not(.disabled).active,
+  .nav-main-container .nav-main ul.list-inline .client-portal.nav-footer:not(:disabled):not(.disabled).active::before,
+  .show > .nav-main-container .nav-main ul.list-inline .nav-link.client-portal.dropdown-toggle,
+  .show > .nav-main-container .nav-main ul.list-inline .client-portal.dropdown-toggle.nav-footer::before {
+    color: #fff;
+    background-color: transparent;
+    border-color: #629ed5; }
+    .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance:not(:disabled):not(.disabled):active:focus, .nav-main-container .nav-main ul.list-inline .risk-tolerance.nav-footer:not(:disabled):not(.disabled):active:focus::before, .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance:not(:disabled):not(.disabled).active:focus, .nav-main-container .nav-main ul.list-inline .risk-tolerance.nav-footer:not(:disabled):not(.disabled).active:focus::before,
+    .show > .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance.dropdown-toggle:focus,
+    .show > .nav-main-container .nav-main ul.list-inline .risk-tolerance.dropdown-toggle.nav-footer:focus::before,
+    .nav-main-container .nav-main ul.list-inline .nav-link.client-portal:not(:disabled):not(.disabled):active:focus,
+    .nav-main-container .nav-main ul.list-inline .client-portal.nav-footer:not(:disabled):not(.disabled):active:focus::before,
+    .nav-main-container .nav-main ul.list-inline .nav-link.client-portal:not(:disabled):not(.disabled).active:focus,
+    .nav-main-container .nav-main ul.list-inline .client-portal.nav-footer:not(:disabled):not(.disabled).active:focus::before,
+    .show > .nav-main-container .nav-main ul.list-inline .nav-link.client-portal.dropdown-toggle:focus,
+    .show > .nav-main-container .nav-main ul.list-inline .client-portal.dropdown-toggle.nav-footer:focus::before {
+      box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5); }
+  .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance:hover, .nav-main-container .nav-main ul.list-inline .risk-tolerance.nav-footer:hover::before,
+  .nav-main-container .nav-main ul.list-inline .nav-link.client-portal:hover,
+  .nav-main-container .nav-main ul.list-inline .client-portal.nav-footer:hover::before {
+    color: #629ed5;
+    background-color: transparent;
+    border-color: #629ed5; }
+  .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance:focus, .nav-main-container .nav-main ul.list-inline .risk-tolerance.nav-footer:focus::before, .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance.focus, .nav-main-container .nav-main ul.list-inline .risk-tolerance.focus.nav-footer::before,
+  .nav-main-container .nav-main ul.list-inline .nav-link.client-portal:focus,
+  .nav-main-container .nav-main ul.list-inline .client-portal.nav-footer:focus::before,
+  .nav-main-container .nav-main ul.list-inline .nav-link.client-portal.focus,
+  .nav-main-container .nav-main ul.list-inline .client-portal.focus.nav-footer::before {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5); }
+  .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance.disabled, .nav-main-container .nav-main ul.list-inline .risk-tolerance.disabled.nav-footer::before, .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance:disabled, .nav-main-container .nav-main ul.list-inline .risk-tolerance.nav-footer:disabled::before,
+  .nav-main-container .nav-main ul.list-inline .nav-link.client-portal.disabled,
+  .nav-main-container .nav-main ul.list-inline .client-portal.disabled.nav-footer::before,
+  .nav-main-container .nav-main ul.list-inline .nav-link.client-portal:disabled,
+  .nav-main-container .nav-main ul.list-inline .client-portal.nav-footer:disabled::before {
+    color: #fff;
+    background-color: transparent; }
+  .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance:not(:disabled):not(.disabled):active, .nav-main-container .nav-main ul.list-inline .risk-tolerance.nav-footer:not(:disabled):not(.disabled):active::before, .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance:not(:disabled):not(.disabled).active, .nav-main-container .nav-main ul.list-inline .risk-tolerance.nav-footer:not(:disabled):not(.disabled).active::before,
+  .show > .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance.dropdown-toggle,
+  .show > .nav-main-container .nav-main ul.list-inline .risk-tolerance.dropdown-toggle.nav-footer::before,
+  .nav-main-container .nav-main ul.list-inline .nav-link.client-portal:not(:disabled):not(.disabled):active,
+  .nav-main-container .nav-main ul.list-inline .client-portal.nav-footer:not(:disabled):not(.disabled):active::before,
+  .nav-main-container .nav-main ul.list-inline .nav-link.client-portal:not(:disabled):not(.disabled).active,
+  .nav-main-container .nav-main ul.list-inline .client-portal.nav-footer:not(:disabled):not(.disabled).active::before,
+  .show > .nav-main-container .nav-main ul.list-inline .nav-link.client-portal.dropdown-toggle,
+  .show > .nav-main-container .nav-main ul.list-inline .client-portal.dropdown-toggle.nav-footer::before {
+    color: #fff;
+    background-color: transparent;
+    border-color: #629ed5; }
+    .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance:not(:disabled):not(.disabled):active:focus, .nav-main-container .nav-main ul.list-inline .risk-tolerance.nav-footer:not(:disabled):not(.disabled):active:focus::before, .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance:not(:disabled):not(.disabled).active:focus, .nav-main-container .nav-main ul.list-inline .risk-tolerance.nav-footer:not(:disabled):not(.disabled).active:focus::before,
+    .show > .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance.dropdown-toggle:focus,
+    .show > .nav-main-container .nav-main ul.list-inline .risk-tolerance.dropdown-toggle.nav-footer:focus::before,
+    .nav-main-container .nav-main ul.list-inline .nav-link.client-portal:not(:disabled):not(.disabled):active:focus,
+    .nav-main-container .nav-main ul.list-inline .client-portal.nav-footer:not(:disabled):not(.disabled):active:focus::before,
+    .nav-main-container .nav-main ul.list-inline .nav-link.client-portal:not(:disabled):not(.disabled).active:focus,
+    .nav-main-container .nav-main ul.list-inline .client-portal.nav-footer:not(:disabled):not(.disabled).active:focus::before,
+    .show > .nav-main-container .nav-main ul.list-inline .nav-link.client-portal.dropdown-toggle:focus,
+    .show > .nav-main-container .nav-main ul.list-inline .client-portal.dropdown-toggle.nav-footer:focus::before {
+      box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5); }
+  @media (prefers-reduced-motion: reduce) {
+    .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance, .nav-main-container .nav-main ul.list-inline .risk-tolerance.nav-footer::before,
+    .nav-main-container .nav-main ul.list-inline .nav-link.client-portal,
+    .nav-main-container .nav-main ul.list-inline .client-portal.nav-footer::before {
+      transition: none; } }
 
 #home-header {
   padding-top: 6rem;

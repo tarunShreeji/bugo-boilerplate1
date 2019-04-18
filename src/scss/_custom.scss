@@ -27,11 +27,23 @@
 }
 
 .nav-main-container .nav-main ul.list-inline .list-inline-item {
-  margin: 0 $global-margin/2;
+  margin: 0 $global-margin/3;
 }
 
 .nav-main-container .nav-main ul.list-inline .nav-link {
   text-transform: uppercase;
+}
+
+.nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance,
+.nav-main-container .nav-main ul.list-inline .nav-link.client-portal {
+    @include button-variant(transparent, $white, transparent, $secondary, transparent, $secondary);
+    @include button-outline-variant($white, $secondary, transparent, $secondary);
+    @include button-size($btn-padding-y/4, $btn-padding-x/2, 80%, $btn-line-height, $btn-border-radius);
+    @include transition($btn-transition);
+
+    border-width: 1px;
+    border-style: solid;
+    margin: 0 $global-margin/3;
 }
 
  #home-header {
