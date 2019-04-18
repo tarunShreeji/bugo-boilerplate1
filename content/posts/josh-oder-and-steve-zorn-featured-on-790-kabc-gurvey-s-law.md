@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Josh Oder and Steve Zorn featured on 790 KABC, Gurvey’s Law
-date: ''
+date: 2018-10-25 07:00:00 +0000
 slug: ''
 aliases: []
 page_meta:
