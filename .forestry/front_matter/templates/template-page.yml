@@ -8,7 +8,7 @@ fields:
   hidden: true
   config:
     required: true
-  default: post
+  default: page
 - type: include
   template: field-page-attributes
   label: Page Attributes
