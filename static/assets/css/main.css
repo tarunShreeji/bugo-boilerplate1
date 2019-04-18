@@ -9667,7 +9667,7 @@ body.home .site-header-logo {
   text-align: center; }
 
 .nav-main-container .nav-main ul.list-inline .list-inline-item {
-  margin: 0 0.66667rem; }
+  margin: 0 0.5rem; }
 
 .nav-main-container .nav-main ul.list-inline .nav-link, .nav-main-container .nav-main ul.list-inline .nav-footer::before {
   text-transform: uppercase; }
@@ -9687,7 +9687,7 @@ body.home .site-header-logo {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   border-width: 1px;
   border-style: solid;
-  margin: 0 0.66667rem; }
+  margin: 0; }
   .nav-main-container .nav-main ul.list-inline .nav-link.risk-tolerance:hover, .nav-main-container .nav-main ul.list-inline .risk-tolerance.nav-footer:hover::before,
   .nav-main-container .nav-main ul.list-inline .nav-link.client-portal:hover,
   .nav-main-container .nav-main ul.list-inline .client-portal.nav-footer:hover::before {
