@@ -34,6 +34,8 @@ content:
 - template: block-contact-form
   full_width: true
   title: Contact Form
+  background_color: Light
+  text_color: Black
 show_sidebar: false
 video_gallery:
   videos: []
