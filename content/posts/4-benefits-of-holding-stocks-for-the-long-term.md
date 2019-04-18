@@ -10,7 +10,7 @@ page_meta:
   meta_description: ''
 featured_image:
   title: ''
-  image: "/v1554600364/samples/people/jazz.jpg"
+  image: "/v1555611212/carlos-muza-84523-unsplash.jpg"
   caption: ''
 categories: []
 tags: []
