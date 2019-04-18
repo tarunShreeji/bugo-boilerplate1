@@ -10,7 +10,7 @@ page_meta:
   meta_description: ''
 featured_image:
   title: ''
-  image: "/v1555611208/adeolu-eletu-134758-unsplash.jpg"
+  image: "/v1555611214/hunters-race-408744-unsplash.jpg"
   caption: ''
 categories: []
 tags: []
