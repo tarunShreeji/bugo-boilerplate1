@@ -253,7 +253,7 @@ function processAssets() {
  **/
 
 function compileSass(done = () => { }) {
-  del([sassPaths.dest + '/*']);
+  // del([sassPaths.dest + '/*']);
   console.log('Bugo: Compiling .scss into destination folder: ' + sassPaths.dest);
   gulp.src(sassPaths.src)
     // .pipe(sourcemaps.init())
@@ -289,7 +289,7 @@ function compileSass(done = () => { }) {
  **/
 
 function compileJs(done = () => { }) {
-  del([jsPaths.dest + '/*']);
+  // del([jsPaths.dest + '/*']);
   console.log('Bugo: Compiling .js files into ' + jsPaths.dest);
   gulp.src([
     jsPaths.src
