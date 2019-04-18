@@ -10,7 +10,7 @@ page_meta:
   meta_description: ''
 featured_image:
   title: ''
-  image: ''
+  image: "/v1555611208/matthew-guay-148463-unsplash.jpg"
   caption: ''
 categories: []
 tags: []
