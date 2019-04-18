@@ -11,7 +11,7 @@ page_meta:
   meta_description: ''
 featured_image:
   title: ''
-  image: "/v1554600369/samples/cloudinary-group.jpg"
+  image: "/v1555611216/fancycrave-329196-unsplash.jpg"
   caption: ''
 categories: []
 tags: []
