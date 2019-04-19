@@ -6,6 +6,8 @@ languageCode: en-us
 summaryLength: 60
 canonifyURLs: true
 enableRobotsTXT: true
+permalinks:
+  posts: "/insights/:slug"
 googleAnalytics: ''
 blackFriday:
   hrefTargetBlank: true
