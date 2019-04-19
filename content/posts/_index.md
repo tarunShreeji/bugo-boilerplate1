@@ -13,6 +13,7 @@ related_pages: []
 weight: ''
 description: ''
 slug: insights
+url: "/insights"
 aliases: []
 page_meta:
   meta_title: ''
