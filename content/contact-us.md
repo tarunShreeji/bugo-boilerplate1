@@ -46,5 +46,7 @@ video_gallery:
 menu:
   main:
     weight: 4
+  mobile:
+    weight: 4
 
 ---
