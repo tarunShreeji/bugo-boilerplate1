@@ -191,9 +191,14 @@
     margin-bottom: $global-margin/3;
     padding: 0;
 
+    @include media-breakpoint-up(md){
+      padding: 0 $global-margin/4;
+    }
+
     @include media-breakpoint-up(lg){
       margin-bottom: $global-margin/2;
       font-size: $h3-font-size;
+      padding: 0 $global-margin;
     }
   }
 
@@ -424,8 +429,9 @@ body.profile {
 
           .icon {
             width: 30px;
+            height: auto;
             display: block;
-            margin: 0 auto;
+            margin: 0 auto $global-margin/4;
           }
 
           a {
@@ -444,7 +450,11 @@ body.profile {
           .social-list,
           .vcard,
           .email-list {
-            flex-basis: 60px;
+            flex-basis: auto;
+            margin: 0 $global-margin/4;
+            @include media-breakpoint-up(md){
+              flex-basis: 60px;
+            }
           }
 
           .phone-list {
@@ -536,5 +546,37 @@ body.contact {
         padding: $global-padding/2 $global-padding;
       }
     }
+  }
+}
+
+body.list {
+  article {
+    header {
+      h2 {
+        text-transform: none;
+        font-size: $h3-font-size;
+      }
+    }
+  }
+}
+
+.profile-image-container {
+  overflow: hidden;
+  position: relative;
+
+  figure {
+    margin: 0;
+  }
+
+  .profile-image {
+    display: block;
+    position: absolute;
+    top: 0;
+    // right: 0;
+    // bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 }

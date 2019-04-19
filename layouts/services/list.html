@@ -1,0 +1,40 @@
+{{/**
+   * Oderllc Services List Template
+	 *
+	 * The default list for the site.
+   *
+   * @version 1.0.0
+	 *
+   */}}
+
+   {{ define "main" }}
+   <main class="">
+     <p class="post-count">{{ len .Data.Pages }} {{ .Section | pluralize }} found. </p>
+      {{ range $index, $page := .Paginator.Pages }}
+      {{ $page := . }}
+      <div class="row mb-5" data-aos="slide-right">
+        <div class="col-12 order-2 order-md-1 {{ with $page.Section }}{{ . | urlize }}-item{{ end }}">
+          <!-- {{ partial "components/thumbnail" (dict "page" . "site" .Site ) }} -->
+          <article>
+            <header>
+              <!-- <time>{{ .Date.Format "January _2, 2006" }}</time> -->
+              <h2><a href="{{ .Permalink }}">{{ .Title}}</a></h2>
+            </header>
+            <summary>
+              <div>{{ .Summary }}</div>
+            </summary>
+          </article>
+        </div>
+      </div>
+       {{ end }}
+    <div class="pagination mt-4">
+      {{ template "_internal/pagination.html" . }}
+    </div>
+   </main>
+   {{ end }}
+
+   {{ define "aside" }}
+     <aside class="sidebar">
+        {{ partial "widgets/widgets" (dict "page" .Page "site" .Site "content" .Site.Data.config.sidebar_widgets.widgets ) }}
+     </aside>
+   {{ end }}

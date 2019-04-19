@@ -113,10 +113,11 @@ $home-featured-image-xl-height: $home-featured-image-height*4;
 
 $profile-featured-image-margin: 0 0 $global-margin;
 $profile-featured-image-padding: 0;
-$profile-featured-image-height: 10rem;
+$profile-featured-image-height: 17rem;
+$profile-featured-image-sm-height: $profile-featured-image-height*1.2;
 $profile-featured-image-md-height: $profile-featured-image-height*1.5;
 $profile-featured-image-lg-height: $profile-featured-image-height*1.75;
-$profile-featured-image-xl-height: $profile-featured-image-height*3.5;
+$profile-featured-image-xl-height: $profile-featured-image-height*2.1;
 
 /**
  *
