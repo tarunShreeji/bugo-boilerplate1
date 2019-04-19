@@ -150,7 +150,8 @@ function buildStaging(done = () => { }) {
  **/
 
 function startBugo(done) {
-  const hugo = spawn("hugo", ['-w', 'server', '--disableFastRender', '--destination=public']);
+  const hugo = spawn("hugo", ['server', '--disableFastRender', '--destination=public']);
+  console.log(hugo);
   // Log message from Bugo
   hugo.stdout.on('data', (data) => {
     console.log(`Bugo: ${data}`);

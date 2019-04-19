@@ -28,6 +28,9 @@
     <div class="off-canvas bg-primary text-white">
       <div class="container">
         {{ partial "nav-dropdowns-only" (dict "menu" .Site.Menus.main "location" "main" "page" .Page "site" .Site "datadisplay" "static") }}
+        <div id="mobile-nav-container" class="nav-mobile collapse">
+          {{ partial "nav-vertical" (dict "menu" .Site.Menus.mobile "location" "mobile" "page" .Page "site" .Site) }}
+        </div>
       </div>
     </div>
     <div class="on-canvas">

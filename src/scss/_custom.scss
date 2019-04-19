@@ -29,7 +29,7 @@
 }
 
 .nav-main-container .nav-main ul.list-inline .list-inline-item {
-  margin: 0 $global-margin/6;
+  margin: 0 $global-margin/8;
   display: flex;
   align-items: center;
 }
@@ -51,104 +51,9 @@
     border-width: 1px;
     border-style: solid;
     margin: 0;
-}
+    line-height: 1.1;
 
- #home-header {
-   padding-top: $global-padding*6;
-  //  margin-bottom: $global-margin;
-  background-color: lighten($secondary,20%);
-  background-blend-mode: multiply;
-
-   //columns block
-  .container {
-   flex-wrap: wrap;   
-  }
-
-  p {
-    text-align: center;
-  }
-
-  h1,h2,h3,h4,h5,h6 {
-    color: $white;
-    padding-left: $global-padding;
-    padding-right: $global-padding;
-  }
-
-  h1 {
-    @extend .display-4;
-  }
-
-  img {
-    display: block;
-    margin: 0 auto;
-    max-width: 175px;
-  }
-
-  .item:first-child,
-  .item:last-child {
-    padding: $global-padding;
-  }
-
-  a {
-    @include button-variant(transparent, $white, transparent, $secondary, transparent, $secondary);
-    @include button-outline-variant($white, $secondary, transparent, $secondary);
-    @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-line-height, $btn-border-radius);
-    @include transition($btn-transition);
-
-    text-transform: uppercase;
-    border-width: 1px;
-    border-style: solid;
-
-    &:hover,
-    &:focus {
-      text-decoration: none;
-    }
-  }
-
-  #column-logo-column,
-  #column-headline {
-    //  height: 20rem;
-    margin-bottom: $global-margin;
-  }
-
-  #column-logo-column {
-    flex-grow: 0;     /* do not grow   - initial value: 0 */
-    flex-shrink: 0;   /* do not shrink - initial value: 1 */
-    flex-basis: 33%; /* width/height  - initial value: auto */
-   }
-
-   #column-headline {
-    flex-grow: 0;     /* do not grow   - initial value: 0 */
-    flex-shrink: 0;   /* do not shrink - initial value: 1 */
-    flex-basis: 66%; /* width/height  - initial value: auto */
-  }
-
-  #column-client-focused,
-  #column-fee-only-header,
-  #column-fiduciary-responsibility {
-    flex-grow: 0;     /* do not grow   - initial value: 0 */
-    flex-shrink: 0;   /* do not shrink - initial value: 1 */
-    flex-basis: 100%; /* width/height  - initial value: auto */
-
-    @include media-breakpoint-up(md){
-      flex-grow: 0;     /* do not grow   - initial value: 0 */
-      flex-shrink: 0;   /* do not shrink - initial value: 1 */
-      flex-basis: 33%; /* width/height  - initial value: auto */
-    }
-  }
-
-  #column-logo-column,
-  #column-headline,
-  #column-client-focused,
-  #column-fee-only-header,
-  #column-fiduciary-responsibility {
-    text-align: center;
-  }
-}
-
-// breadcrumbs
-.breadcrumbs {
-  padding: 0;
+    font-size: 80%;
 }
 
 //blocks
@@ -160,8 +65,26 @@
     margin: 0 0 $global-margin 0;
   }
 
+  // $h1-font-size:                $font-size-base * 2.5 !default;
+  // $h2-font-size:                $font-size-base * 2 !default;
+  // $h3-font-size:                $font-size-base * 1.75 !default;
+  // $h4-font-size:                $font-size-base * 1.5 !default;
+  // $h5-font-size:                $font-size-base * 1.25 !default;
+  // $h6-font-size:
+
   h2 {
-    @extend .h5;
+    font-size: $h5-font-size;
+  }
+
+  h3 {
+    font-size: $h4-font-size;
+
+    @include media-breakpoint-up(md){
+      font-size: $h4-font-size
+    }
+    @include media-breakpoint-up(lg){
+      font-size: $h3-font-size
+    }
   }
 
   p {
@@ -170,17 +93,14 @@
   }
 
   ul {
-    columns: 2;
-    column-gap: $global-margin*2;
     text-align: left;
-    
-  }
 
-  blockquote {
-    p {
-      text-align: center;
+    @include media-breakpoint-up(lg){
+      columns: 2;
+      column-gap: $global-margin*2;
     }
   }
+
 
   &.block-latest-posts {
     summary {
@@ -202,6 +122,27 @@
           min-height: inherit;
           display: flex;
           align-items: center;
+          font-size: 0.8rem;
+
+          @include media-breakpoint-up(sm){
+            font-size: 1rem;
+          }
+
+
+
+          blockquote {
+            font-size: 0.8rem;
+
+            @include media-breakpoint-up(sm){
+              font-size: 1rem;
+            }
+
+            padding: 0 $global-margin*2;
+
+            p {
+              text-align: center;
+            }
+          }
         }
       }
     }
@@ -211,6 +152,150 @@
     }
   }
 }
+
+#home-header {
+   padding-top: $global-padding*6;
+  //  margin-bottom: $global-margin;
+  background-color: lighten($secondary,20%);
+
+   //columns block
+  .container {
+   flex-wrap: wrap;   
+
+  p {
+    text-align: center;
+  }
+
+
+  h1,h2,h3,h4,h5,h6 {
+    color: $white;
+    padding-left: $global-padding;
+    padding-right: $global-padding;
+  }
+
+  h1 {
+    font-size: $h5-font-size;
+    padding: 0;
+
+    @include media-breakpoint-up(sm){
+      font-size: $h1-font-size;
+    }
+
+    @include media-breakpoint-up(lg){
+      font-size: $display4-size;
+    }
+  }
+
+  h3 {
+    font-size: $h6-font-size;
+    margin-bottom: $global-margin/3;
+    padding: 0;
+
+    @include media-breakpoint-up(lg){
+      margin-bottom: $global-margin/2;
+      font-size: $h3-font-size;
+    }
+  }
+
+
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 175px;
+  }
+
+  .item:first-child,
+  .item:last-child {
+    padding: $global-padding;
+  }
+
+  a {
+    @include button-variant(transparent, $white, transparent, $secondary, transparent, $secondary);
+    @include button-outline-variant($white, $secondary, transparent, $secondary);
+    @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-line-height, $btn-border-radius);
+    @include transition($btn-transition);
+
+    text-transform: uppercase;
+    border-width: 1px;
+    border-style: solid;
+    line-height: 1.1;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+
+  }
+
+  #column-logo-column,
+  #column-headline {
+    //  height: 20rem;
+    margin-bottom: $global-margin;
+
+    @include media-breakpoint-up(md){
+      margin-bottom: $global-margin;
+    }
+  }
+
+  #column-logo-column {
+    flex-basis: 30%; /* width/height  - initial value: auto */
+    padding: 0;
+
+    img {
+      margin: 0 auto;
+      max-width: 80px;
+    }
+
+    @include media-breakpoint-up(sm){
+      flex-basis: 33%; /* width/height  - initial value: auto */
+
+      img {
+        max-width: 150px;
+      }
+    }
+   }
+
+   #column-headline {
+    flex-basis: 70%; /* width/height  - initial value: auto */
+    padding: 0;
+
+    @include media-breakpoint-up(sm){
+      flex-basis: 66%; /* width/height  - initial value: auto */
+    }
+  }
+
+  #column-client-focused,
+  #column-fee-only-header,
+  #column-fiduciary-responsibility {
+    flex-basis: 100%; /* width/height  - initial value: auto */
+
+    @include media-breakpoint-up(sm){
+      flex-basis: 33%; /* width/height  - initial value: auto */
+    }
+  }
+
+  #column-logo-column,
+  #column-headline,
+  #column-client-focused,
+  #column-fee-only-header,
+  #column-fiduciary-responsibility {
+    flex-grow: 0;     /* do not grow   - initial value: 0 */
+    flex-shrink: 0;   /* do not shrink - initial value: 1 */
+    text-align: center;
+  }
+}
+
+// breadcrumbs
+.breadcrumbs {
+  padding: 0;
+}
+
 
 @each $color, $value in $theme-colors {
   @include bg-variant(".bg-#{$color}", $value);
@@ -235,6 +320,19 @@ h1,h2,h3,h4,h5,h6 {
 .site-footer {
   .location-name {
     display: none;
+  }
+}
+
+.footer-disclaimer {
+  padding: $global-padding*2 0;
+  background-color: theme-color(light);
+  font-size: $font-size-base*0.6;
+
+  .container {
+    @include media-breakpoint-up(md){
+      columns: 2;
+      column-gap: $global-margin*2;
+    }
   }
 }
 
@@ -301,7 +399,6 @@ body.insights {
     }
 
     img {
-      mix-blend-mode: multiply;
     }
   }
 }
@@ -380,7 +477,7 @@ body.page {
     @extend .lead;
   }
 
-  article header {
+  main > article header {
     display: none;
   }
 }
@@ -420,6 +517,24 @@ body.contact {
 
     p {
       text-align: center;
+    }
+  }
+}
+
+.site-header {
+  .site-header-logo {
+    min-width: 150px;
+    @include media-breakpoint-up(lg){
+    }
+  }
+
+  .nav-main {
+    .nav-link {
+      padding: $global-padding/4 $global-padding/2;
+
+      @include media-breakpoint-up(lg){
+        padding: $global-padding/2 $global-padding;
+      }
     }
   }
 }
