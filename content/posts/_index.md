@@ -8,10 +8,11 @@ featured_image:
   title: ''
   image: ''
   caption: ''
+  template: ''
 related_pages: []
 weight: ''
 description: ''
-slug: ''
+slug: insights
 aliases: []
 page_meta:
   meta_title: ''
