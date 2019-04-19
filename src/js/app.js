@@ -7,7 +7,7 @@ import YouTubePlayer from 'youtube-player';       // YouTube player - https://ww
 import WebFont from 'webfontloader';              // Web Font Loader - https://www.npmjs.com/package/webfontloader
 import animateScrollTo from 'animated-scroll-to'; // Animate scroll to 
 
-require("../../static/assets/css/main.css");
+// require("../../static/assets/css/main.css");
 
 // Init LazyLoader
 const lazyLoadInstance = new LazyLoad({
