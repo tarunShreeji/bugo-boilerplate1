@@ -44,9 +44,9 @@ show_sidebar: false
 video_gallery:
   videos: []
 menu:
-  main:
-    weight: 4
   mobile:
+    weight: 5
+  main:
     weight: 4
 
 ---

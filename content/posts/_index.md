@@ -20,6 +20,8 @@ page_meta:
   meta_keywords: ''
   meta_description: ''
 menu:
+  mobile:
+    weight: 4
   main:
     weight: 3
 
