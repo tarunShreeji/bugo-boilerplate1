@@ -1,3 +1,32 @@
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 420px,
+  md: 769px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
+
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  sm: 699px,
+  md: 768px,
+  lg: 960px,
+  xl: 1140px
+) !default;
+
 /**
  *
  * Global Settings
@@ -36,9 +65,9 @@ $header-scrolled-color: $white;
 $header-scrolled-display: block;
 $header-float: true;
 
-$main-nav-font-size: 1.2rem;
+$main-nav-font-size: $font-size-lg;;
 $main-nav-color: $white;
-$main-nav-hover: darken($primary,20%);
+$main-nav-hover:theme-color(secondary);
 $main-nav-left: false;
 $main-nav-search: false;
 
@@ -70,12 +99,12 @@ $nav-horizontal-full-width: true;
  *
  **/
 
-$featured-image-margin: 0 0 $global-margin;
+$featured-image-margin: 0;
 $featured-image-padding: 0;
-$featured-image-height: 20rem;
-$featured-image-md-height: 20rem;
-$featured-image-lg-height: 30rem;
-$featured-image-xl-height: 30rem;
+$featured-image-height: 15rem;
+$featured-image-md-height: 15rem;
+$featured-image-lg-height: 15rem;
+$featured-image-xl-height: 15rem;
 
 $home-featured-image-height: 10rem;
 $home-featured-image-md-height: $home-featured-image-height*2;
@@ -84,11 +113,23 @@ $home-featured-image-xl-height: $home-featured-image-height*4;
 
 $profile-featured-image-margin: 0 0 $global-margin;
 $profile-featured-image-padding: 0;
-$profile-featured-image-height: 10rem;
-$profile-featured-image-md-height: $profile-featured-image-height*2;
-$profile-featured-image-lg-height: $profile-featured-image-height*3;
-$profile-featured-image-xl-height: $profile-featured-image-height*4;
+$profile-featured-image-height: 17rem;
+$profile-featured-image-sm-height: $profile-featured-image-height*1.2;
+$profile-featured-image-md-height: $profile-featured-image-height*1.5;
+$profile-featured-image-lg-height: $profile-featured-image-height*1.75;
+$profile-featured-image-xl-height: $profile-featured-image-height*2.125;
 
+/**
+ *
+ * Breadcrumbs
+ *
+ **/
+
+$breadcrumbs-margin: 0;
+$breadcrumbs-padding: 0;
+$breadcrumbs-bg-color: transparent;
+$breadcrumbs-ol-padding: $global-padding 0;
+$breadcrumbs-separator: "\00BB";
 
 /**
  *
@@ -102,94 +143,3 @@ $footer-logo-fill: theme-color(primary); //if svg and set to fill currentColor
 $footer-logo-width: 200px;
 $footer-nav-title: "Team";
 
-// Spacing
-//
-// Control the default styling of most Bootstrap elements by modifying these
-// variables. Mostly focused on spacing.
-// You can add more entries to the $spacers map, should you need more variation.
-
-$spacer: 1rem !default;
-$spacers: () !default;
-// stylelint-disable-next-line scss/dollar-variable-default
-$spacers: map-merge(
-  (
-    0: 0,
-    1: ($spacer * .25),
-    2: ($spacer * .5),
-    3: $spacer,
-    4: ($spacer * 1.5),
-    5: ($spacer * 3)
-  ),
-  $spacers
-);
-
-// This variable affects the `.h-*` and `.w-*` classes.
-$sizes: () !default;
-// stylelint-disable-next-line scss/dollar-variable-default
-$sizes: map-merge(
-  (
-    25: 25%,
-    50: 50%,
-    75: 75%,
-    100: 100%,
-    auto: auto
-  ),
-  $sizes
-);
-
-
-// Typography
-//
-// Font, line-height, and color for body text, headings, and more.
-
-// stylelint-disable value-keyword-case
-$font-family-sans-serif:      "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
-$font-family-base:            $font-family-sans-serif !default;
-// stylelint-enable value-keyword-case
-
-$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
-$font-size-lg:                $font-size-base * 1.25 !default;
-$font-size-sm:                $font-size-base * .875 !default;
-
-$font-weight-lighter:         lighter !default;
-$font-weight-light:           300 !default;
-$font-weight-normal:          400 !default;
-$font-weight-bold:            700 !default;
-$font-weight-bolder:          bolder !default;
-
-$font-weight-base:            $font-weight-normal !default;
-$line-height-base:            1.65 !default;
-
-$h1-font-size:                $font-size-base * 2.5 !default;
-$h2-font-size:                $font-size-base * 2 !default;
-$h3-font-size:                $font-size-base * 1.75 !default;
-$h4-font-size:                $font-size-base * 1.5 !default;
-$h5-font-size:                $font-size-base * 1.25 !default;
-$h6-font-size:                $font-size-base !default;
-
-$headings-margin-bottom:      $spacer / 2 !default;
-$headings-font-family:        null !default;
-$headings-font-weight:        500 !default;
-$headings-line-height:        1.2 !default;
-$headings-color:              inherit !default;
-
-$display1-size:               6rem !default;
-$display2-size:               5.5rem !default;
-$display3-size:               4.5rem !default;
-$display4-size:               3.5rem !default;
-
-$display1-weight:             300 !default;
-$display2-weight:             300 !default;
-$display3-weight:             300 !default;
-$display4-weight:             300 !default;
-$display-line-height:         $headings-line-height !default;
-
-$lead-font-size:              $font-size-base * 1.25 !default;
-$lead-font-weight:            300 !default;
-
-$small-font-size:             80% !default;
-
-$btn-border-radius:           0 !default;
-$btn-border-radius-lg:        $btn-border-radius !default;
-$btn-border-radius-sm:        $btn-border-radius !default;

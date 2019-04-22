@@ -147,5 +147,8 @@ aliases: []
 show_sidebar: false
 video_gallery:
   videos: []
+menu:
+  mobile:
+    weight: 1
 
 ---

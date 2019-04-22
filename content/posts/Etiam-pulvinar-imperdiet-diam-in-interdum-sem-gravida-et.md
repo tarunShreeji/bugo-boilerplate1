@@ -1,12 +1,12 @@
 +++
 category = "News"
-date = "2018-12-20T08:00:00+00:00"
+date = "2017-12-20T08:00:00+00:00"
 related_pages = ["posts/morbi-vitae-tincidunt-ante.md", "posts/fusce-accumsan-ipsum-metus.md"]
 tags = []
 title = "Watch Me"
 [featured_image]
 image = "/v1553731891/samples/ecommerce/analog-classic.jpg"
-
+layout = "post"
 +++
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate diam in nunc eleifend, blandit ultrices augue convallis. Nam urna justo, sodales non ligula nec, ultricies feugiat enim. Integer leo sapien, dignissim ut enim eget, sodales lobortis sapien. Nulla id rutrum purus. Nunc ac dictum lectus. Nulla dapibus pellentesque convallis. Curabitur porta, dui et rhoncus vehicula, dolor sapien pulvinar leo, ac finibus leo ligula id est. Etiam pulvinar imperdiet diam, in interdum sem gravida et. Donec iaculis tellus nec augue sodales, rutrum ornare libero gravida. Nam mi erat, rhoncus non ultrices pharetra, consectetur in nisl. Vivamus lorem magna, commodo quis suscipit sit amet, semper eu mauris. Vestibulum porttitor justo eget accumsan auctor. Mauris porttitor lacus eget sagittis luctus. Sed ultrices, leo ac aliquam bibendum, risus lectus cursus massa, non vestibulum libero purus non libero. Praesent molestie consectetur lectus, sed pellentesque magna.
 

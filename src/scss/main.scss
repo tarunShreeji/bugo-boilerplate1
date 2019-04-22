@@ -16,9 +16,10 @@
 @import 'mixins/contrast';
 @import "custom-colors";
 @import "custom-sizes";
+@import "custom-typography";
 @import "custom-components";
-@import "custom-variables";
 @import "custom-forms";
+@import "custom-variables";
 @import "bootstrap-variables";
 @import "../../node_modules/bootstrap/scss/root";
 @import "../../node_modules/bootstrap/scss/reboot";
@@ -101,6 +102,7 @@
  @import "partials/widgets/widget-categories";
  @import "partials/widgets/widget-markdown";
  @import "partials/widgets/widget-menu";
+ @import "partials/widgets/widget-latest-posts";
  @import "partials/widgets/widget-related-posts";
 
  @import "partials/footer";

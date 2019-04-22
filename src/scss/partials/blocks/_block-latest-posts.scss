@@ -12,9 +12,16 @@
     }
 
     .item {
-      flex-grow: 1;
+      flex-grow: 0;
+      flex-shrink: 0;
+      flex-basis: 100%;
+
+      @include media-breakpoint-up(sm){
+        flex-basis: 33%;
+      }
+
+
       text-align: center;
-      width: 50%;
       padding: 0 $global-padding;
       text-align: left;
 
@@ -28,6 +35,17 @@
 
       article {
         flex-direction: column;
+
+        header {
+          h3 {
+            text-transform: none;
+            font-size: $h5-font-size;
+
+            @include media-breakpoint-up(lg){
+              font-size: $h3-font-size;
+            }
+          }
+        }
       }
 
       figure {
@@ -40,7 +58,7 @@
         img {
           display: block;
           width: 100%;
-          height: 15rem;
+          height: auto;
           object-fit: cover;
           object-position: center;
         }

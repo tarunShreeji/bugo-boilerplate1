@@ -14,6 +14,9 @@ featured_image:
   caption: ''
   template: ''
 content:
+- template: block-oderllc-contacts
+  full_width: true
+  title: Contact buttons
 - template: block-google-map
   block_options:
     full_width: true
@@ -26,18 +29,23 @@ content:
   city: Woodland Hills
   state: California
   zip_code: '91367'
-  map_content: "21300 Victory Blvd. Suite 855  \nWoodland Hills, CA 91367\n\nP: 818-676-0036
-    F: 818-676-0017"
-- template: block-oderllc-contacts
-  full_width: true
-  title: Contact buttons
+  map_content: "## Oder Investment Management, LLC\n\n21300 Victory Blvd. Suite 855
+    \ \nWoodland Hills, CA 91367  \n**P: 818-676-0036 F: 818-676-0017**"
 - template: block-contact-form
   full_width: true
   title: Contact Form
+  background_color: Light
+  text_color: Black
+  block_options:
+    background_color: Light
+    text_color: Black
+    full_width: true
 show_sidebar: false
 video_gallery:
   videos: []
 menu:
+  mobile:
+    weight: 5
   main:
     weight: 4
 

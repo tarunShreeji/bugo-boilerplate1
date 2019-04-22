@@ -24,7 +24,7 @@
   <div class="container">
     <h3>Contact Us Directly</h3>
     <div class="d-flex">
-      {{ range ( sort (where .site.RegularPages "Section" "Team") .Params.weight "asc" ) }}
+      {{ range ( sort (where .site.RegularPages "Section" "team") .Params.weight "asc" ) }}
           {{ $page := . }}
           {{ range .Params.profile.email_addresses }}
             <div class="email-button-container flex-fill">

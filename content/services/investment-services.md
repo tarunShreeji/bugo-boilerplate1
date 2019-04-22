@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Investment Services
 date: 2019-04-08 07:00:00 +0000
 slug: investment-services

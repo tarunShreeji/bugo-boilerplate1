@@ -1,7 +1,7 @@
 +++
 categories = ["Category 3"]
 category = "News"
-date = "2018-12-20T08:00:00+00:00"
+date = "2017-12-20T08:00:00+00:00"
 layout = "post"
 related_pages = ["posts/in-vulputate-diam-in-nunc-eleifend.md", "_index.md", "posts/nulla-id-rutrum-purus.md"]
 tags = ["Lorem Ipsum"]

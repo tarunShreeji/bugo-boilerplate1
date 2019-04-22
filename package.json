@@ -33,6 +33,7 @@
     "@babel/register": "^7.0.0",
     "@fortawesome/fontawesome-free": "^5.7.2",
     "ajv": "^6.5.4",
+    "css-loader": "^2.1.1",
     "del": "^3.0.0",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
@@ -42,6 +43,7 @@
     "gulp-shell": "^0.6.5",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-watch": "^5.0.1",
+    "style-loader": "^0.23.1",
     "webpack-stream": "^5.1.1"
   }
 }

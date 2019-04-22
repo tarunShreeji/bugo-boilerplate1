@@ -10,7 +10,7 @@ page_meta:
   meta_description: ''
 featured_image:
   title: ''
-  image: ''
+  image: "/v1555611214/hunters-race-408744-unsplash.jpg"
   caption: ''
 categories: []
 tags: []

@@ -7,8 +7,11 @@ import YouTubePlayer from 'youtube-player';       // YouTube player - https://ww
 import WebFont from 'webfontloader';              // Web Font Loader - https://www.npmjs.com/package/webfontloader
 import animateScrollTo from 'animated-scroll-to'; // Animate scroll to 
 
+
+// require("../../static/assets/css/main.css");
+
 // Init LazyLoader
-var lazyLoadInstance = new LazyLoad({
+const lazyLoadInstance = new LazyLoad({
   elements_selector: ".lazy"
   // ... more custom settings?
 });
@@ -16,14 +19,14 @@ var lazyLoadInstance = new LazyLoad({
 // Load fonts
 WebFont.load({
   google: {
-    families: ['Karla:400,400i,700,700i']
+    families: window.fontFamilies
   }
 });
 
 //Boostrap Carousel Slide Normalization
 
 function carouselNormalization() {
-  var items = $('.carousel .carousel-item'), //grab all slides
+  let items = $('.carousel .carousel-item'), //grab all slides
       heights = [], //create empty array to store height values
       tallest; //create variable to make note of the tallest slide
 
@@ -54,10 +57,9 @@ function carouselNormalization() {
 // On Document Ready
 $(document).ready(function () {
 
-  // $('.search-container button').on('click', function () {
-  //   console.log('clicked');
-  //   $('.search-container .drawer').toggleClass('show').find('input').focus();
-  // });
+  $('.off-canvas .collapse').on('show.bs.collapse', function () {
+    $('.off-canvas .show').not(this).collapse('hide');
+  })
 
   console.log($('a[href*="#"][role!="button"]'));
 
@@ -71,7 +73,6 @@ $(document).ready(function () {
     animateScrollTo(document.querySelector(target));
   });
 
-  carouselNormalization();
 
   // Add scrolled class to body for fixed headers
   // you can use the class to add backgrounds, hide, etc.
@@ -108,5 +109,8 @@ $(document).ready(function () {
       player.pauseVideo();
     });
   }
+
+  // carouselNormalization();
+
 });
 

@@ -13,12 +13,26 @@ main {
 }
 
 .sidebar {
+  .wrap{
+    &.container {
+      flex-wrap: wrap;
+    }
+  }
+
   main {
-    width: 70%;
+    width: 100%;
+
+    @include media-breakpoint-up(md){
+      width: 70%;
+    }
   }
 
   aside{
-    width: 30%;
-    padding-left: $global-margin;
+    width: 100%;
+
+    @include media-breakpoint-up(md){
+      width: 30%;
+      padding-left: $global-margin;
+    }
   }
 }

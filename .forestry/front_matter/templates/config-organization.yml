@@ -54,6 +54,12 @@ fields:
     name: seo_logo
     label: SEO Logo
     description: 'This image must be a .png file. '
+  - name: favicon
+    type: file
+    config:
+      maxSize: 250
+    label: Favicon
+    description: 'Add a favicon to your site. It should be 144 x 144. '
 - type: field_group
   name: contact_information
   label: Contact Information

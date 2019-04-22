@@ -150,7 +150,8 @@ function buildStaging(done = () => { }) {
  **/
 
 function startBugo(done) {
-  const hugo = spawn("hugo", ['-w', 'server', '--disableFastRender', '--destination=public']);
+  const hugo = spawn("hugo", ['server', '--disableFastRender', '--destination=public']);
+  console.log(hugo);
   // Log message from Bugo
   hugo.stdout.on('data', (data) => {
     console.log(`Bugo: ${data}`);
@@ -253,7 +254,7 @@ function processAssets() {
  **/
 
 function compileSass(done = () => { }) {
-  del([sassPaths.dest + '/*']);
+  // del([sassPaths.dest + '/*']);
   console.log('Bugo: Compiling .scss into destination folder: ' + sassPaths.dest);
   gulp.src(sassPaths.src)
     // .pipe(sourcemaps.init())
@@ -267,12 +268,17 @@ function compileSass(done = () => { }) {
       base: 'public/',
       inline: false,
       minify: true,
+      extract: false,
       css: ['public/assets/css/main.css'],
+      ignore: {
+        atrule: [],
+        rule: ["*.btn*"],
+      },
       dimensions: [{
         height: 200,
-        width: 500
+        width: 300
       }, {
-        height: 900,
+        height: 500,
         width: 1200
       }]
     }))
@@ -289,7 +295,7 @@ function compileSass(done = () => { }) {
  **/
 
 function compileJs(done = () => { }) {
-  del([jsPaths.dest + '/*']);
+  // del([jsPaths.dest + '/*']);
   console.log('Bugo: Compiling .js files into ' + jsPaths.dest);
   gulp.src([
     jsPaths.src

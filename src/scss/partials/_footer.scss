@@ -46,17 +46,6 @@
   }
 }
 
-.footer-disclaimer {
-  padding: $global-padding*2 0;
-  background-color: theme-color(light);
-  font-size: $font-size-base*0.6;
-
-  .container {
-    columns: 2;
-    column-gap: $global-margin*2;
-  }
-}
-
 .site-footer.footer-business {
   .locations {
     display: block;

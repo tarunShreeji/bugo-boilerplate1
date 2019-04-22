@@ -8,16 +8,20 @@ featured_image:
   title: ''
   image: ''
   caption: ''
+  template: ''
 related_pages: []
 weight: ''
 description: ''
-slug: ''
+slug: insights
+url: "/insights"
 aliases: []
 page_meta:
   meta_title: ''
   meta_keywords: ''
   meta_description: ''
 menu:
+  mobile:
+    weight: 4
   main:
     weight: 3
 

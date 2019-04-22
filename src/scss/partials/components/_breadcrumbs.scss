@@ -2,21 +2,30 @@
  * Breadcrumb styles
  */
 
+// $breadcrumbs-margin: 0;
+// $breadcrumbs-padding: 0;
+// $breadcrumbs-background-color: transparent;
 
 .breadcrumbs {
-  margin: $block-margin;
-  padding: $block-padding;
+  margin: $breadcrumbs-margin;
+  padding: $breadcrumbs-padding;
 }
 
 .breadcrumb {
   margin-bottom: 0;
+  background-color: $breadcrumbs-bg-color;
+  padding: $breadcrumbs-ol-padding
 }
 
 .breadcrumb-item {
-  + .breadcrumb-item {
 
+  &::before {
+    content: $breadcrumbs-separator !important;
+  }
+
+  &:first-child {
     &::before {
-
+      display: none;
     }
   }
 
