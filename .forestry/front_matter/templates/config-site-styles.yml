@@ -17,8 +17,8 @@ fields:
     template: field-font-family
     label: Fonts
   label: Primary Font Family
-  description: Add a primary font. This font will be used for all elements, unless
-    you add a secondary font family.
+  description: Add a primary font from Google. This font will be used for all elements,
+    unless you add a secondary font family.
 - name: secondary_font
   type: field_group
   config: {}
@@ -34,8 +34,8 @@ fields:
     template: field-font-family
     label: Fonts
   label: Secondary Font Family
-  description: Add a secondary font family. This will be applied to Headers & Block
-    Quotes
+  description: Add a secondary font family from Google. This will be applied to Headers
+    & Block Quotes
 - type: list
   name: theme_colors
   label: Theme Colors
