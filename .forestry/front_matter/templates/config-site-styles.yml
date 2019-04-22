@@ -2,15 +2,6 @@
 label: Config - Site Styles
 hide_body: true
 fields:
-- type: list
-  name: theme_colors
-  label: Theme Colors
-  description: Add your bootstrap colors here. We've added the basics.
-  default:
-  - Primary
-  - Secondary
-  - Gray
-  - Gray Dark
 - name: primary_font
   type: field_group
   config: {}
@@ -44,6 +35,15 @@ fields:
     label: Fonts
   label: Secondary Font
   description: Add a secondary font. This will be applied to Headers & Block Quotes
+- type: list
+  name: theme_colors
+  label: Theme Colors
+  description: Add your bootstrap colors here. We've added the basics.
+  default:
+  - Primary
+  - Secondary
+  - Gray
+  - Gray Dark
 - type: textarea
   name: custom_css
   label: Custom CSS
