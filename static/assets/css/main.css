@@ -8684,6 +8684,7 @@ pre {
     padding: 0.5rem; }
 
 blockquote {
+  font-family: var(--font-family-secondary);
   line-height: 1.5; }
 
 .svg-shadow, .featured-image .icon {

@@ -10,6 +10,7 @@ pre {
 
 blockquote {
   @extend .h3;
+  font-family: var(--font-family-secondary);
   line-height: 1.5;
 }
 
