@@ -15,14 +15,15 @@ fields:
   name: custom_css
   label: Custom CSS
   description: Enter your custom CSS here.
-- name: font_families
+- name: primary_font
   type: field_group_list
   fields:
   - name: font_family
     type: text
     config:
-      required: false
+      required: true
     label: Font Family
+    description: The name of the font family
   - name: fonts
     type: include
     config: {}
@@ -32,7 +33,6 @@ fields:
     min: 
     max: 
     labelField: font_family
-  label: Font Families
-  description: Add Font Families from Google
+  label: Primary Font
 pages:
 - data/styles.yaml
