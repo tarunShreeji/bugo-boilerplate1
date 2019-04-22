@@ -7,6 +7,7 @@ import YouTubePlayer from 'youtube-player';       // YouTube player - https://ww
 import WebFont from 'webfontloader';              // Web Font Loader - https://www.npmjs.com/package/webfontloader
 import animateScrollTo from 'animated-scroll-to'; // Animate scroll to 
 
+
 // require("../../static/assets/css/main.css");
 
 // Init LazyLoader
@@ -18,7 +19,7 @@ const lazyLoadInstance = new LazyLoad({
 // Load fonts
 WebFont.load({
   google: {
-    families: ['Karla:400,400i,700,700i']
+    families: window.fontFamilies
   }
 });
 
