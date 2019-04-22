@@ -15,13 +15,17 @@ fields:
   name: custom_css
   label: Custom CSS
   description: Enter your custom CSS here.
-- name: site_fonts
-  type: field_group
-  config: {}
+- name: font_families
+  type: field_group_list
   fields:
   - name: font_family
     type: include
     config: {}
     template: field-font-family
     label: Font Family
-  label: Google Fonts
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Font Families
+  description: Add Font Families from Google
