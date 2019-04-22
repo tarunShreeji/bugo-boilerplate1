@@ -15,25 +15,6 @@ fields:
   name: custom_css
   label: Custom CSS
   description: Enter your custom CSS here.
-- name: primary_font
-  type: field_group_list
-  fields:
-  - name: font_family
-    type: text
-    config:
-      required: true
-    label: Font Family
-    description: The name of the font family
-  - name: fonts
-    type: include
-    config: {}
-    template: field-font-family
-    label: Fonts
-  config:
-    min: 
-    max: 
-    labelField: font_family
-  label: Primary Font
 - name: secondary_font
   type: field_group
   config: {}
@@ -50,5 +31,20 @@ fields:
     label: Fonts
   label: Secondary Font
   description: Add a secondary font. This will be applied to Headers & Block Quotes
+- name: primary_font
+  type: field_group
+  config: {}
+  fields:
+  - name: font_family
+    type: text
+    config:
+      required: false
+    label: Font Family
+  - name: fonts
+    type: include
+    config: {}
+    template: field-font-family
+    label: Fonts
+  label: Primary Font
 pages:
 - data/styles.yaml
