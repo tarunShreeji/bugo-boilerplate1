@@ -8,11 +8,6 @@ theme_colors:
 - Black
 custom_css: ''
 font_families:
-- font_family: Roboto
-  font_weights:
-  - '500'
-  font_italics:
-  - '500'
 - font_family: Karla
   font_weights:
   - '700'
