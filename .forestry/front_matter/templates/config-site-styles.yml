@@ -34,5 +34,21 @@ fields:
     max: 
     labelField: font_family
   label: Primary Font
+- name: secondary_font
+  type: field_group
+  config: {}
+  fields:
+  - name: font_family
+    type: text
+    config:
+      required: false
+    label: Font Family
+  - name: fonts
+    type: include
+    config: {}
+    template: field-font-family
+    label: Fonts
+  label: Secondary Font
+  description: Add a secondary font. This will be applied to Headers & Block Quotes
 pages:
 - data/styles.yaml
