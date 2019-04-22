@@ -22,8 +22,6 @@ primary_font:
   font_italics:
   - '100'
 secondary_font:
-  font_family: Roboto Condensed
-  font_weights:
-  - '100'
-  font_italics:
-  - '100'
+  font_family: ''
+  font_weights: []
+  font_italics: []
