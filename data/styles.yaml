@@ -16,11 +16,13 @@ font_families:
   - '700'
   - '400'
 primary_font:
-  font_family: Roboto
+  font_family: Karla
   font_weights:
-  - '100'
+  - '700'
+  - '400'
   font_italics:
-  - '100'
+  - '700'
+  - '400'
 secondary_font:
   font_family: Roboto Condensed
   font_weights:
