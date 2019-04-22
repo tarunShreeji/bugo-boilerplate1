@@ -14,3 +14,14 @@ font_weights:
 font_italics:
 - '700'
 - '400'
+site_fonts:
+  font_weights: []
+  font_italics: []
+font_families:
+- font_family: Karla
+  font_weights:
+  - '700'
+  - '400'
+  font_italics:
+  - '700'
+  - '400'

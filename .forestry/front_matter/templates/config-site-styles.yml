@@ -29,3 +29,5 @@ fields:
     labelField: 
   label: Font Families
   description: Add Font Families from Google
+pages:
+- data/styles.yaml

@@ -48,5 +48,3 @@ fields:
     - '900'
   label: Font italics
   description: Pick what weights to import the italicized font.
-pages:
-- data/styles.yaml
