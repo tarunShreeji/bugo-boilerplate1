@@ -11,10 +11,6 @@ fields:
   - Secondary
   - Gray
   - Gray Dark
-- type: textarea
-  name: custom_css
-  label: Custom CSS
-  description: Enter your custom CSS here.
 - name: primary_font
   type: field_group
   config: {}
@@ -48,5 +44,9 @@ fields:
     label: Fonts
   label: Secondary Font
   description: Add a secondary font. This will be applied to Headers & Block Quotes
+- type: textarea
+  name: custom_css
+  label: Custom CSS
+  description: Enter your custom CSS here.
 pages:
 - data/styles.yaml
