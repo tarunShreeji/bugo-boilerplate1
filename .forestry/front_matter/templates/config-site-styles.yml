@@ -18,4 +18,4 @@ fields:
 - name: site_fonts
   type: field_group
   config: {}
-  label: Site Fonts
+  label: Google Fonts
