@@ -54,7 +54,16 @@ fields:
     default: []
     config:
       required: false
-      options: []
+      options:
+      - '100'
+      - '200'
+      - '300'
+      - '400'
+      - '500'
+      - '600'
+      - '700'
+      - '800'
+      - '900'
       source:
         type: simple
         section: 
