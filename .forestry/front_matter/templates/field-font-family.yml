@@ -1,4 +1,30 @@
 ---
 label: Field - Font Family
 hide_body: true
-fields: []
+fields:
+- name: font_family
+  type: text
+  config:
+    required: false
+  label: Font Family
+- name: font_weights
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+    options:
+    - '100'
+    - '200'
+    - '300'
+    - '400'
+    - '500'
+    - '600'
+    - '700'
+    - '800'
+    - '900'
+  label: Font Weights
+  description: Pick the weights you want to import. Font weights differ by font, so
+    not all weights are applicable.
