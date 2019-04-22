@@ -19,14 +19,53 @@ fields:
   type: field_group_list
   fields:
   - name: font_family
-    type: include
-    config: {}
-    template: field-font-family
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
     label: Font Family
+    description: Add the font family name
+  - name: font_weights
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - '100'
+      - '200'
+      - '300'
+      - '400'
+      - '500'
+      - '600'
+      - '700'
+      - '800'
+      - '900'
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Font Weights
+  - name: italics
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Italics
+    description: 'Choose which weights get italics. '
   config:
     min: 
     max: 
-    labelField: 
+    labelField: font_family
   label: Font Families
   description: Add Font Families from Google
 pages:
