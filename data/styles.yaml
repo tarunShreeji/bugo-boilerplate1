@@ -6,12 +6,4 @@ theme_colors:
 - Dark
 - White
 - Black
-custom_css: ''
-font_family: Karla
-font_weights:
-- '700'
-- '400'
-font_italics:
-- '700'
-- '400'
-
+custom_css: '';

@@ -1,12 +1,7 @@
 ---
-label: Field - Font Family
+label: Field - Fonts
 hide_body: true
 fields:
-- name: font_family
-  type: text
-  config:
-    required: false
-  label: Font Family
 - name: font_weights
   type: list
   config:
@@ -48,5 +43,3 @@ fields:
     - '900'
   label: Font italics
   description: Pick what weights to import the italicized font.
-pages:
-- data/styles.yaml
