@@ -28,3 +28,5 @@ fields:
   label: Font Weights
   description: Pick the weights you want to import. Font weights differ by font, so
     not all weights are applicable.
+pages:
+- data/styles.yaml

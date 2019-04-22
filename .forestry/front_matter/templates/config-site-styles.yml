@@ -19,5 +19,3 @@ fields:
   type: field_group
   config: {}
   label: Site Fonts
-pages:
-- data/styles.yaml
