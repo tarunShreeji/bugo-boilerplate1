@@ -15,3 +15,13 @@ font_families:
   font_italics:
   - '700'
   - '400'
+primary_font:
+  font_family: Roboto
+  font_weights:
+  - '100'
+  font_italics:
+  - '100'
+secondary_font:
+  font_family: ''
+  font_weights: []
+  font_italics: []
