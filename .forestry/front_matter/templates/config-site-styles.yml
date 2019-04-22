@@ -30,6 +30,8 @@ fields:
     template: field-font-family
     label: Fonts
   label: Primary Font
+  description: Add a primary font. This font will be used for all elements, unless
+    you add a secondary font family.
 - name: secondary_font
   type: field_group
   config: {}
