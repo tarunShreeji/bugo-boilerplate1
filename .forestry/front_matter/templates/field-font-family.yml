@@ -2,11 +2,6 @@
 label: Field - Font Family
 hide_body: true
 fields:
-- name: font_family
-  type: text
-  config:
-    required: false
-  label: Font Family
 - name: font_weights
   type: list
   config:
