@@ -15,5 +15,9 @@ fields:
   name: custom_css
   label: Custom CSS
   description: Enter your custom CSS here.
+- name: site_fonts
+  type: field_group
+  config: {}
+  label: Site Fonts
 pages:
 - data/styles.yaml
