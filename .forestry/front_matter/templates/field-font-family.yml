@@ -1,5 +1,5 @@
 ---
-label: Field - Font Family
+label: Field - Fonts
 hide_body: true
 fields:
 - name: font_weights
