@@ -1,10 +1,10 @@
 ---
 layout: list
-title: Services
+title: Team
 menu:
   mobile:
-    weight: 3
-  main:
     weight: 2
+  main:
+    weight: 1
 
 ---
