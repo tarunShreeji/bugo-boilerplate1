@@ -8,7 +8,10 @@ canonifyURLs: true
 enableRobotsTXT: true
 contentDir: content_sample
 permalinks:
-- posts: "/blog/:slug"
+  '0':
+    posts: "/blog/:slug"
+  posts: "/blog/:slug"
+  team: "/team/:slug"
 googleAnalytics: ''
 blackFriday:
   hrefTargetBlank: true
@@ -57,3 +60,6 @@ enable_robots_txt: true
 enable_inline_shortcodes: true
 enableemoji: true
 paginate: 10
+blackfriday: {}
+enableEmoji: false
+googleanalytics: ''
