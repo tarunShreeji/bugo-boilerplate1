@@ -2,10 +2,14 @@
 label: Config File
 hide_body: true
 fields:
-- name: assetdir
+- name: assetDir
   type: text
   config:
-    required: false
+    required: true
   label: Asset Directory
+- name: baseURL
+  type: text
+  config:
+    required: true
 pages:
 - config.yaml
