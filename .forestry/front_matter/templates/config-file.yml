@@ -60,5 +60,16 @@ fields:
     template: field-default-permalinks
     label: Permalinks
   label: Permalinks
+- name: summaryLength
+  type: number
+  label: Summary Length
+  description: Change the word count displayed on list pages.
+  default: 60
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+    required: true
 pages:
 - config.yaml
