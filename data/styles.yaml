@@ -1,9 +1,9 @@
 ---
 primary_font:
-  font_family: Roboto
+  font_family: Open Sans
   font_weights:
   - '400'
-  - '900'
+  - '800'
   font_italics:
   - '400'
 secondary_font:
