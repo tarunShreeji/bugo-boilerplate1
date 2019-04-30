@@ -34,7 +34,7 @@ fields:
   label: Google Analytics Tracking ID
 - name: paginate
   type: number
-  label: Pagimation
+  label: Pagination
   description: ''
   default: '10'
   required: true
