@@ -1,6 +1,11 @@
 ---
 label: Config File
 hide_body: true
-fields: []
+fields:
+- name: assetdir
+  type: text
+  config:
+    required: false
+  label: Asset Directory
 pages:
 - config.yaml
