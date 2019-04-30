@@ -53,3 +53,4 @@ outputs:
   - vcf
   section:
   - HTML
+assetdir: static/assets
