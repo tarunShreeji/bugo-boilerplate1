@@ -1,12 +1,12 @@
 ---
 title: Bugo
-description: Bootstrap + Hugo Static Site Generator
+description: Boostrap + Hugo = ❤️
 baseURL: "/"
 languageCode: en-us
 summaryLength: 60
 canonifyURLs: true
 enableRobotsTXT: true
-contentDir: "content_sample"
+contentDir: content_sample
 permalinks:
   posts: "/blog/:slug"
 googleAnalytics: ''
