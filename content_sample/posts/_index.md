@@ -12,17 +12,11 @@ featured_image:
 related_pages: []
 weight: ''
 description: ''
-slug: insights
-url: "/insights"
+slug: posts
+url: "/posts"
 aliases: []
 page_meta:
   meta_title: ''
   meta_keywords: ''
   meta_description: ''
-menu:
-  mobile:
-    weight: 4
-  main:
-    weight: 3
-
 ---
