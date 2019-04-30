@@ -6,9 +6,6 @@ languageCode: en-us
 summaryLength: 60
 canonifyURLs: true
 enableRobotsTXT: true
-enableInlineShortcodes: true
-enableemoji: true
-paginate: 10
 contentDir: content_sample
 permalinks:
   posts: "/blog/:slug"
@@ -57,3 +54,11 @@ outputs:
   - vcf
   section:
   - HTML
+enable_robots_txt: true
+enable_inline_shortcodes: true
+enableemoji: true
+paginate: 10
+blackfriday: {}
+enableEmoji: true
+googleanalytics: ''
+enableInlineShortcodes: true
