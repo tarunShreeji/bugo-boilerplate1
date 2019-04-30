@@ -2,9 +2,12 @@
 date: '2019-02-04T08:00:00.000+00:00'
 title: Home
 featured_image:
-  title: ''
-  image: ''
-  caption: ''
+  title: Photo of the Space Needle and Seattle skyline
+  image: "/assets/uploads/oakie-1076592-unsplash.jpg"
+  caption: |-
+    # Bugo
+
+    Photo by [Christian Walker](https://unsplash.com/photos/TJhYvNEg7sw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/seattle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   template: ''
 content: []
 weight: ''
