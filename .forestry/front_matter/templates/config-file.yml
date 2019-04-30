@@ -32,5 +32,16 @@ fields:
   config:
     required: false
   label: Google Analytics Tracking ID
+- name: paginate
+  type: number
+  label: Pagimation
+  description: ''
+  default: '10'
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+    required: true
 pages:
 - config.yaml
