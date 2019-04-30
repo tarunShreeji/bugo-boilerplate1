@@ -43,5 +43,12 @@ fields:
     max: 
     step: 
     required: true
+- name: permalinks
+  type: blocks
+  label: Permalinks
+  template_types: []
+  config:
+    min: 
+    max: 
 pages:
 - config.yaml
