@@ -2,6 +2,18 @@
 label: Config File
 hide_body: true
 fields:
+- name: title
+  type: text
+  default: Bugo
+  config:
+    required: true
+- name: description
+  type: textarea
+  label: Description
+  hidden: false
+  default: Boostrap + Hugo = ❤️
+  config:
+    wysiwyg: false;
 - name: baseURL
   type: text
   config:
