@@ -11,8 +11,8 @@ enableemoji: true
 paginate: 10
 contentDir: content_sample
 permalinks:
-- posts: "/blog/:slug"
-- team: "/team/:slug"
+  posts: "/blog/:slug"
+  team: "/team/:slug"
 googleAnalytics: ''
 blackFriday:
   hrefTargetBlank: true

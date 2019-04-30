@@ -1,0 +1,18 @@
+---
+label: Field - Default Permalinks
+hide_body: true
+fields:
+- name: posts
+  type: text
+  config:
+    required: true
+  label: Posts
+  description: The permalink used for the posts directory. You still need to update
+    the URL on the list page.
+- name: team
+  type: text
+  config:
+    required: true
+  label: Team
+  description: Update the permalink for the team directory. If you have a list page
+    you still need to update it's URL field.

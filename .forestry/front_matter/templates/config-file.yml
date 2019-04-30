@@ -43,19 +43,22 @@ fields:
     max: 
     step: 
     required: true
-- name: permalinks
-  type: blocks
-  label: Permalinks
-  template_types: []
-  config:
-    min: 
-    max: 
 - name: theme
-  type: blocks
-  label: Theme
-  template_types: []
+  type: list
   config:
+    use_select: false
     min: 
     max: 
+  label: Theme
+- name: permalinks
+  type: field_group
+  config: {}
+  fields:
+  - name: permalinks
+    type: include
+    config: {}
+    template: field-default-permalinks
+    label: Permalinks
+  label: Permalinks
 pages:
 - config.yaml
