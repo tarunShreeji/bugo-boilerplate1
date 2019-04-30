@@ -43,11 +43,6 @@ fields:
     max: 
     step: 
     required: true
-- name: permalinks
-  type: include
-  config: {}
-  template: field-default-permalinks
-  label: Permalinks
 - name: theme
   type: list
   config:
@@ -55,5 +50,15 @@ fields:
     min: 
     max: 
   label: Theme
+- name: permalinks
+  type: field_group
+  config: {}
+  fields:
+  - name: permalinks
+    type: include
+    config: {}
+    template: field-default-permalinks
+    label: Permalinks
+  label: Permalinks
 pages:
 - config.yaml
