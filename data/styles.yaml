@@ -1,0 +1,17 @@
+---
+primary_font:
+  font_family: ''
+  font_weights: []
+  font_italics: []
+secondary_font:
+  font_family: ''
+  font_weights: []
+  font_italics: []
+theme_colors:
+- Primary
+- Secondary
+- Light
+- Dark
+- Black
+- White
+custom_css: ''
