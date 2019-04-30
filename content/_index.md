@@ -8,7 +8,7 @@ featured_image:
     # Bugo
 
     Photo by [Christian Walker](https://unsplash.com/photos/TJhYvNEg7sw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/seattle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-  template: ''
+  template: Default
 content: []
 weight: ''
 tags: []
