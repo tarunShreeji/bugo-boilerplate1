@@ -4,7 +4,7 @@ organization_description: Boostrap + Hugo = ❤️
 logos:
   header_logo:
     title: ''
-    image: "/assets/uploads/bugo-logo.svg"
+    image: "/assets/uploads/bugo-logo-1.svg"
     caption: ''
     svg_code: ''
   footer_logo:
@@ -12,7 +12,7 @@ logos:
     image: "/assets/uploads/bugo-logo.svg"
     caption: ''
     svg_code: ''
-  seo_logo: "/assets/uploads/bugo-logo.svg"
+  seo_logo: "/assets/uploads/bugo-logo-SEO.png"
   favicon: ''
 contact_information:
   show_email_labels: false
