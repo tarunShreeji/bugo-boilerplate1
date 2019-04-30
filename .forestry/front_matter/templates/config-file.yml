@@ -27,5 +27,10 @@ fields:
   label: Enable Robots.txt
   description: Enable generation of robots.txt file
   default: true
+- name: googleanalytics
+  type: text
+  config:
+    required: false
+  label: Google Analytics Tracking ID
 pages:
 - config.yaml
