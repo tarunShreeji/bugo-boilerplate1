@@ -13,7 +13,7 @@ fields:
   config: {}
   label: Black Friday
   description: Configure how markdown is rendered
-- name: enableemoji
+- name: enableEmoji
   type: boolean
   label: Enable Emoji
 pages:
