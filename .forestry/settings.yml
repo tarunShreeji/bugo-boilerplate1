@@ -7,7 +7,6 @@ sections:
 - type: document
   path: config.yaml
   label: Config File
-  match: "**/*"
   read_only: true
 - type: heading
   label: Content
