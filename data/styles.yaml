@@ -13,6 +13,7 @@ secondary_font:
 theme_colors:
 - Primary
 - Secondary
+- Accent
 - Light
 - Dark
 - Black
