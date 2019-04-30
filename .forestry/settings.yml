@@ -42,9 +42,9 @@ sections:
   path: data/organization.yaml
   label: Company Info
 upload_dir: ''
-public_path: https://res.cloudinary.com/oderllc/image/upload
+public_path: ''
 front_matter_path: ''
-use_front_matter_path: true
+use_front_matter_path: 
 file_template: ":filename:"
 build:
   preview_command: hugo
