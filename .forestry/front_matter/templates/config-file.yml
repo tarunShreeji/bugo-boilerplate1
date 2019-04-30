@@ -18,5 +18,14 @@ fields:
   label: Enable Emoji
   description: Enable Emoji emoticons support for page content; see the Emoji Cheat
     Sheet. https://www.webpagefx.com/tools/emoji-cheat-sheet/
+- name: enable_inline_shortcodes
+  type: boolean
+  label: Enable Inline Shortcodes
+  description: Enable inline shortcode support.
+- name: enable_robots_txt
+  type: boolean
+  label: Enable Robots.txt
+  description: Enable generation of robots.txt file
+  default: true
 pages:
 - config.yaml
