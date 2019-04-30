@@ -40,6 +40,8 @@ fields:
   label: Enable Robots.txt
   description: Enable generation of robots.txt file
   default: true
+  config:
+    required: false
 - name: googleAnalytics
   type: text
   config:
@@ -50,7 +52,6 @@ fields:
   label: Pagination
   description: ''
   default: '10'
-  required: true
   config:
     min: 
     max: 
@@ -78,7 +79,6 @@ fields:
   label: Summary Length
   description: Change the word count displayed on list pages.
   default: 60
-  required: true
   config:
     min: 
     max: 
