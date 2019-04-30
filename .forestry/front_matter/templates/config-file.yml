@@ -14,7 +14,7 @@ fields:
   hidden: false
   default: Boostrap + Hugo = ❤️
   config:
-    wysiwyg: false;
+    wysiwyg: false
 - name: baseURL
   type: text
   config:
