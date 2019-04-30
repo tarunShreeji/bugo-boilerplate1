@@ -14,5 +14,10 @@ fields:
     required: true
   label: Asset Directory
   description: The directory where Hugo finds asset files used in Hugo Pipes.
+- name: blackfriday
+  type: field_group
+  config: {}
+  label: Black Friday
+  description: Configure how markdown is rendered
 pages:
 - config.yaml
