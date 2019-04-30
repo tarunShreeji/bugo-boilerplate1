@@ -1,0 +1,19 @@
+---
+show_breadcrumbs: false
+media:
+  cloudinary_name: ''
+  default_featured_image:
+    title: ''
+    image: "/assets/uploads/oakie-1076592-unsplash.jpg"
+    caption: Photo by [oakie](https://unsplash.com/photos/dpVJtfywdX4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+      on [Unsplash](https://unsplash.com/search/photos/seattle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+    excluded_pages: []
+layout_options:
+  header_content:
+    blocks: []
+  footer_content:
+    blocks: []
+  footer_style: ''
+sidebar_widgets:
+  widgets: []
+site_categories: []
