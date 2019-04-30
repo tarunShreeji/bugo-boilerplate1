@@ -50,5 +50,12 @@ fields:
   config:
     min: 
     max: 
+- name: theme
+  type: blocks
+  label: Theme
+  template_types: []
+  config:
+    min: 
+    max: 
 pages:
 - config.yaml
