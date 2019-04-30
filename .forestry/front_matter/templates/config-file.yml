@@ -17,6 +17,6 @@ fields:
   type: boolean
   label: Enable Emoji
   description: Enable Emoji emoticons support for page content; see the Emoji Cheat
-    Sheet.
+    Sheet. https://www.webpagefx.com/tools/emoji-cheat-sheet/
 pages:
 - config.yaml
