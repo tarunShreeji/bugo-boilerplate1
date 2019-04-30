@@ -2,3 +2,5 @@
 label: Config File
 hide_body: true
 fields: []
+pages:
+- config.yaml
