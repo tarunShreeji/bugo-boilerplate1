@@ -8,7 +8,7 @@ canonifyURLs: true
 enableRobotsTXT: true
 contentDir: content_sample
 permalinks:
-  posts: "/blog/:slug"
+- posts: "/blog/:slug"
 googleAnalytics: ''
 blackFriday:
   hrefTargetBlank: true
@@ -53,4 +53,7 @@ outputs:
   - vcf
   section:
   - HTML
-assetDir: static/assets
+enable_robots_txt: true
+enable_inline_shortcodes: true
+enableemoji: true
+paginate: 10

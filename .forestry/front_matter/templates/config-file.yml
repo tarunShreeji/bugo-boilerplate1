@@ -16,5 +16,46 @@ fields:
 - name: enableEmoji
   type: boolean
   label: Enable Emoji
+  description: Enable Emoji emoticons support for page content; see the Emoji Cheat
+    Sheet. https://www.webpagefx.com/tools/emoji-cheat-sheet/
+- name: enable_inline_shortcodes
+  type: boolean
+  label: Enable Inline Shortcodes
+  description: Enable inline shortcode support.
+- name: enable_robots_txt
+  type: boolean
+  label: Enable Robots.txt
+  description: Enable generation of robots.txt file
+  default: true
+- name: googleanalytics
+  type: text
+  config:
+    required: false
+  label: Google Analytics Tracking ID
+- name: paginate
+  type: number
+  label: Pagination
+  description: ''
+  default: '10'
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+    required: true
+- name: permalinks
+  type: blocks
+  label: Permalinks
+  template_types: []
+  config:
+    min: 
+    max: 
+- name: theme
+  type: blocks
+  label: Theme
+  template_types: []
+  config:
+    min: 
+    max: 
 pages:
 - config.yaml
