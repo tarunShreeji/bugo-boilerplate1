@@ -58,3 +58,5 @@ You've got a lot of choices when it comes to hosting.
 * **Amazon S3**. Use this if you need more control over your hosting. This will require familiarity with Amazon S3 and CloudFront. 
 
 [**Netlify**](https://netlify.com "Go too Netlify.com") is a JAMstack friendly service that offers much more than just the hosting of your website. Their free account can send up to 1000 forms via email and can be accessed via their dashboard. This should be enough for the average contact form. They offer deployments that are triggered when your code is updated, so it's a pretty hands off system once your setup.
+
+Once you've got all the accounts you need. You can start installation.
