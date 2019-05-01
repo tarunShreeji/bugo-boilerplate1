@@ -52,6 +52,15 @@ content:
   - title: Cloudinary
     content: "![](/assets/uploads/cloudinary_100.png)"
     show_image_above_content: true
+- template: block-columns
+  block_options:
+    full_width: true
+  title: Features
+  columns:
+  - title: SEO & Social Friendly
+    content: "### SEO & Social Friendly\n\nBugo supports SEO and social media best
+      practices. "
+    show_image_above_content: true
 weight: ''
 tags: []
 layout: landing-page
