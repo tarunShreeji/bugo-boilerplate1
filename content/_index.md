@@ -47,7 +47,7 @@ content:
     show_image_above_content: true
     content: "![](/assets/uploads/full-logo-light.svg)"
   - title: Hugo
-    content: "![](/assets/uploads/uploads/hugo-logo-wide.svg)"
+    content: "![](/assets/uploads/hugo-logo-wide-1.svg)"
     show_image_above_content: true
   - title: Forestry
     content: "![](/assets/uploads/uploads/forestry-pos-full.png)"
