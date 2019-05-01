@@ -30,7 +30,7 @@ content:
       and several services into a full-featured frame work.
     show_image_above_content: true
     text_color: Black
-    background_color: Secondary
+    background_color: Light
 weight: ''
 tags: []
 layout: landing-page
