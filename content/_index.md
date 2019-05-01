@@ -9,7 +9,7 @@ featured_image:
 
     Photo by [oakie](https://unsplash.com/photos/dpVJtfywdX4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/seattle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-    {{<youtube SjFo6l4c-oc>}}
+    {{%<youtube SjFo6l4c-oc>%}}
   template: Default
 content: []
 weight: ''
