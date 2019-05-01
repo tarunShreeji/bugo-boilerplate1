@@ -67,6 +67,8 @@ content:
     content: "### SEO & Social Friendly\n\nBugo supports SEO and social media best
       practices. "
     show_image_above_content: true
+    background_color: Light
+    text_color: Dark
 weight: ''
 tags: []
 layout: landing-page
