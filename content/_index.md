@@ -29,8 +29,8 @@ content:
       that takes advantage of API and services. Bugo collects Hugo static site generator
       and several services into a full-featured frame work.
     show_image_above_content: true
-    text_color: Black
-    background_color: Light
+    text_color: ''
+    background_color: ''
 weight: ''
 tags: []
 layout: landing-page
