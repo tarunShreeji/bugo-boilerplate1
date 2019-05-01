@@ -17,7 +17,7 @@ content:
   - title: Intro Content
     show_image_above_content: true
     content: |-
-      # ![](/assets/uploads/bugo-logo-90.svg)
+      # ![Bugo logo in blue](/assets/uploads/bugo-logo-90.svg "Bugo logo")
 
       Full-Featured Static Site Framework Based on Bootstrap and Hugo
 weight: ''
