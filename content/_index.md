@@ -57,6 +57,14 @@ content:
     full_width: true
   title: Features
   columns:
+  - title: One Click Imports
+    content: |-
+      ### One Click Imports
+
+      Import to forestry.io or netlify.com with one click. Automatically copy Bugo into a new repository and import the repository to the service of your choice.
+    show_image_above_content: true
+    background_color: Light
+    text_color: Dark
   - title: Blazing Fast Site Search
     content: |-
       ### Blazing Fast Site Search
