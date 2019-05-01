@@ -30,11 +30,15 @@ JAMstack is a new way of building websites and apps that delivers better perform
 
 A lot of the magic that is Bugo counts on GitHub repositories. You'll need a GitHub account to get started. Fortunately you can use your GitHub account to create most of the other accounts you'll need. If you have one already, great. If not, head on over to GitHub and get one. We'll wait. 
 
+[![](/assets/uploads/GitHub_Logo_250.png)](https://github.com/join "Get a GitHub Account")
+
 ### Media Library
 
 There are a couple choices for setting up your media library. You images can be stored along with our website's code, or you can use a CDN. Bugo supports Cloudinary.com. 
 
 If you don't plan on a lot of images you can save your images with your code in the repository at GitHub. Websites with big header graphics and lots of large images, you'll want to use a CDN. Larger media libraries can cause long build times and can make it a little bulky, if you are going to be using Bugo's development environment to customize or build you're own themes. Head over to Cloudinary and setup an account if you think you need it. The account is free to start and can scale up if you need more.
+
+[![](/assets/uploads/cloudinary_250.png)](https://cloudinary.com "Get a Cloudinary.com account")
 
 Now that you've got your account, you'll have to make a choice. Do you want to use an off the shelf design, or do you want to install on your computer to fully customize your site?
 
