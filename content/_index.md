@@ -77,7 +77,7 @@ content:
 
       Bugo uses fuse.js to do site-wide keyword searches. Search results are returned by relevance.
     show_image_above_content: true
-    text_color: Dark
+    text_color: Light
     background_color: Black
   - title: Developer Tools
     content: |-
