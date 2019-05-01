@@ -27,4 +27,5 @@ fields:
   label: Taxonomy
   template: field-taxonomy
 pages:
+- content/docs/getting-started/installing-bugo-locally.md
 - content/docs/introducing-bugo.md
