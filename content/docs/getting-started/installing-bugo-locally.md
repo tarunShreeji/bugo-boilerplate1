@@ -48,3 +48,5 @@ Cloudinary is a full-featured CDN with image transformations that are really imp
 1. As the media library grows, so does Bugo's build times
 2. Cloudinary has image transformations which can do some amazing things from cropping and coloring to AI powered object searches
 3. Bugo themes have built-in transformations to optimize your media delivery.
+
+If this is more you're cup-o-tea you should sign up for an account before installing.
