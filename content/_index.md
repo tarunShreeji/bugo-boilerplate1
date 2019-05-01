@@ -22,6 +22,7 @@ content:
 - template: block-columns
   block_options:
     full_width: true
+    background_color: Secondary
   title: Description
   columns:
   - title: Description of services
