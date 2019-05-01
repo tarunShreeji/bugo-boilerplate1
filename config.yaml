@@ -62,3 +62,9 @@ blackfriday: {}
 enableEmoji: true
 googleanalytics: ''
 enableInlineShortcodes: true
+menu:
+  main: []
+  mobile: []
+  secondary: []
+  footer: []
+  
