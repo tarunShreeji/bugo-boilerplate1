@@ -31,6 +31,10 @@ If you want to use one of our themes of the shelf or just try Bugo out, you can 
 
 Looks like you want to go whole hog. In order to customize your site, beyond the Bugo theme's capabilities you'll need to install Bugo locally. You should have some basic skills to proceed. We'll assume you've got basic web development skills.
 
+### Prerequisites
+
+You need to have the latest/LTS [node](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm) versions installed in order to use Bugo.
+
 ### Handling Media
 
 Bugo has two ways of dealing with media, you can have it stored in your website's repository or use Cloundinary.com's CDN. It really depends on your needs.
