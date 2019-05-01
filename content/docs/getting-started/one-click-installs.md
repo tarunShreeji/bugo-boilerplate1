@@ -18,4 +18,6 @@ video_gallery:
 categories: []
 tags: []
 weight: 2
+
 ---
+One-Click installs make it easy to get up and running. They create repositories and setup forestry.io for you. They even come with a theme or themes preinstalled.
