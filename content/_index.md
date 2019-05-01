@@ -40,17 +40,17 @@ content:
   - title: bootstrap
     content: "![](/assets/uploads/boostrap-logo.svg)"
     show_image_above_content: true
-  - title: Cloudinary
-    content: "![](/assets/uploads/cloudinary_250.png)"
-    show_image_above_content: true
-  - title: Netlify
-    show_image_above_content: true
-    content: "![](/assets/uploads/full-logo-light.svg)"
   - title: Hugo
     content: "![](/assets/uploads/hugo-logo-wide-1.svg)"
     show_image_above_content: true
   - title: Forestry
     content: "![](/assets/uploads/forestry-pos-full.svg)"
+    show_image_above_content: true
+  - title: Netlify
+    show_image_above_content: true
+    content: "![](/assets/uploads/full-logo-light.svg)"
+  - title: Cloudinary
+    content: "![](/assets/uploads/cloudinary_250.png)"
     show_image_above_content: true
 weight: ''
 tags: []
