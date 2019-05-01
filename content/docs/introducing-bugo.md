@@ -15,7 +15,8 @@ page_meta:
   meta_description: Bugo is a full-featured framework for building static websites.
 video_gallery:
   videos: []
-categories: []
+categories:
+- Releases
 tags: []
 
 ---
