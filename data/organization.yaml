@@ -13,7 +13,7 @@ logos:
     caption: ''
     svg_code: ''
   seo_logo: "/assets/uploads/bugo-logo-SEO.png"
-  favicon: ''
+  favicon: "/assets/uploads/bugo-favicon.png"
 contact_information:
   show_email_labels: false
   show_phone_labels: false
