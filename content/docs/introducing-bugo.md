@@ -40,6 +40,6 @@ If you don't plan on a lot of images you can save your images with your code in 
 
 ![https://cloudinary.com](/assets/uploads/cloudinary_100.png "Create a Cloudinary.com account")
 
-Content Management System
+### Content Management System
 
 ### Hosting
