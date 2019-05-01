@@ -34,7 +34,11 @@ A lot of the magic that is Bugo counts on GitHub repositories. You'll need a Git
 
 ### Content Management System
 
-Media Library
+You'll need a way to create and edit content on your website, so sign up for an account at [Forestry.io](https://forestry.io "Create an account at forestry.io"). NOTE: you can use you're GitHub account to keep those login and passwords down.
+
+![](/assets/uploads/forestry-pos-full.png)
+
+### Media Library
 
 There are a couple choices for setting up your media library. You images can be stored along with our website's code, or you can use a CDN. Bugo supports [Cloudinary.com](https://cloudinary.com). 
 
