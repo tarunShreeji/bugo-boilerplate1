@@ -19,7 +19,7 @@ sections:
   label: Pages
   create: all
   match: "**/*"
-  exclude: "{posts/*,profiles/*,Team/*}"
+  exclude: "{posts/*,profiles/*,team/*}"
   templates:
   - template-page
   - template-landing-page
