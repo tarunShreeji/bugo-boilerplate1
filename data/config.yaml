@@ -16,4 +16,7 @@ layout_options:
   footer_style: ''
 sidebar_widgets:
   widgets: []
-site_categories: []
+site_categories:
+- Updates
+- News
+- Releases
