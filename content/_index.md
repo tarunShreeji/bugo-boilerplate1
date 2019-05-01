@@ -50,7 +50,7 @@ content:
     content: "![](/assets/uploads/hugo-logo-wide-1.svg)"
     show_image_above_content: true
   - title: Forestry
-    content: "![](/assets/uploads/uploads/forestry-pos-full.png)"
+    content: "![](/assets/uploads/forestry-pos-full.svg)"
     show_image_above_content: true
 weight: ''
 tags: []
