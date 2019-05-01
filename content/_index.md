@@ -63,6 +63,8 @@ content:
 
       If web dev is your skeez, we've got dev tools already built into the framework. Just clone the repository to your desktop and "npm install".
     show_image_above_content: true
+    background_color: Dark
+    text_color: Light
   - title: One Click Imports
     content: |-
       ### One Click Imports
