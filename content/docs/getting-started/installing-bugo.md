@@ -19,17 +19,14 @@ categories: []
 tags: []
 
 ---
-## GitHub
-
-A lot of the magic that is Bugo counts on GitHub repositories. You'll need a GitHub account to get started, so head on over to GitHub and get one. We'll wait.
-
-Now that you've got your account, you'll have to make a choice. Do you want to use an off the shelf design, or do you want to install on your computer to fully customize your site?
-
-If you want to use one of our themes of the shelf or just try Bugo out, you can use anyone of our super easy One Click Installs. Head over to our [One Click Installs page](/docs/getting-started/one-click-installs "One Click Installs") and follow the directions there.
 
 ## Installing Bugo Locally
 
 Looks like you want to go whole hog. In order to customize your site, beyond the Bugo theme's capabilities you'll need to install Bugo locally. You should have some basic skills to proceed. We'll assume you've got basic web development skills.
+
+### Prerequisites
+
+You need to have the latest/LTS [node](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm) versions installed in order to use Bugo.
 
 ### Handling Media
 
