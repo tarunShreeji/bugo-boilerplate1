@@ -5,7 +5,7 @@ featured_image:
   title: ''
   image: ''
   caption: ''
-title: Installing Bugo Locally
+title: Setup Bugo Development Environment
 date: '2019-04-30T07:00:00+00:00'
 slug: ''
 aliases: []
