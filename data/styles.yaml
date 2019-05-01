@@ -2,8 +2,8 @@
 primary_font:
   font_family: Open Sans
   font_weights:
+  - '700'
   - '400'
-  - '800'
   font_italics:
   - '400'
 secondary_font:
