@@ -6,16 +6,13 @@
    .featured-image {
      margin-bottom: $global-margin;
    }
- }
 
- .about-lance-shelton-md {
-   &.post {
-    main {
-      img {
-        display: block;
-        max-width: 80%;
-        margin: $global-margin auto;
-      }
-    }
+   .main-article {
+     img {
+       display: block;
+       max-width: 100%;
+       height: auto;
+       margin: $global-margin auto;
+     }
    }
  }

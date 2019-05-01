@@ -1,0 +1,14 @@
+body.docs {
+  .main-article {
+    > div {
+      p {
+        margin-bottom: $global-margin;
+
+        &:first-of-type {
+          font-size: $font-size-lg;
+          
+        }
+      }
+    }
+  }
+}

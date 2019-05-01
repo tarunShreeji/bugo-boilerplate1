@@ -5,7 +5,8 @@
 .site-footer {
   background-color: $footer-bg-color;
   color: $footer-text-color;
-  padding: $global-padding*2 0;
+  padding: $footer-padding;
+  margin: $footer-margin;
 
   .locations {
     display: none;

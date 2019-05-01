@@ -18,7 +18,7 @@ video_gallery:
 categories:
 - Releases
 tags: []
-
+weight: 1
 ---
 Bugo is a framework designed to make developing full-featured websites using a JAMstack. By combining a few services and a development platform, Bugo does away with all the databases, security issues, and plugin updates. Freeing you up to have fun again and build an awesome website.
 

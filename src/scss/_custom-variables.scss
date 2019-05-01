@@ -52,7 +52,7 @@ $block-padding: $global-margin 0;
  *
  **/
 
-$header-margin: 0; //
+$header-margin: 0 0 $global-margin; //
 $header-padding: 0; // 
 $header-logo-width: 175px;
 $header-logo-margin: 0 $global-margin 0 0; //
@@ -136,6 +136,8 @@ $breadcrumbs-separator: "\00BB";
  * Footer Variables
  *
  **/
+$footer-margin: $global-margin 0 0;
+$footer-padding: $global-padding*2 0;
 $footer-bg-color: theme-color(primary);
 $footer-text-color: $white;
 $footer-link-color: $white;
