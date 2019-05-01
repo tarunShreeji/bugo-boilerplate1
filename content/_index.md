@@ -58,8 +58,10 @@ content:
   title: Features
   columns:
   - title: Blazing Fast Site Search
-    content: Bugo uses fuse.js to do site-wide keyword searches. Search results are
-      returned by relevance.
+    content: |-
+      ### Blazing Fast Site Search
+
+      Bugo uses fuse.js to do site-wide keyword searches. Search results are returned by relevance.
     show_image_above_content: true
     text_color: Dark
     background_color: Light
@@ -67,8 +69,8 @@ content:
     content: "### SEO & Social Friendly\n\nBugo supports SEO and social media best
       practices. "
     show_image_above_content: true
-    background_color: Light
-    text_color: Dark
+    background_color: Dark
+    text_color: Light
 weight: ''
 tags: []
 layout: landing-page
