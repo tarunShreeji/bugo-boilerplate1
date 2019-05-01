@@ -1,3 +1,16 @@
+
+body {
+  background-color: $light;
+}
+
+.site-header {
+  // border-bottom: 5px solid $accent;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  letter-spacing: -0.05ch;
+}
+
 body.docs {
   .main-article {
     > div {
@@ -9,6 +22,41 @@ body.docs {
           
         }
       }
+    }
+  }
+}
+
+section {
+  &#introducing-bugo {
+    height: 40rem;
+    display: flex;
+    text-align: center;
+  }
+  &#description {
+    @extend .h3;
+
+    font-weight: normal;
+    color: $dark;
+    text-align: center;
+    line-height: 1.65;
+  }
+  &#services-frameworks {
+    .container {
+
+      > * {
+        flex-grow: 0;
+        flex-shrink: 0;
+        padding: 0;
+        width: 20%;
+      }
+    }
+
+    img {
+      display: block;
+      width: auto;
+      margin-bottom: 0;
+      max-width: 80%;
+      max-height: 50%;
     }
   }
 }

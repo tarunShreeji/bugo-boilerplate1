@@ -30,9 +30,9 @@ $h6-font-size:                $font-size-base !default;
 
 $headings-margin-bottom:      $spacer !default;
 $headings-font-family:        var(--font-family-secondary) !default;
-$headings-font-weight:        500 !default;
+$headings-font-weight:        900 !default;
 $headings-line-height:        1.2 !default;
-$headings-color:              inherit !default;
+$headings-color:              $secondary !default;
 $headings-uppercase:          false !default;
 
 $display1-size:               6rem !default;
@@ -54,3 +54,14 @@ $small-font-size:             80% !default;
 $btn-border-radius:           0 !default;
 $btn-border-radius-lg:        $btn-border-radius !default;
 $btn-border-radius-sm:        $btn-border-radius !default;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:                              $primary !default;
+$link-decoration:                         none !default;
+$link-hover-color:                        darken($link-color, 15%) !default;
+$link-hover-decoration:                   underline !default;
+// Darken percentage for links with `.text-*` class (e.g. `.text-success`)
+$emphasized-link-hover-darken-percentage: 15% !default;
