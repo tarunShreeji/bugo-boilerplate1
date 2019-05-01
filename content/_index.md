@@ -6,7 +6,20 @@ featured_image:
   image: ''
   caption: ''
   template: Default
-content: []
+content:
+- template: block-columns
+  block_options:
+    full_width: true
+    background_color: Dark
+    text_color: White
+  title: Introducing Bugo
+  columns:
+  - title: Intro Content
+    show_image_above_content: true
+    content: |-
+      # ![](/assets/uploads/bugo-logo-90.svg)
+
+      Full-Featured Static Site Framework Based on Bootstrap and Hugo
 weight: ''
 tags: []
 layout: landing-page
