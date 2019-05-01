@@ -17,7 +17,6 @@ video_gallery:
   videos: []
 categories: []
 tags: []
-draft: true
 
 ---
 ## GitHub
@@ -34,7 +33,7 @@ In order to customize your site, beyond the Bugo theme's capabilities you'll nee
 
 Looks like you want to go whole hog. Well you've got decisions to make again.
 
-### **How should you handle Media?**
+### How should you handle Media?
 
 Bugo has two ways of dealing with media, you can have it stored in your website's repository or use Cloundinary.com's CDN. It really depends on your needs. 
 

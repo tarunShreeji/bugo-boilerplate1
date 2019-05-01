@@ -62,7 +62,7 @@ blackfriday: {}
 enableEmoji: true
 googleanalytics: ''
 enableInlineShortcodes: true
-# sectionPagesMenu: main
+sectionPagesMenu: main
 menu:
   main:
   - identifier: blog
