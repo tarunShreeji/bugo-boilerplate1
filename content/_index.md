@@ -19,6 +19,18 @@ content:
     content: "![Bugo Logo](/assets/uploads/bugo-logo-200.svg \"Bugo Logo\")\n\n##
       Full-Featured Static Site Framework\n\nBuild low-maintenance, secure, high performant
       websites. "
+- template: block-columns
+  block_options:
+    full_width: true
+  title: Description
+  columns:
+  - title: Description of services
+    content: Bugo is a JAMstack framework. JAMstack is a new way of developing websites
+      that takes advantage of API and services. Bugo collects Hugo static site generator
+      and several services into a full-featured frame work.
+    show_image_above_content: true
+    text_color: Black
+    background_color: Secondary
 weight: ''
 tags: []
 layout: landing-page
