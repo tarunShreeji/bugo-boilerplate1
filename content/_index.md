@@ -57,6 +57,12 @@ content:
     full_width: true
   title: Features
   columns:
+  - title: Blazing Fast Site Search
+    content: Bugo uses fuse.js to do site-wide keyword searches. Search results are
+      returned by relevance.
+    show_image_above_content: true
+    text_color: Dark
+    background_color: Light
   - title: SEO & Social Friendly
     content: "### SEO & Social Friendly\n\nBugo supports SEO and social media best
       practices. "
