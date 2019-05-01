@@ -24,7 +24,7 @@ Bugo is a framework designed to make developing full-featured websites using a J
 
 ## Accounts
 
-JAMstack is a new way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and a better developer experience. Bugo uses a JAMStack approach to developing and deploying websites. You'll need to have a few accounts
+JAMstack is a new way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and a better developer experience. Bugo uses a JAMStack approach to developing and deploying websites, you'll need to have a few accounts before you get started. Read below to determine which accounts you'll need.
 
 ### GitHub
 
@@ -40,4 +40,6 @@ If you don't plan on a lot of images you can save your images with your code in 
 
 ![https://cloudinary.com](/assets/uploads/cloudinary_100.png "Create a Cloudinary.com account")
 
-If you want to use one of our themes of the shelf or just try Bugo out, you can use anyone of our super easy One Click Installs. Head over to our [One Click Installs page](/docs/getting-started/one-click-installs "One Click Installs") and follow the directions there.
+Content Management System
+
+### Hosting
