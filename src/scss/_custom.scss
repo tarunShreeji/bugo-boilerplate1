@@ -59,4 +59,26 @@ section {
       max-height: 50%;
     }
   }
+  &#features {
+    padding: 0;
+    margin: 0;
+    .container {
+      padding: 0;
+      max-width: 100vw;
+      align-items: stretch;
+
+      > * {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 25%;
+        align-items: stretch;
+        padding: 0;
+
+        .item-container {
+          padding: $global-padding;
+          text-align: center;
+        }
+      }
+    }    
+  }
 }
