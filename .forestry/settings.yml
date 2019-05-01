@@ -44,7 +44,7 @@ sections:
 - type: document
   path: config.yaml
   label: Config File
-upload_dir: static/assets/uploads
+upload_dir: static/assets
 public_path: "/assets/uploads"
 front_matter_path: ''
 use_front_matter_path: 
