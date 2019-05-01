@@ -32,6 +32,20 @@ content:
     show_image_above_content: true
     text_color: ''
     background_color: ''
+- template: block-columns
+  block_options:
+    full_width: true
+  title: Services & Frameworks
+  columns:
+  - title: Netlify
+    show_image_above_content: true
+    content: "![](/assets/uploads/full-logo-light.svg)"
+  - title: Hugo
+    content: "![](/assets/uploads/uploads/hugo-logo-wide.svg)"
+    show_image_above_content: true
+  - title: Forestry
+    content: "![](/assets/uploads/uploads/forestry-pos-full.png)"
+    show_image_above_content: true
 weight: ''
 tags: []
 layout: landing-page
