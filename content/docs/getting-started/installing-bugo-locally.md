@@ -5,7 +5,7 @@ featured_image:
   title: ''
   image: ''
   caption: ''
-title: Install Bugo
+title: Installing Bugo
 date: '2019-04-30T07:00:00+00:00'
 slug: ''
 aliases: []
