@@ -31,15 +31,15 @@ If you want to use one of our themes of the shelf, you can use anyone of our sup
 
 Looks like you want to go whole hog. Well you've got decisions to make again.
 
-## How should you handle Media?
+**How should you handle Media?**
 
 Bugo has two ways of dealing with media, you can have it stored in your website's repository or use Cloundinary.com's CDN. It really depends on your needs. 
 
-### Store in Repository
+**Store in Repository**
 
 Storing images in your repository is easy and as long as you keep your media library small you won't see any performance issues. In most cases you'll be serving the website from a cloud-based provider, so you'll get pretty good download speeds anywhere in the world. This is perfect for blogs that don't have images or other media. You wouldn't want to store videos or a lot of large unprocessed images.
 
-### Cloudinary.com
+**Cloudinary.com**
 
 Cloudinary is a full-featured CDN with image transformations that are really impressive. So why a CDN if the website is going to be cloud-based?
 
