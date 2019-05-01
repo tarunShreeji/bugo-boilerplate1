@@ -24,7 +24,7 @@ sections:
   - template-page
   - template-landing-page
 - type: directory
-  path: content_sample/Team
+  path: content/team
   label: Team
   create: all
   match: "**/*"
