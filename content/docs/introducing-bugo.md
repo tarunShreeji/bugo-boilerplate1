@@ -38,6 +38,6 @@ There are a couple choices for setting up your media library. You images can be 
 
 If you don't plan on a lot of images you can save your images with your code in the repository at GitHub. Websites with big header graphics and lots of large images, you'll want to use a CDN. Larger media libraries can cause long build times and can make it a little bulky, if you are going to be using Bugo's development environment to customize or build you're own themes. Head over to Cloudinary and setup an account if you think you need it. The account is free to start and can scale up if you need more.
 
-[![](/assets/uploads/cloudinary_250.png)](https://cloudinary.com "Get a Cloudinary.com account")
+![https://cloudinary.com](/assets/uploads/cloudinary_100.png "Create a Cloudinary.com account")
 
 If you want to use one of our themes of the shelf or just try Bugo out, you can use anyone of our super easy One Click Installs. Head over to our [One Click Installs page](/docs/getting-started/one-click-installs "One Click Installs") and follow the directions there.
