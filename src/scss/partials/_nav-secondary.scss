@@ -41,6 +41,11 @@
         font-size: $secondary-nav-font-size;
         line-height: 1;
         padding: $global-padding/2;
+
+        &:hover,
+        &.focus {
+          color: $secondary-nav-hover;
+        }
       }
     }
   }

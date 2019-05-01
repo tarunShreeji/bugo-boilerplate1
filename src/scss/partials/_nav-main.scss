@@ -32,6 +32,11 @@
       .nav-link {
         color: $main-nav-color;
         font-size: $main-nav-font-size;
+
+        &:hover,
+        &.focus {
+          color: $main-nav-hover;
+        }
       }
     }
   }

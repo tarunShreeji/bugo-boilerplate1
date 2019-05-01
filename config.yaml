@@ -62,9 +62,23 @@ blackfriday: {}
 enableEmoji: true
 googleanalytics: ''
 enableInlineShortcodes: true
+# sectionPagesMenu: main
 menu:
-  main: []
-  mobile: []
-  secondary: []
-  footer: []
+  main:
+  - identifier: blog
+    name: Blog
+    title: blog section
+    url: /blog/
+    weight: -110
+  secondary:
+  - identifier: bootsrap
+    name: Bootstrap
+    title: Boostrap Framework
+    url: https://getbootstrap.com
+    weight: -110
+  - identifier: hugo
+    name: Hugo
+    title: Hugo Static Site Generator
+    url: https://gohugo.io
+    weight: -110
   

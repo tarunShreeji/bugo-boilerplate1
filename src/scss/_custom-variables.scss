@@ -59,21 +59,21 @@ $header-logo-margin: 0 $global-margin 0 0; //
 $header-logo-fill: $primary; //if svg and set to fill currentColor
 $header-full-width: false; //
 $header-fixed: false;
-$header-background-color: transparent;
-$header-scrolled-background-color: transparent;
+$header-background-color: $primary;
+$header-scrolled-background-color: $primary;
 $header-scrolled-color: $white;
 $header-scrolled-display: block;
-$header-float: true;
+$header-float: false;
 
 $main-nav-font-size: $font-size-lg;;
 $main-nav-color: $white;
-$main-nav-hover:theme-color(secondary);
+$main-nav-hover: $accent;
 $main-nav-left: false;
 $main-nav-search: false;
 
 $secondary-nav-font-size: 0.8rem;
-$secondary-nav-color: $gray-800;
-$secondary-nav-hover: theme-color(secondary);
+$secondary-nav-color: $white;
+$secondary-nav-hover: $accent;
 $secondary-nav-top: false;
 $secondary-nav-search: false;
 
