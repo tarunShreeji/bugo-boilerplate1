@@ -37,6 +37,12 @@ content:
     full_width: true
   title: Services & Frameworks
   columns:
+  - title: bootstrap
+    content: "![](/assets/uploads/boostrap-logo.svg)"
+    show_image_above_content: true
+  - title: Cloudinary
+    content: "![](/assets/uploads/cloudinary_250.png)"
+    show_image_above_content: true
   - title: Netlify
     show_image_above_content: true
     content: "![](/assets/uploads/full-logo-light.svg)"
