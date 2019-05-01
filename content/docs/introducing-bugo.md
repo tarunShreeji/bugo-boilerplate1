@@ -40,6 +40,4 @@ If you don't plan on a lot of images you can save your images with your code in 
 
 [![](/assets/uploads/cloudinary_250.png)](https://cloudinary.com "Get a Cloudinary.com account")
 
-Now that you've got your account, you'll have to make a choice. Do you want to use an off the shelf design, or do you want to install on your computer to fully customize your site?
-
 If you want to use one of our themes of the shelf or just try Bugo out, you can use anyone of our super easy One Click Installs. Head over to our [One Click Installs page](/docs/getting-started/one-click-installs "One Click Installs") and follow the directions there.
