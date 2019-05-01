@@ -16,10 +16,9 @@ content:
   columns:
   - title: Intro Content
     show_image_above_content: true
-    content: |-
-      ![Bugo Logo](/assets/uploads/bugo-logo-200.svg "Bugo Logo")
-
-      ## Full-Featured Static Site Framework Based on Bootstrap and Hugo
+    content: "![Bugo Logo](/assets/uploads/bugo-logo-200.svg \"Bugo Logo\")\n\n##
+      Full-Featured Static Site Framework\n\nBuild low-maintenance, secure, high performant
+      websites. "
 weight: ''
 tags: []
 layout: landing-page
