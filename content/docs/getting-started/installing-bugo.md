@@ -6,7 +6,7 @@ featured_image:
   image: ''
   caption: ''
 title: Installing Bugo
-date: '2019-04-30T07:00:00+00:00'
+date: 2019-04-30T07:00:00+00:00
 slug: ''
 aliases: []
 page_meta:
@@ -21,21 +21,19 @@ tags: []
 ---
 ## GitHub
 
-A lot of the magic that is Bugo counts on GitHub repositories. You'll need a GitHub account to get started, so head on over to GitHub and get one. We'll wait. 
+A lot of the magic that is Bugo counts on GitHub repositories. You'll need a GitHub account to get started, so head on over to GitHub and get one. We'll wait.
 
 Now that you've got your account, you'll have to make a choice. Do you want to use an off the shelf design, or do you want to install on your computer to fully customize your site?
 
 If you want to use one of our themes of the shelf, you can use anyone of our super easy One Click Installs. Head over to our One Click Installs page and follow the directions there.
 
-In order to customize your site, beyond the Bugo theme's capabilities you'll need to install locally. You should have some basic skills to proceed. We'll assume you've got basic web development skills. 
-
 ## Installing Bugo Locally
 
-Looks like you want to go whole hog. Well you've got decisions to make again.
+Looks like you want to go whole hog. In order to customize your site, beyond the Bugo theme's capabilities you'll need to install Bugo locally. You should have some basic skills to proceed. We'll assume you've got basic web development skills.
 
-### How should you handle Media?
+### Handling Media
 
-Bugo has two ways of dealing with media, you can have it stored in your website's repository or use Cloundinary.com's CDN. It really depends on your needs. 
+Bugo has two ways of dealing with media, you can have it stored in your website's repository or use Cloundinary.com's CDN. It really depends on your needs.
 
 **Store in Repository**
 
