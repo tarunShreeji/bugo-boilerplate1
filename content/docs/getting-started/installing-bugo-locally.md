@@ -31,7 +31,7 @@ If you want to use one of our themes of the shelf, you can use anyone of our sup
 
 Looks like you want to go whole hog. Well you've got decisions to make again.
 
-**How should you handle Media?**
+### **How should you handle Media?**
 
 Bugo has two ways of dealing with media, you can have it stored in your website's repository or use Cloundinary.com's CDN. It really depends on your needs. 
 
