@@ -27,5 +27,5 @@ fields:
   label: Taxonomy
   template: field-taxonomy
 pages:
-- content/docs/getting-started/one-click-installs.md
 - content/docs/introducing-bugo.md
+- content/docs/getting-started/one-click-installs.md
