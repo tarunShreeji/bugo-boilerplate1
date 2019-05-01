@@ -23,3 +23,5 @@ weight: 2
 One-Click installs make it easy to get up and running. They create repositories and setup forestry.io for you. They even come with a theme or themes preinstalled. There's even a boilerplate version for you developers out there.
 
 When you do a one click install.
+
+https://app.forestry.io/quick-start?repo=matt-antone/bugo-boilerplate&provider=github&engine=hugo&version=0.5.4
