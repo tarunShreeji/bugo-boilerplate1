@@ -5,15 +5,14 @@ featured_image:
   title: ''
   image: ''
   caption: ''
-title: Setup Bugo Development Environment
+title: Install Bugo
 date: '2019-04-30T07:00:00+00:00'
 slug: ''
 aliases: []
 page_meta:
-  meta_title: Setup Bugo Development Environment
+  meta_title: Installing Bugo
   meta_keywords: ''
-  meta_description: Learn to install Bugo on your computer and setup the development
-    environment.
+  meta_description: Learn to install the Bugo framework on your computer.
 video_gallery:
   videos: []
 categories: []
