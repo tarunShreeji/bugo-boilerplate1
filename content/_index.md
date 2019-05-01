@@ -19,7 +19,7 @@ content:
     content: |-
       # ![Bugo logo in blue](/assets/uploads/bugo-logo-90.svg "Bugo logo")
 
-      Full-Featured Static Site Framework Based on Bootstrap and Hugo
+      ## Full-Featured Static Site Framework Based on Bootstrap and Hugo
 weight: ''
 tags: []
 layout: landing-page
