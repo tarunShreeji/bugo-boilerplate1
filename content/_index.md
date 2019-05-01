@@ -63,8 +63,8 @@ content:
 
       Import to forestry.io or netlify.com with one click. Automatically copy Bugo into a new repository and import the repository to the service of your choice.
     show_image_above_content: true
-    background_color: Light
-    text_color: Dark
+    background_color: Black
+    text_color: Light
   - title: SEO & Social Friendly
     content: "### SEO & Social Friendly\n\nBugo supports SEO and social media best
       practices. "
