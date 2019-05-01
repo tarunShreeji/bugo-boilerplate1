@@ -27,6 +27,8 @@ Now that you've got your account, you'll have to make a choice. Do you want to u
 
 If you want to use one of our themes of the shelf, you can use anyone of our super easy One Click Installs. Head over to our One Click Installs page and follow the directions there.
 
+In order to customize your site, beyond the Bugo theme's capabilities you'll need to install locally. You should have some basic skills to proceed. We'll assume you've got basic web development skills. 
+
 ## Installing Bugo Locally
 
 Looks like you want to go whole hog. Well you've got decisions to make again.
