@@ -50,7 +50,7 @@ content:
     show_image_above_content: true
     content: "![](/assets/uploads/full-logo-light.svg)"
   - title: Cloudinary
-    content: "![](/assets/uploads/cloudinary_250.png)"
+    content: "![](/assets/uploads/cloudinary_100.png)"
     show_image_above_content: true
 weight: ''
 tags: []
