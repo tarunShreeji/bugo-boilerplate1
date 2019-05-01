@@ -25,7 +25,7 @@ A lot of the magic that is Bugo counts on GitHub repositories. You'll need a Git
 
 Now that you've got your account, you'll have to make a choice. Do you want to use an off the shelf design, or do you want to install on your computer to fully customize your site?
 
-If you want to use one of our themes of the shelf or just try Bugo out, you can use anyone of our super easy One Click Installs. Head over to our [One Click Installs page](./one-click-installs "One Click Installs") and follow the directions there.
+If you want to use one of our themes of the shelf or just try Bugo out, you can use anyone of our super easy One Click Installs. Head over to our [One Click Installs page](one-click-installs "One Click Installs") and follow the directions there.
 
 ## Installing Bugo Locally
 
