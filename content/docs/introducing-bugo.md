@@ -24,7 +24,7 @@ Bugo is a framework designed to make developing full-featured websites using a J
 
 ## Accounts
 
-[JAMstack](https://jamstack.org "Learn more about JAMstack") is a new way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and a better developer experience. Bugo uses a JAMStack approach to developing and deploying websites, you'll need to have a few accounts before you get started. Read below to determine which accounts you'll need.
+[JAMstack](https://jamstack.org "Learn more about JAMstack") is a new way of building websites. Websites using this method have better performance, higher security, and have a better developer experience. Bugo uses a JAMStack approach to developing and deploying websites, you'll need to have a few accounts before you get started. Read below to determine which accounts you'll need.
 
 ### GitHub
 
