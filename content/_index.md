@@ -87,6 +87,13 @@ content:
     show_image_above_content: true
     background_color: Dark
     text_color: Light
+- template: block-latest-posts
+  show_quantity: '4'
+  block_options:
+    full_width: true
+    background_color: Secondary
+    text_color: White
+  title: Latest News
 weight: ''
 tags: []
 layout: landing-page
