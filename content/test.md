@@ -19,7 +19,6 @@ show_sidebar: false
 content: []
 video_gallery: &3
   videos: *3
-draft: true
 permalinks: *4
 page_attributes: *4
 
