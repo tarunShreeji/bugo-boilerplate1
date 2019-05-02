@@ -51,3 +51,18 @@ fields:
     type: boolean
     label: Remove Padding
     description: 'Remove padding from the outer block. '
+  - name: text_alignment
+    type: select
+    default: Left
+    config:
+      required: false
+      options:
+      - Left
+      - Center
+      - Right
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Text Alignment
