@@ -41,7 +41,7 @@ content:
     text_color: Light
     background_color: Dark
     text_alignment: Left
-    remove_padding: false
+    remove_padding: true
   title: Features
   columns:
   - title: One Click Imports
