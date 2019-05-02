@@ -10,7 +10,7 @@ content:
 - template: block-columns
   block_options:
     full_width: true
-    background_color: Black
+    background_color: Dark
     text_color: White
     show_title: false
     remove_margin: false
