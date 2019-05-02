@@ -182,6 +182,9 @@ content:
     remove_margin: false
   title: Latest News
   random: false
+  show_summary: true
+  show_read_more: true
+  read_more_text: Read More
 weight: ''
 tags: []
 layout: landing-page
