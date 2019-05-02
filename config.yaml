@@ -62,28 +62,16 @@ blackfriday: {}
 enableEmoji: true
 googleanalytics: ''
 enableInlineShortcodes: true
-# sectionPagesMenu: main
 menu:
   main:
   - identifier: docs
     name: Docs
     title: Bugo Documentation
-    url: /docs/
+    url: "/docs/"
     weight: 2
   - identifier: news
     name: News
     title: Bugo News
-    url: /posts/
+    url: "/posts/"
     weight: 1
-  # secondary:
-  # - identifier: bootsrap
-  #   name: Bootstrap
-  #   title: Boostrap Framework
-  #   url: https://getbootstrap.com
-  #   weight: -110
-  # - identifier: hugo
-  #   name: Hugo
-  #   title: Hugo Static Site Generator
-  #   url: https://gohugo.io
-  #   weight: -110
-  
+google_verification_meta_field: this is the field
