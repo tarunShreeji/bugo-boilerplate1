@@ -40,7 +40,7 @@ content:
     remove_margin: false
     text_color: Light
     background_color: Dark
-    text_alignment: Left
+    text_alignment: Center
     remove_padding: true
   title: Features
   columns:
