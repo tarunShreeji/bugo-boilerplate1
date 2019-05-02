@@ -1,58 +1,46 @@
---- &35
-date: 2019-05-02T07:00:00+00:00
+---
+date: '2019-05-02T07:00:00+00:00'
 title: Home
-featured_image: &1
+featured_image:
   title: ''
   image: ''
   caption: ''
   template: Default
-  featured_image: *1
 content:
 - template: block-columns
-  block_options: &2
+  block_options:
     full_width: true
     background_color: Black
-    text_color: *2
+    text_color: White
     show_title: false
     remove_margin: false
-    bg_color: *2
-    block_options: *2
   title: Introducing Bugo
   columns:
-  - &4
-    title: Intro Content
+  - title: Intro Content
     show_image_above_content: true
-    content: |-
-      ![Bugo Logo](/assets/uploads/bugo-logo-200.svg "Bugo Logo")
-
-      ## Full-Featured Static Site Framework
-
-      Build low-maintenance, secure, high performance websites.
-    optional_image: &3
+    content: "![Bugo Logo](/assets/uploads/bugo-logo-200.svg \"Bugo Logo\")\n\n##
+      Full-Featured Static Site Framework\n\nBuild low-maintenance, secure, high performant
+      websites. "
+    optional_image:
       title: ''
-      image: *3
+      image: ''
       caption: ''
     text_color: ''
     background_color: ''
-    ! '': *4
-  background_image: &5
+  background_image:
     title: ''
     image: ''
     caption: ''
-    background_image: *5
 - template: block-columns
-  block_options: &6
+  block_options:
     full_width: true
     show_title: false
     remove_margin: false
-    text_color: *6
+    text_color: Light
     background_color: Dark
-    bg_color: *6
-    block_options: *6
   title: Features
   columns:
-  - &8
-    title: One Click Imports
+  - title: One Click Imports
     content: |-
       ### One Click Imports
 
@@ -60,25 +48,21 @@ content:
     show_image_above_content: true
     background_color: ''
     text_color: ''
-    optional_image: &7
+    optional_image:
       title: ''
-      image: *7
+      image: ''
       caption: ''
-    ! '': *8
-  - &10
-    title: SEO & Social Friendly
+  - title: SEO & Social Friendly
     content: "### SEO & Social Friendly\n\nBugo supports SEO and social media best
       practices. "
     show_image_above_content: true
     background_color: ''
     text_color: ''
-    optional_image: &9
+    optional_image:
       title: ''
-      image: *9
+      image: ''
       caption: ''
-    ! '': *10
-  - &12
-    title: Blazing Fast Site Search
+  - title: Blazing Fast Site Search
     content: |-
       ### Blazing Fast Site Search
 
@@ -86,13 +70,11 @@ content:
     show_image_above_content: true
     text_color: ''
     background_color: ''
-    optional_image: &11
+    optional_image:
       title: ''
-      image: *11
+      image: ''
       caption: ''
-    ! '': *12
-  - &14
-    title: Developer Tools
+  - title: Developer Tools
     content: |-
       ### Built-in Developer Tools
 
@@ -100,126 +82,104 @@ content:
     show_image_above_content: true
     background_color: ''
     text_color: ''
-    optional_image: &13
+    optional_image:
       title: ''
-      image: *13
+      image: ''
       caption: ''
-    ! '': *14
-  background_image: &15
+  background_image:
     title: ''
     image: ''
     caption: ''
-    background_image: *15
 - template: block-columns
-  block_options: &16
+  block_options:
     full_width: true
     background_color: Light
     show_title: false
     remove_margin: false
-    text_color: *16
-    bg_color: *16
-    block_options: *16
+    text_color: ''
   title: Description
   columns:
-  - &18
-    title: Description of services
+  - title: Description of services
     content: Bugo is a JAMstack framework. JAMstack is a new way of developing websites
       that takes advantage of API and services. Bugo collects Hugo static site generator
       and several services into a full-featured framework.
     show_image_above_content: true
     text_color: ''
     background_color: ''
-    optional_image: &17
+    optional_image:
       title: ''
-      image: *17
+      image: ''
       caption: ''
-    ! '': *18
-  background_image: &19
+  background_image:
     title: ''
     image: ''
     caption: ''
-    background_image: *19
 - template: block-columns
-  block_options: &20
+  block_options:
     full_width: true
     show_title: false
     remove_margin: false
-    text_color: *20
+    text_color: ''
     background_color: ''
-    bg_color: *20
-    block_options: *20
   title: Services & Frameworks
   columns:
-  - &22
-    title: bootstrap
+  - title: bootstrap
     content: "![](/assets/uploads/boostrap-logo.svg)"
     show_image_above_content: true
-    optional_image: &21
+    optional_image:
       title: ''
-      image: *21
+      image: ''
       caption: ''
     text_color: ''
     background_color: ''
-    ! '': *22
-  - &24
-    title: Hugo
+  - title: Hugo
     content: "![](/assets/uploads/hugo-logo-wide-1.svg)"
     show_image_above_content: true
-    optional_image: &23
+    optional_image:
       title: ''
-      image: *23
+      image: ''
       caption: ''
     text_color: ''
     background_color: ''
-    ! '': *24
-  - &26
-    title: Forestry
+  - title: Forestry
     content: "![](/assets/uploads/forestry-pos-full.svg)"
     show_image_above_content: true
-    optional_image: &25
+    optional_image:
       title: ''
-      image: *25
+      image: ''
       caption: ''
     text_color: ''
     background_color: ''
-    ! '': *26
-  - &28
-    title: Netlify
+  - title: Netlify
     show_image_above_content: true
     content: "![](/assets/uploads/full-logo-light.svg)"
-    optional_image: &27
+    optional_image:
       title: ''
-      image: *27
+      image: ''
       caption: ''
     text_color: ''
     background_color: ''
-    ! '': *28
-  - &30
-    title: Cloudinary
+  - title: Cloudinary
     content: "![](/assets/uploads/cloudinary_100.png)"
     show_image_above_content: true
-    optional_image: &29
+    optional_image:
       title: ''
-      image: *29
+      image: ''
       caption: ''
     text_color: ''
     background_color: ''
-    ! '': *30
-  background_image: &31
+  background_image:
     title: ''
     image: ''
     caption: ''
-    background_image: *31
 - template: block-latest-posts
   show_quantity: '3'
-  block_options: &32
+  block_options:
     full_width: true
     background_color: Secondary
-    text_color: *32
+    text_color: White
     show_title: false
     remove_margin: false
-    bg_color: *32
-    block_options: *32
   title: Latest News
   random: false
   show_summary: true
@@ -229,17 +189,14 @@ weight: ''
 tags: []
 layout: landing-page
 description: ''
-page_meta: &33
+page_meta:
   meta_title: ''
   meta_keywords: ''
   meta_description: ''
-  page_meta: *33
 slug: ''
 aliases: []
 show_sidebar: false
-video_gallery: &34
-  videos: *34
-permalinks: *35
-page_attributes: *35
+video_gallery:
+  videos: []
 
 ---
