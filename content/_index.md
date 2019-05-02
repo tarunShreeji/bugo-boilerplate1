@@ -17,7 +17,7 @@ content:
     text_alignment: Center
     remove_padding: true
     text_size: ''
-    block_height: ''
+    block_height: Large
     content_full_width: false
   title: Introducing Bugo
   columns:
