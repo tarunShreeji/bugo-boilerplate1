@@ -12,7 +12,7 @@ layout_options:
     blocks: []
   footer_content:
     blocks: []
-  footer_style: ''
+  footer_style: Default
 sidebar_widgets:
   widgets: []
 site_categories:
