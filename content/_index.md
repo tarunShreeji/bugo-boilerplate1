@@ -47,7 +47,7 @@ content:
     remove_padding: true
     text_size: ''
     block_height: ''
-    content_full_width: false
+    content_full_width: true
   title: Features
   columns:
   - title: One Click Imports
