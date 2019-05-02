@@ -10,7 +10,7 @@ contentDir: content
 permalinks:
   posts: "/blog/:slug"
   team: "/team/:slug"
-googleAnalytics: ''
+googleAnalytics: UA-139385403-1
 blackFriday:
   hrefTargetBlank: true
 taxonomies:
@@ -74,4 +74,4 @@ menu:
     title: Bugo News
     url: "/posts/"
     weight: 1
-google_verification_meta_field: this is the field
+google_verification_meta_field: ''
