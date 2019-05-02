@@ -1,5 +1,5 @@
 ---
-date: 2019-05-02T07:00:00+00:00
+date: 
 title: Home
 featured_image:
   title: ''
@@ -17,6 +17,7 @@ content:
     text_alignment: Center
     remove_padding: true
     text_size: ''
+    block_height: ''
   title: Introducing Bugo
   columns:
   - title: Intro Content
@@ -44,6 +45,7 @@ content:
     text_alignment: Center
     remove_padding: true
     text_size: ''
+    block_height: ''
   title: Features
   columns:
   - title: One Click Imports
@@ -105,7 +107,8 @@ content:
     text_color: ''
     text_alignment: Center
     remove_padding: false
-    text_size: Display 4
+    text_size: Lead
+    block_height: ''
   title: Description
   columns:
   - title: Description of services
@@ -133,6 +136,7 @@ content:
     text_alignment: ''
     remove_padding: false
     text_size: ''
+    block_height: ''
   title: Services & Frameworks
   columns:
   - title: bootstrap
@@ -192,6 +196,7 @@ content:
     text_color: White
     show_title: false
     remove_margin: false
+    block_height: ''
   title: Latest News
   random: false
   show_summary: true
