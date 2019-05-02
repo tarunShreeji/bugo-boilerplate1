@@ -100,7 +100,7 @@ content:
     caption: ''
 - template: block-columns
   block_options:
-    full_width: false
+    full_width: true
     background_color: Light
     show_title: false
     remove_margin: false
