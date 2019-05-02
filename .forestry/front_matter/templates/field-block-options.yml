@@ -26,6 +26,7 @@ fields:
   type: boolean
   label: Content Full Width
   description: Only applies when he block has been set to full width
+  default: false
 - type: boolean
   name: show_title
   label: Show Title
