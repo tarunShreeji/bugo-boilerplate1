@@ -103,9 +103,9 @@ content:
     show_title: false
     remove_margin: false
     text_color: ''
-    text_alignment: ''
+    text_alignment: Center
     remove_padding: false
-    text_size: h4
+    text_size: Display 4
   title: Description
   columns:
   - title: Description of services
