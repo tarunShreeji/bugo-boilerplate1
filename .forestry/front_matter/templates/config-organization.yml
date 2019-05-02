@@ -62,6 +62,11 @@ fields:
   name: google_api_key
   label: Google API Key
   description: Enter an api key if this site uses google products like maps.
+- name: google_verification_meta_field
+  type: text
+  config:
+    required: false
+  label: Google Verification Meta Field
 - type: textarea
   name: footer_dislaimer
   label: Footer Dislaimer
