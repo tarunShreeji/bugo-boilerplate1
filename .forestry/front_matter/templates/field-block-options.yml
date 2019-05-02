@@ -22,6 +22,9 @@ fields:
   name: full_width
   label: Full Width
   default: true
+- name: content_full_width
+  type: boolean
+  label: Content Full Width
 - type: boolean
   name: show_title
   label: Show Title
