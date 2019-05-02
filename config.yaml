@@ -3,7 +3,7 @@ title: Bugo
 description: Boostrap + Hugo = ❤️
 baseURL: "/"
 languageCode: en-us
-summaryLength: 60
+summaryLength: 25
 canonifyURLs: true
 enableRobotsTXT: true
 contentDir: content
