@@ -32,3 +32,4 @@ contact_information:
   locations: []
 google_api_key: ''
 footer_dislaimer: ''
+google_verification_meta_field: google meta field
