@@ -88,7 +88,7 @@ content:
     background_color: Dark
     text_color: Light
 - template: block-latest-posts
-  show_quantity: '4'
+  show_quantity: '2'
   block_options:
     full_width: true
     background_color: Secondary
