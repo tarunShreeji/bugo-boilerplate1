@@ -15,7 +15,7 @@ content:
     show_title: false
     remove_margin: false
     text_alignment: Center
-    remove_padding: false
+    remove_padding: true
   title: Introducing Bugo
   columns:
   - title: Intro Content
