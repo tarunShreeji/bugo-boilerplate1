@@ -36,5 +36,6 @@ fields:
     label: Videos
     template: field-youtube-gallery
 pages:
+- content/test-landing-page.md
 - content/_index.md
 - content/test.md
