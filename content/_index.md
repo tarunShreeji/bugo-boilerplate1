@@ -16,6 +16,7 @@ content:
     remove_margin: false
     text_alignment: Center
     remove_padding: true
+    text_size: ''
   title: Introducing Bugo
   columns:
   - title: Intro Content
@@ -42,6 +43,7 @@ content:
     background_color: Dark
     text_alignment: Center
     remove_padding: true
+    text_size: ''
   title: Features
   columns:
   - title: One Click Imports
@@ -103,6 +105,7 @@ content:
     text_color: ''
     text_alignment: ''
     remove_padding: false
+    text_size: h4
   title: Description
   columns:
   - title: Description of services
@@ -129,6 +132,7 @@ content:
     background_color: ''
     text_alignment: ''
     remove_padding: false
+    text_size: ''
   title: Services & Frameworks
   columns:
   - title: bootstrap
