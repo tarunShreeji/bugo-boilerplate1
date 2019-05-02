@@ -36,7 +36,7 @@ content:
     full_width: true
     show_title: false
     remove_margin: false
-    text_color: ''
+    text_color: Light
     background_color: Black
   title: Features
   columns:
