@@ -9884,3 +9884,15 @@ section#features {
       section#features .container > * .item-container {
         padding: 2rem;
         text-align: center; }
+
+section#latest-news .item {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 50%; }
+  @media (min-width: 769px) {
+    section#latest-news .item {
+      flex-basis: 33%; } }
+  section#latest-news .item h3 a {
+    color: #fff !important; }
+  section#latest-news .item .btn {
+    display: none; }

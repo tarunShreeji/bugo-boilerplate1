@@ -81,4 +81,26 @@ section {
       }
     }    
   }
+
+  &#latest-news {
+    .item {
+      flex-grow: 0;
+      flex-shrink: 0;
+      flex-basis: 50%;
+
+      @include media-breakpoint-up(md){
+        flex-basis: 33%;
+      }
+
+      h3 {
+        a {
+          color: $white !important;
+        }
+      }
+
+      .btn {
+        display: none;
+      }
+    }
+  }
 }
