@@ -43,14 +43,6 @@ fields:
   name: block_options
   label: Block Options
   fields:
-  - type: include
-    template: field-block-options
-    label: Block Options
-    name: block_options
-  - name: remove_padding
-    type: boolean
-    label: Remove Padding
-    description: 'Remove padding from the outer block. '
   - name: text_alignment
     type: select
     default: Left
@@ -66,3 +58,11 @@ fields:
         file: 
         path: 
     label: Text Alignment
+  - name: remove_padding
+    type: boolean
+    label: Remove Padding
+    description: 'Remove padding from the outer block. '
+  - type: include
+    template: field-block-options
+    label: Block Options
+    name: block_options
