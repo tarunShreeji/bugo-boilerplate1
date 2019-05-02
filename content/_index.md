@@ -34,7 +34,7 @@ content:
     background_color: ''
   background_image:
     title: ''
-    image: "/assets/uploads/oakie-1076592-unsplash.jpg"
+    image: ''
     caption: ''
 - template: block-columns
   block_options:
