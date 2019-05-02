@@ -18,6 +18,7 @@ content:
     remove_padding: true
     text_size: ''
     block_height: ''
+    content_full_width: false
   title: Introducing Bugo
   columns:
   - title: Intro Content
@@ -46,6 +47,7 @@ content:
     remove_padding: true
     text_size: ''
     block_height: ''
+    content_full_width: false
   title: Features
   columns:
   - title: One Click Imports
@@ -109,6 +111,7 @@ content:
     remove_padding: false
     text_size: Lead
     block_height: ''
+    content_full_width: true
   title: Description
   columns:
   - title: Description of services
@@ -137,6 +140,7 @@ content:
     remove_padding: false
     text_size: ''
     block_height: ''
+    content_full_width: false
   title: Services & Frameworks
   columns:
   - title: bootstrap
@@ -197,6 +201,7 @@ content:
     show_title: false
     remove_margin: false
     block_height: ''
+    content_full_width: false
   title: Latest News
   random: false
   show_summary: true
