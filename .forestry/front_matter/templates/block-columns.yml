@@ -27,10 +27,6 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
-  - type: boolean
-    label: Show image above content
-    name: show_image_above_content
-    default: true
   - type: include
     template: field-colors
     name: colors
