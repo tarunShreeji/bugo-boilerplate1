@@ -2,6 +2,19 @@
 label: Field - Block Options
 hide_body: false
 fields:
+- name: block_height
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Block Height
+  description: Select a height. Default is auto.
 - type: boolean
   name: full_width
   label: Full Width
