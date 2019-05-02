@@ -46,8 +46,8 @@ content:
 
       Import to forestry.io or netlify.com with one click. Automatically copy Bugo into a new repository and import the repository to the service of your choice.
     show_image_above_content: true
-    background_color: Black
-    text_color: Light
+    background_color: ''
+    text_color: ''
     optional_image:
       title: ''
       image: ''
@@ -68,8 +68,8 @@ content:
 
       Bugo uses fuse.js to do site-wide keyword searches. Search results are returned by relevance.
     show_image_above_content: true
-    text_color: Light
-    background_color: Black
+    text_color: ''
+    background_color: ''
     optional_image:
       title: ''
       image: ''
