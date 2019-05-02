@@ -7,7 +7,10 @@ fields:
   default: []
   config:
     required: false
-    options: []
+    options:
+    - Auto
+    - Small
+    - Large
     source:
       type: simple
       section: 
