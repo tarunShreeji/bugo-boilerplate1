@@ -58,10 +58,6 @@ fields:
     name: contact_information
     label: Contact Information
     template: site-contact-information
-- type: text
-  name: google_api_key
-  label: Google API Key
-  description: Enter an API key if this site uses Google API like maps.
 - name: google_verification_meta_field
   type: text
   config:
