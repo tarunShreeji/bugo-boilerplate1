@@ -37,7 +37,7 @@ content:
     show_title: false
     remove_margin: false
     text_color: ''
-    background_color: ''
+    background_color: Black
   title: Features
   columns:
   - title: One Click Imports
