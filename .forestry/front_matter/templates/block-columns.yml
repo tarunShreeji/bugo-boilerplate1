@@ -47,3 +47,7 @@ fields:
     template: field-block-options
     label: Block Options
     name: block_options
+  - name: remove_padding
+    type: boolean
+    label: Remove Padding
+    description: 'Remove padding from the outer block. '
