@@ -23,6 +23,18 @@ fields:
   name: block_options
   label: Block Options
   fields:
+  - name: show_summary
+    type: boolean
+    label: Show Summary
+    hidden: true
+  - name: show_read_more
+    type: boolean
+    label: Show Read More
+  - name: read_more_text
+    type: text
+    config:
+      required: false
+    label: Read More Text
   - type: include
     template: field-block-options
     label: Block Options
