@@ -19,22 +19,26 @@ fields:
 - type: boolean
   name: random
   label: Random
+- name: show_summary
+  type: boolean
+  label: Show Summary
+  default: true
+  description: Check if you want to display a summary
+- name: show_read_more
+  type: boolean
+  label: Show Read More
+  description: Check to show a button that links to the post.
+  default: true
+- name: read_more_text
+  type: text
+  config:
+    required: false
+  label: Read More Text
+  default: Read More
 - type: field_group
   name: block_options
   label: Block Options
   fields:
-  - name: show_summary
-    type: boolean
-    label: Show Summary
-    hidden: true
-  - name: show_read_more
-    type: boolean
-    label: Show Read More
-  - name: read_more_text
-    type: text
-    config:
-      required: false
-    label: Read More Text
   - type: include
     template: field-block-options
     label: Block Options
