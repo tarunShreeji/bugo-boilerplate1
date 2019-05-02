@@ -106,7 +106,7 @@ content:
   title: Description
   columns:
   - title: Description of services
-    content: <span class="display-5">Bugo is a JAMstack framework. JAMstack is a new
+    content: <span class="display-4">Bugo is a JAMstack framework. JAMstack is a new
       way of developing websites that takes advantage of API and services. Bugo collects
       Hugo static site generator and several services into a full-featured framework.</span>
     show_image_above_content: true
