@@ -31,15 +31,6 @@ fields:
     label: Show image above content
     name: show_image_above_content
     default: true
-  - type: field_group
-    name: optional_image
-    label: Optional Image
-    description: Add an image to this column.
-    fields:
-    - type: include
-      name: image
-      label: Image
-      template: data-image
   - type: include
     template: field-colors
     name: colors
