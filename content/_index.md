@@ -34,65 +34,6 @@ content:
 - template: block-columns
   block_options:
     full_width: true
-    show_title: false
-    remove_margin: false
-    text_color: Light
-    background_color: Black
-  title: Features
-  columns:
-  - title: One Click Imports
-    content: |-
-      ### One Click Imports
-
-      Import to forestry.io or netlify.com with one click. Automatically copy Bugo into a new repository and import the repository to the service of your choice.
-    show_image_above_content: true
-    background_color: ''
-    text_color: ''
-    optional_image:
-      title: ''
-      image: ''
-      caption: ''
-  - title: SEO & Social Friendly
-    content: "### SEO & Social Friendly\n\nBugo supports SEO and social media best
-      practices. "
-    show_image_above_content: true
-    background_color: ''
-    text_color: ''
-    optional_image:
-      title: ''
-      image: ''
-      caption: ''
-  - title: Blazing Fast Site Search
-    content: |-
-      ### Blazing Fast Site Search
-
-      Bugo uses fuse.js to do site-wide keyword searches. Search results are returned by relevance.
-    show_image_above_content: true
-    text_color: ''
-    background_color: ''
-    optional_image:
-      title: ''
-      image: ''
-      caption: ''
-  - title: Developer Tools
-    content: |-
-      ### Built-in Developer Tools
-
-      If web dev is your skeez, we've got dev tools already built into the framework. Just clone the repository to your desktop and "npm install".
-    show_image_above_content: true
-    background_color: ''
-    text_color: ''
-    optional_image:
-      title: ''
-      image: ''
-      caption: ''
-  background_image:
-    title: ''
-    image: ''
-    caption: ''
-- template: block-columns
-  block_options:
-    full_width: true
     background_color: Light
     show_title: false
     remove_margin: false
@@ -168,6 +109,65 @@ content:
       caption: ''
     text_color: ''
     background_color: ''
+  background_image:
+    title: ''
+    image: ''
+    caption: ''
+- template: block-columns
+  block_options:
+    full_width: true
+    show_title: false
+    remove_margin: false
+    text_color: Light
+    background_color: Dark
+  title: Features
+  columns:
+  - title: One Click Imports
+    content: |-
+      ### One Click Imports
+
+      Import to forestry.io or netlify.com with one click. Automatically copy Bugo into a new repository and import the repository to the service of your choice.
+    show_image_above_content: true
+    background_color: ''
+    text_color: ''
+    optional_image:
+      title: ''
+      image: ''
+      caption: ''
+  - title: SEO & Social Friendly
+    content: "### SEO & Social Friendly\n\nBugo supports SEO and social media best
+      practices. "
+    show_image_above_content: true
+    background_color: ''
+    text_color: ''
+    optional_image:
+      title: ''
+      image: ''
+      caption: ''
+  - title: Blazing Fast Site Search
+    content: |-
+      ### Blazing Fast Site Search
+
+      Bugo uses fuse.js to do site-wide keyword searches. Search results are returned by relevance.
+    show_image_above_content: true
+    text_color: ''
+    background_color: ''
+    optional_image:
+      title: ''
+      image: ''
+      caption: ''
+  - title: Developer Tools
+    content: |-
+      ### Built-in Developer Tools
+
+      If web dev is your skeez, we've got dev tools already built into the framework. Just clone the repository to your desktop and "npm install".
+    show_image_above_content: true
+    background_color: ''
+    text_color: ''
+    optional_image:
+      title: ''
+      image: ''
+      caption: ''
   background_image:
     title: ''
     image: ''
