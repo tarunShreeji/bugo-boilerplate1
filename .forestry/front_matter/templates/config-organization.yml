@@ -63,6 +63,7 @@ fields:
   config:
     required: false
   label: Google Verification Meta Field
+  description: Enter verifications here.
 - type: textarea
   name: footer_dislaimer
   label: Footer Dislaimer
