@@ -14,7 +14,26 @@ page_meta:
   meta_keywords: ''
   meta_description: ''
 show_sidebar: false
-content: []
+content:
+- template: block-columns
+  block_options:
+    text_alignment: Left
+    full_width: true
+    remove_padding: false
+    show_title: false
+    remove_margin: false
+    text_color: ''
+    background_color: ''
+  title: Test Page Content
+  columns:
+  - title: test content
+    content: ''
+    text_color: ''
+    background_color: ''
+  background_image:
+    title: ''
+    image: ''
+    caption: ''
 video_gallery:
   videos: []
 draft: true
