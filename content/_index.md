@@ -111,7 +111,7 @@ content:
     remove_padding: false
     text_size: Lead
     block_height: ''
-    content_full_width: true
+    content_full_width: false
   title: Description
   columns:
   - title: Description of services
