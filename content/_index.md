@@ -1,5 +1,5 @@
 ---
-date: '2019-05-02T07:00:00+00:00'
+date: 2019-05-02T07:00:00+00:00
 title: Home
 featured_image:
   title: ''
@@ -40,7 +40,7 @@ content:
     remove_margin: false
     text_color: Light
     background_color: Dark
-    text_alignment: ''
+    text_alignment: Left
     remove_padding: false
   title: Features
   columns:
