@@ -42,6 +42,8 @@ fields:
       template: data-image
   - type: include
     template: field-colors
+    name: colors
+    label: Colors
 - type: field_group
   name: background_image
   label: Background Image
