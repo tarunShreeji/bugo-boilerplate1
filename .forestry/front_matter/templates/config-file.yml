@@ -47,6 +47,11 @@ fields:
   config:
     required: false
   label: Google Analytics Tracking ID
+- name: google_verification_meta_field
+  type: text
+  config:
+    required: false
+  label: Google Verification Meta Field
 - name: paginate
   type: number
   label: Pagination
