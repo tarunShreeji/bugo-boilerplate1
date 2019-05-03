@@ -20,8 +20,5 @@ categories:
 - Releases
 tags: []
 weight: 1
-menu:
-- main
-- footer
 
 ---
