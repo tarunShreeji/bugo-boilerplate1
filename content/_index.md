@@ -141,84 +141,6 @@ content:
     title: ''
     image: ''
     caption: ''
-- template: block-columns
-  block_options:
-    full_width: true
-    show_title: false
-    remove_margin: false
-    text_color: Dark
-    background_color: Light
-    text_alignment: Center
-    remove_padding: true
-    text_size: ''
-    block_height: ''
-    content_full_width: false
-  title: Services & Frameworks
-  columns:
-  - title: bootstrap
-    content: "![](/assets/uploads/boostrap-logo.svg)"
-    show_image_above_content: true
-    optional_image:
-      title: ''
-      image: ''
-      caption: ''
-    text_color: ''
-    background_color: ''
-  - title: Hugo
-    content: "![](/assets/uploads/hugo-logo-wide-1.svg)"
-    show_image_above_content: true
-    optional_image:
-      title: ''
-      image: ''
-      caption: ''
-    text_color: ''
-    background_color: ''
-  - title: Forestry
-    content: "![](/assets/uploads/forestry-pos-full.svg)"
-    show_image_above_content: true
-    optional_image:
-      title: ''
-      image: ''
-      caption: ''
-    text_color: ''
-    background_color: ''
-  - title: Netlify
-    show_image_above_content: true
-    content: "![](/assets/uploads/full-logo-light.svg)"
-    optional_image:
-      title: ''
-      image: ''
-      caption: ''
-    text_color: ''
-    background_color: ''
-  - title: Cloudinary
-    content: "![](/assets/uploads/cloudinary_100.png)"
-    show_image_above_content: true
-    optional_image:
-      title: ''
-      image: ''
-      caption: ''
-    text_color: ''
-    background_color: ''
-  background_image:
-    title: ''
-    image: ''
-    caption: ''
-- template: block-latest-posts
-  show_quantity: '3'
-  block_options:
-    full_width: true
-    background_color: Secondary
-    text_color: White
-    show_title: false
-    remove_margin: false
-    block_height: ''
-    content_full_width: false
-  title: Latest News
-  random: false
-  show_summary: true
-  show_read_more: true
-  read_more_text: Read More
 - template: block-logos
   block_height: Auto
   full_width: true
@@ -242,6 +164,21 @@ content:
     remove_margin: false
     text_color: ''
     background_color: Light
+- template: block-latest-posts
+  show_quantity: '3'
+  block_options:
+    full_width: true
+    background_color: Secondary
+    text_color: White
+    show_title: false
+    remove_margin: false
+    block_height: ''
+    content_full_width: false
+  title: Latest News
+  random: false
+  show_summary: true
+  show_read_more: true
+  read_more_text: Read More
 weight: ''
 tags: []
 layout: landing-page
