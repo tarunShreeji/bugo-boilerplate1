@@ -116,7 +116,7 @@ content:
   block_options:
     full_width: true
     background_color: Light
-    show_title: false
+    show_title: true
     remove_margin: false
     text_color: ''
     text_alignment: Center
@@ -124,7 +124,7 @@ content:
     text_size: Lead
     block_height: ''
     content_full_width: false
-  title: Description
+  title: What's Inside
   columns:
   - title: Description of services
     content: Bugo is a JAMstack framework. JAMstack is a new way of developing websites
