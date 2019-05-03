@@ -1,0 +1,88 @@
+---
+label: Config File
+hide_body: true
+fields:
+- name: title
+  type: text
+  label: Title
+  default: Bugo
+  config:
+    required: true
+- name: description
+  type: textarea
+  label: Description
+  hidden: false
+  default: Boostrap + Hugo = ❤️
+  config:
+    wysiwyg: false
+- name: baseURL
+  type: text
+  config:
+    required: true
+  label: Base URL
+  description: Hostname (and path) to the root, e.g. http://bugo.io
+- name: blackfriday
+  type: field_group
+  config: {}
+  label: Black Friday
+  description: Configure how markdown is rendered
+- name: enableEmoji
+  type: boolean
+  label: Enable Emoji
+  description: Enable Emoji emoticons support for page content; see the Emoji Cheat
+    Sheet. https://www.webpagefx.com/tools/emoji-cheat-sheet/
+- name: enableInlineShortcodes
+  type: boolean
+  label: Enable Inline Shortcodes
+  description: Enable inline shortcode support.
+- name: enableRobotsTXT
+  type: boolean
+  label: Enable Robots.txt
+  description: Enable generation of robots.txt file
+  default: true
+  config:
+    required: false
+- name: googleAnalytics
+  type: text
+  config:
+    required: false
+  label: Google Analytics Tracking ID
+- name: paginate
+  type: number
+  label: Pagination
+  description: ''
+  default: '10'
+  config:
+    min: 
+    max: 
+    step: 
+    required: true
+- name: theme
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Theme
+- name: permalinks
+  type: field_group
+  config: {}
+  fields:
+  - name: permalinks
+    type: include
+    config: {}
+    template: field-default-permalinks
+    label: Permalinks
+  label: Permalinks
+- name: summaryLength
+  type: number
+  label: Summary Length
+  description: Change the word count displayed on list pages.
+  default: 60
+  config:
+    min: 
+    max: 
+    step: 
+    required: true
+pages:
+- config.yaml
