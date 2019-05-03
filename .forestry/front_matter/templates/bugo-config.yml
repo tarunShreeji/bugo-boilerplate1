@@ -223,3 +223,5 @@ fields:
   - type: list
     name: section
     label: section
+pages:
+- config.yaml
