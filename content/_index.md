@@ -50,16 +50,6 @@ content:
     content_full_width: true
   title: Features
   columns:
-  - title: another test feature
-    content: another test feature
-    text_color: ''
-    background_color: ''
-    optional_image: 
-  - title: test feature
-    content: test feature
-    text_color: ''
-    background_color: ''
-    optional_image: 
   - title: One Click Imports
     content: |-
       ### One Click Imports
