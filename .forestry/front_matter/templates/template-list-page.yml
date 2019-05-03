@@ -11,5 +11,12 @@ fields:
   name: page_attributes
   label: Page Attributes
   template: field-page-attributes
+- name: url
+  type: text
+  config:
+    required: false
+  label: URL
+  description: This will override slug. Must be relative from the root level of the
+    site.
 pages:
 - content/themes/bugo-themes.md
