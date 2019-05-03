@@ -198,49 +198,5 @@ fields:
   name: theme
   label: Themes
   description: Add the directory name of themes here.
-- type: field_group
-  name: mediaTypes
-  label: mediaTypes
-  fields:
-  - type: field_group
-    name: text/vcard
-    label: text/vcard
-    fields:
-    - type: list
-      name: suffixes
-      label: suffixes
-- type: field_group
-  name: outputFormats
-  label: outputFormats
-  fields:
-  - type: field_group
-    name: vcf
-    label: vcf
-    fields:
-    - type: text
-      name: name
-      label: name
-    - type: text
-      name: baseName
-      label: baseName
-    - type: text
-      name: mediaType
-      label: mediaType
-    - type: boolean
-      name: isPlainText
-      label: isPlainText
-- type: field_group
-  name: outputs
-  label: outputs
-  fields:
-  - type: list
-    name: home
-    label: home
-  - type: list
-    name: page
-    label: page
-  - type: list
-    name: section
-    label: section
 pages:
 - config.yaml
