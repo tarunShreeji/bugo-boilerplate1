@@ -234,6 +234,14 @@ content:
   content_full_width: false
   remove_margin: false
   text_color: ''
+  block_options:
+    block_height: ''
+    full_width: false
+    content_full_width: false
+    show_title: false
+    remove_margin: false
+    text_color: ''
+    background_color: Light
 weight: ''
 tags: []
 layout: landing-page
