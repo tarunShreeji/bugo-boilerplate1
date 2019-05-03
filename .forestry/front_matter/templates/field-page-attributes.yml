@@ -48,8 +48,8 @@ fields:
     source:
       type: simple
     options:
-    - Main
-    - Secondary
-    - Footer
-    - Privacy
+    - main
+    - secondary
+    - footer
+    - privacy
   label: Menu
