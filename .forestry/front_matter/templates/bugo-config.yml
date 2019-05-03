@@ -29,14 +29,20 @@ fields:
   fields:
   - type: field_group_list
     name: main
-    label: main
+    label: Main Menu
     fields:
     - type: text
       name: identifier
       label: Identifier
     - type: text
+      name: pre
+      label: Pre
+    - type: text
       name: name
       label: Name
+    - type: text
+      name: post
+      label: Post
     - type: text
       name: title
       label: Title
@@ -46,12 +52,6 @@ fields:
     - type: number
       name: weight
       label: Weight
-    - type: text
-      name: pre
-      label: Pre
-    - type: text
-      name: post
-      label: Post
   - type: field_group_list
     name: secondary
     label: Secondary
