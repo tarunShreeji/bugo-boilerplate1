@@ -50,16 +50,6 @@ content:
     content_full_width: true
   title: Features
   columns:
-  - title: '2'
-    content: asdfasdf asdfasd
-    text_color: ''
-    background_color: ''
-    optional_image: 
-  - title: '1'
-    content: tesertase
-    text_color: ''
-    background_color: ''
-    optional_image: 
   - title: One Click Imports
     content: |-
       ### One Click Imports
@@ -106,6 +96,16 @@ content:
       title: ''
       image: ''
       caption: ''
+  - title: '1'
+    content: tesertase
+    text_color: ''
+    background_color: ''
+    optional_image: 
+  - title: '2'
+    content: asdfasdf asdfasd
+    text_color: ''
+    background_color: ''
+    optional_image: 
   background_image:
     title: ''
     image: ''
