@@ -77,6 +77,8 @@ fields:
       description: Content after the name. Sometime used for icons. (optional)
     config:
       labelField: name
+    description: 'NOTE: The order here does not apply. Add weight to menu items to
+      order them.'
   - type: field_group_list
     name: secondary
     label: Secondary
@@ -112,6 +114,8 @@ fields:
       name: post
       label: Post Content
       description: Content after the name. Sometime used for icons. (optional)
+    description: 'NOTE: The order here does not apply. Add weight to menu items to
+      order them.'
   - type: field_group_list
     name: footer
     label: Footer
@@ -147,6 +151,10 @@ fields:
       name: post
       label: Post Content
       description: Content after the name. Sometime used for icons. (optional)
+    config:
+      labelField: identifier
+    description: 'NOTE: The order here does not apply. Add weight to menu items to
+      order them.'
   - type: field_group_list
     name: privacy
     label: Privacy
@@ -182,6 +190,8 @@ fields:
       name: post
       label: Post Content
       description: Content after the name. Sometime used for icons. (optional)
+    description: 'NOTE: The order here does not apply. Add weight to menu items to
+      order them.'
   label: Menus
   description: Populate menus with pages. Use this over the forestry.io Menu system.
 - type: boolean
