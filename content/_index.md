@@ -151,7 +151,6 @@ content:
   - "/assets/uploads/hugo-logo-wide-1.svg"
   - "/assets/uploads/forestry-pos-full-1.svg"
   - "/assets/uploads/netlify-logo.svg"
-  - "/assets/uploads/cloudinary_100.png"
   show_title: true
   content_full_width: false
   remove_margin: false
