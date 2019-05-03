@@ -79,8 +79,12 @@ content:
       image: ''
       caption: ''
   - title: SEO & Social Friendly
-    content: "### SEO & Social Friendly\n\nBugo supports SEO and social media best
-      practices. "
+    content: |-
+      ![](/assets/uploads/binoculars-solid.svg)
+
+      ### SEO & Social Friendly
+
+      Bugo supports SEO and social media best practices.
     show_image_above_content: true
     background_color: ''
     text_color: ''
@@ -90,6 +94,8 @@ content:
       caption: ''
   - title: Blazing Fast Site Search
     content: |-
+      ![](/assets/uploads/fire-alt-solid.svg)
+
       ### Blazing Fast Site Search
 
       Bugo uses fuse.js to do site-wide keyword searches. Search results are returned by relevance.
