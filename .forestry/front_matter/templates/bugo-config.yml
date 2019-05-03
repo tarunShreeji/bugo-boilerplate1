@@ -22,7 +22,13 @@ fields:
   default: "/"
 - type: number
   name: summaryLength
-  label: summaryLength
+  label: Summary Lenth
+  description: How many words are displayed in a summary.
+  config:
+    required: true
+    min: '15'
+    max: '100'
+  default: '35'
 - type: text
   name: googleAnalytics
   label: googleAnalytics
