@@ -127,7 +127,6 @@ fields:
     - type: text
       name: post
       label: Post
-
 - type: boolean
   name: enableEmoji
   label: enableEmoji
