@@ -7,10 +7,6 @@ fields:
   label: Layout
   hidden: true
   default: list
-- type: include
-  name: page_attributes
-  label: Page Attributes
-  template: field-page-attributes
 - name: url
   type: text
   config:
@@ -18,5 +14,9 @@ fields:
   label: URL
   description: This will override slug. Must be relative from the root level of the
     site.
+- type: include
+  name: page_attributes
+  label: Page Attributes
+  template: field-page-attributes
 pages:
 - content/themes/bugo-themes.md
