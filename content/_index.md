@@ -51,7 +51,7 @@ content:
   title: Features
   columns:
   - title: another test feature
-    content: ''
+    content: another test feature
     text_color: ''
     background_color: ''
     optional_image: 
