@@ -42,7 +42,7 @@ content:
     show_title: false
     remove_margin: false
     text_color: Light
-    background_color: Black
+    background_color: Gray 800
     text_alignment: Center
     remove_padding: true
     text_size: ''
