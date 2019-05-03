@@ -275,7 +275,7 @@ function compileSass(done = () => { }) {
         rule: ["*.btn*"],
       },
       dimensions: [{
-        height: 200,
+        height: 600,
         width: 300
       }, {
         height: 500,
