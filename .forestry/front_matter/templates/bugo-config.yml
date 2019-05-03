@@ -184,7 +184,9 @@ fields:
   description: Populate menus with pages. Use this over the forestry.io Menu system.
 - type: boolean
   name: enableEmoji
-  label: enableEmoji
+  label: Enable Emojis
+  description: Enable Emoji emoticons support for page content; see the Emoji Cheat
+    Sheet. https://www.webpagefx.com/tools/emoji-cheat-sheet/
 - type: boolean
   name: enableInlineShortcodes
   label: enableInlineShortcodes
