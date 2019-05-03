@@ -7,7 +7,6 @@ sections:
 - type: document
   path: config.yaml
   label: Bugo Config
-  match: "**/*"
 - type: heading
   label: Content
 - type: directory
