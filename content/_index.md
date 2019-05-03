@@ -11,7 +11,7 @@ content:
   block_options:
     full_width: true
     background_color: Dark
-    text_color: White
+    text_color: Primary
     show_title: false
     remove_margin: false
     text_alignment: Center
@@ -191,5 +191,6 @@ aliases: []
 show_sidebar: false
 video_gallery:
   videos: []
+menu: []
 
 ---
