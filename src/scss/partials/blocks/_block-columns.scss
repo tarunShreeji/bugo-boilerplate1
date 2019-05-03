@@ -8,29 +8,81 @@
     flex-wrap: wrap;
     align-items: stretch;
 
-    @include media-breakpoint-up(lg){
-      flex-wrap: nowrap;
-    }
-
-    .item-container {
-      width: 100%;
-    }
+    // @include media-breakpoint-up(){
+    //   flex-wrap: nowrap;
+    // }
 
     .item {
       flex-grow: 1;
       flex-shrink: 1;
-      flex-basis: 100;
+      flex-basis: 100%;
       padding: $global-padding;
       flex-wrap: wrap;
 
-      @include media-breakpoint-up(md){
-        flex-basis: 50%;
-      }
-
       img {
-        display: inline-block;
-        max-width: 100%;
-        fill: currentColor;
+        // display: inline-block;
+        // width: auto;
+        // max-width: 80%;
+        // height: auto;
+        // fill: currentColor;
+        // display: block;
+      }
+    }
+
+    &.column-container-2,
+    &.column-container-4 {
+      .item {
+        flex-basis: 100%;
+
+        @include media-breakpoint-up(md){
+          flex-basis: 50%;
+        }
+
+        @include media-breakpoint-up(lg){
+          flex-basis: 0;
+        }
+      }
+    }
+
+    &.column-container-3,
+    &.column-container-5 {
+      .item {
+        flex-basis: 100%;
+
+        @include media-breakpoint-up(md){
+          flex-basis: 33%;
+        }
+
+        @include media-breakpoint-up(lg){
+          flex-basis: 0;
+        }
+      }
+    }
+
+    &.column-container-6 {
+      .item {
+        flex-basis: 100%;
+
+        @include media-breakpoint-up(md){
+          flex-basis: 50%;
+        }
+
+        @include media-breakpoint-up(lg){
+          flex-basis: 25%;  
+        }
+
+        &:first-child,
+        &:nth-child(2){
+
+          @include media-breakpoint-up(lg){
+            flex-basis: 50%;
+          
+          }
+        }
+
+        @include media-breakpoint-up(xl){
+          flex-basis: 0 !important;
+        }
       }
     }
   }
