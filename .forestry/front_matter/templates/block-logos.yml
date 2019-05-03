@@ -12,7 +12,12 @@ fields:
   config: {}
   label: Logos
 - name: block_options
-  type: include
+  type: field_group
   config: {}
-  template: field-block-options
+  fields:
+  - name: block_options
+    type: include
+    config: {}
+    template: field-block-options
+    label: Block Options
   label: Block Options
