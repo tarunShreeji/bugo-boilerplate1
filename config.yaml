@@ -66,6 +66,13 @@ googleanalytics: ''
 enableInlineShortcodes: true
 menu:
   main:
+  - identifier: themes
+    title: Themes
+    name: Themes
+    url: "/themes/"
+    weight: 0.5
+    pre: ''
+    post: ''
   - identifier: news
     name: News
     title: Bugo News
