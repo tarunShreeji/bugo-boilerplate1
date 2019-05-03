@@ -78,8 +78,6 @@ content:
       caption: ''
   - title: SEO & Social Friendly
     content: |-
-      ![](/assets/uploads/binoculars-solid.svg)
-
       ### SEO & Social Friendly
 
       Bugo supports SEO and social media best practices.
