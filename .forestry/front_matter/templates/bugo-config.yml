@@ -34,24 +34,34 @@ fields:
     - type: text
       name: identifier
       label: Identifier
-    - type: text
-      name: pre
-      label: Pre
-    - type: text
-      name: name
-      label: Name
-    - type: text
-      name: post
-      label: Post
+      config:
+        required: true
     - type: text
       name: title
       label: Title
+      config:
+        required: true
+    - type: text
+      name: name
+      label: Name
+      config:
+        required: true
     - type: text
       name: url
       label: Url
+      config:
+        required: true
     - type: number
       name: weight
       label: Weight
+    - type: text
+      name: pre
+      label: Pre Content
+      description: Content before the name. Sometime used for icons. (optional)
+    - type: text
+      name: post
+      label: Post Content
+      description: Content after the name. Sometime used for icons. (optional)
   - type: field_group_list
     name: secondary
     label: Secondary
