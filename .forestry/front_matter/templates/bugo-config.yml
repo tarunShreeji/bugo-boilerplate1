@@ -33,22 +33,101 @@ fields:
     fields:
     - type: text
       name: identifier
-      label: identifier
+      label: Identifier
     - type: text
       name: name
-      label: name
+      label: Name
     - type: text
       name: title
-      label: title
+      label: Title
     - type: text
       name: url
-      label: url
+      label: Url
     - type: number
       name: weight
-      label: weight
+      label: Weight
     - type: text
       name: pre
-      label: pre
+      label: Pre
+    - type: text
+      name: post
+      label: Post
+  - type: field_group_list
+    name: secondary
+    label: Secondary
+    fields:
+    - type: text
+      name: identifier
+      label: Identifier
+    - type: text
+      name: name
+      label: Name
+    - type: text
+      name: title
+      label: Title
+    - type: text
+      name: url
+      label: Url
+    - type: number
+      name: weight
+      label: Weight
+    - type: text
+      name: pre
+      label: Pre
+    - type: text
+      name: post
+      label: Post
+  - type: field_group_list
+    name: footer
+    label: Footer
+    fields:
+    - type: text
+      name: identifier
+      label: Identifier
+    - type: text
+      name: name
+      label: Name
+    - type: text
+      name: title
+      label: Title
+    - type: text
+      name: url
+      label: Url
+    - type: number
+      name: weight
+      label: Weight
+    - type: text
+      name: pre
+      label: Pre
+    - type: text
+      name: post
+      label: Post
+  - type: field_group_list
+    name: privacy
+    label: Privacy
+    fields:
+    - type: text
+      name: identifier
+      label: Identifier
+    - type: text
+      name: name
+      label: Name
+    - type: text
+      name: title
+      label: Title
+    - type: text
+      name: url
+      label: Url
+    - type: number
+      name: weight
+      label: Weight
+    - type: text
+      name: pre
+      label: Pre
+    - type: text
+      name: post
+      label: Post
+
 - type: boolean
   name: enableEmoji
   label: enableEmoji
