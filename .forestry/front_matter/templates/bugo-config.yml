@@ -4,19 +4,22 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Site Title
   config:
     required: true
   default: Bugo
 - type: textarea
   name: description
-  label: description
   config:
     required: true
   default: ''
+  label: Site Description
 - type: text
   name: baseURL
-  label: baseURL
+  label: Base URL
+  config:
+    required: true
+  default: "/"
 - type: number
   name: summaryLength
   label: summaryLength
