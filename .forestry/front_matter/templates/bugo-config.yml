@@ -11,70 +11,56 @@ fields:
 - type: text
   name: baseURL
   label: baseURL
-- type: text
-  name: languageCode
-  label: languageCode
 - type: number
   name: summaryLength
   label: summaryLength
-- type: boolean
-  name: canonifyURLs
-  label: canonifyURLs
-- type: boolean
-  name: enableRobotsTXT
-  label: enableRobotsTXT
 - type: text
   name: contentDir
   label: contentDir
-- type: field_group
-  name: permalinks
-  label: permalinks
-  fields:
-  - type: text
-    name: posts
-    label: posts
-  - type: text
-    name: team
-    label: team
 - type: text
   name: googleAnalytics
   label: googleAnalytics
+- type: number
+  name: paginate
+  label: paginate
 - type: field_group
-  name: blackFriday
-  label: blackFriday
+  name: menu
+  label: menu
   fields:
-  - type: boolean
-    name: hrefTargetBlank
-    label: hrefTargetBlank
-- type: field_group
-  name: taxonomies
-  label: taxonomies
-  fields:
-  - type: text
-    name: category
-    label: category
-  - type: text
-    name: tags
-    label: tags
+  - type: field_group_list
+    name: main
+    label: main
+    fields:
+    - type: text
+      name: identifier
+      label: identifier
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+    - type: number
+      name: weight
+      label: weight
+    - type: text
+      name: pre
+      label: pre
+- type: boolean
+  name: enableEmoji
+  label: enableEmoji
+- type: boolean
+  name: enableInlineShortcodes
+  label: enableInlineShortcodes
+- type: boolean
+  name: enable_robots_txt
+  label: enable_robots_txt
 - type: list
   name: theme
   label: theme
-- type: text
-  name: metaDataFormat
-  label: metaDataFormat
-- type: field_group_list
-  name: frontmatter
-  label: frontmatter
-  fields:
-  - type: list
-    name: date
-    label: date
-- type: text
-  name: assetDir
-  label: assetDir
-- type: text
-  name: publishDir
-  label: publishDir
 - type: field_group
   name: mediaTypes
   label: mediaTypes
@@ -119,50 +105,6 @@ fields:
   - type: list
     name: section
     label: section
-- type: boolean
-  name: enable_robots_txt
-  label: enable_robots_txt
-- type: boolean
-  name: enable_inline_shortcodes
-  label: enable_inline_shortcodes
-- type: boolean
-  name: enableEmoji
-  label: enableEmoji
-- type: number
-  name: paginate
-  label: paginate
-- type: text
-  name: googleanalytics
-  label: googleanalytics
-- type: boolean
-  name: enableInlineShortcodes
-  label: enableInlineShortcodes
-- type: field_group
-  name: menu
-  label: menu
-  fields:
-  - type: field_group_list
-    name: main
-    label: main
-    fields:
-    - type: text
-      name: identifier
-      label: identifier
-    - type: text
-      name: name
-      label: name
-    - type: text
-      name: title
-      label: title
-    - type: text
-      name: url
-      label: url
-    - type: number
-      name: weight
-      label: weight
-    - type: text
-      name: pre
-      label: pre
 - type: text
   name: google_verification_meta_field
   label: google_verification_meta_field
