@@ -26,6 +26,7 @@ fields:
   - block-latest-posts
   - block-google-map
   - block-contact-form
+  - block-logos
 - type: field_group
   name: video_gallery
   label: Video Gallery
