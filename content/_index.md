@@ -66,8 +66,6 @@ content:
       caption: ''
   - title: Developer Tools
     content: |-
-      ![](/assets/uploads/tools-solid.svg)
-
       ### Built-in Developer Tools
 
       If web dev is your skeez, we've got dev tools already built into the framework. Just clone the repository to your desktop and "npm install".
