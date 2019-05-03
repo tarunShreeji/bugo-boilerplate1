@@ -24,8 +24,9 @@ sections:
   match: "**/*"
   exclude: "{posts/*,profiles/*,team/*}"
   templates:
-  - template-page
+  - template-list-page
   - template-landing-page
+  - template-page
 - type: directory
   path: content/team
   label: Team
