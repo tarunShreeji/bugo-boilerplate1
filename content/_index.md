@@ -137,7 +137,7 @@ content:
     text_color: Dark
     background_color: Light
     text_alignment: ''
-    remove_padding: false
+    remove_padding: true
     text_size: ''
     block_height: ''
     content_full_width: false
