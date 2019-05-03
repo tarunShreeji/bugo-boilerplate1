@@ -21,6 +21,6 @@ categories:
 tags: []
 weight: 1
 menu:
-- Main
+- main
 
 ---
