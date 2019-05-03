@@ -84,3 +84,5 @@ fields:
     max: 
     step: 
     required: true
+pages:
+- config.yaml
