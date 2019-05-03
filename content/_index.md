@@ -147,6 +147,7 @@ content:
   title: Logos
   background_color: Light
   logos:
+  - "/assets/uploads/forestry-pos-full-1.svg"
   - "/assets/uploads/netlify-mark.svg"
   - "/assets/uploads/forestry-mark.svg"
   - "/assets/uploads/boostrap-logo.svg"
