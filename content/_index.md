@@ -147,6 +147,7 @@ content:
   title: Logos
   background_color: Light
   logos:
+  - "/assets/uploads/netlify-mark.svg"
   - "/assets/uploads/boostrap-logo.svg"
   - "/assets/uploads/hugo-logo-wide-1.svg"
   - "/assets/uploads/forestry-pos-full-1.svg"
