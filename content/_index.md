@@ -236,7 +236,7 @@ content:
   text_color: ''
   block_options:
     block_height: ''
-    full_width: false
+    full_width: true
     content_full_width: false
     show_title: false
     remove_margin: false
