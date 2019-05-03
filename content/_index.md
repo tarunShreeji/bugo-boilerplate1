@@ -52,8 +52,6 @@ content:
   columns:
   - title: One Click Imports
     content: |-
-      ![](/assets/uploads/netlify-mark.svg)
-
       ### One Click Imports
 
       Import to forestry.io or netlify.com with one click. Automatically copy Bugo into a new repository and import the repository to the service of your choice.
