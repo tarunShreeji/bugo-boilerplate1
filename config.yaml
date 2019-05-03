@@ -77,7 +77,7 @@ menu:
     name: Docs
     title: Bugo Documentation
     url: "/docs/"
-    weight: 
+    weight: 1
     pre: ''
     post: ''
   secondary: []
