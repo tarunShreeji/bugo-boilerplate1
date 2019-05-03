@@ -70,7 +70,7 @@ menu:
     name: Docs
     title: Bugo Documentation
     url: "/docs/"
-    weight: 2
+    weight: 
     pre: ''
     post: ''
   - identifier: news
