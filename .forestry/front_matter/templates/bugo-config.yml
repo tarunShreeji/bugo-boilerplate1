@@ -31,7 +31,8 @@ fields:
   default: '35'
 - type: text
   name: googleAnalytics
-  label: googleAnalytics
+  label: Google Analytics
+  description: Add your Google Analytics ID to start tracking this site. (optional)
 - type: number
   name: paginate
   label: paginate
