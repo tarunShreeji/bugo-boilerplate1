@@ -18,6 +18,5 @@ show_sidebar: false
 content: []
 video_gallery:
   videos: []
-draft: true
 
 ---
