@@ -189,7 +189,7 @@ fields:
     Sheet. https://www.webpagefx.com/tools/emoji-cheat-sheet/
 - type: boolean
   name: enableInlineShortcodes
-  label: enableInlineShortcodes
+  label: Enable Inline Shortcodes
 - type: boolean
   name: enable_robots_txt
   label: enable_robots_txt
