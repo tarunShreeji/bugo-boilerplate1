@@ -94,8 +94,6 @@ content:
       caption: ''
   - title: Blazing Fast Site Search
     content: |-
-      ![](/assets/uploads/fire-alt-solid.svg)
-
       ### Blazing Fast Site Search
 
       Bugo uses fuse.js to do site-wide keyword searches. Search results are returned by relevance.
