@@ -63,6 +63,11 @@ googleanalytics: ''
 enableInlineShortcodes: true
 menu:
   main:
+  - identifier: ''
+    name: ''
+    title: ''
+    url: ''
+    weight: ''
   - identifier: docs
     name: Docs
     title: Bugo Documentation
