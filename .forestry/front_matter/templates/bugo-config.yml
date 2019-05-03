@@ -5,18 +5,21 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
+  default: Bugo
 - type: textarea
   name: description
   label: description
+  config:
+    required: true
+  default: ''
 - type: text
   name: baseURL
   label: baseURL
 - type: number
   name: summaryLength
   label: summaryLength
-- type: text
-  name: contentDir
-  label: contentDir
 - type: text
   name: googleAnalytics
   label: googleAnalytics
