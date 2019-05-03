@@ -136,7 +136,7 @@ content:
     remove_margin: false
     text_color: Dark
     background_color: Light
-    text_alignment: ''
+    text_alignment: Center
     remove_padding: true
     text_size: ''
     block_height: ''
