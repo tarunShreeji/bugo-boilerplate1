@@ -39,3 +39,19 @@ fields:
     label: Featured Image Template
     name: template
     default: Default
+- name: menu
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Main
+    - Secondary
+    - Footer
+    - Privacy
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Menu
