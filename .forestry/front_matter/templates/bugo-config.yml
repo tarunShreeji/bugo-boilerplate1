@@ -75,6 +75,8 @@ fields:
       name: post
       label: Post Content
       description: Content after the name. Sometime used for icons. (optional)
+    config:
+      labelField: name
   - type: field_group_list
     name: secondary
     label: Secondary
