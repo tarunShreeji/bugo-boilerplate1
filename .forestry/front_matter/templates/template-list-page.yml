@@ -11,3 +11,5 @@ fields:
   name: page_attributes
   label: Page Attributes
   template: field-page-attributes
+pages:
+- content/Bugo Themes/bugo-themes.md

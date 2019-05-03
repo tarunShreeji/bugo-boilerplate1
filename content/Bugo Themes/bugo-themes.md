@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: list
 featured_image:
   template: Default
   title: ''
