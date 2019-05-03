@@ -1,7 +1,11 @@
 /*
+ * Sass color helper - contast functions
+ */
+@import "../../node_modules/sass-color-helpers/stylesheets/_color-helpers.scss";
+
+/*
  * Hilight.js
  */
-
 @import "../../node_modules/highlight.js/styles/atom-one-dark";
 
 /*!

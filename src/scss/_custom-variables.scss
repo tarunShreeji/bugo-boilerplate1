@@ -35,7 +35,7 @@ $container-max-widths: (
 
 $global-padding: 2rem;
 $global-margin: 2rem;
-$auto-contrast-text-to-background: false;
+$auto-contrast-text-to-background: true;
 
 /**
  *
@@ -68,10 +68,11 @@ $header-scrolled-display: block;
 $header-float: false;
 
 $main-nav-font-size: $font-size-lg;;
-$main-nav-color: $white;
-$main-nav-hover: $accent;
+$main-nav-color: false;
+$main-nav-hover: lighten($primary,50%);
 $main-nav-left: false;
 $main-nav-search: false;
+$main-nav-dropdown-bg: lighten(desaturate($header-background-color,40%),20%);
 
 $secondary-nav-font-size: 0.8rem;
 $secondary-nav-color: $white;
@@ -91,7 +92,6 @@ $header-search-top: true;
 $nav-horizontal-animate: down;
 $nav-horizontal-animate-speed: 0.5s;
 $nav-horizontal-animate-easing: ease-in-out;
-$nav-horizontal-dropdown-bg: $gray-500;
 $nav-horizontal-dropdown-columns: 2;
 $nav-horizontal-full-width: true;
 

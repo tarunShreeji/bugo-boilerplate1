@@ -2,8 +2,6 @@
   .dropdown-menu {
     margin: 0;
     border: none;
-    background-color: $nav-horizontal-dropdown-bg;
-    columns: $nav-horizontal-dropdown-columns;
 
     @if $nav-horizontal-full-width == true {
       width: 100vw;
@@ -20,6 +18,10 @@
       &.show {
         transform: translateY(0) if( $nav-horizontal-full-width == true , translateX(-50%), null );
       }
+    }
+
+    ul {
+      columns: $nav-horizontal-dropdown-columns;
     }
   }
 }

@@ -1,30 +1,36 @@
-// stylelint-disable declaration-no-important
-
 @if $auto-contrast-text-to-background == true {
-  @each $color, $value in $theme-colors {
-    @include bg-variant(".bg-#{$color}", $value);
+  @each $color, $bgvalue in $theme-colors {
+    @include bg-variant(".bg-#{$color}", $bgvalue);
     .bg-#{$color}{
-      color: color_adjust_contrast_AERT(#ccc, $value);
-  
+      color: color-yiq($bgvalue);
+      
+      h1,h2,h3,h4,h5,h6 {
+        color: color-yiq($bgvalue);
+      }
+      
       a {
-        color: color_adjust_contrast_AERT(#ccc, $value) !important;
+        color: color-yiq($bgvalue);
   
         &:hover,
         &:focus{
-          color: color_adjust_contrast_AERT(#ccc, $value) !important;
+        color: color-yiq($bgvalue);
         }
       }
   
       @each $color, $textvalue in $theme-colors {
         &.text-#{$color} {
-          color: color_adjust_contrast_AERT($textvalue, $value) !important;
+          color: color_adjust_contrast_AERT($textvalue,$bgvalue,1,1,80,500) !important;
+
+          h1,h2,h3,h4,h5,h6 {
+            color: color_adjust_contrast_AERT($textvalue,$bgvalue,1,1,80,500) !important;
+          }
   
           a {
-            color: color_adjust_contrast_AERT($textvalue, $value) !important;
-      
+            color: color_adjust_contrast_AERT($textvalue,$bgvalue,1,1,80,500) !important;
+
             &:hover,
             &:focus{
-              color: color_adjust_contrast_AERT($textvalue, $value) !important;
+              color: color_adjust_contrast_AERT($textvalue,$bgvalue,1,1,80,500) !important;
             }
           }
         }
@@ -34,8 +40,8 @@
 }
 
 @if $enable-gradients {
-  @each $color, $value in $theme-colors {
-    @include bg-gradient-variant(".bg-gradient-#{$color}", $value);
+  @each $color, $bgvalue in $theme-colors {
+    @include bg-gradient-variant(".bg-gradient-#{$color}", $bgvalue);
   }
 }
 
@@ -48,8 +54,8 @@
 }
 
 
-@each $color, $value in $theme-colors {
-  @include bg-variant(".bg-#{$color}", $value);
+@each $color, $bgvalue in $theme-colors {
+  @include bg-variant(".bg-#{$color}", $bgvalue);
   .block.bg-#{$color}{
     padding-top: $global-padding;
     padding-bottom: $global-padding;

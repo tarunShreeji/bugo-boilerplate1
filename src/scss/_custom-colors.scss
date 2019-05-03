@@ -29,7 +29,7 @@ $grays: map-merge(
   $grays
 );
 
-$blue:    #007bff !default;
+$blue:    c !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
@@ -42,34 +42,34 @@ $cyan:    #17a2b8 !default;
 
 $colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
-$colors: map-merge(
-  (
-    "blue":       $blue,
-    "indigo":     $indigo,
-    "purple":     $purple,
-    "pink":       $pink,
-    "red":        $red,
-    "orange":     $orange,
-    "yellow":     $yellow,
-    "green":      $green,
-    "teal":       $teal,
-    "cyan":       $cyan,
-    "white":      $white,
-    "gray":       $gray-600,
-    "gray-dark":  $gray-800
-  ),
-  $colors
-);
+// $colors: map-merge(
+//   (
+//     "blue":       $blue,
+//     "indigo":     $indigo,
+//     "purple":     $purple,
+//     "pink":       $pink,
+//     "red":        $red,
+//     "orange":     $orange,
+//     "yellow":     $yellow,
+//     "green":      $green,
+//     "teal":       $teal,
+//     "cyan":       $cyan,
+//     "white":      $white,
+//     "gray":       $gray-600,
+//     "gray-dark":  $gray-800
+//   ),
+//   $colors
+// );
 
 $primary:       #0942A3 !default;
-$secondary:     #009ECC !default;
-$accent:        #FC670C !default;
+$secondary:     #3A88E2 !default;
+$accent:        adjust-hue( $primary, 180% ) !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         #C1D8DE !default;
-$dark:          #263246 !default;
+$light:         lighten($secondary,20%) !default !default;
+$dark:          darken($secondary,50%) !default !default;
 
 $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default

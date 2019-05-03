@@ -28,9 +28,11 @@
       }
     }
 
-
+    .dropdown-menu {
+        background-color: $main-nav-dropdown-bg;
+    }
       .nav-link {
-        color: $main-nav-color;
+        color: color-yiq($header-background-color);
         font-size: $main-nav-font-size;
 
         &:hover,
@@ -39,5 +41,28 @@
         }
       }
     }
+
+    .nav-link-container {
+      &::before {
+        display: none;
+      }
+
+      ul {
+        padding: 0;
+        margin: 0;
+        display: block;       
+        columns: $nav-horizontal-dropdown-columns;
+
+        li {
+          list-style-type: none;
+          margin: 0;
+
+          .dropdown-item{
+            color: color-yiq($main-nav-dropdown-bg) !important;
+          }
+        }
+      }
+    }
+
   }
 }
