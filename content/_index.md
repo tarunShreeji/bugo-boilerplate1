@@ -41,7 +41,7 @@ content:
     full_width: true
     show_title: false
     remove_margin: false
-    text_color: Light
+    text_color: Primary
     background_color: Gray 800
     text_alignment: Center
     remove_padding: true
