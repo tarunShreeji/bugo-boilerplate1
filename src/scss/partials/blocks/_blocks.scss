@@ -13,10 +13,31 @@
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    .container {
-      //max-width: 100vw;
+
+    &.content-full-width {
+      .container {
+        max-width: 100vw;
+      }
     }
   }
+
+  &.small,
+  &.large {
+    display: flex;
+
+    .container {
+      align-items: center;
+    }
+  }
+
+  &.small {
+    min-height: $block-height-small;
+  }
+
+  &.large {
+    min-height: $block-height-large;
+  }
+
 }
 
 .block-title {
