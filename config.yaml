@@ -66,17 +66,17 @@ googleanalytics: ''
 enableInlineShortcodes: true
 menu:
   main:
-  - identifier: news
-    name: News
-    title: Bugo News
-    url: "/posts/"
-    weight: 
-    pre: ''
-    post: ''
   - identifier: docs
     name: Docs
     title: Bugo Documentation
     url: "/docs/"
+    weight: 
+    pre: ''
+    post: ''
+  - identifier: news
+    name: News
+    title: Bugo News
+    url: "/posts/"
     weight: 
     pre: ''
     post: ''
