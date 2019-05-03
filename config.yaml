@@ -73,7 +73,7 @@ menu:
     weight: 1
     pre: ''
     post: ''
-    parent: Docs
+    parent: docs
   - identifier: themes
     title: Themes
     name: Themes
