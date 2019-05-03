@@ -39,7 +39,6 @@ fields:
   description: Add your Google Analytics ID to start tracking this site. (optional)
 - type: field_group
   name: menu
-  label: menu
   fields:
   - type: field_group_list
     name: main
@@ -181,6 +180,8 @@ fields:
       name: post
       label: Post Content
       description: Content after the name. Sometime used for icons. (optional)
+  label: Menus
+  description: Populate menus with pages. Use this over the forestry.io Menu system.
 - type: boolean
   name: enableEmoji
   label: enableEmoji
