@@ -1,6 +1,6 @@
 ---
 layout: list
-title: Posts
+title: News
 menu:
 - main
 
