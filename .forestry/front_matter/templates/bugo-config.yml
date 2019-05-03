@@ -75,6 +75,12 @@ fields:
       name: post
       label: Post Content
       description: Content after the name. Sometime used for icons. (optional)
+    - name: parent
+      type: text
+      config:
+        required: false
+      label: Parent
+      description: Name of the parent menu item.
     config:
       labelField: name
     description: 'NOTE: The order here does not apply. Add weight to menu items to
