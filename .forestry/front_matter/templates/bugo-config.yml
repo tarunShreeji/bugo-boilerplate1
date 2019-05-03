@@ -196,7 +196,8 @@ fields:
   description: Enable generation of robots.txt file for SEO purposes.
 - type: list
   name: theme
-  label: theme
+  label: Themes
+  description: Add the directory name of themes here.
 - type: field_group
   name: mediaTypes
   label: mediaTypes
