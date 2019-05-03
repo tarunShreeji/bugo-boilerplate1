@@ -1,5 +1,5 @@
 ---
-layout: landing-page
+layout: page
 featured_image:
   template: Default
   title: ''
@@ -18,5 +18,7 @@ show_sidebar: false
 content: []
 video_gallery:
   videos: []
+categories: []
+tags: []
 
 ---

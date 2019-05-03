@@ -37,5 +37,4 @@ fields:
     label: Videos
     template: field-youtube-gallery
 pages:
-- content/Bugo Themes/bugo-themes.md
 - content/_index.md
