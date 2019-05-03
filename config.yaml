@@ -77,7 +77,7 @@ menu:
     name: News
     title: Bugo News
     url: "/posts/"
-    weight: 1
+    weight: 
     pre: ''
     post: ''
   secondary: []
