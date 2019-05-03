@@ -118,7 +118,7 @@ content:
     background_color: Light
     show_title: true
     remove_margin: false
-    text_color: ''
+    text_color: Dark
     text_alignment: Center
     remove_padding: true
     text_size: Lead
