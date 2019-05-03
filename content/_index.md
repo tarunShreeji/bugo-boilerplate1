@@ -219,6 +219,21 @@ content:
   show_summary: true
   show_read_more: true
   read_more_text: Read More
+- template: block-logos
+  block_height: Auto
+  full_width: true
+  title: Logos
+  background_color: Light
+  logos:
+  - "/assets/uploads/boostrap-logo.svg"
+  - "/assets/uploads/hugo-logo-wide-1.svg"
+  - "/assets/uploads/forestry-pos-full-1.svg"
+  - "/assets/uploads/netlify-logo.svg"
+  - "/assets/uploads/cloudinary_100.png"
+  show_title: true
+  content_full_width: false
+  remove_margin: false
+  text_color: ''
 weight: ''
 tags: []
 layout: landing-page
