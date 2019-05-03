@@ -158,7 +158,7 @@ content:
   block_options:
     block_height: ''
     full_width: true
-    content_full_width: true
+    content_full_width: false
     show_title: false
     remove_margin: false
     text_color: ''
