@@ -14,5 +14,6 @@ page_meta:
   meta_keywords: ''
   meta_description: ''
 menu: []
+url: "/themes/"
 
 ---
