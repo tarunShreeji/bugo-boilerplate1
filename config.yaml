@@ -30,10 +30,13 @@ frontmatter:
   - lastmod
   - date
   - publishDate
+  date: []
 - publishDate:
   - publishDate
   - date
+  date: []
 - expiryDate: expiryDate
+  date: []
 assetDir: static/assets
 publishDir: public
 mediaTypes:
@@ -63,19 +66,16 @@ googleanalytics: ''
 enableInlineShortcodes: true
 menu:
   main:
-  - identifier: ''
-    name: ''
-    title: ''
-    url: ''
-    weight: ''
   - identifier: docs
     name: Docs
     title: Bugo Documentation
     url: "/docs/"
     weight: 2
+    pre: ''
   - identifier: news
     name: News
     title: Bugo News
     url: "/posts/"
     weight: 1
+    pre: ''
 google_verification_meta_field: ''
