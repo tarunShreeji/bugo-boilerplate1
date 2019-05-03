@@ -21,7 +21,6 @@ categories:
 tags: []
 weight: 1
 menu:
-- template: menu-main
-  weight: '1'
+- Main
 
 ---
