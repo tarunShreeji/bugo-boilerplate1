@@ -105,6 +105,3 @@ fields:
   - type: list
     name: section
     label: section
-- type: text
-  name: google_verification_meta_field
-  label: google_verification_meta_field
