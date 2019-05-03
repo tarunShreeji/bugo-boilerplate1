@@ -108,7 +108,7 @@ content:
     remove_margin: false
     text_color: ''
     text_alignment: Center
-    remove_padding: false
+    remove_padding: true
     text_size: Lead
     block_height: ''
     content_full_width: false
