@@ -40,10 +40,16 @@ fields:
     name: template
     default: Default
 - name: menu
-  type: blocks
-  label: Menu
-  template_types:
-  - menu-main
+  type: list
   config:
+    use_select: true
     min: 
     max: 
+    source:
+      type: simple
+    options:
+    - Main
+    - Secondary
+    - Footer
+    - Privacy
+  label: Menu
