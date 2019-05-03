@@ -29,13 +29,14 @@ fields:
     min: '15'
     max: '100'
   default: '35'
+- type: number
+  name: paginate
+  label: Pagination
+  description: How many posts or pages get are listed on list pages.
 - type: text
   name: googleAnalytics
   label: Google Analytics
   description: Add your Google Analytics ID to start tracking this site. (optional)
-- type: number
-  name: paginate
-  label: paginate
 - type: field_group
   name: menu
   label: menu
