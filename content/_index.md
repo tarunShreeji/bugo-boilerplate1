@@ -134,8 +134,8 @@ content:
     full_width: true
     show_title: false
     remove_margin: false
-    text_color: ''
-    background_color: ''
+    text_color: Dark
+    background_color: Light
     text_alignment: ''
     remove_padding: false
     text_size: ''
