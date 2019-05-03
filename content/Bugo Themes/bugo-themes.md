@@ -7,7 +7,7 @@ featured_image:
   caption: ''
 title: Bugo Themes
 date: 2019-05-03T07:00:00+00:00
-slug: ''
+slug: themes
 aliases: []
 page_meta:
   meta_title: ''
