@@ -62,6 +62,18 @@ content:
       title: ''
       image: ''
       caption: ''
+  - title: Developer Tools
+    content: |-
+      ### Built-in Developer Tools
+
+      If web dev is your skeez, we've got dev tools already built into the framework. Just clone the repository to your desktop and "npm install".
+    show_image_above_content: true
+    background_color: ''
+    text_color: ''
+    optional_image:
+      title: ''
+      image: ''
+      caption: ''
   - title: SEO & Social Friendly
     content: "### SEO & Social Friendly\n\nBugo supports SEO and social media best
       practices. "
@@ -80,18 +92,6 @@ content:
     show_image_above_content: true
     text_color: ''
     background_color: ''
-    optional_image:
-      title: ''
-      image: ''
-      caption: ''
-  - title: Developer Tools
-    content: |-
-      ### Built-in Developer Tools
-
-      If web dev is your skeez, we've got dev tools already built into the framework. Just clone the repository to your desktop and "npm install".
-    show_image_above_content: true
-    background_color: ''
-    text_color: ''
     optional_image:
       title: ''
       image: ''
