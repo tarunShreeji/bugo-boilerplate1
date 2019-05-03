@@ -73,6 +73,7 @@ menu:
     weight: 1
     pre: ''
     post: ''
+    parent: Docs
   - identifier: themes
     title: Themes
     name: Themes
@@ -80,6 +81,7 @@ menu:
     weight: 1.5
     pre: ''
     post: ''
+    parent: ''
   - identifier: news
     name: News
     title: Bugo News
@@ -87,6 +89,7 @@ menu:
     weight: 2
     pre: ''
     post: ''
+    parent: ''
   - identifier: docs
     name: Docs
     title: Bugo Documentation
@@ -94,6 +97,7 @@ menu:
     weight: 1
     pre: ''
     post: ''
+    parent: ''
   secondary: []
   footer: []
   privacy: []
