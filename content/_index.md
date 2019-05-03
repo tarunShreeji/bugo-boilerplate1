@@ -168,7 +168,7 @@ content:
   block_options:
     full_width: true
     background_color: Secondary
-    text_color: White
+    text_color: Dark
     show_title: false
     remove_margin: false
     block_height: ''
