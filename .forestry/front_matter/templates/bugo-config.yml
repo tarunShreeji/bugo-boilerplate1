@@ -191,8 +191,9 @@ fields:
   name: enableInlineShortcodes
   label: Enable Inline Shortcodes
 - type: boolean
-  name: enable_robots_txt
-  label: enable_robots_txt
+  name: enablerobotstxt
+  label: Enable robots.txt
+  description: Enable generation of robots.txt file for SEO purposes.
 - type: list
   name: theme
   label: theme
