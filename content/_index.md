@@ -27,7 +27,7 @@ content:
     content: |-
       ![Bugo Logo](/assets/uploads/bugo-logo-200.svg "Bugo Logo")
 
-      # Full-Featured Static Site Framework
+      ## Full-Featured Static Site Framework
 
       Build low-maintenance, secure, high performance websites.
     optional_image:
