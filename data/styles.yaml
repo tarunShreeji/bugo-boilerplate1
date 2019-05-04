@@ -11,5 +11,22 @@ secondary_font:
   font_weights: []
   font_italics: []
 theme_colors:
+- White Background Primary Text
+- White Background Dark Text
+- White  Background Black Text
+- Light Background Primary Text
+- Light Background Dark Text
+- Light Background Black Text
+- Secondary Background Primary Text
+- Secondary Background Dark Text
+- Secondary Background Black Text
+- Primary Background Secondary Text
+- Primary Background Light Text
+- Primary Background White Text
+- Dark Background Secondary Text
+- Dark Background Light Text
+- Dark Background White Text
+- " Black Background Secondary Text"
+- Black Background Light Text
 - Black Background White Text
 custom_css: ''
