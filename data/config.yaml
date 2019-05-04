@@ -14,7 +14,20 @@ layout_options:
     blocks: []
   footer_style: Default
 sidebar_widgets:
-  widgets: []
+  widgets:
+  - template: widget-latest-posts
+    widget_options:
+      text_size: Normal
+      text_alignment: Left
+      block_height: Auto
+      full_width: true
+      color_scheme: White Background Primary Text
+      remove_padding: false
+      content_full_width: false
+      show_title: false
+      remove_margin: false
+    title: Latest Posts
+    show_quantity: '3'
 site_categories:
 - Updates
 - News
