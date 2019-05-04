@@ -49,7 +49,7 @@ content:
     text_size: ''
     block_height: ''
     content_full_width: true
-    color_scheme: ''
+    color_scheme: Dark Background Light Text
   title: Features
   columns:
   - title: One Click Imports
