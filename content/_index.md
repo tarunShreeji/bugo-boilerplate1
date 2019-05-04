@@ -89,7 +89,7 @@ content:
       caption: ''
   - title: ADA Friendly Themes
     content: |-
-      ### ADA Friendly Themes
+      ### Accessible Themes
 
       We've made every effort to make sure our themes comply with AA standards as much as possible. From theme colors to under the hood we provide you with a great foundation for compliancy.
     text_color: ''
