@@ -100,6 +100,13 @@ menu:
     parent: ''
   secondary: []
   footer: []
-  privacy: []
+  privacy:
+  - identifier: sitemap
+    title: Sitemap
+    name: Sitemap
+    url: "/sitemap/"
+    weight: 
+    pre: ''
+    post: ''
 google_verification_meta_field: ''
 enablerobotstxt: true
