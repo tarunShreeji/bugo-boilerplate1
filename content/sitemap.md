@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: sitemap
 featured_image:
   template: Default
   title: ''

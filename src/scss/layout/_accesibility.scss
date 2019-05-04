@@ -1,0 +1,7 @@
+[tabindex="-1"]:focus {
+  outline: 1;
+}
+
+.custom-file-input:lang(en) ~ .custom-file-label::after {
+  content: none !important;
+}

@@ -9,6 +9,7 @@
 
    {{ define "main" }}
    <main class="">
+     <h1>{{ .Title }}</h1>
      <p class="post-count">{{ len .Data.Pages }} {{ .Section | pluralize }} found. </p>
       {{ range $index, $page := .Paginator.Pages.ByWeight }}
       {{ $page := . }}
@@ -19,15 +20,17 @@
             <header>
               <h2><a href="{{ .Permalink }}">{{ .Title}}</a></h2>
             </header>
-            <summary>
-              <div>{{ .Summary }}</div>
-            </summary>
+            <details open>
+              <summary>
+                {{ .Summary }}
+              </summary>
+            </details>
           </article>
         </div>
       </div>
        {{ end }}
     <div class="pagination mt-4">
-      {{ template "_internal/pagination.html" . }}
+      {{ partial "pagination.html" . }} 
     </div>
    </main>
    {{ end }}

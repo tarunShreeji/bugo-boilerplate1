@@ -136,6 +136,11 @@ Methods using calculations from:
 * TODO: add methods to test with WCAG2 formulas
 
 */
+/**
+ *
+ * Global Settings
+ *
+ **/
 .black-background-white-text {
   background-color: #000000 !important;
   color: #fff !important; }
@@ -282,11 +287,6 @@ Methods using calculations from:
 
 /**
  *
- * Global Settings
- *
- **/
-/**
- *
  * Global Blocks
  *
  **/
@@ -382,7 +382,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 3rem; }
 
 abbr[title],
 abbr[data-original-title] {
