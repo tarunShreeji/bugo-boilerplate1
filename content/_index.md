@@ -44,7 +44,7 @@ content:
     remove_margin: false
     text_color: Primary
     background_color: Gray 500
-    text_alignment: Center
+    text_alignment: Left
     remove_padding: true
     text_size: ''
     block_height: ''
