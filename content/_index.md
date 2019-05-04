@@ -19,7 +19,7 @@ content:
     text_size: ''
     block_height: Large
     content_full_width: false
-    color_scheme: Black Background White Text
+    color_scheme: Dark Background Light Text
   title: Introducing Bugo
   columns:
   - title: Intro Content
