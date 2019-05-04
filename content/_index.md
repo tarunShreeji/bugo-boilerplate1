@@ -29,7 +29,7 @@ content:
 
       # Full-Featured Static Site Framework
 
-      ## Build low-maintenance, secure, high performance websites.
+      Build low-maintenance, secure, high performance websites.
     optional_image:
       title: ''
       image: ''
