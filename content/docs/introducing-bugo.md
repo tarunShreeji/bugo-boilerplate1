@@ -32,13 +32,13 @@ Bugo is a framework designed to make developing full-featured websites using a J
 
 A lot of the magic that is Bugo counts on GitHub repositories. You'll need a GitHub account to get started. Fortunately you can use your GitHub account to create most of the other accounts you'll need. If you have one already, great. If not, head on over to GitHub and get one. We'll wait.
 
-[<span class="btn btn-primary">Get a GitHub.com account.</span>](https://github.com "Go to GitHub")
+[<span class="btn btn-secondary">Get a GitHub.com account.</span>](https://github.com "Go to GitHub")
 
 ### Content Management System
 
 You'll need a way to create and edit content on your website, so sign up for an account at [Forestry.io](https://forestry.io "Create an account at forestry.io"). NOTE: you can use you're GitHub account to keep those login and passwords down.
 
-![](/assets/uploads/forestry-pos-full.png)
+[<span class="btn btn-primary">Get a Forestry.io account.</span>](https://forestry.io "Go to Forestry")
 
 ### Media Library
 
@@ -46,7 +46,7 @@ There are a couple choices for setting up your media library. You images can be 
 
 The advantage over using cloudinary.com is their transformations. Bugo offers Cloudinary support and the themes can automatically crop and size you're images. If you don't have the resources or time to crop images this is the way to go for sure.
 
-![https://cloudinary.com](/assets/uploads/cloudinary_100.png "Create a Cloudinary.com account")
+[<span class="btn btn-primary">Get a Cloudinary.com account.</span>](https://cloudinary.com "Go to Cloudinary.com")
 
 ### Hosting
 
