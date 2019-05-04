@@ -97,7 +97,7 @@ content:
     optional_image: 
   - title: Blazing Fast Site Search
     content: |-
-      ### Blazing Fast Site Search
+      ### Blazing Fast Searches
 
       Bugo uses fuse.js to do site-wide keyword searches. Search results are returned by relevance.
     show_image_above_content: true
