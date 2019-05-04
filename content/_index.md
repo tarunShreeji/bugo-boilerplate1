@@ -52,6 +52,14 @@ content:
     color_scheme: " Black Background Secondary Text"
   title: Features
   columns:
+  - title: Super Fast Websites
+    content: Static site generators render HTML files, so there's not waiting for
+      databases or scripts to run. Serve these files on a CDN and you see speeds you
+      used to have to throw a lot of money into to get. Best of all, no more cache
+      clearing.
+    text_color: ''
+    background_color: ''
+    optional_image: 
   - title: One Click Imports
     content: |-
       ### One Click Imports
@@ -76,18 +84,14 @@ content:
       title: ''
       image: ''
       caption: ''
-  - title: SEO & Social Friendly
+  - title: ADA Friendly Themes
     content: |-
-      ### SEO & Social
+      ## ADA Friendly Themes
 
-      Bugo supports SEO and social media best practices. We want to make sure everyone sees your website!
-    show_image_above_content: true
-    background_color: ''
+      We've made every effort to make sure our themes comply with AA standards as much as possible. From theme colors to under the hood we provide you with a great foundation for compliancy.
     text_color: ''
-    optional_image:
-      title: ''
-      image: ''
-      caption: ''
+    background_color: ''
+    optional_image: 
   - title: Blazing Fast Site Search
     content: |-
       ### Blazing Fast Site Search
@@ -100,22 +104,18 @@ content:
       title: ''
       image: ''
       caption: ''
-  - title: ADA Friendly Themes
+  - title: SEO & Social Friendly
     content: |-
-      ## ADA Friendly Themes
+      ### SEO & Social
 
-      We've made every effort to make sure our themes comply with AA standards as much as possible. From theme colors to under the hood we provide you with a great foundation for compliancy.
-    text_color: ''
+      Bugo supports SEO and social media best practices. We want to make sure everyone sees your website!
+    show_image_above_content: true
     background_color: ''
-    optional_image: 
-  - title: Super Fast Websites
-    content: Static site generators render HTML files, so there's not waiting for
-      databases or scripts to run. Serve these files on a CDN and you see speeds you
-      used to have to throw a lot of money into to get. Best of all, no more cache
-      clearing.
     text_color: ''
-    background_color: ''
-    optional_image: 
+    optional_image:
+      title: ''
+      image: ''
+      caption: ''
   background_image:
     title: ''
     image: ''
