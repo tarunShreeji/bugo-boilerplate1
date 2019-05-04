@@ -53,10 +53,10 @@ content:
   title: Features
   columns:
   - title: Super Fast Websites
-    content: Static site generators render HTML files, so there's not waiting for
-      databases or scripts to run. Serve these files on a CDN and you see speeds you
-      used to have to throw a lot of money into to get. Best of all, no more cache
-      clearing.
+    content: |-
+      ### Super Fast Websites
+
+      Static site generators render HTML files, so there's not waiting for databases or scripts to run. Serve these files on a CDN and you see speeds you used to have to throw a lot of money into to get. Best of all, no more cache clearing.
     text_color: ''
     background_color: ''
     optional_image: 
