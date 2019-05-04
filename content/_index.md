@@ -167,6 +167,9 @@ content:
     text_color: ''
     background_color: Light
     color_scheme: Light Background Dark Text
+    text_size: ''
+    text_alignment: ''
+    remove_padding: false
 - template: block-latest-posts
   show_quantity: '3'
   block_options:
@@ -178,6 +181,9 @@ content:
     block_height: Small
     content_full_width: false
     color_scheme: Secondary Background Primary Text
+    text_size: ''
+    text_alignment: Center
+    remove_padding: false
   title: Latest News
   random: false
   show_summary: true
