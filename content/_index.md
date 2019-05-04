@@ -78,9 +78,9 @@ content:
       caption: ''
   - title: SEO & Social Friendly
     content: |-
-      ### SEO & Social Friendly
+      ### SEO & Social
 
-      Bugo supports SEO and social media best practices.
+      Bugo supports SEO and social media best practices. We want to make sure everyone sees your website!
     show_image_above_content: true
     background_color: ''
     text_color: ''
