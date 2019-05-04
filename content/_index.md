@@ -101,9 +101,10 @@ content:
       image: ''
       caption: ''
   - title: ADA Friendly Themes
-    content: We've made every effort to make sure our themes comply with AA standards
-      as much as possible. From theme colors to under the hood we provide you with
-      a great foundation for compliancy.
+    content: |-
+      ## ADA Friendly Themes
+
+      We've made every effort to make sure our themes comply with AA standards as much as possible. From theme colors to under the hood we provide you with a great foundation for compliancy.
     text_color: ''
     background_color: ''
     optional_image: 
