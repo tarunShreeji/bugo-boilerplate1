@@ -126,7 +126,7 @@ content:
     text_size: Lead
     block_height: ''
     content_full_width: false
-    color_scheme: ''
+    color_scheme: Light Background Dark Text
   title: What's Inside
   columns:
   - title: Description of services
