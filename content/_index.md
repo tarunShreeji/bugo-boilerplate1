@@ -1,6 +1,6 @@
 ---
-date: 
-title: Home
+date: 2019-05-04T07:00:00+00:00
+title: Bugo
 featured_image:
   title: ''
   image: ''
@@ -203,9 +203,9 @@ tags: []
 layout: landing-page
 description: ''
 page_meta:
-  meta_title: ''
+  meta_title: Bugo. Full-Featured Static Site Framework
   meta_keywords: ''
-  meta_description: ''
+  meta_description: Build low-maintenance, secure, high performance websites.
 slug: ''
 aliases: []
 show_sidebar: false
