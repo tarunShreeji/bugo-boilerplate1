@@ -15,6 +15,18 @@ layout_options:
   footer_style: Default
 sidebar_widgets:
   widgets:
+  - template: widget-search-form
+    widget_options:
+      text_size: Normal
+      text_alignment: Left
+      block_height: []
+      full_width: true
+      color_scheme: []
+      remove_padding: false
+      content_full_width: false
+      show_title: false
+      remove_margin: false
+    title: Search
   - template: widget-latest-posts
     widget_options:
       text_size: Normal
