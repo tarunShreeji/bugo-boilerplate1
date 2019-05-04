@@ -43,49 +43,6 @@ fields:
   name: block_options
   label: Block Options
   fields:
-  - name: text_size
-    type: select
-    default: Normal
-    config:
-      required: false
-      options:
-      - Normal
-      - Lead
-      - H1
-      - h2
-      - h3
-      - h4
-      - h5
-      - h6
-      - Display 1
-      - Display 2
-      - Display 3
-      - Display 4
-      source:
-        type: simple
-        section: 
-        file: 
-        path: 
-    label: Text Size
-  - name: text_alignment
-    type: select
-    default: Left
-    config:
-      required: false
-      options:
-      - Left
-      - Center
-      - Right
-      source:
-        type: simple
-        section: 
-        file: 
-        path: 
-    label: Text Alignment
-  - name: remove_padding
-    type: boolean
-    label: Remove Padding
-    description: 'Remove padding from the outer block. '
   - type: include
     template: field-block-options
     label: Block Options
