@@ -87,7 +87,7 @@ content:
       title: ''
       image: ''
       caption: ''
-  - title: ADA Friendly Themes
+  - title: Accessible Themes
     content: |-
       ### Accessible Themes
 
