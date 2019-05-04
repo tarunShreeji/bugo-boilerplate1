@@ -1,5 +1,5 @@
 ---
-show_breadcrumbs: false
+show_breadcrumbs: true
 media:
   cloudinary_name: ''
   default_featured_image:
