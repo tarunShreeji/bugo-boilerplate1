@@ -15,15 +15,11 @@
       flex-grow: 0;
       flex-shrink: 0;
       flex-basis: 100%;
+      padding: $global-padding $global-padding 0;
 
       @include media-breakpoint-up(sm){
         flex-basis: 33%;
       }
-
-
-      text-align: center;
-      padding: 0 $global-padding;
-      text-align: left;
 
       &:first-child(){
         padding-left: 0;
@@ -46,6 +42,10 @@
             }
           }
         }
+      }
+
+      .btn {
+        margin-top: $global-margin;
       }
 
       figure {

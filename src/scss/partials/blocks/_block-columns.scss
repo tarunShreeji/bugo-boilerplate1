@@ -68,17 +68,18 @@
         }
 
         @include media-breakpoint-up(lg){
-          flex-basis: 25%;  
+          flex-basis: 33%;  
         }
 
-        &:first-child,
-        &:nth-child(2){
+        // &:first-child,
+        // &:nth-child(2),
+        // &:nth-child(3){
 
-          @include media-breakpoint-up(lg){
-            flex-basis: 50%;
+        //   @include media-breakpoint-up(lg){
+        //     flex-basis: 50%;
           
-          }
-        }
+        //   }
+        // }
 
         @include media-breakpoint-up(xl){
           flex-basis: 0 !important;
