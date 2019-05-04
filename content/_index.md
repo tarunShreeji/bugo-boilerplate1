@@ -19,6 +19,7 @@ content:
     text_size: ''
     block_height: Large
     content_full_width: false
+    color_scheme: Dark Background Secondary Text
   title: Introducing Bugo
   columns:
   - title: Intro Content
@@ -48,6 +49,7 @@ content:
     text_size: ''
     block_height: ''
     content_full_width: true
+    color_scheme: ''
   title: Features
   columns:
   - title: One Click Imports
@@ -124,6 +126,7 @@ content:
     text_size: Lead
     block_height: ''
     content_full_width: false
+    color_scheme: ''
   title: What's Inside
   columns:
   - title: Description of services
@@ -163,6 +166,7 @@ content:
     remove_margin: false
     text_color: ''
     background_color: Light
+    color_scheme: ''
 - template: block-latest-posts
   show_quantity: '3'
   block_options:
@@ -173,6 +177,7 @@ content:
     remove_margin: false
     block_height: ''
     content_full_width: false
+    color_scheme: ''
   title: Latest News
   random: false
   show_summary: true
