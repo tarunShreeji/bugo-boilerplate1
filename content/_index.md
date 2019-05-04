@@ -96,8 +96,10 @@ content:
     background_color: ''
     optional_image: 
   - title: Blazing Fast Site Search
-    content: "### Blazing Searches\n\nBugo uses fuse.js to do site-wide keyword searches.
-      Search results are returned by relevance. "
+    content: |-
+      ### Blazing Searches
+
+      Site searches happen in the browser, so searches are fast. Search results are returned by relevance.
     show_image_above_content: true
     text_color: ''
     background_color: ''
