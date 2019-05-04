@@ -38,7 +38,7 @@ A lot of the magic that is Bugo counts on GitHub repositories. You'll need a Git
 
 You'll need a way to create and edit content on your website, so sign up for an account at [Forestry.io](https://forestry.io "Create an account at forestry.io"). NOTE: you can use you're GitHub account to keep those login and passwords down.
 
-[<span class="btn btn-primary">Get a Forestry.io account.</span>](https://forestry.io "Go to Forestry")
+[<span class="btn btn-secondary">Get a Forestry.io account.</span>](https://forestry.io "Go to Forestry")
 
 ### Media Library
 
@@ -46,7 +46,7 @@ There are a couple choices for setting up your media library. You images can be 
 
 The advantage over using cloudinary.com is their transformations. Bugo offers Cloudinary support and the themes can automatically crop and size you're images. If you don't have the resources or time to crop images this is the way to go for sure.
 
-[<span class="btn btn-primary">Get a Cloudinary.com account.</span>](https://cloudinary.com "Go to Cloudinary.com")
+[<span class="btn btn-secondary">Get a Cloudinary.com account.</span>](https://cloudinary.com "Go to Cloudinary.com")
 
 ### Hosting
 
