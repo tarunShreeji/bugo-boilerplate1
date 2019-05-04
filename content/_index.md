@@ -166,7 +166,7 @@ content:
     remove_margin: false
     text_color: ''
     background_color: Light
-    color_scheme: ''
+    color_scheme: Light Background Dark Text
 - template: block-latest-posts
   show_quantity: '3'
   block_options:
