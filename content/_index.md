@@ -191,7 +191,7 @@ content:
     content_full_width: false
     color_scheme: Secondary Background Primary Text
     text_size: ''
-    text_alignment: Center
+    text_alignment: Left
     remove_padding: false
   title: Latest News
   random: false
