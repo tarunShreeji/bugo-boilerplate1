@@ -175,7 +175,7 @@ content:
     text_color: Primary
     show_title: false
     remove_margin: false
-    block_height: ''
+    block_height: Small
     content_full_width: false
     color_scheme: Secondary Background Primary Text
   title: Latest News
