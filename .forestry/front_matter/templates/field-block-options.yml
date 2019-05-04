@@ -33,11 +33,6 @@ fields:
 - type: boolean
   name: remove_margin
   label: Remove Margin
-- type: include
-  template: field-colors
-  label: Color Options
-  name: color_options
-  description: ''
 - name: color_scheme
   type: select
   default: []
