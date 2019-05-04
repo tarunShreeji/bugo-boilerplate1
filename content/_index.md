@@ -24,9 +24,12 @@ content:
   columns:
   - title: Intro Content
     show_image_above_content: true
-    content: "![Bugo Logo](/assets/uploads/bugo-logo-200.svg \"Bugo Logo\")\n\n##
-      Full-Featured Static Site Framework\n\nBuild low-maintenance, secure, high performance
-      websites. "
+    content: |-
+      ![Bugo Logo](/assets/uploads/bugo-logo-200.svg "Bugo Logo")
+
+      # Full-Featured Static Site Framework
+
+      Build low-maintenance, secure, high performance websites.
     optional_image:
       title: ''
       image: ''
@@ -86,7 +89,7 @@ content:
       caption: ''
   - title: ADA Friendly Themes
     content: |-
-      ## ADA Friendly Themes
+      ### ADA Friendly Themes
 
       We've made every effort to make sure our themes comply with AA standards as much as possible. From theme colors to under the hood we provide you with a great foundation for compliancy.
     text_color: ''
