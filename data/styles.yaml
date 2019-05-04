@@ -11,20 +11,5 @@ secondary_font:
   font_weights: []
   font_italics: []
 theme_colors:
-- Gray 900
-- Gray 800
-- Gray 700
-- Gray 600
-- Gray 500
-- Gray 400
-- Gray 300
-- Gray 200
-- Gray 100
-- Primary
-- Secondary
-- Accent
-- Light
-- Dark
-- Black
-- White
+- Black Background White Text
 custom_css: ''
