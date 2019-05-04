@@ -38,3 +38,15 @@ fields:
   label: Color Options
   name: color_options
   description: ''
+- name: color_scheme
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: site-styles
+      file: data/styles.yaml
+      path: theme_colors
+  label: Color Scheme
