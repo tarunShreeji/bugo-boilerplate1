@@ -10,24 +10,24 @@ $gray-600: #143876 !default;
 $gray-700: #182C4F !default;
 $gray-800: #161F2F !default;
 $gray-900: #0E1014 !default;
-$black:    #182C4F !default;
+$black:    #000000 !default;
 
-$grays: () !default;
-// stylelint-disable-next-line scss/dollar-variable-default
-$grays: map-merge(
-  (
-    "100": $gray-100,
-    "200": $gray-200,
-    "300": $gray-300,
-    "400": $gray-400,
-    "500": $gray-500,
-    "600": $gray-600,
-    "700": $gray-700,
-    "800": $gray-800,
-    "900": $gray-900
-  ),
-  $grays
-);
+// $grays: () !default;
+// // stylelint-disable-next-line scss/dollar-variable-default
+// $grays: map-merge(
+//   (
+//     "100": $gray-100,
+//     "200": $gray-200,
+//     "300": $gray-300,
+//     "400": $gray-400,
+//     "500": $gray-500,
+//     "600": $gray-600,
+//     "700": $gray-700,
+//     "800": $gray-800,
+//     "900": $gray-900
+//   ),
+//   $grays
+// );
 
 $blue:    c !default;
 $indigo:  #6610f2 !default;
@@ -59,17 +59,15 @@ $colors: () !default;
 //     "gray-dark":  $gray-800
 //   ),
 //   $colors
-// );
-
-$primary:       #0942A3 !default;
-$secondary:     #3A88E2 !default;
+$primary:       #034562 !default;
+$secondary:     #00CFFF !default;
 $accent:        adjust-hue( $primary, 180% ) !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         lighten($secondary,20%) !default !default;
-$dark:          darken($secondary,50%) !default !default;
+$light:         #B3EFFF !default;
+$dark:          #1C304A !default;
 
 $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -108,3 +106,209 @@ $yiq-contrasted-threshold:  150 !default;
 // Customize the light and dark text colors for use in our YIQ color contrast function.
 $yiq-text-dark:             $gray-900 !default;
 $yiq-text-light:            $white !default;
+
+
+// Black Backgrounds
+.black-background-white-text {
+  background-color: $black !important;
+  color: $white !important;
+  h1,h2,h3,h4,h5,h6 {
+    color: $white;
+    a {
+      color: $white;
+    }
+  }
+}
+
+.black-background-light-text {
+  background-color: $black !important;
+  color: $light !important;
+  h1,h2,h3,h4,h5,h6 {
+    color: $white;
+    a {
+      color: $white;
+    }
+  }
+}
+
+.black-background-secondary-text {
+  background-color: $black !important;
+  color: $secondary !important;
+  h1,h2,h3,h4,h5,h6 {
+    color: $secondary;
+    a {
+      color: $secondary;
+    }
+  }
+}
+
+// Dark Backgrounda
+.dark-background-white-text {
+  background-color: $dark !important;
+  color: $white !important;
+  h1,h2,h3,h4,h5,h6 {
+    color: $white;
+    a {
+      color: $white;
+    }
+  }
+}
+
+.dark-background-light-text {
+  background-color: $dark !important;
+  color: $light !important;
+  h1,h2,h3,h4,h5,h6 {
+    color: $white;
+    a {
+      color: $white;
+    }
+  }
+}
+
+.dark-background-secondary-text {
+  background-color: $dark !important;
+  color: $secondary !important;
+  h1,h2,h3,h4,h5,h6 {
+    color: $secondary;
+    a {
+      color: $secondary;
+    }
+  }
+}
+
+
+// Primary Background
+.primary-background-white-text {
+  background-color: $primary !important;
+  color: $white !important;
+  h1,h2,h3,h4,h5,h6 {
+    color: $white;
+    a {
+      color: $white;
+    }
+  }
+}
+
+.primary-background-light-text {
+  background-color: $primary !important;
+  color: $light !important;
+  h1,h2,h3,h4,h5,h6 {
+    color: $light;
+    a {
+      color: $light;
+    }
+  }
+}
+
+.primary-background-secondary-text {
+  background-color: $black !important;
+  color: $secondary !important;
+  h1,h2,h3,h4,h5,h6 {
+    color: $secondary;
+    a {
+      color: $secondary;
+    }
+  }
+}
+
+// Secondary Backgrounds
+.secondary-background-black-text {
+  background-color: $secondary !important;
+  color: $black !important;
+  h1,h2,h3,h4,h5,h6 {
+    color: $black;
+    a {
+      color: $black;
+    }
+  }
+}
+
+.secondary-background-dark-text {
+  background-color: $secondary !important;
+  color: $dark !important;
+  h1,h2,h3,h4,h5,h6 {
+    color: $dark;
+    a {
+      color: $dark;
+    }
+  }
+}
+
+.secondary-background-primary-text {
+  background-color: $secondary !important;
+  color: $primary !important;
+  h1,h2,h3,h4,h5,h6 {
+    color: $primary;
+    a {
+      color: $primary;
+    }
+  }
+}
+
+// light Backgrounds
+.light-background-black-text {
+  background-color: $light !important;
+  color: $black !important;
+  h1,h2,h3,h4,h5,h6 {
+    color: $black;
+    a {
+      color: $black;
+    }
+  }
+}
+
+.light-background-dark-text {
+  background-color: $light !important;
+  color: $dark !important;
+  h1,h2,h3,h4,h5,h6 {
+    color: $dark;
+    a {
+      color: $dark;
+    }
+  }
+}
+
+.light-background-primary-text {
+  background-color: $light !important;
+  color: $primary !important;
+  h1,h2,h3,h4,h5,h6 {
+    color: $primary;
+    a {
+      color: $primary;
+    }
+  }
+}
+
+// white Backgrounds
+.white-background-black-text {
+  background-color: $white !important;
+  color: $black !important;
+  h1,h2,h3,h4,h5,h6 {
+    color: $black;
+    a {
+      color: $black;
+    }
+  }
+}
+
+.white-background-dark-text {
+  background-color: $white !important;
+  color: $dark !important;
+  h1,h2,h3,h4,h5,h6 {
+    color: $dark;
+    a {
+      color: $dark;
+    }
+  }
+}
+
+.white-background-primary-text {
+  background-color: $white !important;
+  color: $primary !important;
+  h1,h2,h3,h4,h5,h6 {
+    color: $primary;
+    a {
+      color: $primary;
+    }
+  }
+}

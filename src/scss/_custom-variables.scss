@@ -35,7 +35,7 @@ $container-max-widths: (
 
 $global-padding: 2rem;
 $global-margin: 2rem;
-$auto-contrast-text-to-background: true;
+$auto-contrast-text-to-background: false;
 
 /**
  *
@@ -146,4 +146,3 @@ $footer-link-color: $white;
 $footer-logo-fill: theme-color(primary); //if svg and set to fill currentColor
 $footer-logo-width: 200px;
 $footer-nav-title: "Team";
-
