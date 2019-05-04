@@ -108,8 +108,10 @@ content:
     text_color: ''
     background_color: ''
     optional_image: 
-  - title: '2'
-    content: asdfasdf asdfasd
+  - title: Super Fast Websites
+    content: Static site generators render HTML files, so there's not waiting for
+      databases or scripts to run. Serve these files on a CDN and you see speeds you
+      used to have to throw a lot of money into to get.
     text_color: ''
     background_color: ''
     optional_image: 
