@@ -220,27 +220,27 @@ content:
       ### Two columns…
 
       First art world history' from about 1908 through large variety.
-    color_scheme: Light Background Dark Text
+    color_scheme: Secondary Background Black Text
   - title: Three Columns
-    color_scheme: Light Background Black Text
+    color_scheme: Light Background Primary Text
     content: |-
       ### Three Columns…
 
       Collage Institute for Karl Schnaase's work shortly before he left for the sexual.
   - title: Four Columns
-    color_scheme: Secondary Background Primary Text
+    color_scheme: Secondary Background Dark Text
     content: |-
       ### Four Columns…
 
       On understanding of support, and primitive brothel scene with iconography, and accustomed.
   - title: Five Columns
-    color_scheme: Secondary Background Dark Text
+    color_scheme: Dark Background White Text
     content: |-
       ### Five Columns…
 
       Kunst des Altertums History of the light which he left.
   - title: Six Columns
-    color_scheme: Secondary Background Black Text
+    color_scheme: Black Background White Text
     content: |-
       ### Six Columns…
 
