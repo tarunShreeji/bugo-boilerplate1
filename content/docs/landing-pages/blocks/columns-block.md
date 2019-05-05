@@ -167,27 +167,27 @@ content:
       ### One column…
 
       Been sexual mores of art, establishment of different nations,.
-    color_scheme: Secondary Background Primary Text
+    color_scheme: Black Background White Text
   - title: Two Column
     content: |-
       ### Two columns…
 
       Art Across Time, and decorative arts the charismatic artist winckelmann's work shortly.
-    color_scheme: Light Background Primary Text
+    color_scheme: Light Background Dark Text
   - title: Three Columns
-    color_scheme: White Background Primary Text
+    color_scheme: Black Background White Text
     content: |-
       ### Three Columns…
 
       Even Seurat and his painting Les Demoiselles d'Avignon 1907, Picasso made his first historical.
   - title: Four Columns
-    color_scheme: White Background Primary Text
+    color_scheme: Light Background Dark Text
     content: |-
       ### Four Columns…
 
       1920S viewpoint of philosophical speculation was a national style with those of American art.
   - title: Five Columns
-    color_scheme: White Background Primary Text
+    color_scheme: Black Background White Text
     content: |-
       ### Five Columns…
 
