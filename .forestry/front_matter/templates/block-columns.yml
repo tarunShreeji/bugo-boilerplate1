@@ -27,10 +27,18 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
-  - type: include
-    template: field-colors
-    name: colors
-    label: Colors
+  - name: color_scheme
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: documents
+        section: site-styles
+        file: data/styles.yaml
+        path: theme_colors
+    label: Color Scheme
 - type: field_group
   name: background_image
   label: Background Image
