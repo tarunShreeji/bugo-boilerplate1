@@ -5,42 +5,36 @@ featured_image:
   title: ''
   image: ''
   caption: ''
-title: Introducing Bugo
+title: Accounts
 date: 2019-04-30T07:00:00+00:00
 slug: ''
 aliases: []
 page_meta:
-  meta_title: Introducing Bugo
+  meta_title: Necessary Accounts
   meta_keywords: ''
-  meta_description: Bugo is a full-featured framework for building static websites.
+  meta_description: You\'ll need some accounts to get started.
 video_gallery:
   videos: []
-categories:
-- Releases
+categories: []
 tags: []
 weight: 1
-menu: []
-
----
-Bugo is a framework designed to make developing full-featured websites using a JAMstack. By combining a few services and a development platform, Bugo does away with all the databases, security issues, and plugin updates. Freeing you up to have fun again and build an awesome website.
-
-## Accounts
+--- 
 
 [JAMstack](https://jamstack.org "Learn more about JAMstack") is a new way of building websites. Websites using this method have better performance, higher security, and have a better developer experience. Bugo uses a JAMStack approach to developing and deploying websites, you'll need to have a few accounts before you get started. Read below to determine which accounts you'll need.
 
-### GitHub
+## GitHub
 
 A lot of the magic that is Bugo counts on GitHub repositories. You'll need a GitHub account to get started. Fortunately you can use your GitHub account to create most of the other accounts you'll need. If you have one already, great. If not, head on over to GitHub and get one. We'll wait.
 
 [<span class="btn btn-secondary">Get a GitHub.com account.</span>](https://github.com "Go to GitHub")
 
-### Content Management System
+## Content Management System
 
 You'll need a way to create and edit content on your website, so sign up for an account at [Forestry.io](https://forestry.io "Create an account at forestry.io"). NOTE: you can use you're GitHub account to keep those login and passwords down.
 
 [<span class="btn btn-secondary">Get a Forestry.io account.</span>](https://forestry.io "Go to Forestry")
 
-### Media Library
+## Media Library
 
 There are a couple choices for setting up your media library. You images can be stored along with our website's code, or you can use a CDN. Bugo supports [Cloudinary.com](https://cloudinary.com).
 
@@ -48,7 +42,7 @@ The advantage over using cloudinary.com is their transformations. Bugo offers Cl
 
 [<span class="btn btn-secondary">Get a Cloudinary.com account.</span>](https://cloudinary.com "Go to Cloudinary.com")
 
-### Hosting
+## Hosting
 
 You've got a lot of choices when it comes to hosting.
 

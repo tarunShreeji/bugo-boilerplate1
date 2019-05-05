@@ -22,7 +22,7 @@ content:
     block_height: Auto
     full_width: true
     color_scheme: Light Background Primary Text
-    remove_padding: false
+    remove_padding: true
     content_full_width: false
     show_title: false
     remove_margin: false
@@ -80,7 +80,7 @@ content:
     block_height: []
     full_width: true
     color_scheme: []
-    remove_padding: false
+    remove_padding: true
     content_full_width: false
     show_title: false
     remove_margin: false
@@ -99,6 +99,97 @@ content:
     title: ''
     image: ''
     caption: ''
+- template: block-columns
+  block_options:
+    text_size: Normal
+    text_alignment: Left
+    block_height: []
+    full_width: true
+    color_scheme: []
+    remove_padding: true
+    content_full_width: false
+    show_title: false
+    remove_margin: false
+  title: 4 Columns
+  columns:
+  - title: One Column
+    content: "### One column…"
+    color_scheme: Secondary Background Primary Text
+  - title: Two Column
+    content: "### Two columns…"
+    color_scheme: Light Background Primary Text
+  - title: Three Columns
+    color_scheme: White Background Primary Text
+    content: "### Four Columns…"
+  - title: Four Columns
+    color_scheme: White Background Primary Text
+    content: "### Three Columns…"
+- template: block-columns
+  block_options:
+    text_size: Normal
+    text_alignment: Left
+    block_height: []
+    full_width: true
+    color_scheme: []
+    remove_padding: true
+    content_full_width: false
+    show_title: false
+    remove_margin: false
+  title: 5 Columns
+  columns:
+  - title: One Column
+    content: "### One column…"
+    color_scheme: Secondary Background Primary Text
+  - title: Two Column
+    content: "### Two columns…"
+    color_scheme: Light Background Primary Text
+  - title: Three Columns
+    color_scheme: White Background Primary Text
+    content: "### Four Columns…"
+  - title: Four Columns
+    color_scheme: White Background Primary Text
+    content: "### Four Columns…"
+  - title: Five Columns
+    color_scheme: White Background Primary Text
+    content: "### Five Columns…"
+- template: block-columns
+  block_options:
+    text_size: Normal
+    text_alignment: Left
+    block_height: []
+    full_width: true
+    color_scheme: []
+    remove_padding: true
+    content_full_width: false
+    show_title: false
+    remove_margin: false
+  title: 6 Columns
+  columns:
+  - title: One Column
+    content: "### One column…"
+    color_scheme: Secondary Background Primary Text
+  - title: Two Column
+    content: "### Two columns…"
+    color_scheme: Light Background Primary Text
+  - title: Three Columns
+    color_scheme: White Background Primary Text
+    content: "### Four Columns…"
+  - title: Four Columns
+    color_scheme: White Background Primary Text
+    content: "### Four Columns…"
+  - title: Five Columns
+    color_scheme: White Background Primary Text
+    content: "### Five Columns…"
+  - title: Six Columns
+    color_scheme: White Background Primary Text
+    content: "### Six Columns…"
+  background_image:
+    title: ''
+    image: ''
+    caption: ''
+video_gallery:
+  videos: []
+menu: []
 video_gallery:
   videos: []
 menu: []

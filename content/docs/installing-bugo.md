@@ -5,12 +5,12 @@ featured_image:
   title: ''
   image: ''
   caption: ''
-title: Installing Bugo
+title: Installing Bugo For Developers
 date: 2019-04-30T07:00:00+00:00
 slug: ''
 aliases: []
 page_meta:
-  meta_title: Installing Bugo
+  meta_title: Installing Bugo For Developers
   meta_keywords: ''
   meta_description: Learn to install the Bugo framework on your computer.
 video_gallery:
