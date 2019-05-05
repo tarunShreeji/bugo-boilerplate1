@@ -1,5 +1,5 @@
 ---
-date: 2019-05-04T07:00:00+00:00
+date: 2019-05-04T07:00:00.000+00:00
 title: Bugo
 featured_image:
   title: ''
@@ -13,7 +13,7 @@ content:
     background_color: Dark
     text_color: Primary
     show_title: false
-    remove_margin: false
+    remove_margin: true
     text_alignment: Center
     remove_padding: true
     text_size: ''
