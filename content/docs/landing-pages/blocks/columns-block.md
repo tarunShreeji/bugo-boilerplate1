@@ -60,7 +60,7 @@ content:
       Columns can be have customized color schemes.
     text_color: ''
     background_color: ''
-    color_scheme: ''
+    color_scheme: Light Background Dark Text
   - title: Color scheme 2
     content: |-
       ### This is another color scheme
@@ -68,7 +68,7 @@ content:
       There are 16 to choose from.
     text_color: ''
     background_color: ''
-    color_scheme: ''
+    color_scheme: Dark Background Light Text
   background_image:
     title: ''
     image: ''
