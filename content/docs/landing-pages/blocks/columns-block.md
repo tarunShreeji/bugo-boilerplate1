@@ -96,7 +96,7 @@ content:
     content: |-
       ### Two columns…
 
-      High-Philosophical important modern art, establishment of Judgment in the high-philosophical discourse.
+      Assumptions Pablo Picasso made people select the view that introduced the course of.
     color_scheme: Light Background Primary Text
   - title: Three Columns
     color_scheme: White Background Primary Text
