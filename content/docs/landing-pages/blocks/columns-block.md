@@ -39,6 +39,27 @@ content:
     title: ''
     image: ''
     caption: ''
+- template: block-columns
+  block_options:
+    text_size: Normal
+    text_alignment: Left
+    block_height: []
+    full_width: true
+    color_scheme: []
+    remove_padding: false
+    content_full_width: false
+    show_title: false
+    remove_margin: false
+  title: Two Columns Block Demo
+  columns:
+  - title: Column 1
+    content: Columns can be have customized color schemes.
+    text_color: ''
+    background_color: ''
+  background_image:
+    title: ''
+    image: ''
+    caption: ''
 video_gallery:
   videos: []
 menu: []
