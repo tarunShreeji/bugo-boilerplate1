@@ -66,14 +66,6 @@ googleanalytics: ''
 enableInlineShortcodes: true
 menu:
   main:
-  - identifier: introducing-bugo
-    title: Introducing Bugo
-    name: Introducing Bugo
-    url: "/docs/introducing-bugo/"
-    weight: 1
-    pre: ''
-    post: ''
-    parent: docs
   - identifier: themes
     title: Themes
     name: Themes
