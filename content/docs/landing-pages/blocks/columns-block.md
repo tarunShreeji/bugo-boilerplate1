@@ -26,11 +26,13 @@ content:
     content_full_width: false
     show_title: false
     remove_margin: false
-  title: Instructions
+  title: Single Column
   columns:
-  - title: Single Column
-    content: "## This is a single column block. \n\nSingle column blocks are great
-      for emphasizing a single point."
+  - title: Content
+    content: |-
+      ## This is a one column content block.
+
+      Single column blocks are great for making a single point!
     text_color: ''
     background_color: ''
   background_image:
