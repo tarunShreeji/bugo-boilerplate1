@@ -6,7 +6,7 @@ featured_image:
   image: ''
   caption: ''
 title: Slideshow
-date: 
+date: 2019-05-05T07:00:00+00:00
 slug: slideshow
 aliases: []
 page_meta:
