@@ -134,13 +134,13 @@ content:
       Papier art history in the entry of different textures, surfaces.
     color_scheme: Light Background Primary Text
   - title: Three Columns
-    color_scheme: White Background Primary Text
+    color_scheme: Dark Background White Text
     content: |-
       ### Three Columns…
 
       A brill, Ernest Jones, Sándor Ferenczi Though the coloristic innovations of art history.
   - title: Four Columns
-    color_scheme: White Background Primary Text
+    color_scheme: " Black Background Secondary Text"
     content: |-
       ### Four Columns…
 
