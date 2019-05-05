@@ -52,8 +52,11 @@ content:
     remove_margin: false
   title: Two Columns Block Demo
   columns:
-  - title: Column 1
-    content: Columns can be have customized color schemes.
+  - title: Color Schemes
+    content: |-
+      ### Color Schemes
+
+      Columns can be have customized color schemes.
     text_color: ''
     background_color: ''
   background_image:
