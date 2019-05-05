@@ -44,7 +44,7 @@ content:
   block_options:
     full_width: true
     show_title: false
-    remove_margin: false
+    remove_margin: true
     text_color: Primary
     background_color: Gray 500
     text_alignment: Left
@@ -128,7 +128,7 @@ content:
     full_width: true
     background_color: Light
     show_title: true
-    remove_margin: false
+    remove_margin: true
     text_color: Primary
     text_alignment: Center
     remove_padding: true
