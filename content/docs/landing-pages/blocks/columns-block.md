@@ -19,9 +19,9 @@ content:
   block_options:
     text_size: Normal
     text_alignment: Left
-    block_height: []
+    block_height: Auto
     full_width: true
-    color_scheme: []
+    color_scheme: Light Background Primary Text
     remove_padding: false
     content_full_width: false
     show_title: false
@@ -35,6 +35,7 @@ content:
       Single column blocks are great for making a single point!
     text_color: ''
     background_color: ''
+    color_scheme: ''
   background_image:
     title: ''
     image: ''
@@ -59,6 +60,7 @@ content:
       Columns can be have customized color schemes.
     text_color: ''
     background_color: ''
+    color_scheme: ''
   - title: Color scheme 2
     content: |-
       ### This is another color scheme
@@ -66,6 +68,7 @@ content:
       There are 16 to choose from.
     text_color: ''
     background_color: ''
+    color_scheme: ''
   background_image:
     title: ''
     image: ''
