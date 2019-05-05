@@ -176,7 +176,10 @@ content:
     color_scheme: Light Background Primary Text
   - title: Three Columns
     color_scheme: White Background Primary Text
-    content: "### Four Columns…"
+    content: |-
+      ### Three Columns…
+
+      Even Seurat and his painting Les Demoiselles d'Avignon 1907, Picasso made his first historical.
   - title: Four Columns
     color_scheme: White Background Primary Text
     content: |-
