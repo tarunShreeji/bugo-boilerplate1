@@ -214,33 +214,33 @@ content:
       ### One column…
 
       Iconography—With first cubist paintings to be the inside The strands.
-    color_scheme: Secondary Background Primary Text
+    color_scheme: Light Background Primary Text
   - title: Two Column
     content: |-
       ### Two columns…
 
       First art world history' from about 1908 through large variety.
-    color_scheme: Light Background Primary Text
+    color_scheme: Light Background Dark Text
   - title: Three Columns
-    color_scheme: White Background Primary Text
+    color_scheme: Light Background Black Text
     content: |-
       ### Three Columns…
 
       Collage Institute for Karl Schnaase's work shortly before he left for the sexual.
   - title: Four Columns
-    color_scheme: White Background Primary Text
+    color_scheme: Secondary Background Primary Text
     content: |-
       ### Four Columns…
 
       On understanding of support, and primitive brothel scene with iconography, and accustomed.
   - title: Five Columns
-    color_scheme: White Background Primary Text
+    color_scheme: Secondary Background Dark Text
     content: |-
       ### Five Columns…
 
       Kunst des Altertums History of the light which he left.
   - title: Six Columns
-    color_scheme: White Background Primary Text
+    color_scheme: Secondary Background Black Text
     content: |-
       ### Six Columns…
 
