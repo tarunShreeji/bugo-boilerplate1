@@ -37,7 +37,7 @@ fields:
     label: Videos
     template: field-youtube-gallery
 pages:
+- content/docs/landing-pages/blocks/slideshow.md
 - content/docs/landing-pages/blocks/columns-block.md
 - content/docs/landing-pages/slideshow.md
-- content/docs/landing-pages/blocks/slideshow.md
 - content/_index.md
