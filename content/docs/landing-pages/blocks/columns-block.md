@@ -88,12 +88,12 @@ content:
   columns:
   - title: One Column
     content: "### One column…"
-    color_scheme: White Background Primary Text
+    color_scheme: Secondary Background Black Text
   - title: Two Column
     content: "### Two columns…"
-    color_scheme: White Background Dark Text
+    color_scheme: Secondary Background Dark Text
   - title: Three Columns
-    color_scheme: White  Background Black Text
+    color_scheme: Secondary Background Primary Text
     content: "### Three Columns…"
   background_image:
     title: ''
