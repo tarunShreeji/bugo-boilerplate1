@@ -19,10 +19,6 @@ fields:
   name: block_options
   label: Block Options
   fields:
-  - type: include
-    template: field-block-options
-    label: Block Options
-    name: block_options
   - name: image_ratio
     type: select
     default: []
@@ -39,3 +35,7 @@ fields:
         file: 
         path: 
     label: Image Ratio
+  - type: include
+    template: field-block-options
+    label: Block Options
+    name: block_options
