@@ -187,7 +187,7 @@ content:
 
       1920S viewpoint of philosophical speculation was a national style with those of American art.
   - title: Five Columns
-    color_scheme: Black Background White Text
+    color_scheme: Dark Background White Text
     content: |-
       ### Five Columns…
 
