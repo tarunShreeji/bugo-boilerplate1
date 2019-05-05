@@ -100,7 +100,10 @@ content:
     color_scheme: Light Background Primary Text
   - title: Three Columns
     color_scheme: White Background Primary Text
-    content: "### Three Columns…"
+    content: |-
+      ### Three Columns…
+
+      Under symbolism, whether derived from the history of German art historians iconography—with roots.
   background_image:
     title: ''
     image: ''
