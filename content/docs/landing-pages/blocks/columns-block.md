@@ -6,14 +6,13 @@ featured_image:
   image: ''
   caption: ''
 title: Columns Block
-date: 2019-05-05T07:00:00+00:00
+date: 2019-05-05T07:00:00.000+00:00
 slug: columns
 aliases: []
 page_meta:
   meta_title: Columns - Bugo Landing Page Blocks
   meta_keywords: ''
   meta_description: Learn to use the column block on a Bugo landing page.
-menu: []
 show_sidebar: false
 content:
 - template: block-columns
@@ -29,11 +28,9 @@ content:
     remove_margin: false
   title: Instructions
   columns:
-  - title: Content
-    content: 'Derived Painters, Sculptors, and international adoption—would be traced
-      back to interrogate. That the 1920s synthetic cubism is a group of. Criticizes
-      tensions, mounted a movement these factors established the appearance of nature
-      can. '
+  - title: Single Column
+    content: "## This is a single column block. \n\nSingle column blocks are great
+      for emphasizing a single point."
     text_color: ''
     background_color: ''
   background_image:
@@ -42,5 +39,7 @@ content:
     caption: ''
 video_gallery:
   videos: []
+menu: []
 
 ---
+Derived Painters, Sculptors, and international adoption—would be traced back to interrogate. That the 1920s synthetic cubism is a group of. Criticizes tensions, mounted a movement these factors established the appearance of nature can.
