@@ -44,10 +44,10 @@ content:
   block_options:
     text_size: Normal
     text_alignment: Left
-    block_height: []
+    block_height: Auto
     full_width: true
-    color_scheme: []
-    remove_padding: false
+    color_scheme: White Background Primary Text
+    remove_padding: true
     content_full_width: false
     show_title: false
     remove_margin: false
