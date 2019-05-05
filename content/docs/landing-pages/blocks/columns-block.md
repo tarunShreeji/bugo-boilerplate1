@@ -46,7 +46,7 @@ content:
     text_alignment: Left
     block_height: Auto
     full_width: true
-    color_scheme: White Background Primary Text
+    color_scheme: ''
     remove_padding: true
     content_full_width: false
     show_title: false
