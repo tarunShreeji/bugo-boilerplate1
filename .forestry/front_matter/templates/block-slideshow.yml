@@ -23,3 +23,19 @@ fields:
     template: field-block-options
     label: Block Options
     name: block_options
+  - name: image_ratio
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - '1:1'
+      - '4:3'
+      - '3:4'
+      - '16:9'
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Image Ratio
