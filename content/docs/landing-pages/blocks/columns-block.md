@@ -94,7 +94,7 @@ content:
     color_scheme: White Background Dark Text
   - title: Three Columns
     color_scheme: White  Background Black Text
-    content: Three Columns…
+    content: "### Three Columns…"
   background_image:
     title: ''
     image: ''
