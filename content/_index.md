@@ -186,7 +186,7 @@ content:
     background_color: Secondary
     text_color: Primary
     show_title: false
-    remove_margin: false
+    remove_margin: true
     block_height: Small
     content_full_width: false
     color_scheme: Secondary Background Primary Text
