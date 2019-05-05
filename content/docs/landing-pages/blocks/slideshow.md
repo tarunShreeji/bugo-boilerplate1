@@ -41,6 +41,23 @@ content:
     title: ''
     image: ''
     caption: ''
+- template: block-slideshow
+  block_options:
+    text_size: Normal
+    text_alignment: Left
+    block_height: []
+    full_width: true
+    color_scheme: []
+    remove_padding: false
+    content_full_width: false
+    show_title: false
+    remove_margin: false
+  title: Demo
+  slides:
+  - template: data-image
+    image: "/assets/uploads/oakie-1076592-unsplash.jpg"
+    title: ''
+    caption: ''
 video_gallery:
   videos: []
 draft: true
