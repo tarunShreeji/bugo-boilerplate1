@@ -42,6 +42,5 @@ content:
     caption: ''
 video_gallery:
   videos: []
-draft: true
 
 ---

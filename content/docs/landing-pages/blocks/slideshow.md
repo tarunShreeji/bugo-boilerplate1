@@ -70,6 +70,5 @@ content:
     title: Pike Place Market Sign
 video_gallery:
   videos: []
-draft: true
 
 ---
