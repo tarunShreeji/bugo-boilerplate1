@@ -172,7 +172,7 @@ content:
     full_width: true
     content_full_width: false
     show_title: false
-    remove_margin: false
+    remove_margin: true
     text_color: ''
     background_color: Light
     color_scheme: Light Background Dark Text
