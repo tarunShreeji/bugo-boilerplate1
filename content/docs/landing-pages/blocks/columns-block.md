@@ -73,6 +73,32 @@ content:
     title: ''
     image: ''
     caption: ''
+- template: block-columns
+  block_options:
+    text_size: Normal
+    text_alignment: Left
+    block_height: []
+    full_width: true
+    color_scheme: []
+    remove_padding: false
+    content_full_width: false
+    show_title: false
+    remove_margin: false
+  title: 3 Columns
+  columns:
+  - title: One Column
+    content: "### One column…"
+    color_scheme: White Background Primary Text
+  - title: Two Column
+    content: "### Two columns…"
+    color_scheme: White Background Dark Text
+  - title: Three Columns
+    color_scheme: White  Background Black Text
+    content: Three Columns…
+  background_image:
+    title: ''
+    image: ''
+    caption: ''
 video_gallery:
   videos: []
 menu: []
