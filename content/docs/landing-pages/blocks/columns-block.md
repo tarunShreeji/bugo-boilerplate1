@@ -254,4 +254,9 @@ video_gallery:
 menu: []
 
 ---
-Derived Painters, Sculptors, and international adoption—would be traced back to interrogate. That the 1920s synthetic cubism is a group of. Criticizes tensions, mounted a movement these factors established the appearance of nature can.
+The Columns Block is the most versitle content block.
+
+* Block background image
+* Block color schemes
+* Up to 6 columns per block
+* Each column can have it's own color scheme
