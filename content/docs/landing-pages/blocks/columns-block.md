@@ -93,7 +93,10 @@ content:
       High-Philosophical important modern art, establishment of Judgment in the high-philosophical discourse.
     color_scheme: Secondary Background Primary Text
   - title: Two Column
-    content: "### Two columns…"
+    content: |-
+      ### Two columns…
+
+      High-Philosophical important modern art, establishment of Judgment in the high-philosophical discourse.
     color_scheme: Light Background Primary Text
   - title: Three Columns
     color_scheme: White Background Primary Text
