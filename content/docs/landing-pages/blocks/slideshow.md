@@ -45,12 +45,12 @@ content:
   block_options:
     text_size: Normal
     text_alignment: Left
-    block_height: []
-    full_width: true
-    color_scheme: []
+    block_height: Auto
+    full_width: false
+    color_scheme: Dark Background Light Text
     remove_padding: false
     content_full_width: false
-    show_title: false
+    show_title: true
     remove_margin: false
   title: Demo
   slides:
