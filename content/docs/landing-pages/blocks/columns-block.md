@@ -136,13 +136,13 @@ content:
   - title: Three Columns
     color_scheme: White Background Primary Text
     content: |-
-      ### Four Columns…
+      ### Three Columns…
 
       A brill, Ernest Jones, Sándor Ferenczi Though the coloristic innovations of art history.
   - title: Four Columns
     color_scheme: White Background Primary Text
     content: |-
-      ### Three Columns…
+      ### Four Columns…
 
       Settled of the English-speaking world, and in 1765 under Saxl's auspices, this work.
   background_image:
