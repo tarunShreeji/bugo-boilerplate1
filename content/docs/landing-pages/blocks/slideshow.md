@@ -52,6 +52,7 @@ content:
     content_full_width: false
     show_title: true
     remove_margin: false
+    image_ratio: '4:3'
   title: Demo
   slides:
   - template: data-image
