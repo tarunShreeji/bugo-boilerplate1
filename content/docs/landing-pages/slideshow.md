@@ -15,27 +15,6 @@ page_meta:
   meta_description: ''
 show_sidebar: false
 content:
-- template: block-columns
-  block_options:
-    text_size: Normal
-    text_alignment: Left
-    block_height: []
-    full_width: true
-    color_scheme: []
-    remove_padding: false
-    content_full_width: false
-    show_title: false
-    remove_margin: false
-  title: Instructions
-  columns:
-  - content: ''
-    title: Content
-    text_color: ''
-    background_color: ''
-  background_image:
-    title: ''
-    image: ''
-    caption: ''
 - template: block-slideshow
   block_options:
     text_size: Normal
