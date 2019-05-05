@@ -28,5 +28,3 @@ fields:
   template: field-taxonomy
 pages:
 - content/sitemap.md
-- content/docs/getting-started/one-click-installs.md
-- content/docs/introducing-bugo.md

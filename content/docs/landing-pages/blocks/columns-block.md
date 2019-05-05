@@ -87,7 +87,10 @@ content:
   title: 3 Columns
   columns:
   - title: One Column
-    content: "### One column…"
+    content: |-
+      ### One column…
+
+      High-Philosophical important modern art, establishment of Judgment in the high-philosophical discourse.
     color_scheme: Secondary Background Primary Text
   - title: Two Column
     content: "### Two columns…"
@@ -124,6 +127,10 @@ content:
   - title: Four Columns
     color_scheme: White Background Primary Text
     content: "### Three Columns…"
+  background_image:
+    title: ''
+    image: ''
+    caption: ''
 - template: block-columns
   block_options:
     text_size: Normal
@@ -152,6 +159,10 @@ content:
   - title: Five Columns
     color_scheme: White Background Primary Text
     content: "### Five Columns…"
+  background_image:
+    title: ''
+    image: ''
+    caption: ''
 - template: block-columns
   block_options:
     text_size: Normal
@@ -187,9 +198,6 @@ content:
     title: ''
     image: ''
     caption: ''
-video_gallery:
-  videos: []
-menu: []
 video_gallery:
   videos: []
 menu: []
