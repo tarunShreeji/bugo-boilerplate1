@@ -89,12 +89,6 @@ hue-6-2: #e6c07b
 .hljs-link {
   text-decoration: underline; }
 
-/*!
- * Bootstrap v4.2.1 (https://getbootstrap.com/)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 /*
 
 SCSS Color Methods for Accessibility
@@ -315,6 +309,12 @@ Methods using calculations from:
  * Footer Variables
  *
  **/
+/*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
 :root {
   --primary: #034562;
   --secondary: #00CFFF;
@@ -8857,10 +8857,9 @@ a.text-gray-900:hover, a.text-gray-900:focus {
     border-color: #b3b3b3; } }
 
 /*!
- * Bugo Base
+ * Bugo Base Styles
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  *
- * Comment out the one's you don't need or are being loaded in priority.scss
  */
 /* 
  * Global Layout styles & custom classes

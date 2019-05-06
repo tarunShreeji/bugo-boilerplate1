@@ -8,23 +8,27 @@
  */
 @import "../../node_modules/highlight.js/styles/atom-one-dark";
 
-/*!
- * Bootstrap v4.2.1 (https://getbootstrap.com/)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-
+// Bootstrap mixins here so Bugo can make use of function and mixins
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/mixins";
 @import 'mixins/contrast';
-@import "custom-variables";
-@import "custom-colors";
-@import "custom-sizes";
-@import "custom-typography";
-@import "custom-components";
-@import "custom-forms";
-@import "custom-layouts";
+
+//Bugo theme variables inserted here to override bootstrap variables
+@import "theme/theme-variables";
+@import "theme/theme-colors";
+@import "theme/theme-sizes";
+@import "theme/theme-typography";
+@import "theme/theme-components";
+@import "theme/theme-forms";
+@import "theme/theme-layouts";
+
+/*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
 @import "bootstrap-variables";
 @import "../../node_modules/bootstrap/scss/root";
 @import "../../node_modules/bootstrap/scss/reboot";
@@ -63,63 +67,62 @@
 
 
 /*!
- * Bugo Base
+ * Bugo Base Styles
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  *
- * Comment out the one's you don't need or are being loaded in priority.scss
  */
 
- @import "layout/baseof";
- @import "layout/landing-page";
- @import "layout/list";
- @import "layout/page";
- @import "layout/post";
- @import "layout/single";
- @import "layout/typography";
- @import "layout/wrap";
- @import "layout/accessibility";
+ @import "theme/layout/baseof";
+ @import "theme/layout/landing-page";
+ @import "theme/layout/list";
+ @import "theme/layout/page";
+ @import "theme/layout/post";
+ @import "theme/layout/single";
+ @import "theme/layout/typography";
+ @import "theme/layout/wrap";
+ @import "theme/layout/accessibility";
 
  @import "mixins/background";
  
- @import "partials/blocks/blocks";
- @import "partials/blocks/block-columns";
- @import "partials/blocks/block-google-map";
- @import "partials/blocks/block-latest-posts";
- @import "partials/blocks/block-logos";
- @import "partials/blocks/block-related-posts";
- @import "partials/blocks/block-slideshow-text";
- @import "partials/blocks/block-slideshow";
- @import "partials/blocks/block-taxonomy-navigation";
+ @import "theme/partials/blocks/blocks";
+ @import "theme/partials/blocks/block-columns";
+ @import "theme/partials/blocks/block-google-map";
+ @import "theme/partials/blocks/block-latest-posts";
+ @import "theme/partials/blocks/block-logos";
+ @import "theme/partials/blocks/block-related-posts";
+ @import "theme/partials/blocks/block-slideshow-text";
+ @import "theme/partials/blocks/block-slideshow";
+ @import "theme/partials/blocks/block-taxonomy-navigation";
 
- @import "partials/components/breadcrumbs";
- @import "partials/components/contact-form";
- @import "partials/components/email-list";
- @import "partials/components/featured-image";
- @import "partials/components/featured-image-profile";
- @import "partials/components/figure";
- @import "partials/components/forms";
- @import "partials/components/modal";
- @import "partials/components/phone-list";
- @import "partials/components/search-form";
- @import "partials/components/social-account-list";
+ @import "theme/partials/components/breadcrumbs";
+ @import "theme/partials/components/contact-form";
+ @import "theme/partials/components/email-list";
+ @import "theme/partials/components/featured-image";
+ @import "theme/partials/components/featured-image-profile";
+ @import "theme/partials/components/figure";
+ @import "theme/partials/components/forms";
+ @import "theme/partials/components/modal";
+ @import "theme/partials/components/phone-list";
+ @import "theme/partials/components/search-form";
+ @import "theme/partials/components/social-account-list";
 
- @import "partials/icons/icons";
+ @import "theme/partials/icons/icons";
 
- @import "partials/widgets/widgets";
- @import "partials/widgets/widget-categories";
- @import "partials/widgets/widget-markdown";
- @import "partials/widgets/widget-menu";
- @import "partials/widgets/widget-latest-posts";
- @import "partials/widgets/widget-related-posts";
+ @import "theme/partials/widgets/widgets";
+ @import "theme/partials/widgets/widget-categories";
+ @import "theme/partials/widgets/widget-markdown";
+ @import "theme/partials/widgets/widget-menu";
+ @import "theme/partials/widgets/widget-latest-posts";
+ @import "theme/partials/widgets/widget-related-posts";
 
- @import "partials/footer";
- @import "partials/header";
- @import "partials/nav-copyright";
- @import "partials/nav-footer";
- @import "partials/nav-horizontal";
- @import "partials/nav-main";
- @import "partials/nav-mobile";
- @import "partials/nav-secondary";
- @import "partials/share_buttons";
- @import "custom"
+ @import "theme/partials/footer";
+ @import "theme/partials/header";
+ @import "theme/partials/nav-copyright";
+ @import "theme/partials/nav-footer";
+ @import "theme/partials/nav-horizontal";
+ @import "theme/partials/nav-main";
+ @import "theme/partials/nav-mobile";
+ @import "theme/partials/nav-secondary";
+ @import "theme/partials/share_buttons";
+ @import "custom/custom"
  
