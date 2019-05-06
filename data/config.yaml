@@ -37,7 +37,7 @@ sidebar_widgets:
       remove_padding: false
       content_full_width: false
       show_title: false
-      remove_margin: false
+      remove_margin: true
     title: Latest Posts
     show_quantity: '3'
   - template: widget-markdown
