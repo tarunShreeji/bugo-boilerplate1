@@ -1,5 +1,5 @@
 {{/**
-   * Default List Template
+   * Docs List Template
 	 *
 	 * The default list for the site.
    *
@@ -10,28 +10,34 @@
    {{ define "main" }}
    <main class="">
      <h1>{{ .Title }}</h1>
-     <p class="post-count">{{ len .Data.Pages }} {{ .Section | pluralize }} found. </p>
-      {{ range $index, $page := .Paginator.Pages.ByWeight }}
-      {{ $page := . }}
-      <div class="row mb-5" data-aos="slide-right">
-        <div class="col-12 order-2 order-md-1 {{ with $page.Section }}{{ . | urlize }}-item{{ end }}">
-          {{ partial "components/thumbnail" (dict "page" . "site" .Site ) }}
-          <article>
-            <header>
-              <h2><a href="{{ .Permalink }}">{{ .Title}}</a></h2>
-            </header>
-            <details open>
-              <summary>
-                {{ .Summary }}
-              </summary>
-            </details>
-          </article>
-        </div>
+     {{ .Content }}
+     {{ if gt (len .Data.Pages) 0 }}
+      <p class="post-count">{{ len .Data.Pages }} {{ .Section | pluralize }} found. </p>
+        <ol class="post-list">
+          {{ range $index, $page := .Data.Pages.ByWeight }}
+          {{ $page := . }}
+          <li>
+            <div class="row mb-5" data-aos="slide-right">
+              <div class="col-12 order-2 order-md-1 {{ with $page.Section }}{{ . | urlize }}-item{{ end }}">
+                {{ partial "components/thumbnail" (dict "page" . "site" .Site ) }}
+                <article>
+                  <header>
+                    <h2><a href="{{ .Permalink }}">{{ .Title}}</a></h2>
+                    <!-- <time>{{ .Date.Format "January _2, 2006" }}</time> -->
+                  </header>
+                  <div>
+                    {{ .Summary | markdownify }}
+                  </div>
+                </article>
+              </div>
+            </div>
+          </li>
+          {{ end }}
+        </ol>
+      <div class="pagination mt-4">
+        {{ partial "pagination.html" . }}
       </div>
-       {{ end }}
-    <div class="pagination mt-4">
-      {{ partial "pagination.html" . }} 
-    </div>
+     {{ end }}
    </main>
    {{ end }}
 
