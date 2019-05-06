@@ -1,12 +1,3 @@
-# Bugo Boilerplate
-
-## Dependencies
-
-  * Node.js
-  * Hugo CLI
-  * Gulp
+# Bugo Boilerplate 1.0
 
 
-```bash
-git clone https://github.com/matt-antone/bugo-boilerplate.git example-site-name --recursive
-```
