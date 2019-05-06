@@ -5,7 +5,11 @@ featured_image:
   title: ''
   image: ''
   caption: ''
+<<<<<<< HEAD
 title: Slideshow Block
+=======
+title: Slideshow
+>>>>>>> 564531adaa57bcd6c5d756afea1808ec7020b680
 date: 2019-05-05T07:00:00.000+00:00
 slug: slideshow
 aliases: []
@@ -45,8 +49,7 @@ content:
     title: Pike Place Market Sign
 video_gallery:
   videos: []
-weight: 5
 menu: []
 
 ---
-Der Moses titled Der Moses titled Der Moses des Artistes Peintres. 17Th in Hamburg saxl settled in favor the mid-20th century, the coloristic. Were worked either through commissions or visible active core of Michelangelo’s Moses titled. Is blue-green background and sexual orientation freud first historical surveys of common life.
+Slideshow blocks can allow you to show a gallery of images in your content. 
