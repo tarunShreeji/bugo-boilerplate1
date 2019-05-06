@@ -27,7 +27,7 @@ content:
     show_title: true
     remove_margin: false
     image_ratio: ''
-  title: Demo
+  title: Seattle
   slides:
   - template: data-image
     image: "/assets/uploads/i5-and-seattle.jpg"
