@@ -291,7 +291,7 @@ function compileSass(done = () => { }) {
       inline: false,
       minify: true,
       extract: false,
-      css: ['public/assets/css/main.css'],
+      css: ['public/assets/css/theme.css'],
       ignore: {
         atrule: [],
         rule: ["*.btn*"],
