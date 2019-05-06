@@ -98,11 +98,11 @@ gulp.task('process-images', (done) => {
 });
 
 /**
- * Build Staging
+ * Build All Posts
  **/
 
-gulp.task('build-staging', (done) => {
-  buildStaging(done);
+gulp.task('build-all', (done) => {
+  bugoBuildAll(done);
 });
 
 /**
@@ -150,6 +150,28 @@ function buildStaging(done = () => { }) {
  **/
 
 function startBugo(done) {
+  const hugo = spawn("hugo", ['server', '--disableFastRender', '--destination=public']);
+  console.log(hugo);
+  // Log message from Bugo
+  hugo.stdout.on('data', (data) => {
+    console.log(`Bugo: ${data}`);
+  });
+
+  // Log Errors
+  hugo.stderr.on('data', (data) => {
+    console.log(`Bugo Error: ${data}`);
+  });
+
+  // Log Exit
+  hugo.on('close', (code) => {
+    console.log(`Bugo exited with code ${code}`);
+  });
+
+
+  // done();
+}
+
+function bugoBuildAll(done) {
   const hugo = spawn("hugo", ['server', '--buildDrafts', '--buildFuture', '--disableFastRender', '--destination=public']);
   console.log(hugo);
   // Log message from Bugo
