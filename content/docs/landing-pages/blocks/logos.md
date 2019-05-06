@@ -36,6 +36,7 @@ content:
   - "/assets/uploads/forestry-pos-full-1.svg"
 video_gallery:
   videos: []
+draft: true
 
 ---
 A logos block is used to display a organizations, parters or provided services. 

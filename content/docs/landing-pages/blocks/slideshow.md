@@ -46,6 +46,7 @@ content:
 video_gallery:
   videos: []
 menu: []
+draft: true
 
 ---
 Slideshow blocks can allow you to show a gallery of images in your content.

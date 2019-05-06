@@ -252,6 +252,7 @@ content:
 video_gallery:
   videos: []
 menu: []
+draft: true
 
 ---
 The Columns Block is the most versitle content block.

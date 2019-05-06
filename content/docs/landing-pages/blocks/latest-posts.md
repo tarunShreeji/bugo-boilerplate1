@@ -35,6 +35,7 @@ content:
   random: false
 video_gallery:
   videos: []
+draft: true
 
 ---
 Latest posts can display anywhere from 1- 6 posts. Posts conform to the same responsive widths as the columns block.
