@@ -47,8 +47,16 @@ You should now be in the imported website at Forestry.io. There are four steps f
 3. **Set up preview command.** You can skip this. Previews are buggy with Bugo right now.
 4. **Set up deployment.** You'll setup your hosting here.
 
+Set up the sidebar
+
+Import Media
+
+Set up preview command
+
+Setup up deployment
+
+## Setup Hosting
+
 ## Install your local copy
 
 You need to have the latest/LTS [node](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm) versions installed in order to use Bugo. We'll be using npm to install a local version
-
-## 
