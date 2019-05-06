@@ -145,49 +145,49 @@ Methods using calculations from:
   background-color: #000000 !important;
   color: #fff !important; }
   .black-background-white-text h1, .black-background-white-text h2, .black-background-white-text h3, .black-background-white-text h4, .black-background-white-text h5, .black-background-white-text h6 {
-    color: #fff; }
+    color: #fff !important; }
     .black-background-white-text h1 a, .black-background-white-text h2 a, .black-background-white-text h3 a, .black-background-white-text h4 a, .black-background-white-text h5 a, .black-background-white-text h6 a {
-      color: #fff; }
+      color: #fff !important; }
 
 .black-background-light-text {
   background-color: #000000 !important;
   color: #B3EFFF !important; }
   .black-background-light-text h1, .black-background-light-text h2, .black-background-light-text h3, .black-background-light-text h4, .black-background-light-text h5, .black-background-light-text h6 {
-    color: #fff; }
+    color: #fff !important; }
     .black-background-light-text h1 a, .black-background-light-text h2 a, .black-background-light-text h3 a, .black-background-light-text h4 a, .black-background-light-text h5 a, .black-background-light-text h6 a {
-      color: #fff; }
+      color: #fff !important; }
 
 .black-background-secondary-text {
   background-color: #000000 !important;
   color: #00CFFF !important; }
   .black-background-secondary-text h1, .black-background-secondary-text h2, .black-background-secondary-text h3, .black-background-secondary-text h4, .black-background-secondary-text h5, .black-background-secondary-text h6 {
-    color: #fff; }
+    color: #fff !important; }
     .black-background-secondary-text h1 a, .black-background-secondary-text h2 a, .black-background-secondary-text h3 a, .black-background-secondary-text h4 a, .black-background-secondary-text h5 a, .black-background-secondary-text h6 a {
-      color: #fff; }
+      color: #fff !important; }
 
 .dark-background-white-text {
   background-color: #1C304A !important;
   color: #fff !important; }
   .dark-background-white-text h1, .dark-background-white-text h2, .dark-background-white-text h3, .dark-background-white-text h4, .dark-background-white-text h5, .dark-background-white-text h6 {
-    color: #fff; }
+    color: #fff !important; }
     .dark-background-white-text h1 a, .dark-background-white-text h2 a, .dark-background-white-text h3 a, .dark-background-white-text h4 a, .dark-background-white-text h5 a, .dark-background-white-text h6 a {
-      color: #fff; }
+      color: #fff !important; }
 
 .dark-background-light-text {
   background-color: #1C304A !important;
   color: #B3EFFF !important; }
   .dark-background-light-text h1, .dark-background-light-text h2, .dark-background-light-text h3, .dark-background-light-text h4, .dark-background-light-text h5, .dark-background-light-text h6 {
-    color: #fff; }
+    color: #fff !important; }
     .dark-background-light-text h1 a, .dark-background-light-text h2 a, .dark-background-light-text h3 a, .dark-background-light-text h4 a, .dark-background-light-text h5 a, .dark-background-light-text h6 a {
-      color: #fff; }
+      color: #fff !important; }
 
 .dark-background-secondary-text {
   background-color: #1C304A !important;
   color: #00CFFF !important; }
   .dark-background-secondary-text h1, .dark-background-secondary-text h2, .dark-background-secondary-text h3, .dark-background-secondary-text h4, .dark-background-secondary-text h5, .dark-background-secondary-text h6 {
-    color: #fff; }
+    color: #fff !important; }
     .dark-background-secondary-text h1 a, .dark-background-secondary-text h2 a, .dark-background-secondary-text h3 a, .dark-background-secondary-text h4 a, .dark-background-secondary-text h5 a, .dark-background-secondary-text h6 a {
-      color: #fff; }
+      color: #fff !important; }
 
 .primary-background-white-text {
   background-color: #034562 !important;
@@ -201,17 +201,17 @@ Methods using calculations from:
   background-color: #034562 !important;
   color: #B3EFFF !important; }
   .primary-background-light-text h1, .primary-background-light-text h2, .primary-background-light-text h3, .primary-background-light-text h4, .primary-background-light-text h5, .primary-background-light-text h6 {
-    color: #B3EFFF; }
+    color: #B3EFFF !important; }
     .primary-background-light-text h1 a, .primary-background-light-text h2 a, .primary-background-light-text h3 a, .primary-background-light-text h4 a, .primary-background-light-text h5 a, .primary-background-light-text h6 a {
-      color: #B3EFFF; }
+      color: #B3EFFF !important; }
 
 .primary-background-secondary-text {
   background-color: #000000 !important;
   color: #00CFFF !important; }
   .primary-background-secondary-text h1, .primary-background-secondary-text h2, .primary-background-secondary-text h3, .primary-background-secondary-text h4, .primary-background-secondary-text h5, .primary-background-secondary-text h6 {
-    color: #00CFFF; }
+    color: #00CFFF !important; }
     .primary-background-secondary-text h1 a, .primary-background-secondary-text h2 a, .primary-background-secondary-text h3 a, .primary-background-secondary-text h4 a, .primary-background-secondary-text h5 a, .primary-background-secondary-text h6 a {
-      color: #00CFFF; }
+      color: #00CFFF !important; }
 
 .secondary-background-black-text {
   background-color: #00CFFF !important;
@@ -225,41 +225,41 @@ Methods using calculations from:
   background-color: #00CFFF !important;
   color: #1C304A !important; }
   .secondary-background-dark-text h1, .secondary-background-dark-text h2, .secondary-background-dark-text h3, .secondary-background-dark-text h4, .secondary-background-dark-text h5, .secondary-background-dark-text h6 {
-    color: #1C304A; }
+    color: #1C304A !important; }
     .secondary-background-dark-text h1 a, .secondary-background-dark-text h2 a, .secondary-background-dark-text h3 a, .secondary-background-dark-text h4 a, .secondary-background-dark-text h5 a, .secondary-background-dark-text h6 a {
-      color: #1C304A; }
+      color: #1C304A !important; }
 
 .secondary-background-primary-text {
   background-color: #00CFFF !important;
   color: #034562 !important; }
   .secondary-background-primary-text h1, .secondary-background-primary-text h2, .secondary-background-primary-text h3, .secondary-background-primary-text h4, .secondary-background-primary-text h5, .secondary-background-primary-text h6 {
-    color: #034562; }
+    color: #034562 !important; }
     .secondary-background-primary-text h1 a, .secondary-background-primary-text h2 a, .secondary-background-primary-text h3 a, .secondary-background-primary-text h4 a, .secondary-background-primary-text h5 a, .secondary-background-primary-text h6 a {
-      color: #034562; }
+      color: #034562 !important; }
 
 .light-background-black-text {
   background-color: #B3EFFF !important;
   color: #000000 !important; }
   .light-background-black-text h1, .light-background-black-text h2, .light-background-black-text h3, .light-background-black-text h4, .light-background-black-text h5, .light-background-black-text h6 {
-    color: #000000; }
+    color: #000000 !important; }
     .light-background-black-text h1 a, .light-background-black-text h2 a, .light-background-black-text h3 a, .light-background-black-text h4 a, .light-background-black-text h5 a, .light-background-black-text h6 a {
-      color: #000000; }
+      color: #000000 !important; }
 
 .light-background-dark-text {
   background-color: #B3EFFF !important;
   color: #1C304A !important; }
   .light-background-dark-text h1, .light-background-dark-text h2, .light-background-dark-text h3, .light-background-dark-text h4, .light-background-dark-text h5, .light-background-dark-text h6 {
-    color: #1C304A; }
+    color: #1C304A !important; }
     .light-background-dark-text h1 a, .light-background-dark-text h2 a, .light-background-dark-text h3 a, .light-background-dark-text h4 a, .light-background-dark-text h5 a, .light-background-dark-text h6 a {
-      color: #1C304A; }
+      color: #1C304A !important; }
 
 .light-background-primary-text {
   background-color: #B3EFFF !important;
   color: #034562 !important; }
   .light-background-primary-text h1, .light-background-primary-text h2, .light-background-primary-text h3, .light-background-primary-text h4, .light-background-primary-text h5, .light-background-primary-text h6 {
-    color: #034562; }
+    color: #034562 !important; }
     .light-background-primary-text h1 a, .light-background-primary-text h2 a, .light-background-primary-text h3 a, .light-background-primary-text h4 a, .light-background-primary-text h5 a, .light-background-primary-text h6 a {
-      color: #034562; }
+      color: #034562 !important; }
 
 .white-background-black-text {
   background-color: #fff !important;
@@ -273,17 +273,17 @@ Methods using calculations from:
   background-color: #fff !important;
   color: #1C304A !important; }
   .white-background-dark-text h1, .white-background-dark-text h2, .white-background-dark-text h3, .white-background-dark-text h4, .white-background-dark-text h5, .white-background-dark-text h6 {
-    color: #1C304A; }
+    color: #1C304A !important; }
     .white-background-dark-text h1 a, .white-background-dark-text h2 a, .white-background-dark-text h3 a, .white-background-dark-text h4 a, .white-background-dark-text h5 a, .white-background-dark-text h6 a {
-      color: #1C304A; }
+      color: #1C304A !important; }
 
 .white-background-primary-text {
   background-color: #fff !important;
   color: #034562 !important; }
   .white-background-primary-text h1, .white-background-primary-text h2, .white-background-primary-text h3, .white-background-primary-text h4, .white-background-primary-text h5, .white-background-primary-text h6 {
-    color: #034562; }
+    color: #034562 !important; }
     .white-background-primary-text h1 a, .white-background-primary-text h2 a, .white-background-primary-text h3 a, .white-background-primary-text h4 a, .white-background-primary-text h5 a, .white-background-primary-text h6 a {
-      color: #034562; }
+      color: #034562 !important; }
 
 /**
  *
@@ -8868,7 +8868,7 @@ a.text-gray-900:hover, a.text-gray-900:focus {
 body {
   position: relative; }
 
-.fill-cover, .block-slideshow figure img {
+.fill-cover, .block-slideshow figure .img-container img {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
@@ -8944,6 +8944,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #034562; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: #034562; }
+
+p, ul, ol, blockquote, img {
+  margin-bottom: 2rem; }
 
 /* 
  * Boostrap .wrap styles
@@ -9220,8 +9223,8 @@ button.bg-gray-900:focus {
  * Global Block styles
  */
 .block {
-  margin: 0 0 0 0 2rem 0;
-  padding: 0 0 2rem 0;
+  margin: 0 0 2rem 0;
+  padding: 2rem 0;
   background-size: cover;
   background-position: center; }
   .block.full-width {
@@ -9240,6 +9243,17 @@ button.bg-gray-900:focus {
     min-height: 20rem; }
   .block.large {
     min-height: 40rem; }
+  .block.p-0 .container {
+    padding: 0; }
+
+body.sidebar .block.full-width {
+  width: 100%;
+  position: static;
+  left: auto;
+  -webkit-transform: none;
+          transform: none; }
+  body.sidebar .block.full-width.content-full-width .container {
+    max-width: 100%; }
 
 .block-title {
   flex-grow: 1;
@@ -9265,6 +9279,8 @@ button.bg-gray-900:focus {
     flex-basis: 100%;
     padding: 2rem;
     flex-wrap: wrap; }
+    .block-columns .container .item > *:last-child {
+      margin-bottom: 0; }
   .block-columns .container.column-container-2 .item, .block-columns .container.column-container-4 .item {
     flex-basis: 100%; }
     @media (min-width: 769px) {
@@ -9379,24 +9395,40 @@ button.bg-gray-900:focus {
 /* 
  * Slideshow Block styles
  */
-.block-slideshow .container {
+.block-slideshow {
+  position: relative;
   padding: 0; }
-
-.block-slideshow figure {
-  width: 100%;
-  height: 100%;
-  position: relative; }
-  .block-slideshow figure figcaption {
+  .block-slideshow .container {
+    padding: 0; }
+  .block-slideshow .block-title {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    top: 0;
     left: 0;
+    z-index: 10; }
+  .block-slideshow figure {
     width: 100%;
-    font-size: 2rem;
-    background-color: rgba(3, 69, 98, 0.6);
-    color: #fff;
-    padding: 2rem;
-    text-align: center; }
+    height: 100%;
+    position: relative; }
+    .block-slideshow figure .img-container {
+      width: 100%;
+      height: 100%; }
+      .block-slideshow figure .img-container img {
+        width: 100%;
+        height: 100%; }
+    .block-slideshow figure figcaption {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+      font-size: 1rem;
+      color: #fff;
+      padding: 0.5rem;
+      text-align: center;
+      z-index: 100;
+      background-color: #034562; }
+      .block-slideshow figure figcaption a {
+        color: inherit; }
 
 /* 
  * Breadcrumb styles
@@ -9652,6 +9684,29 @@ body.home .featured-image {
   padding: 0 0.5rem;
   display: none; }
 
+aside .widget-search-form .form-group,
+aside .widget-search-form button {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: auto;
+  font-size: 1rem !important; }
+
+aside .widget-search-form button {
+  flex-basis: 33%; }
+
+aside .widget-search-form .form-group {
+  flex-basis: 66%;
+  margin-right: 0 !important; }
+
+aside .widget-search-form .form-control {
+  display: block;
+  flex-grow: 1;
+  flex-basis: 100%;
+  width: 100%;
+  font-size: 1rem !important;
+  padding-right: 2rem; }
+
 /* 
  * Social Account List styles
  */
@@ -9659,6 +9714,7 @@ body.home .featured-image {
   fill: #00CFFF; }
 
 .widget {
+  padding: 1rem;
   margin-bottom: 2rem; }
   .widget[class*=" bg-"] {
     padding: 2rem !important; }
@@ -9694,7 +9750,8 @@ body.home .featured-image {
   .widget-latest-posts .item {
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: 100%; }
+    flex-basis: 100%;
+    margin-bottom: 2rem; }
     @media (min-width: 420px) {
       .widget-latest-posts .item {
         flex-basis: 33%;
