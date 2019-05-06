@@ -19,9 +19,9 @@ sidebar_widgets:
     widget_options:
       text_size: Normal
       text_alignment: Left
-      block_height: []
+      block_height: Auto
       full_width: true
-      color_scheme: []
+      color_scheme: White Background Primary Text
       remove_padding: false
       content_full_width: false
       show_title: false
