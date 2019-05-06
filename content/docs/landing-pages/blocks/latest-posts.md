@@ -15,7 +15,24 @@ page_meta:
   meta_description: ''
 menu: []
 show_sidebar: false
-content: []
+content:
+- template: block-latest-posts
+  show_quantity: '3'
+  show_summary: true
+  show_read_more: true
+  read_more_text: Read More
+  block_options:
+    text_size: Normal
+    text_alignment: Left
+    block_height: Auto
+    full_width: true
+    color_scheme: White Background Primary Text
+    remove_padding: true
+    content_full_width: false
+    show_title: false
+    remove_margin: false
+  title: Latest Posts Demo
+  random: false
 video_gallery:
   videos: []
 draft: true
