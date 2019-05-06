@@ -5,11 +5,7 @@ featured_image:
   title: ''
   image: ''
   caption: ''
-<<<<<<< HEAD
-title: Slideshow Block
-=======
 title: Slideshow
->>>>>>> 564531adaa57bcd6c5d756afea1808ec7020b680
 date: 2019-05-05T07:00:00.000+00:00
 slug: slideshow
 aliases: []
