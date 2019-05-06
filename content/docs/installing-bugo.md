@@ -31,9 +31,7 @@ You'll need the following accounts. For more info go to the [accounts page](/doc
 
 ## Creating the website
 
-Accounts Required: Forestry.io, GitHub, Cloudinary (optional)
-
-We'll setup a website at the CMS service Forestry.io by clicking the button below. This will take you through the following steps.
+First we'll setup a website at the CMS service Forestry.io by clicking the button below. This will take you through the following steps.
 
 1. Creating a copy of Bugo Boilerplate into a repository at GitHub
 2. Import repository into Forestry.io
