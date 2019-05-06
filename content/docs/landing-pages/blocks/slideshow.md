@@ -5,7 +5,7 @@ featured_image:
   title: ''
   image: ''
   caption: ''
-title: Slideshow
+title: Slideshow Block
 date: 2019-05-05T07:00:00.000+00:00
 slug: slideshow
 aliases: []
@@ -48,4 +48,4 @@ video_gallery:
 menu: []
 
 ---
-Slideshow blocks can allow you to show a gallery of images in your content. 
+Slideshow blocks can allow you to show a gallery of images in your content.
