@@ -66,22 +66,6 @@ googleanalytics: ''
 enableInlineShortcodes: true
 menu:
   main:
-  - identifier: themes
-    title: Themes
-    name: Themes
-    url: "/themes/"
-    weight: 1.5
-    pre: ''
-    post: ''
-    parent: ''
-  - identifier: news
-    name: News
-    title: Bugo News
-    url: "/posts/"
-    weight: 2
-    pre: ''
-    post: ''
-    parent: ''
   - identifier: docs
     name: Docs
     title: Bugo Documentation
