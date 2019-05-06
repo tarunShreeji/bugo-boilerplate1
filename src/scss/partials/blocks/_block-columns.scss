@@ -27,6 +27,12 @@
         // fill: currentColor;
         // display: block;
       }
+
+      > * {
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
     }
 
     &.column-container-2,

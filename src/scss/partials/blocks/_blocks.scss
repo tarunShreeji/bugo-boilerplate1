@@ -3,8 +3,8 @@
  */
 
 .block{
-  margin: 0 0 $block-margin;
-  padding: 0 0 $block-padding;
+  margin: $block-margin;
+  padding: $block-padding;
   background-size: cover;
   background-position: center;
 
@@ -38,6 +38,29 @@
     min-height: $block-height-large;
   }
 
+  &.p-0 {
+    .container {
+      padding: 0;
+    }
+  }
+
+}
+
+body.sidebar {
+  .block {
+    &.full-width {
+      width: 100%;
+      position: static;
+      left: auto;
+      transform: none;
+
+      &.content-full-width {
+        .container {
+          max-width: 100%;
+        }
+      }
+    }
+  }
 }
 
 .block-title {

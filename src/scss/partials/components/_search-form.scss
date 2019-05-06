@@ -29,3 +29,34 @@
     display: none;
   }
 }
+
+aside {
+  .widget-search-form {
+    .form-group,
+    button {
+      display: block;
+      flex-grow: 0;
+      flex-shrink: 0;
+      width: auto;
+      font-size: 1rem !important;
+    }
+
+    button {
+      flex-basis: 33%;
+    }
+
+    .form-group {
+      flex-basis: 66%;
+      margin-right: 0 !important;
+    }
+
+    .form-control {
+      display: block;
+      flex-grow: 1;
+      flex-basis: 100%;
+      width: 100%;
+      font-size: 1rem !important;
+      padding-right: $global-padding;
+    }
+  }
+}

@@ -26,6 +26,7 @@
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: 100%;
+    margin-bottom: $global-margin;
 
     @include media-breakpoint-up(sm){
       flex-basis: 33%;

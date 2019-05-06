@@ -1,4 +1,5 @@
 .widget {
+  padding: $global-padding/2;
   margin-bottom: $global-margin;
 
   &[class*=" bg-"] {
