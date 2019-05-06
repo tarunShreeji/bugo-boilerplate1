@@ -24,6 +24,11 @@ Looks like you want to go whole hog. In order to customize your site, beyond the
 
 You'll need the following accounts. For more info go to the [accounts page](/docs/accounts/ "Read more about necessary accounts.").
 
+* GitHub.com
+* Forestry.io
+* Cloudinary.com (optional)
+* Netlify (optional)
+
 ## Creating the website
 
 Accounts Required: Forestry.io, GitHub, Cloudinary (optional)
