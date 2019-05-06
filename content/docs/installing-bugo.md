@@ -34,4 +34,4 @@ You need to have the latest/LTS [node](https://nodejs.org/en/download/) and [npm
 
 We'll setup a website at the CMS service Forestry.io by clicking the button below.
 
-<span class="btn btn-primary">Import Bugo Boiler Plate to Forestry.io</span>
+[<span class="btn btn-primary">Import Bugo Boiler Plate to Forestry.io</span>](https://app.forestry.io/quick-start?repo=matt-antone/bugo-boilerplate-theme&provider=github&engine=hugo&version=0.5.4 "Import Bugo Boiler Plate")
