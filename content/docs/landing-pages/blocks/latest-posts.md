@@ -29,7 +29,7 @@ content:
     color_scheme: White Background Primary Text
     remove_padding: true
     content_full_width: false
-    show_title: false
+    show_title: true
     remove_margin: false
   title: Latest Posts Demo
   random: false
