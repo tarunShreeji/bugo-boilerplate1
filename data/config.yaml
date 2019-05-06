@@ -25,7 +25,7 @@ sidebar_widgets:
       remove_padding: false
       content_full_width: false
       show_title: false
-      remove_margin: false
+      remove_margin: true
     title: Sidebar Search
   - template: widget-latest-posts
     widget_options:
