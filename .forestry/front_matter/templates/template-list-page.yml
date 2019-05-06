@@ -19,5 +19,5 @@ fields:
   label: Page Attributes
   template: field-page-attributes
 pages:
-- content/docs/landing-pages/landing-pages.md
 - content/themes/bugo-themes.md
+- content/docs/landing-pages/landing-pages.md
