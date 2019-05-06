@@ -26,7 +26,7 @@ You'll need the following accounts. For more info go to the [accounts page](/doc
 
 ## Creating Website
 
-Accounts Required: Forestry.io, GitHub
+Accounts Required: Forestry.io, GitHub, Cloudinary (optional)
 
 We'll setup a website at the CMS service Forestry.io by clicking the button below. This will take you through the following steps.
 
@@ -35,7 +35,14 @@ We'll setup a website at the CMS service Forestry.io by clicking the button belo
 
 [<span class="btn btn-primary">Import Bugo Boiler Plate to Forestry.io</span>](https://app.forestry.io/quick-start?repo=matt-antone/bugo-boilerplate-theme&provider=github&engine=hugo&version=0.5.4 "Import Bugo Boiler Plate")
 
-## Setup Forestry
+## Set up Forestry
+
+You should now be in the imported website at Forestry.io. There are four steps for forestry's set up.
+
+1. **Set up the sidebar.** You can skip this. We've already done that for you.
+2. **Import Media.** If you want to use Cloudinary.com, you'll set that up here. Otherwise media will be saved to your library.
+3. **Set up preview command.** You can skip this. Previews are buggy with Bugo right now.
+4. **Set up deployment.** You'll setup your hosting here.
 
 ## Install your local copy
 
