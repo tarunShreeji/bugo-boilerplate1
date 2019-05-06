@@ -8948,6 +8948,13 @@ h1, h2, h3, h4, h5, h6 {
 p, ul, ol, blockquote, img {
   margin-bottom: 2rem; }
 
+p a {
+  display: inline-block;
+  background-color: #e6faff;
+  padding: 3px;
+  line-height: 1.1;
+  color: #1C304A; }
+
 /* 
  * Boostrap .wrap styles
  */
@@ -8972,6 +8979,12 @@ main {
     .sidebar aside {
       width: 30%;
       padding-left: 2rem; } }
+
+[tabindex="-1"]:focus {
+  outline: 1; }
+
+.custom-file-input:lang(en) ~ .custom-file-label::after {
+  content: none !important; }
 
 .bg-white {
   background-color: #fff !important; }
