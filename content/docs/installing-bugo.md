@@ -47,13 +47,13 @@ You should now be in the imported website at Forestry.io. There are four steps f
 3. **Set up preview command.** You can skip this. Previews are buggy with Bugo right now.
 4. **Set up deployment.** You'll setup your hosting here.
 
-Set up the sidebar
+### Set up the sidebar
 
-Import Media
+### Import Media
 
-Set up preview command
+### Set up preview command
 
-Setup up deployment
+### Setup up deployment
 
 ## Setup Hosting
 
