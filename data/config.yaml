@@ -52,7 +52,10 @@ sidebar_widgets:
       show_title: false
       remove_margin: false
     title: This is Markdown
-    content: this is markdown
+    content: |-
+      ### Try Bugo Now!
+
+      It's free.
 site_categories:
 - Updates
 - News
