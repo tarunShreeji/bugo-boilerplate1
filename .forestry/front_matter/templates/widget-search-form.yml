@@ -14,3 +14,5 @@ fields:
   fields:
   - type: include
     template: field-block-options
+    name: field_options
+    label: Field Options
