@@ -40,7 +40,6 @@ content:
   address_2: ''
 video_gallery:
   videos: []
-draft: true
 
 ---
 Google Maps can help you tell your customers where you are.
