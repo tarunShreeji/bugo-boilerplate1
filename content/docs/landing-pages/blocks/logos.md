@@ -29,7 +29,7 @@ content:
     remove_margin: false
   title: Logo Block Demo
   logos:
-  - "/assets/uploads/bugo-logo-80.svg"
+  - "/assets/uploads/boostrap-logo.svg"
   - "/assets/uploads/GitHub_Logo.png"
   - "/assets/uploads/hugo-logo-wide-1.svg"
   - "/assets/uploads/netlify-logo.svg"
