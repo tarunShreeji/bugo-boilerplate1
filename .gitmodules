@@ -1,1 +1,4 @@
 
+[submodule "themes/bugo-base-theme"]
+	path = themes/bugo-base-theme
+	url = https://github.com/bugoio/bugo-base-theme.git
