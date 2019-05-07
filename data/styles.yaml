@@ -1,11 +1,8 @@
 ---
 primary_font:
-  font_family: Open Sans
-  font_weights:
-  - '700'
-  - '400'
-  font_italics:
-  - '400'
+  font_family: ''
+  font_weights: []
+  font_italics: []
 secondary_font:
   font_family: ''
   font_weights: []
@@ -26,7 +23,7 @@ theme_colors:
 - Dark Background Secondary Text
 - Dark Background Light Text
 - Dark Background White Text
-- " Black Background Secondary Text"
+- Black Background Secondary Text
 - Black Background Light Text
 - Black Background White Text
 custom_css: ''

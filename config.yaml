@@ -10,8 +10,7 @@ enableRobotsTXT: true
 contentDir: content
 permalinks:
   posts: "/blog/:slug"
-  team: "/team/:slug"
-googleAnalytics: UA-139385403-1
+googleAnalytics: ''
 blackFriday:
   hrefTargetBlank: true
 taxonomies:
@@ -58,18 +57,15 @@ outputs:
   - vcf
   section:
   - HTML
-enable_robots_txt: true
 enable_inline_shortcodes: true
 enableEmoji: true
 paginate: 10
-googleanalytics: ''
-enableInlineShortcodes: true
 menu:
   main:
   - identifier: docs
-    name: Docs
-    title: Bugo Documentation
-    url: "/docs/"
+    name: Blog
+    title: Blog
+    url: "/blog/"
     weight: 1
     pre: ''
     post: ''
@@ -84,5 +80,3 @@ menu:
     weight: 
     pre: ''
     post: ''
-google_verification_meta_field: ''
-enablerobotstxt: true

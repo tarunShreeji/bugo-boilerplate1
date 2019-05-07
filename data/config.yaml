@@ -14,49 +14,5 @@ layout_options:
     blocks: []
   footer_style: Default
 sidebar_widgets:
-  widgets:
-  - template: widget-search-form
-    widget_options:
-      text_size: Normal
-      text_alignment: Left
-      block_height: Auto
-      full_width: true
-      color_scheme: Light Background Dark Text
-      remove_padding: false
-      content_full_width: false
-      show_title: false
-      remove_margin: true
-    title: Sidebar Search
-  - template: widget-latest-posts
-    widget_options:
-      text_size: Normal
-      text_alignment: Left
-      block_height: Auto
-      full_width: true
-      color_scheme: Light Background Dark Text
-      remove_padding: false
-      content_full_width: false
-      show_title: false
-      remove_margin: true
-    title: Latest Posts
-    show_quantity: '3'
-  - template: widget-markdown
-    widget_options:
-      text_size: Normal
-      text_alignment: Left
-      block_height: Auto
-      full_width: true
-      color_scheme: Dark Background Light Text
-      remove_padding: false
-      content_full_width: false
-      show_title: false
-      remove_margin: false
-    title: This is Markdown
-    content: |-
-      ### Try Bugo Now!
-
-      It's free.
-site_categories:
-- Updates
-- News
-- Releases
+  widgets: []
+site_categories: []

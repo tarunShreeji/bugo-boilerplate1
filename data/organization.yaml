@@ -1,19 +1,19 @@
 ---
 organization_name: Bugo
-organization_description: Boostrap + Hugo = ❤️
+organization_description: Full-featured Framework
 logos:
   header_logo:
     title: ''
-    image: "/assets/uploads/bugo-favicon.svg"
+    image: ""
     caption: ''
     svg_code: ''
   footer_logo:
     title: ''
-    image: "/assets/uploads/bugo-logo-80.svg"
+    image: ""
     caption: ''
     svg_code: ''
-  seo_logo: "/assets/uploads/bugo-logo-SEO-blue.png"
-  favicon: "/assets/uploads/bugo-favicon.png"
+  seo_logo: ""
+  favicon: ""
 contact_information:
   show_email_labels: false
   show_phone_labels: false
