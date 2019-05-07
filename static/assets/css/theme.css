@@ -612,7 +612,7 @@ template {
   display: none !important; }
 
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, blockquote, .h4, .h5, .nav-footer::before, .h6 {
+.h1, .h2, .h3, blockquote, .site-header-logo a, .h4, .h5, .nav-footer::before, .h6 {
   margin-bottom: 1rem;
   font-family: var(--font-family-secondary);
   font-weight: 900;
@@ -631,10 +631,10 @@ h2, .h2 {
     h2, .h2 {
       font-size: calc(1.325rem + 0.9vw) ; } }
 
-h3, .h3, blockquote {
+h3, .h3, blockquote, .site-header-logo a {
   font-size: 1.75rem; }
   @media (max-width: 1200px) {
-    h3, .h3, blockquote {
+    h3, .h3, blockquote, .site-header-logo a {
       font-size: calc(1.3rem + 0.6vw) ; } }
 
 h4, .h4 {
@@ -8864,6 +8864,9 @@ a.text-gray-900:hover, a.text-gray-900:focus {
 /* 
  * Global Layout styles & custom classes
  */
+html {
+  background-color: #034562; }
+
 body {
   position: relative; }
 
@@ -9781,7 +9784,7 @@ aside .widget-search-form .form-control {
 .site-footer {
   background-color: #034562;
   color: #fff;
-  padding: 4rem 0;
+  padding: 2rem 0;
   margin: 2rem 0 0; }
   .site-footer .locations {
     display: none; }
@@ -9803,7 +9806,7 @@ aside .widget-search-form .form-control {
 
 .nav-footer::before {
   text-decoration: none !important;
-  content: "Team"; }
+  content: ""; }
 
 .site-footer.footer-business .locations {
   display: block; }
@@ -9816,6 +9819,9 @@ aside .widget-search-form .form-control {
     max-width: 300px;
     display: block;
     margin: 0; }
+
+.footer-default .site-footer-logo {
+  text-align: center; }
 
 /* 
  * Header styles
@@ -9841,7 +9847,7 @@ aside .widget-search-form .form-control {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem; }
+    padding: 2rem 0; }
   .site-header .search-form {
     font-size: 12px; }
 
@@ -9849,6 +9855,8 @@ aside .widget-search-form .form-control {
   font-size: 1.25rem;
   width: 45px;
   margin: 0 2rem 0 0; }
+  .site-header-logo a {
+    color: #fff; }
   .site-header-logo figure {
     margin: 0;
     color: #034562; }
@@ -9892,6 +9900,9 @@ aside .widget-search-form .form-control {
   max-width: 200px;
   display: block;
   margin: 0 auto; }
+
+.nav-privacy .list-inline {
+  margin: 0; }
 
 .nav-horizontal .dropdown-menu {
   margin: 0;

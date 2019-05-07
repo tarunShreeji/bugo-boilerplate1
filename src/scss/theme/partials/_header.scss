@@ -55,7 +55,7 @@
       }
 
     }
-    padding: $global-padding;
+    padding: $global-padding 0;
 
     @if $secondary-nav-top == true {
       padding-top: $global-padding*3;
@@ -79,6 +79,11 @@
   font-size: $main-nav-font-size;
   width: $header-logo-width;
   margin: $header-logo-margin;
+
+  a {
+    @extend .h3;
+    color: color-yiq($primary);
+  }
 
   figure {
     margin: 0;

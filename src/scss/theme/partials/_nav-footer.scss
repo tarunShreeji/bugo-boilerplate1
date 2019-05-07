@@ -5,7 +5,7 @@
  *
  */
 
- .nav-footer {
+.nav-footer {
   .list-inline {
     margin: 0;
   }
@@ -22,5 +22,11 @@
     max-width: $footer-logo-width;
     display: block;
     margin: 0 auto;
+  }
+}
+
+.nav-privacy {
+  .list-inline {
+    margin: 0;
   }
 }

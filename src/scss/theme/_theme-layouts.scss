@@ -100,10 +100,10 @@ $breadcrumbs-separator: "\00BB";
  *
  **/
 $footer-margin: $global-margin 0 0;
-$footer-padding: $global-padding*2 0;
+$footer-padding: $global-padding 0;
 $footer-bg-color: theme-color(primary);
 $footer-text-color: $white;
 $footer-link-color: $white;
 $footer-logo-fill: theme-color(primary); //if svg and set to fill currentColor
 $footer-logo-width: 200px;
-$footer-nav-title: "Team";
+$footer-nav-title: "";
