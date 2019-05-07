@@ -1,37 +1,41 @@
 ---
-date: ''
-title: Bugo
+date: 
+title: Bugo Home Page
 featured_image:
   title: ''
   image: ''
   caption: ''
   template: Default
 content:
-- template: block-latest-posts
-  show_quantity: '3'
+- template: block-columns
   block_options:
-    full_width: true
-    background_color: Secondary
-    text_color: Primary
-    show_title: false
-    remove_margin: true
-    block_height: Small
-    content_full_width: false
-    color_scheme: Secondary Background Primary Text
-    text_size: ''
+    text_size: Normal
     text_alignment: Left
+    block_height: []
+    full_width: true
+    color_scheme: []
     remove_padding: false
-  title: Latest News
-  random: false
-  show_summary: true
-  show_read_more: true
-  read_more_text: Read More
+    content_full_width: false
+    show_title: false
+    remove_margin: false
+  title: Welcome
+  columns:
+  - title: content
+    content: |-
+      ## Welcome to your new Bugo website.
+
+      You might want to start with editing the home page.
+    color_scheme: White Background Primary Text
+  background_image:
+    title: ''
+    image: ''
+    caption: ''
 weight: ''
 tags: []
 layout: landing-page
 description: ''
 page_meta:
-  meta_title: Bugo. Full-Featured Static Site Framework
+  meta_title: Bugo - Full-Featured Static Site Framework
   meta_keywords: ''
   meta_description: Build low-maintenance, secure, high performance websites.
 slug: ''
