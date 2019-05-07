@@ -1,8 +1,8 @@
-# # ignore all files in this dir...
-# *
+# ignore all files in this dir...
+*
 
-# # ... except for this one.
-# !.gitignore
-# !bugo-base-theme/*
-# !bugo-profiles/*
-# !bugo-search/*
+# ... except for this one.
+!.gitignore
+!bugo-base-theme/*
+!bugo-profiles/*
+!bugo-search/*
