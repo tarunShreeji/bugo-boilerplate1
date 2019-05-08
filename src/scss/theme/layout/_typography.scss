@@ -9,7 +9,7 @@ pre {
 }
 
 blockquote {
-  @extend .h3;
+  font-size: $h3-font-size;
   font-family: var(--font-family-secondary);
   line-height: 1.5;
 }

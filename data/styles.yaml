@@ -1,8 +1,10 @@
 ---
 primary_font:
-  font_family: ''
-  font_weights: []
-  font_italics: []
+  font_family: Roboto
+  font_weights:
+  - '400'
+  font_italics:
+  - '400'
 secondary_font:
   font_family: ''
   font_weights: []

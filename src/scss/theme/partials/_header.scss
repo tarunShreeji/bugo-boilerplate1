@@ -81,7 +81,7 @@
   margin: $header-logo-margin;
 
   a {
-    @extend .h3;
+    font-size: $h3-font-size;
     color: color-yiq($primary);
   }
 

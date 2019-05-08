@@ -52,7 +52,7 @@
         color: theme-color(primary);
 
         figcaption {
-          @extend .sr-only;
+          @include sr-only;
         }
 
         img {
