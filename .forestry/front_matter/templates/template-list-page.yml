@@ -18,6 +18,3 @@ fields:
   name: page_attributes
   label: Page Attributes
   template: field-page-attributes
-pages:
-- content/themes/bugo-themes.md
-- content/docs/landing-pages/landing-pages.md
