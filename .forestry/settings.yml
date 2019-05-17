@@ -4,9 +4,6 @@ auto_deploy: true
 admin_path: admin
 webhook_url: 
 sections:
-- type: document
-  path: config.yaml
-  label: Bugo Config
 - type: heading
   label: Content
 - type: directory
@@ -36,6 +33,9 @@ sections:
   - template-profile
 - type: heading
   label: Configure Site
+- type: document
+  path: config.yaml
+  label: Bugo Config
 - type: document
   path: data/config.yaml
   label: Site Options
