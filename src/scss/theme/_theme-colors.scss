@@ -1,6 +1,6 @@
 // Color system
 
-$white:    #fff !default;
+$white:    #FFF9D0 !default;
 $gray-100: #E1E2E5 !default;
 $gray-200: #BEC4CF !default;
 $gray-300: #97A6BE !default;
@@ -59,15 +59,15 @@ $colors: () !default;
 //     "gray-dark":  $gray-800
 //   ),
 //   $colors
-$primary:       #034562 !default;
-$secondary:     #00CFFF !default;
+$primary:       #02415D !default;
+$secondary:     #8BB82D !default;
 $accent:        adjust-hue( $primary, 180% ) !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         #B3EFFF !default;
-$dark:          #1C304A !default;
+$light:         #FFA07A !default;
+$dark:          #2C3944 !default;
 
 $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
