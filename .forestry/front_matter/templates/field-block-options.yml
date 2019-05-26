@@ -20,6 +20,7 @@ fields:
     - Display 2
     - Display 3
     - Display 4
+    - Small
     source:
       type: simple
       section: 
@@ -89,5 +90,5 @@ fields:
       type: documents
       section: site-styles
       file: data/styles.yaml
-      path: theme_colors
+      path: color_scheme_dropdown
   label: Color Scheme

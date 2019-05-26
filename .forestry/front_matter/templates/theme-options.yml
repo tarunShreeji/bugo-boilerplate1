@@ -86,7 +86,7 @@ fields:
     description: Use this image in the header when one hasn't been specified on a
       post or page.
 - type: list
-  name: theme_colors
+  name: theme_color_schemes
   label: Theme Colors
   config:
     use_select: false

@@ -1,6 +1,6 @@
 ---
-title: Bugo
-description: Bugo is a full-featured static site framework. Build low-maintenance,
+title: Bugo Boiler Plate
+description: This is a Bugo starter project. Bugo is a full-featured static site framework. Build low-maintenance,
   secure, high performance websites.
 baseURL: "/"
 languageCode: en-us
@@ -8,8 +8,6 @@ summaryLength: 25
 canonifyURLs: true
 enableRobotsTXT: true
 contentDir: content
-permalinks:
-  posts: "/blog/:slug"
 googleAnalytics: ''
 blackFriday:
   hrefTargetBlank: true

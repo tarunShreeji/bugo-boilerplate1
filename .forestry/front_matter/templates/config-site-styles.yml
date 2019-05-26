@@ -36,15 +36,152 @@ fields:
   label: Header Font Family
   description: Add a header font family from Google. This will be applied to Headers
     & Block Quotes
-- type: list
-  name: theme_colors
+- name: theme_colors
+  type: field_group
+  config: {}
+  fields:
+  - name: primary
+    type: color
+    label: Primary
+    config:
+      required: false
+      color_format: Hex
+  - name: secondary
+    type: color
+    config:
+      required: false
+      color_format: Hex
+    label: Secondary
+  - name: accent_1
+    type: color
+    label: Accent 1
+    config:
+      required: false
+      color_format: Hex
+  - name: accent_2
+    type: color
+    label: Accent 2
+    config:
+      required: false
+      color_format: Hex
+  - name: light
+    type: color
+    label: Light
+    config:
+      required: false
+      color_format: Hex
+  - name: dark
+    type: color
+    label: Dark
+    config:
+      required: false
+      color_format: Hex
+  - name: white
+    type: color
+    config:
+      required: false
+      color_format: Hex
+    label: White
+    default: "#FFFFFF"
+  - name: black
+    type: color
+    config:
+      required: false
+      color_format: Hex
+    label: Black
+    default: "#000000"
+  label: Theme Colors
+  description: Customize your theme's color palette. Changing this may change your
+    website's WAGC guideline compliance.
+- name: color_schemes
+  type: field_group
+  config: {}
+  fields:
+  - name: color_mixes
+    type: field_group_list
+    fields:
+    - name: name
+      type: text
+      config:
+        required: true
+      label: Name
+    - name: heading_color
+      type: select
+      default: []
+      config:
+        required: false
+        options:
+        - Primary
+        - Secondary
+        - Accent 1
+        - Accent 2
+        - Light
+        - Dark
+        - White
+        - Black
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: Heading Color
+    - name: text_color
+      type: select
+      default: []
+      config:
+        required: false
+        options:
+        - Primary
+        - Secondary
+        - Accent 1
+        - Accent 2
+        - Light
+        - Dark
+        - White
+        - Black
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: Text Color
+    - name: background_color
+      type: select
+      default: []
+      config:
+        required: false
+        options:
+        - Primary
+        - Secondary
+        - Accent 1
+        - Accent 2
+        - Light
+        - Dark
+        - White
+        - Black
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: Background Color
+    config:
+      min: 
+      max: 
+      labelField: name
+    label: Color Mixes
+    description: Add color combinations to your website's theme. You need to add the
+      Name of these color mixes to the Dropdown field below to use them with your
+      theme.
   label: Color Schemes
-  description: Add your bootstrap colors here. We've added the basics.
-  default:
-  - Primary
-  - Secondary
-  - Gray
-  - Gray Dark
+- name: color_scheme_dropdown
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Color Scheme Dropdown
+  description: 'Add the names of your color mixes to use in your theme. '
 - type: textarea
   name: custom_css
   label: Custom CSS
