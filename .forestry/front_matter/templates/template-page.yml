@@ -27,6 +27,4 @@ fields:
   label: Taxonomy
   template: field-taxonomy
 pages:
-- content/installation/personalize-your-website.md
 - content/sitemap.md
-- content/installation/setup-hosting.md
