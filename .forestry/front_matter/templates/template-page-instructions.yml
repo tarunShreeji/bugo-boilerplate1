@@ -1,0 +1,41 @@
+---
+label: Template Instructions
+hide_body: false
+fields:
+- type: text
+  label: Layout
+  name: layout
+  hidden: true
+  config:
+    required: true
+  default: page
+- type: include
+  template: field-page-attributes
+  label: Page Attributes
+  name: page_attributes
+- type: include
+  name: taxonomy
+  label: Taxonomy
+  template: field-taxonomy
+- name: references
+  type: field_group_list
+  fields:
+  - name: reference_name
+    type: text
+    config:
+      required: false
+    label: Reference Name
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: References
+pages:
+- content/creating-content/content-blocks.md
+- content/installation/configure-forestry.md
+- content/installation/one-click-installs.md

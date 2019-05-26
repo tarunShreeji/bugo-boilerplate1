@@ -1,31 +1,66 @@
 ---
 primary_font:
-  font_family: Roboto
+  font_family: Exo+2
   font_weights:
+  - '500'
   - '400'
   font_italics:
   - '400'
 secondary_font:
-  font_family: ''
-  font_weights: []
+  font_family: Assistant
+  font_weights:
+  - '300'
+  font_italics: []
+custom_css: ''
+global_font:
+  font_family: Roboto
+  font_weights:
+  - '500'
+  - '400'
+  font_italics:
+  - '400'
+header_font:
+  font_family: Cambay
+  font_weights:
+  - '700'
   font_italics: []
 theme_colors:
-- White Background Primary Text
-- White Background Dark Text
-- White  Background Black Text
-- Light Background Primary Text
-- Light Background Dark Text
+  primary: "#F967CD"
+  secondary: "#45D045"
+  accent_1: "#FAE44C"
+  accent_2: "#77AEFA"
+  light: "#EBEBEB"
+  dark: "#2A3444"
+  white: "#FFFFFF"
+  black: "#000000"
+color_schemes:
+  color_mixes:
+  - name: Light Background Black Text
+    heading_color: ''
+    text_color: Black
+    background_color: Light
+  - name: Dark Background Primary Text
+    heading_color: ''
+    text_color: Primary
+    background_color: Dark
+  - name: Dark Background Secondary Text
+    heading_color: ''
+    text_color: Secondary
+    background_color: Dark
+  - name: Dark Background Accent 1 Text
+    heading_color: ''
+    text_color: Accent 1
+    background_color: Dark
+  - name: Black Background Light Text
+    heading_color: ''
+    text_color: Light
+    background_color: Black
+  color_scheme_dropdown:
+  - Test Color Scheme
+color_scheme_dropdown:
 - Light Background Black Text
-- Secondary Background Primary Text
-- Secondary Background Dark Text
-- Secondary Background Black Text
-- Primary Background Secondary Text
-- Primary Background Light Text
-- Primary Background White Text
+- Dark Background Primary Text
 - Dark Background Secondary Text
-- Dark Background Light Text
-- Dark Background White Text
-- Black Background Secondary Text
+- Dark Background Accent 1 Text
 - Black Background Light Text
-- Black Background White Text
-custom_css: ''
+- Test Color Scheme

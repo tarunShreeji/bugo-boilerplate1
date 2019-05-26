@@ -7,12 +7,92 @@ media:
     image: ''
     caption: ''
     excluded_pages: []
+    show_featured_image_in_content: true
 layout_options:
-  header_content:
+  header:
     blocks: []
-  footer_content:
+    color_scheme: Light Background Black Text
+  footer:
     blocks: []
-  footer_style: Default
+    color_scheme: Black Background Light Text
+    footer_blocks:
+    - template: block-columns
+      block_options:
+        text_size: Normal
+        text_alignment: Center
+        block_height: Auto
+        full_width: true
+        color_scheme: Black Background Light Text
+        remove_padding: false
+        remove_horizontal_padding: true
+        content_full_width: false
+        show_title: false
+        remove_margin: true
+      title: Simple Footer
+      columns:
+      - content: |-
+          {{< footerlogo >}}
+
+          {{< copyrightwmenu >}}
+
+          {{< sociallinks >}}
+
+          {{< madewithbugo >}}
+        text_align: center
+        title: Bugo Logo
+        color_scheme: None
+      background_image:
+        title: ''
+        image: ''
+        caption: ''
+    pre_footer_blocks: []
 sidebar_widgets:
-  widgets: []
-site_categories: []
+  widgets:
+  - template: widget-search-form
+    widget_options:
+      text_size: Normal
+      text_alignment: Left
+      block_height: Auto
+      full_width: true
+      color_scheme: Light Background Dark Text
+      remove_padding: false
+      content_full_width: false
+      show_title: false
+      remove_margin: true
+      remove_horizontal_padding: false
+    title: Sidebar Search
+  - template: widget-latest-posts
+    widget_options:
+      text_size: Normal
+      text_alignment: Left
+      block_height: Auto
+      full_width: true
+      color_scheme: Light Background Dark Text
+      remove_padding: false
+      content_full_width: false
+      show_title: false
+      remove_margin: true
+      remove_horizontal_padding: false
+    title: Latest Posts
+    show_quantity: '3'
+  - template: widget-markdown
+    widget_options:
+      text_size: Normal
+      text_alignment: Left
+      block_height: Auto
+      full_width: true
+      color_scheme: Dark Background Light Text
+      remove_padding: false
+      content_full_width: false
+      show_title: false
+      remove_margin: false
+      remove_horizontal_padding: false
+    title: This is Markdown
+    content: |-
+      ### Try Bugo Now!
+
+      It's free.
+site_categories:
+- Updates
+- News
+- Releases

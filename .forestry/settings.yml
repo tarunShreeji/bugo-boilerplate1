@@ -9,7 +9,7 @@ sections:
 - type: directory
   path: content/posts
   label: Posts
-  create: all
+  create: documents
   match: "**/*"
   templates:
   - template-post
@@ -23,7 +23,22 @@ sections:
   templates:
   - template-list-page
   - template-landing-page
+  - template-page-instructions
   - template-page
+- type: heading
+  label: Configure Site
+- type: document
+  path: data/organization.yaml
+  label: Website Info
+- type: document
+  path: data/styles.yaml
+  label: Site Styles
+- type: document
+  path: data/config.yaml
+  label: Site Options
+- type: document
+  path: config.yaml
+  label: Bugo Config
 - type: directory
   path: content/team
   label: Team
@@ -31,20 +46,6 @@ sections:
   match: "**/*"
   templates:
   - template-profile
-- type: heading
-  label: Configure Site
-- type: document
-  path: config.yaml
-  label: Bugo Config
-- type: document
-  path: data/config.yaml
-  label: Site Options
-- type: document
-  path: data/styles.yaml
-  label: Site Styles
-- type: document
-  path: data/organization.yaml
-  label: Company Info
 upload_dir: static/assets/uploads
 public_path: "/assets/uploads"
 front_matter_path: ''

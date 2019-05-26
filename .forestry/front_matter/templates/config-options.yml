@@ -12,7 +12,7 @@ fields:
   fields:
   - type: text
     name: cloudinary_name
-    label: Cloudinary Name
+    label: Cloudinary Cloud Name
     description: 'If you are using Cloudinary.com for media, enter the cloud name
       for your account. You can find it here: https://cloudinary.com/console'
   - type: field_group
@@ -31,16 +31,21 @@ fields:
         use_select: true
         source:
           type: pages
+    - name: show_featured_image_in_content
+      type: boolean
+      label: Show Featured Image in Content
+      description: Pages and posts that have a featured image will display it under
+        the headline.
     description: Use this image in the header when one hasn't been specified on a
       post or page.
 - type: field_group
   name: layout_options
   label: Layout Options
-  description: Add specialized content.
+  description: Add specialized content and customize layout features.
   fields:
   - type: field_group
-    name: header_content
-    label: Header Content
+    name: header
+    label: Header
     description: Add content above the header that appears on every page. You could
       use this for special promotions.
     fields:
@@ -50,31 +55,44 @@ fields:
       description: Add blocks to add content above the header.
       template_types:
       - block-columns
+    - name: color_scheme
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: documents
+          section: site-styles
+          file: data/styles.yaml
+          path: theme_colors
+      label: Color Scheme
+      description: Select a color scheme for the header
   - type: field_group
-    name: footer_content
-    label: Footer Content
+    name: footer
+    label: Footer
     description: Add content above the footer that appears on every page.
     fields:
     - type: blocks
-      name: blocks
-      label: Blocks
-      description: Add blocks to add content to the footer.
+      name: pre_footer_blocks
+      label: Pre Footer Blocks
+      description: Add blocks to add content to the footer. This is useful if you
+        want to add content to every page above the footer.
       template_types:
       - block-columns
       - block-slideshow
       - block-latest-stories
       - block-google-map
-  - type: select
-    config:
-      source:
-        type: simple
-      options:
-      - Default
-      - Business
-    label: Footer Style
-    name: footer_style
-    description: Select a footer style.
-    default: Default
+    - name: footer_blocks
+      type: blocks
+      template_types:
+      - block-columns
+      - block-logos
+      config:
+        min: 
+        max: 
+      label: Footer Blocks
+      description: Use blocks to create your footer.
 - type: field_group
   name: sidebar_widgets
   label: Sidebar Widgets

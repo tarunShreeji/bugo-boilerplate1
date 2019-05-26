@@ -18,6 +18,7 @@ taxonomies:
   tags: tags
 theme:
 - bugo-base-theme
+- custom-theme
 metaDataFormat: yaml
 frontmatter:
 - date:
