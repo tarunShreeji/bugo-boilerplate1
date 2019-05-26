@@ -27,6 +27,22 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
+  - name: text_align
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - Left
+      - center
+      - right
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Text Align
+    description: Change the column's text alignment.
   - name: color_scheme
     type: select
     default: []

@@ -8,6 +8,16 @@ fields:
 - type: datetime
   name: date
   label: Date
+- name: weight
+  type: number
+  label: Weight
+  description: Determines the order of the list page. The lower the number the higher
+    in the list.
+  default: 0
+  config:
+    min: 
+    max: 
+    step: 
 - type: include
   label: Permalinks
   name: permalinks
@@ -39,17 +49,7 @@ fields:
     label: Featured Image Template
     name: template
     default: Default
-- name: menu
-  type: list
-  config:
-    use_select: true
-    min: 
-    max: 
-    source:
-      type: simple
-    options:
-    - main
-    - secondary
-    - footer
-    - privacy
-  label: Menu
+- name: show_sidebar
+  type: boolean
+  label: Show Sidebar
+  description: Show the sidebar on this page

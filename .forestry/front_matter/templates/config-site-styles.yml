@@ -2,7 +2,7 @@
 label: Config - Site Styles
 hide_body: true
 fields:
-- name: primary_font
+- name: global_font
   type: field_group
   config: {}
   fields:
@@ -16,10 +16,10 @@ fields:
     config: {}
     template: field-font-family
     label: Fonts
-  label: Primary Font Family
-  description: Add a primary font from Google. This font will be used for all elements,
-    unless you add a secondary font family.
-- name: secondary_font
+  label: Global Font Family
+  description: Add a global font from Google. This font will be used for all elements,
+    unless you add a Header font family.
+- name: header_font
   type: field_group
   config: {}
   fields:
@@ -33,12 +33,12 @@ fields:
     config: {}
     template: field-font-family
     label: Fonts
-  label: Secondary Font Family
-  description: Add a secondary font family from Google. This will be applied to Headers
+  label: Header Font Family
+  description: Add a header font family from Google. This will be applied to Headers
     & Block Quotes
 - type: list
   name: theme_colors
-  label: Theme Colors
+  label: Color Schemes
   description: Add your bootstrap colors here. We've added the basics.
   default:
   - Primary

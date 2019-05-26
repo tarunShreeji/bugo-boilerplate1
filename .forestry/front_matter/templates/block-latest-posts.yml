@@ -19,6 +19,10 @@ fields:
 - type: boolean
   name: random
   label: Random
+- name: show_featured_image
+  type: boolean
+  label: Show Featured Image
+  description: Show the post's featured image
 - name: show_summary
   type: boolean
   label: Show Summary

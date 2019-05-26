@@ -37,11 +37,6 @@ fields:
   config:
     required: true
 - type: text
-  name: state
-  label: State
-  config:
-    required: true
-- type: text
   name: zip_code
   label: Zip Code
   config:

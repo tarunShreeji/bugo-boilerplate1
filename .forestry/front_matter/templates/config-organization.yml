@@ -58,12 +58,6 @@ fields:
     name: contact_information
     label: Contact Information
     template: site-contact-information
-- name: google_verification_meta_field
-  type: text
-  config:
-    required: false
-  label: Google Verification Meta Field
-  description: Enter verifications here.
 - type: textarea
   name: footer_dislaimer
   label: Footer Dislaimer

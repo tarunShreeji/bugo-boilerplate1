@@ -14,7 +14,7 @@ fields:
   label: Show Quantity
   config:
     min: '1'
-    max: '10'
+    max: '6'
   default: '1'
 - type: boolean
   name: random

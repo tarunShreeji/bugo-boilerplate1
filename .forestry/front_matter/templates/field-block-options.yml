@@ -43,8 +43,11 @@ fields:
   label: Text Alignment
 - name: remove_padding
   type: boolean
-  label: Remove Padding
-  description: 'Remove padding from the outer block. '
+  label: Remove Vertical Padding
+  description: 'Remove top and bottom padding from the outer block. '
+- name: remove_horizontal_padding
+  type: boolean
+  label: Remove Horizontal Padding
 - name: block_height
   type: select
   default: []
