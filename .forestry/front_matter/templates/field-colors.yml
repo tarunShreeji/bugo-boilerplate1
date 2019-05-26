@@ -9,7 +9,7 @@ fields:
       type: documents
       section: site-styles
       file: data/styles.yaml
-      path: theme_colors
+      path: theme_color_schemes
     options:
     - blue
     - lime
@@ -34,7 +34,7 @@ fields:
       type: documents
       section: site-styles
       file: data/styles.yaml
-      path: theme_colors
+      path: theme_color_schemes
     options:
     - blue
     - lime

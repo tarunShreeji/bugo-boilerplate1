@@ -36,6 +36,6 @@ fields:
     labelField: 
   label: References
 pages:
+- content/installation/one-click-installs.md
 - content/creating-content/content-blocks.md
 - content/installation/configure-forestry.md
-- content/installation/one-click-installs.md

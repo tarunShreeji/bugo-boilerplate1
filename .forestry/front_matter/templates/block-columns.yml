@@ -53,7 +53,7 @@ fields:
         type: documents
         section: site-styles
         file: data/styles.yaml
-        path: theme_colors
+        path: color_scheme_dropdown
     label: Color Scheme
 - type: field_group
   name: background_image

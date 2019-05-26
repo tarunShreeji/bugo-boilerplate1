@@ -1,20 +1,20 @@
 ---
-organization_name: Bugo
+organization_name: Bugo Boilerplate
 organization_description: Bugo is a full-featured static site framework. Build low-maintenance,
   secure, high performance websites.
 logos:
   header_logo:
     title: ''
-    image: "/assets/uploads/bugo-mark-60.svg"
+    image: ""
     caption: ''
     svg_code: ''
   footer_logo:
     title: ''
-    image: "/assets/uploads/bugo-logo-200.svg"
+    image: ""
     caption: ''
     svg_code: ''
-  seo_logo: "/assets/uploads/bugo-logo-SEO.png"
-  favicon: "/assets/uploads/bugo-favicon.png"
+  seo_logo: ""
+  favicon: ""
 contact_information:
   show_email_labels: false
   show_phone_labels: false
@@ -29,14 +29,14 @@ contact_information:
     vimeo: ''
     instagram: ''
     pinterest: ''
-    github: https://github.com/bugoio
+    github: ''
   locations: []
   email_addresses:
-  - email_address: info@bugo.com
-    label: General Info
+  - email_address: ''
+    label: ''
   phones:
-  - phone: 626-555-1212
-    label: M-F
+  - phone: ''
+    label: ''
 google_api_key: ''
 footer_dislaimer: ''
 google_verification_meta_field: ''
