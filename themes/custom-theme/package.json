@@ -1,0 +1,27 @@
+{
+  "name": "bugo-io",
+  "version": "1.0.0",
+  "description": "Bugo.io website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugoio/bugo-io.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "Matthew Antone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bugoio/bugo-io/issues"
+  },
+  "homepage": "https://github.com/bugoio/bugo-io#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "highlight.js": "^9.15.6",
+    "sass-color-helpers": "^2.1.1"
+  }
+}

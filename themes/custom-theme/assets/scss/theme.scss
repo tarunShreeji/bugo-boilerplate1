@@ -1,0 +1,192 @@
+
+/*
+ * Sass color helper - contast functions
+ */
+@import "../../../../node_modules/sass-color-helpers/stylesheets/_color-helpers.scss";
+
+/*
+ * Hilight.js
+ */
+@import "../../../../node_modules/highlight.js/styles/atom-one-dark";
+
+/* Bootstrap mixins here so Bugo can make use of function and mixins */
+
+@import "../../../../node_modules/bootstrap/scss/functions";
+@import "../../../../node_modules/bootstrap/scss/mixins";
+@import 'mixins/contrast';
+
+
+//http://colorpalette.glyphix.com/?n=white&n=light&n=primary&n=secondary&n=accent%201&n=accent%202&n=dark&n=black&v=FFFFFF&v=EBEBEB&v=F967CD&v=45D045&v=FAE44C&v=77AEFA&v=2A3444&v=000000
+
+$primary:       {{ .Site.Data.styles.theme_colors.primary | default "#F983D1" }} !default;
+$secondary:     {{ .Site.Data.styles.theme_colors.secondary | default "#45D045" }} !default;
+$accent-1:      {{ .Site.Data.styles.theme_colors.accent_1 | default "#FAE44C" }};
+$accent-2:      {{ .Site.Data.styles.theme_colors.accent_2 | default "#77AEFA" }};
+$light:         {{ .Site.Data.styles.theme_colors.light | default "#EBEBEB" }} !default;
+$dark:          {{ .Site.Data.styles.theme_colors.dark | default "#22365D" }} !default;
+$white:         {{ .Site.Data.styles.theme_colors.white | default "#22365D" }} !default;
+$black:         {{ .Site.Data.styles.theme_colors.black | default "#22365D" }} !default;
+
+
+$success:       #28a745 !default;
+$info:          #17a2b8 !default;
+$warning:       #ffc107  !default;
+$danger:        #dc3545 !default;
+
+// Set a specific jump point for requesting color jumps
+$theme-color-interval:      8% !default;
+
+// The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
+$yiq-contrasted-threshold:  150 !default;
+
+// Customize the light and dark text colors for use in our YIQ color contrast function.
+$yiq-text-dark:             $black !default;
+$yiq-text-light:            $white !default;
+
+{{ range $index, $mix := .Site.Data.styles.color_schemes.color_mixes }}  
+  .{{ $mix.name | anchorize }} {
+    background-color: ${{ $mix.background_color | default "none" | anchorize }};
+    color: ${{ $mix.text_color | anchorize }};
+    h1,h2,h3,h4,h5,h6 {
+      color: {{ if $mix.heading_color }}${{ end }}{{ $mix.heading_color | default "inherit" | anchorize }};
+
+      a {
+        color: {{ if $mix.heading_color }}${{ end }}{{ $mix.heading_color | default "inherit" | anchorize }};
+      }
+    }
+  }
+{{ end }}
+
+{{ range $index, $color := .Site.Data.styles.theme_colors }}  
+  .btn-{{$index}} {
+    background-color: {{ $color }} !important;
+    border-color: lighten(${{$index}},20) !important;
+    border-width: 2px !important;
+
+    &:hover,
+    &:focus {
+      color: color-yiq( lighten( ${{$index}},30 ) ) !important;
+      background-color: lighten( ${{$index}},30 ) !important;
+      border-color: {{ $color }} !important;
+    }
+  }
+{{ end }}
+
+
+/* Bugo theme variables inserted here to override bootstrap variables */
+
+@import "theme/theme-variables";
+@import "theme/theme-colors";
+
+
+
+@import "theme/theme-sizes";
+@import "theme/theme-typography";
+@import "theme/theme-components";
+@import "theme/theme-forms";
+@import "theme/theme-layouts";
+
+/*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import "bootstrap-variables";
+@import "../../../../node_modules/bootstrap/scss/root";
+@import "../../../../node_modules/bootstrap/scss/reboot";
+@import "../../../../node_modules/bootstrap/scss/type";
+@import "../../../../node_modules/bootstrap/scss/images";
+@import "../../../../node_modules/bootstrap/scss/code";
+@import "../../../../node_modules/bootstrap/scss/grid";
+@import "../../../../node_modules/bootstrap/scss/tables";
+@import "../../../../node_modules/bootstrap/scss/forms";
+@import "../../../../node_modules/bootstrap/scss/buttons";
+@import "../../../../node_modules/bootstrap/scss/transitions";
+@import "../../../../node_modules/bootstrap/scss/dropdown";
+@import "../../../../node_modules/bootstrap/scss/button-group";
+@import "../../../../node_modules/bootstrap/scss/input-group";
+@import "../../../../node_modules/bootstrap/scss/custom-forms";
+@import "../../../../node_modules/bootstrap/scss/nav";
+@import "../../../../node_modules/bootstrap/scss/navbar";
+@import "../../../../node_modules/bootstrap/scss/card";
+@import "../../../../node_modules/bootstrap/scss/breadcrumb";
+@import "../../../../node_modules/bootstrap/scss/pagination";
+@import "../../../../node_modules/bootstrap/scss/badge";
+@import "../../../../node_modules/bootstrap/scss/jumbotron";
+@import "../../../../node_modules/bootstrap/scss/alert";
+@import "../../../../node_modules/bootstrap/scss/progress";
+@import "../../../../node_modules/bootstrap/scss/media";
+@import "../../../../node_modules/bootstrap/scss/list-group";
+@import "../../../../node_modules/bootstrap/scss/close";
+@import "../../../../node_modules/bootstrap/scss/toasts";
+@import "../../../../node_modules/bootstrap/scss/modal";
+@import "../../../../node_modules/bootstrap/scss/tooltip";
+@import "../../../../node_modules/bootstrap/scss/popover";
+@import "../../../../node_modules/bootstrap/scss/carousel";
+@import "../../../../node_modules/bootstrap/scss/spinners";
+@import "../../../../node_modules/bootstrap/scss/utilities";
+@import "../../../../node_modules/bootstrap/scss/print";
+
+
+/*!
+ * Bugo Base Styles
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ *
+ */
+
+ @import "theme/layout/baseof";
+ @import "theme/layout/landing-page";
+ @import "theme/layout/list";
+ @import "theme/layout/page";
+ @import "theme/layout/post";
+ @import "theme/layout/single";
+ @import "theme/layout/typography";
+ @import "theme/layout/wrap";
+ @import "theme/layout/accessibility";
+
+ @import "mixins/background";
+ 
+ @import "theme/partials/blocks/blocks";
+ @import "theme/partials/blocks/block-columns";
+ @import "theme/partials/blocks/block-google-map";
+ @import "theme/partials/blocks/block-latest-posts";
+ @import "theme/partials/blocks/block-logos";
+ @import "theme/partials/blocks/block-related-posts";
+ @import "theme/partials/blocks/block-slideshow-text";
+ @import "theme/partials/blocks/block-slideshow";
+ @import "theme/partials/blocks/block-taxonomy-navigation";
+
+ @import "theme/partials/components/breadcrumbs";
+ @import "theme/partials/components/contact-form";
+ @import "theme/partials/components/email-list";
+ @import "theme/partials/components/featured-image";
+ @import "theme/partials/components/featured-image-profile";
+ @import "theme/partials/components/figure";
+ @import "theme/partials/components/forms";
+ @import "theme/partials/components/modal";
+ @import "theme/partials/components/phone-list";
+ @import "theme/partials/components/search-form";
+ @import "theme/partials/components/social-account-list";
+
+ @import "theme/partials/icons/icons";
+
+ @import "theme/partials/widgets/widgets";
+ @import "theme/partials/widgets/widget-categories";
+ @import "theme/partials/widgets/widget-markdown";
+ @import "theme/partials/widgets/widget-menu";
+ @import "theme/partials/widgets/widget-latest-posts";
+ @import "theme/partials/widgets/widget-related-posts";
+
+ @import "theme/partials/footer";
+ @import "theme/partials/header";
+ @import "theme/partials/nav-copyright";
+ @import "theme/partials/nav-footer";
+ @import "theme/partials/nav-horizontal";
+ @import "theme/partials/nav-main";
+ @import "theme/partials/nav-mobile";
+ @import "theme/partials/nav-secondary";
+ @import "theme/partials/share_buttons";
+ @import "custom/custom"
+ 
