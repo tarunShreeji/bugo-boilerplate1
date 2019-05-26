@@ -23,8 +23,16 @@ header_font:
   font_family: Cambay
   font_weights:
   - '700'
-  font_italics: []
-theme_colors: []
+  font_italics: [] 
+theme_colors:
+   primary: "#F967CD"		
+   secondary: "#45D045"		
+   accent_1: "#FAE44C"		
+   accent_2: "#77AEFA"		
+   light: "#EBEBEB"		
+   dark: "#2A3444"		
+   white: "#FFFFFF"		
+   black: "#000000"
 color_schemes:
   color_mixes:
   - name: Light Background Black Text
