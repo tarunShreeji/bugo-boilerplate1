@@ -39,13 +39,6 @@ sections:
 - type: document
   path: config.yaml
   label: Bugo Config
-- type: directory
-  path: content/team
-  label: Team
-  create: all
-  match: "**/*"
-  templates:
-  - template-profile
 upload_dir: ''
 public_path: https://res.cloudinary.com/glyphix/image/upload
 front_matter_path: ''
