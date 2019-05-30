@@ -13,8 +13,8 @@ taxonomies:
  category: categories
  tags: tags
 theme:
- - bugo-templates
  - bugo-src
+ - bugo-templates
 metaDataFormat: yaml
 frontmatter:
  -
