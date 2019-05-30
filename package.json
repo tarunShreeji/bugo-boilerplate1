@@ -11,6 +11,7 @@
     "popper": "^1.0.1",
     "postcss-purgecss": "^1.0.0",
     "prompt": "^1.0.0",
+    "postcss-cli": "^6.1.2",
     "sass-color-helpers": "^2.1.1"
   },
   "devDependencies": {
