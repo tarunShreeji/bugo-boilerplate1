@@ -1,4 +1,9 @@
-
-[submodule "themes/bugo-base-theme"]
-	path = themes/bugo-base-theme
-	url = https://github.com/bugoio/bugo-base-theme.git
+[submodule "bugo-templates"]
+	path = bugo-templates
+	url = https://github.com/bugoio/bugo-templates.git
+[submodule "themes/bugo-templates"]
+	path = themes/bugo-templates
+	url = https://github.com/bugoio/bugo-templates.git
+[submodule "themes/bugo-src"]
+	path = themes/bugo-src
+	url = https://github.com/bugoio/bugo-src.git
