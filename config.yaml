@@ -13,8 +13,6 @@ taxonomies:
  category: categories
  tags: tags
 theme:
- - matt-build-1559178786328
- - matt
  - bugo-templates
  - bugo-src
 metaDataFormat: yaml
