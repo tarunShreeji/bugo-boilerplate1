@@ -46,10 +46,10 @@ sections:
   match: "**/*"
   templates:
   - template-profile
-upload_dir: static/assets/uploads
-public_path: "/assets/uploads"
+upload_dir: ''
+public_path: https://res.cloudinary.com/glyphix/image/upload
 front_matter_path: ''
-use_front_matter_path: 
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_command: hugo
