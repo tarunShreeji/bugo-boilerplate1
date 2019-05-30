@@ -1,12 +1,11 @@
-const { gulp, src, dest } = require('gulp');
-const Vinyl = require('vinyl');
+const { src, dest, watch } = require('gulp');
 const clean = require('gulp-clean');
-const exec = require('gulp-exec');
 const { spawn } = require('child_process');
 const prompt = require('prompt');
 const readYaml = require('read-yaml');
 const YAML = require('yamljs');
-const through2 = require('through2');
+const compiler = require('webpack');
+const webpack = require('webpack-stream');
 let name;
 
 
@@ -206,6 +205,7 @@ function startHugo(cb) {
   // Log message from Bugo
   hugo.stdout.on('data', (data) => {
     console.log(`Bugo: ${data}`);
+    // compileJs();
   });
 
   // Log Errors
@@ -217,7 +217,33 @@ function startHugo(cb) {
   hugo.on('close', (code) => {
     console.log(`Bugo exited with code ${code}`);
   });
-  cb();
+
+  const config = './config.yaml';
+  console.log('updating config file');
+  readYaml(config, function(err, data) {
+    if (err) throw err;
+    let tmp = data;
+    console.log('Bugo: Compiling .js files into ' + tmp.theme[0]);
+
+    const watcher = watch(['./themes/'+tmp.theme[0]+'/assets/js/**/*.js']);
+    watcher.on('change', function(path, stats) {
+      console.log(`File ${path} was changed`);
+      src(path) 
+      .pipe(webpack(require('./webpack.config.js'), compiler, function(err, stats) {
+        /* Use stats to do more things if needed */
+        }))
+        .pipe(dest('./themes/' + tmp.theme[0] + '/static/js/'));
+      console.log(`Compiled ${path}`);
+    });
+
+    watcher.on('add', function(path, stats) {
+      console.log(`File ${path} was added`);
+    });
+
+    watcher.on('unlink', function(path, stats) {
+      console.log(`File ${path} was removed`);
+    });
+  });
 }
 
 exports.buildTheme = buildTheme;
