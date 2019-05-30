@@ -1,28 +1,47 @@
 {
-  "name": "quickstart",
+  "name": "bugo-boilerplate",
   "version": "1.0.0",
-  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/fd741637-6fdf-4e37-a274-218b37799eea/deploy-status)](https://app.netlify.com/sites/bugoio/deploys)",
-  "main": "index.js",
+  "description": "Bugo Boilerplate a starter Framework for building websites. ",
+  "main": "gulpfile.js",
   "dependencies": {
     "autoprefixer": "^9.5.1",
     "bootstrap": "^4.3.1",
-    "highlight.js": "^9.15.6",
+    "highlight.js": "^9.15.8",
+    "jquery": "^3.4.1",
+    "popper": "^1.0.1",
+    "postcss-purgecss": "^1.0.0",
+    "prompt": "^1.0.0",
     "sass-color-helpers": "^2.1.1"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^1.2.0"
+    "child_process": "^1.0.2",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-exec": "^3.0.2",
+    "gulp-json-to-yaml": "0.0.2",
+    "gulp-prompt": "^1.2.0",
+    "gulp-yaml-update": "^1.0.5",
+    "gulp-yml-merge": "0.0.2",
+    "gutil": "^1.6.4",
+    "read-yaml": "^1.1.0",
+    "through2": "^3.0.1",
+    "yamljs": "^0.3.0"
   },
   "scripts": {
+    "start": "gulp",
+    "new-theme": "gulp customTheme",
+    "remove-theme": "gulp removeTheme",
+    "build-theme": "gulp buildTheme",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bugoio/bugo-boilerplate-1-5.git"
+    "url": "git+https://github.com/bugoio/bugo-boilerplate.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Matthew Antone",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bugoio/bugo-boilerplate-1-5/issues"
+    "url": "https://github.com/bugoio/bugo-boilerplate/issues"
   },
-  "homepage": "https://github.com/bugoio/bugo-boilerplate-1-5#readme"
+  "homepage": "https://github.com/bugoio/bugo-boilerplate#readme"
 }
