@@ -56,7 +56,7 @@ Bugo Boilerplate has two component themes. Bugo Templates and Bugo Source.
 
 Bugo uses Hugo templates that are written in Go. To customize your site's HTML copy the file in either component into the same directory structure in Bugo Templates. The new file will now override the template in Bugo Templates. This leaves you a clean upgrade path for Bugo Templates and allows you override it in your them.
 
-[More on Hugo Templates]()
+[More on Hugo Templates](https://gohugo.io/templates/introduction/ "Learn more about Hugo Templates")
 
 #### Styles
 
