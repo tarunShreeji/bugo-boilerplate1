@@ -1,6 +1,6 @@
 # Bugo Boilerplate
 
-Bugo is a framework built to make quick work of developing website. It rely's heavily on Hugo, Forestry and Netlify. You'll need accounts for Forestry and Netifly.
+Bugo Boilerplate is a framework built to make quick work of developing website. It rely's heavily on Hugo, Forestry and Netlify. You'll need accounts for Forestry and Netifly.
 
 ## Installing Bugo
 
@@ -26,14 +26,25 @@ The next step is to clone your new website's repository locally.
 * **npm run new-theme** - Creates a new theme for you to customize. You'll update themes here.
 * **npm run build-theme** - Creates a timestamped compilation of the specified theme and Bugo themes and adds it as the primary Hugo theme in the config file.
 
-### Installation
+## Working with Bugo
+
+Bugo takes advantage of Hugo's themes as components feature to allow you to manage the iterations of your website's theme.
+
+You're workflow is:
+
+1. Install Bugo Locally
+2. Add a new theme
+3. Customize your new theme
+4. Build your theme
+
+### Install NPM Packages
 
     # npm install
     # npm start
 
 You should now have a website running at [http://localhost:1313](http://localhost:1313 "View my site"). This server will watch for changes to the files in your website and rebuild the website and server the new changes.
 
-### Customization
+### Create New Theme
 
     # npm run new-theme
 
@@ -41,20 +52,30 @@ Follow the prompts to complete creating a new theme. The process will create a n
 
 Bugo Boilerplate has two component themes. Bugo Templates and Bugo Source.
 
-### Templates
+#### Templates
 
 Bugo uses Hugo templates that are written in Go. To customize your site's HTML copy the file in either component into the same directory structure in Bugo Templates. The new file will now override the template in Bugo Templates. This leaves you a clean upgrade path for Bugo Templates and allows you override it in your them.
 
 [More on Hugo Templates]()
 
-### Styles
+#### Styles
 
 Bugo Source contains all the styles for Bugo Boilerplate. The folder _themes/bugo-src/assets/theme/_ contains all the bootstrap variables and theme variables. The file _themes/bugo-src/assets/theme/theme.scss_ is processed by Bugo, so you can use Hugo variables and logic in this file. It is already processing colors set in _/data/styles.config_
 
 To customize your website's styles you can simply add CSS or SASS to the custom.scss file. You can also copy a SCSS file from Bugo Source into the same structure to override the boilerplate settings.
 
-### Javascript
+#### Javascript
 
 You can add javascript to your website by adding a .js file to your themes asset folder at _themes/<your website>/assets/js/_. All javascript is transpiled into a single javascript file at _/static/assets/js/main.js_.
 
 All npm packages are managed at the root level of the website. You can use npm to install any extra packages you need. We've already included some useful packages.
+
+### Build Theme
+
+When you're ready to launch your website you can run
+
+\# npm run build-theme
+
+This will compile Bugo Templates, Bugo Source and your theme into a single timestamped theme and update /config.yml to use only the new timestamped theme. If you need to update the website, you just remove the time stamped theme from the config file and add Bugo Templates, Bugo Source and your source theme. Then all you have to do is run build-theme again when you're done.
+
+We do this, so that upgrading Bugo Templates or Bugo Source will not affect your site until you build the theme again.
