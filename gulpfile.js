@@ -225,14 +225,14 @@ function startHugo(cb) {
     let tmp = data;
     console.log('Bugo: Compiling .js files into ' + tmp.theme[0]);
 
-    const watcher = watch(['./themes/'+tmp.theme[0]+'/assets/js/**/*.js']);
+    const watcher = watch(['./themes/**/assets/js/**/*.js']);
     watcher.on('change', function(path, stats) {
       console.log(`File ${path} was changed`);
       src(path) 
       .pipe(webpack(require('./webpack.config.js'), compiler, function(err, stats) {
         /* Use stats to do more things if needed */
         }))
-        .pipe(dest('./themes/' + tmp.theme[0] + '/static/js/'));
+        .pipe(dest('./themes/**/static/js/'));
       console.log(`Compiled ${path}`);
     });
 
