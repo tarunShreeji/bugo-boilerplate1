@@ -6,6 +6,7 @@ const readYaml = require('read-yaml');
 const YAML = require('yamljs');
 const compiler = require('webpack');
 const webpack = require('webpack-stream');
+
 let name;
 
 
@@ -142,7 +143,7 @@ function copyAssets(cb) {
       ], { read: false })
       .pipe(clean());
     src('./themes/bugo-src/assets/scss/custom/**/*')
-      .pipe(dest('./themes/' + name + '/assets/custom'));
+      .pipe(dest('./themes/' + name + '/assets/scss/custom'));
     addConfigTheme(cb);
   } else { 
     console.log('error no name');
@@ -201,6 +202,20 @@ function removeTheme(cb) {
 }
 
 function startHugo(cb) { 
+  const config = './config.yaml';
+  //start webpack
+  // const webpackProcess = spawn(webpackBin, ['--watch'], { cwd: path.join(process.cwd(), 'themes')})
+  // webpackProcess.stdout.on('data', (data) => { console.log(`Bugo: ${data}`)})
+  // webpackProcess.stderr.on('data', (data) => { console.log(`Bugo: ERROR ${data}`)})
+  // webpackProcess.on('close', (code) => { console.log(`Exited with code: ${code}`)})
+  // const THEME_PATH = 'themes'
+  // const WEBPACK_BIN = './node_modules/.bin/webpack'
+
+  // spawn(WEBPACK_BIN, ['--watch'], [] ,(err) => {
+  //   if (err) return cb(err)
+  //   cb()
+  // })
+
   const hugo = spawn("hugo", ['server', '-d', 'public', '--watch', '--cleanDestinationDir',  '--disableFastRender']);
   // Log message from Bugo
   hugo.stdout.on('data', (data) => {
@@ -210,7 +225,8 @@ function startHugo(cb) {
 
   // Log Errors
   hugo.stderr.on('data', (data) => {
-    console.log(`Bugo Error: ${data}`);
+    console.log(`Bugo: ERROR ${data}`);
+    cb()
   });
 
   // Log Exit
@@ -218,22 +234,27 @@ function startHugo(cb) {
     console.log(`Bugo exited with code ${code}`);
   });
 
-  const config = './config.yaml';
   console.log('updating config file');
+
   readYaml(config, function(err, data) {
     if (err) throw err;
     let tmp = data;
     console.log('Bugo: Compiling .js files into ' + tmp.theme[0]);
 
-    const watcher = watch(['./themes/**/assets/js/**/*.js']);
+    const watcher = watch(['./themes/**/assets/js/**/*.js'], function(cb) {
+      console.log(`Compiling JS`);
+      src(['./themes/**/assets/js/**/*.js']) 
+      .pipe(webpack({
+        config : require('./webpack.config.js')
+        }), compiler, function(err, stats) {
+        /* Use stats to do more things if needed */
+        })
+        .pipe(dest('./themes/' + tmp.theme[0] + '/static/js/'));
+      console.log(`Compiled.`);
+      cb();
+    });
     watcher.on('change', function(path, stats) {
       console.log(`File ${path} was changed`);
-      src(path) 
-      .pipe(webpack(require('./webpack.config.js'), compiler, function(err, stats) {
-        /* Use stats to do more things if needed */
-        }))
-        .pipe(dest('./themes/**/static/js/'));
-      console.log(`Compiled ${path}`);
     });
 
     watcher.on('add', function(path, stats) {
