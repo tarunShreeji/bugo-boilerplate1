@@ -1,4 +1,4 @@
-# Bugo Framework
+# Bugo Boilerplate
 
 Bugo is a framework built to make quick work of developing website. It rely's heavily on Hugo, Forestry and Netlify. You'll need accounts for Forestry and Netifly.
 
