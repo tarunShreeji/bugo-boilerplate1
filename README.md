@@ -74,7 +74,7 @@ All npm packages are managed at the root level of the website. You can use npm t
 
 When you're ready to launch your website you can run
 
-\# npm run build-theme
+    # npm run build-theme
 
 This will compile Bugo Templates, Bugo Source and your theme into a single timestamped theme and update /config.yml to use only the new timestamped theme. If you need to update the website, you just remove the time stamped theme from the config file and add Bugo Templates, Bugo Source and your source theme. Then all you have to do is run build-theme again when you're done.
 
