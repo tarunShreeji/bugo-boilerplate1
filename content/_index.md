@@ -42,7 +42,7 @@ page_meta:
   meta_description: Build low-maintenance, secure, high performance websites.
 slug: ''
 aliases: []
-show_sidebar: true
+show_sidebar: false
 video_gallery:
   videos: []
 
