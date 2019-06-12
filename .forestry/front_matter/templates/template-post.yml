@@ -17,3 +17,5 @@ fields:
   name: taxonomy
   label: Taxonomy
   template: field-taxonomy
+pages:
+- content/posts/classical-in-1790-and-a-raw-and-his-interests-coincided.md
